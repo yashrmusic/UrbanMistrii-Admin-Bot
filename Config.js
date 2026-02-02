@@ -51,18 +51,18 @@ const CONFIG = {
     LOGO: "",
     COLOR: "#4a86e8"
   },
-  
+
   // ═══════════════════ EMAIL CONFIGURATION (Populated by SetupWizard) ═══════════════════
   EMAIL: {
     HR: "hr@company.com",
     HIRING: "hiring@company.com",
     NOTIFICATIONS: "alerts@company.com"
   },
-  
+
   // ═══════════════════ SPREADSHEET IDS (Populated by SetupWizard) ═══════════════════
   SHEETS: {
-    MASTER_ID: "",  // Will be set by SetupWizard
-    PUBLIC_ID: "",  // Will be set by SetupWizard
+    MASTER_ID: "112UbKamDcvQ-UkXshdhyDRFt0y7SX0NBgP00lvl98V4",
+    PUBLIC_ID: "1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4",
 
     TABS: {
       CANDIDATES: "DB_Candidates",
@@ -294,7 +294,7 @@ const SecureConfig = {
     // 
     // DO NOT HARDCODE API KEYS HERE!
     // Run: SETUP_ALL("your_gemini_key") instead
-    
+
     Logger.log('⚠️ DEPRECATED: Use SETUP_ALL("your_gemini_key") instead!');
     Logger.log('   Get your key from: https://aistudio.google.com/app/apikey');
     return;
@@ -576,7 +576,7 @@ function FORCE_RESET_API_KEYS(geminiKey, groqKey, githubPat) {
     Logger.log('   Get Gemini key from: https://aistudio.google.com/app/apikey');
     return;
   }
-  
+
   Logger.log('⚠️ Use SETUP_ALL() instead - it auto-tests and finds working models!');
   Logger.log('');
   SETUP_ALL(geminiKey, groqKey, githubPat);

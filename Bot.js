@@ -1,12 +1,12 @@
-/**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                    URBANMISTRII ADMIN BOT v1.0 - MAIN                         ║
- * ║                    All Logic: AI, Email, Portal, HR, Payroll                  ║
- * ╠═══════════════════════════════════════════════════════════════════════════════╣
- * ║  CONSOLIDATED FROM: Hiring-oracle-prod                                        ║
- * ║  DATE: 2026-01-29                                                             ║
- * ║  ALL FEATURES PRESERVED                                                       ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+﻿/**
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                    URBANMISTRII ADMIN BOT v1.0 - MAIN                         Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                    All Logic: AI, Email, Portal, HR, Payroll                  Ã¢â€¢â€˜
+ * Ã¢â€¢Â Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â£
+ * Ã¢â€¢â€˜  CONSOLIDATED FROM: Hiring-oracle-prod                                        Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  DATE: 2026-01-29                                                             Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  ALL FEATURES PRESERVED                                                       Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * 
  * INCLUDES:
  * - AI (Gemini, Groq, GitHub Models integration)
@@ -24,14 +24,178 @@
  */
 
 
-// ═══════════════════════════════════════════════════════════════════════════
-//  AI
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+//                          THE ORACLE - MASTER CONTROLS
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                      URBANMISTRII ORACLE v22.2 - AI                           ║
- * ║                      Gemini + GitHub Models + Groq + OpenRouter (Hardened)    ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã°Å¸Å¡â‚¬ ACTIVATE ORACLE
+ * Run this ONCE to setup triggers, sheets, and automation.
+ */
+function INITIAL_PRODUCTION_SETUP() {
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         ORACLE v22.0 - PRODUCTION SETUP                           Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+
+  try {
+    Logger.log('1Ã¯Â¸ÂÃ¢Æ’Â£ Validating configuration...');
+    SecureConfig.validate();
+    Logger.log('   Ã¢Å“â€¦ Configuration valid');
+
+    Logger.log('2Ã¯Â¸ÂÃ¢Æ’Â£ Cleaning up old triggers...');
+    const oldTriggers = ScriptApp.getProjectTriggers();
+    oldTriggers.forEach(t => ScriptApp.deleteTrigger(t));
+    Logger.log(`   Ã¢Å“â€¦ Removed ${oldTriggers.length} old trigger(s)`);
+
+    Logger.log('3Ã¯Â¸ÂÃ¢Æ’Â£ Creating automation triggers...');
+
+    const masterSs = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
+
+    // Core Triggers (Hidden from menu)
+    ScriptApp.newTrigger('universalAutomationEngine_').forSpreadsheet(masterSs).onEdit().create();
+    ScriptApp.newTrigger('onFormSubmit_').forSpreadsheet(masterSs).onFormSubmit().create();
+    ScriptApp.newTrigger('onLeaveFormSubmit_').forSpreadsheet(masterSs).onFormSubmit().create();
+    ScriptApp.newTrigger('runOracleBackgroundCycle_').timeBased().everyMinutes(15).create();
+    ScriptApp.newTrigger('sendDailySummary_').timeBased().atHour(9).everyDays(1).inTimezone('Asia/Kolkata').create();
+    ScriptApp.newTrigger('sendWeeklyAnalyticsReport_').timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(10).inTimezone('Asia/Kolkata').create();
+
+    Logger.log('   Ã¢Å“â€¦ All triggers created');
+
+    Logger.log('4Ã¯Â¸ÂÃ¢Æ’Â£ Initializing sheets...');
+    initializeSheets_();
+    Logger.log('   Ã¢Å“â€¦ Sheets initialized');
+
+    Logger.log('5Ã¯Â¸ÂÃ¢Æ’Â£ Initializing modules...');
+    if (typeof RetryQueue !== 'undefined') RetryQueue.init();
+
+    Log.success('SETUP', 'Oracle v22.0 activated successfully');
+    Logger.log('Ã°Å¸Å½â€° Oracle v22.0 is now ACTIVE!');
+    Logger.log('Ã°Å¸Â§Âª Test it: Run TEST_COMPLETE_WORKFLOW()');
+
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ Setup failed: ' + e.message);
+  }
+}
+
+/**
+ * Ã°Å¸â€ºâ€˜ EMERGENCY STOP
+ * Instantly deletes all triggers to stop any automated actions.
+ */
+function EMERGENCY_STOP() {
+  const triggers = ScriptApp.getProjectTriggers();
+  triggers.forEach(t => ScriptApp.deleteTrigger(t));
+  Logger.log('Ã°Å¸â€ºâ€˜ SYSTEM HALTED. All automation triggers deleted.');
+}
+
+/**
+ * Ã°Å¸Â§Âª SYSTEM TEST
+ * Runs a comprehensive check of AI, Sheets, Calendar, and Emails.
+ */
+function TEST_COMPLETE_WORKFLOW() {
+  testCompleteWorkflow_();
+}
+
+/**
+ * Ã°Å¸â€œÅ  SYSTEM STATUS
+ * Check what is currently running and connected.
+ */
+function GET_SYSTEM_STATUS() {
+  getSystemStatus_();
+}
+
+/**
+ * Ã°Å¸Â§Â¹ INBOX CLEANUP
+ * Marks unread emails as processed to stop infinite loops.
+ */
+function MARK_INBOX_READ_AND_PROCESSED() {
+  markInboxRead_();
+}
+
+/**
+ * Ã°Å¸â€ºÂ Ã¯Â¸Â CATCH UP
+ * Proactively processes anything the background cycle might have missed.
+ */
+function CATCH_UP_ALL_WORK() {
+  CATCH_UP_MISSED_WORK();
+}
+
+/**
+ * Ã°Å¸â€â€˜ SETUP API KEYS
+ * Run this with your Gemini API Key to enable AI features.
+ * Example: SETUP_API_KEYS("AIzaSy...")
+ */
+function SETUP_API_KEYS(geminiKey) {
+  if (!geminiKey || geminiKey.length < 10) {
+    Logger.log("Error: Please provide a valid Gemini API Key.");
+    return;
+  }
+
+  const props = PropertiesService.getScriptProperties();
+  props.setProperty("GEMINI_API_KEY", geminiKey);
+
+  Logger.log("Testing Gemini models with your key...");
+
+  const models = ["gemini-2.0-flash", "gemini-2.0-flash-exp", "gemini-1.5-flash", "gemini-1.5-pro"];
+  let workingModel = null;
+
+  for (const model of models) {
+    try {
+      Logger.log("Testing " + model + "...");
+      const url = "https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent?key=" + geminiKey;
+      const payload = {
+        contents: [{ parts: [{ text: "Say working in one word" }] }],
+        generationConfig: { temperature: 0.1, maxOutputTokens: 10 }
+      };
+
+      const response = UrlFetchApp.fetch(url, {
+        method: "post",
+        contentType: "application/json",
+        payload: JSON.stringify(payload),
+        muteHttpExceptions: true
+      });
+
+      const json = JSON.parse(response.getContentText());
+      if (json.candidates && json.candidates[0]) {
+        Logger.log("OK: " + model + " is working.");
+        workingModel = model;
+        break;
+      } else {
+        Logger.log("Failed: " + model);
+      }
+    } catch (e) {
+      Logger.log("Error: " + model + " - " + e.message);
+    }
+  }
+
+  if (workingModel) {
+    props.setProperty("GEMINI_MODEL", workingModel);
+    Logger.log("\\nSystem is now using " + workingModel);
+    Logger.log("Success!");
+  } else {
+    Logger.log("\\nNo Gemini models worked.");
+  }
+}
+
+
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+//  INTERNAL TRIGGER WRAPPERS (HIDDEN)
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+
+function onFormSubmit_(e) { try { onFormSubmit(e); } catch (e) { Log.error('TRIGGER', 'Form fail', { error: e.message }); } }
+function universalAutomationEngine_(e) { try { universalAutomationEngine(e); } catch (e) { Log.error('TRIGGER', 'Auto fail', { error: e.message }); } }
+function onLeaveFormSubmit_(e) { try { FormHandlers.handleLeaveFormSubmit(e); } catch (e) { Log.error('TRIGGER', 'Leave fail', { error: e.message }); } }
+function runOracleBackgroundCycle_() { try { runOracleBackgroundCycle(); } catch (e) { Log.error('TRIGGER', 'Cycle fail', { error: e.message }); } }
+function sendDailySummary_() { try { Analytics.sendDailySummary(); } catch (e) { } }
+function sendWeeklyAnalyticsReport_() { try { Analytics.sendWeeklyReport(); } catch (e) { } }
+
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+//  RETRYQUEUE
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+/**
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                      URBANMISTRII ORACLE v22.2 - AI                           Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                      Gemini + GitHub Models + Groq + OpenRouter (Hardened)    Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const AI = {
@@ -56,7 +220,7 @@ const AI = {
   },
 
   /**
-   * Main LLM Call Router - Quad fallback: Gemini → GitHub Models → Groq → OpenRouter
+   * Main LLM Call Router - Quad fallback: Gemini Ã¢â€ â€™ GitHub Models Ã¢â€ â€™ Groq Ã¢â€ â€™ OpenRouter
    */
   call(prompt, systemInstruction = "You are a helpful HR assistant.") {
     // Input validation
@@ -396,16 +560,16 @@ const AI = {
 
     const text = ((subject || '') + ' ' + (context || '')).toLowerCase();
 
-    // 🛡️ HARDENED FALLBACK: Keyword Logic (Bypass AI for obvious cases)
-    if (text.includes('resign') || text.includes(' quitting') || text.includes('served my notice') || 
-        text.includes('last working day') || text.includes('initiate offboarding') || 
-        text.includes('relieving') || text.includes('formal resignation')) {
+    // Ã°Å¸â€ºÂ¡Ã¯Â¸Â HARDENED FALLBACK: Keyword Logic (Bypass AI for obvious cases)
+    if (text.includes('resign') || text.includes(' quitting') || text.includes('served my notice') ||
+      text.includes('last working day') || text.includes('initiate offboarding') ||
+      text.includes('relieving') || text.includes('formal resignation')) {
       Log.info('AI', 'Keyword Match: Resignation detected', { subject: subject });
       return { type: 'INITIATE_OFFBOARDING', confidence: 1.0 };
     }
 
     if (text.includes('work log') || text.includes('logbook') || text.includes('attached my log')) {
-       return { type: 'SUBMISSION_WORKLOG', confidence: 1.0 };
+      return { type: 'SUBMISSION_WORKLOG', confidence: 1.0 };
     }
 
     const prompt = `
@@ -445,7 +609,7 @@ const AI = {
       Log.warn('AI', 'detectIntent failed', { error: e.message });
       // Fallback check if AI failed but keywords didn't catch it earlier
       if (text.includes('resign') || text.includes('offboard')) return { type: 'INITIATE_OFFBOARDING', confidence: 0.8 };
-      
+
       return { type: 'UNKNOWN', confidence: 0 };
     }
   },
@@ -929,10 +1093,10 @@ const AI = {
 /**
  * Test AI integration - Tests each model individually
  */
-function testAI() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         AI MODEL DIAGNOSTICS                                      ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+function testAI_() {
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         AI MODEL DIAGNOSTICS                                      Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   let geminiOk = false;
   let githubOk = false;
@@ -941,76 +1105,76 @@ function testAI() {
 
   // Test Gemini
   Logger.log('');
-  Logger.log('🔷 Testing GEMINI (gemini-2.0-flash)...');
+  Logger.log('Ã°Å¸â€Â· Testing GEMINI (gemini-2.0-flash)...');
   try {
     const response = AI._callGemini('Say "working" in one word', 'Respond briefly.');
     if (response) {
-      Logger.log('   ✅ GEMINI: Working');
+      Logger.log('   Ã¢Å“â€¦ GEMINI: Working');
       Logger.log('   Response: ' + response.substring(0, 50));
       geminiOk = true;
     }
   } catch (e) {
-    Logger.log('   ❌ GEMINI: ' + e.message.substring(0, 100));
+    Logger.log('   Ã¢ÂÅ’ GEMINI: ' + e.message.substring(0, 100));
   }
 
   // Test GitHub Models
   Logger.log('');
-  Logger.log('🟣 Testing GITHUB MODELS (gpt-4o-mini)...');
+  Logger.log('Ã°Å¸Å¸Â£ Testing GITHUB MODELS (gpt-4o-mini)...');
   try {
     const response = AI._callGitHubModels('Say "working" in one word', 'Respond briefly.');
     if (response) {
-      Logger.log('   ✅ GITHUB: Working');
+      Logger.log('   Ã¢Å“â€¦ GITHUB: Working');
       Logger.log('   Response: ' + response.substring(0, 50));
       githubOk = true;
     }
   } catch (e) {
-    Logger.log('   ❌ GITHUB: ' + e.message.substring(0, 100));
+    Logger.log('   Ã¢ÂÅ’ GITHUB: ' + e.message.substring(0, 100));
   }
 
   // Test Groq
   Logger.log('');
-  Logger.log('🟢 Testing GROQ (llama-3.3-70b)...');
+  Logger.log('Ã°Å¸Å¸Â¢ Testing GROQ (llama-3.3-70b)...');
   try {
     const response = AI._callGroq('Say "working" in one word', 'Respond briefly.');
     if (response) {
-      Logger.log('   ✅ GROQ: Working');
+      Logger.log('   Ã¢Å“â€¦ GROQ: Working');
       Logger.log('   Response: ' + response.substring(0, 50));
       groqOk = true;
     }
   } catch (e) {
-    Logger.log('   ❌ GROQ: ' + e.message.substring(0, 100));
+    Logger.log('   Ã¢ÂÅ’ GROQ: ' + e.message.substring(0, 100));
   }
 
   // Test OpenRouter
   Logger.log('');
-  Logger.log('🟠 Testing OPENROUTER...');
+  Logger.log('Ã°Å¸Å¸Â  Testing OPENROUTER...');
   try {
     const response = AI._callOpenRouter('Say "working" in one word', 'Respond briefly.');
     if (response) {
-      Logger.log('   ✅ OPENROUTER: Working');
+      Logger.log('   Ã¢Å“â€¦ OPENROUTER: Working');
       Logger.log('   Response: ' + response.substring(0, 50));
       openrouterOk = true;
     }
   } catch (e) {
-    Logger.log('   ❌ OPENROUTER: ' + e.message.substring(0, 100));
+    Logger.log('   Ã¢ÂÅ’ OPENROUTER: ' + e.message.substring(0, 100));
   }
 
   // Summary
   Logger.log('');
-  Logger.log('═══════════════════════════════════════════════════════════════════');
+  Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
   Logger.log('SUMMARY:');
-  Logger.log(`   GEMINI:      ${geminiOk ? '✅ Working' : '❌ Not working'}`);
-  Logger.log(`   GITHUB:      ${githubOk ? '✅ Working' : '❌ Not working'}`);
-  Logger.log(`   GROQ:        ${groqOk ? '✅ Working' : '❌ Not working'}`);
-  Logger.log(`   OPENROUTER:  ${openrouterOk ? '✅ Working' : '❌ Not working'}`);
+  Logger.log(`   GEMINI:      ${geminiOk ? 'Ã¢Å“â€¦ Working' : 'Ã¢ÂÅ’ Not working'}`);
+  Logger.log(`   GITHUB:      ${githubOk ? 'Ã¢Å“â€¦ Working' : 'Ã¢ÂÅ’ Not working'}`);
+  Logger.log(`   GROQ:        ${groqOk ? 'Ã¢Å“â€¦ Working' : 'Ã¢ÂÅ’ Not working'}`);
+  Logger.log(`   OPENROUTER:  ${openrouterOk ? 'Ã¢Å“â€¦ Working' : 'Ã¢ÂÅ’ Not working'}`);
   Logger.log('');
 
   if (geminiOk || githubOk || groqOk || openrouterOk) {
-    Logger.log('🎉 AI System: OPERATIONAL');
+    Logger.log('Ã°Å¸Å½â€° AI System: OPERATIONAL');
     Logger.log('   At least one model is working!');
     return true;
   } else {
-    Logger.log('🚨 AI System: DOWN');
+    Logger.log('Ã°Å¸Å¡Â¨ AI System: DOWN');
     Logger.log('   No models are working. Check API keys!');
     return false;
   }
@@ -1018,14 +1182,14 @@ function testAI() {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  WHATSAPP
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                    URBANMISTRII ORACLE v22.4 - WHATSAPP                       ║
- * ║                    Twilio WhatsApp API Integration (Hardened)                 ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                    URBANMISTRII ORACLE v22.4 - WHATSAPP                       Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                    Twilio WhatsApp API Integration (Hardened)                 Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * 
  * SETUP:
  * 1. Create a Twilio account at https://www.twilio.com
@@ -1232,9 +1396,9 @@ Team UrbanMistrii`;
 Great news! You've been selected to take our ${safeRole} assessment.
 
 *Test Details:*
-• Role: ${safeRole}
-• Time Limit: ${timeLimit} hours
-• Link: ${link}
+Ã¢â‚¬Â¢ Role: ${safeRole}
+Ã¢â‚¬Â¢ Time Limit: ${timeLimit} hours
+Ã¢â‚¬Â¢ Link: ${link}
 
 Please complete the test within ${timeLimit} hours of receiving this message.
 
@@ -1263,10 +1427,10 @@ Team UrbanMistrii`;
 
 Congratulations! You've cleared the assessment for ${safeRole}.
 
-📅 *Interview Details:*
-• Date & Time: ${safeDate}
-• Mode: Video Call (link will be shared via email)
-• Duration: ~30-45 minutes
+Ã°Å¸â€œâ€¦ *Interview Details:*
+Ã¢â‚¬Â¢ Date & Time: ${safeDate}
+Ã¢â‚¬Â¢ Mode: Video Call (link will be shared via email)
+Ã¢â‚¬Â¢ Duration: ~30-45 minutes
 
 Please confirm your availability by replying to this message.
 
@@ -1331,19 +1495,19 @@ Team UrbanMistrii`;
 /**
  * Test WhatsApp integration
  */
-function testWhatsApp() {
+function testWhatsApp_() {
   Logger.log('Testing Twilio WhatsApp integration...');
 
   // Send test to Yash
   const result = WhatsApp.sendWelcome(CONFIG.TEAM.YASH_PHONE, 'Test User');
 
   if (result.success) {
-    Logger.log('✅ WhatsApp test passed');
+    Logger.log('Ã¢Å“â€¦ WhatsApp test passed');
     Logger.log('Response: ' + JSON.stringify(result));
   } else if (result.testMode) {
-    Logger.log('✅ WhatsApp test passed (TEST MODE)');
+    Logger.log('Ã¢Å“â€¦ WhatsApp test passed (TEST MODE)');
   } else {
-    Logger.log('❌ WhatsApp test failed: ' + result.error);
+    Logger.log('Ã¢ÂÅ’ WhatsApp test failed: ' + result.error);
   }
 
   return result;
@@ -1362,61 +1526,61 @@ function sendTestToYash() {
  * Diagnostics for WhatsApp setup
  */
 function diagnosticsWhatsApp() {
-  Logger.log('╔═══════════════════════════════════════╗');
-  Logger.log('║   TWILIO WHATSAPP DIAGNOSTICS         ║');
-  Logger.log('╚═══════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜   TWILIO WHATSAPP DIAGNOSTICS         Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   // Check Account SID
   try {
     const sid = SecureConfig.get('TWILIO_ACCOUNT_SID');
-    Logger.log('✅ Account SID: Configured (' + sid.substring(0, 10) + '...)');
+    Logger.log('Ã¢Å“â€¦ Account SID: Configured (' + sid.substring(0, 10) + '...)');
   } catch (e) {
-    Logger.log('❌ Account SID: Missing - Get from https://console.twilio.com');
+    Logger.log('Ã¢ÂÅ’ Account SID: Missing - Get from https://console.twilio.com');
   }
 
   // Check Auth Token
   try {
     const token = SecureConfig.get('TWILIO_AUTH_TOKEN');
-    Logger.log('✅ Auth Token: Configured (' + token.substring(0, 10) + '...)');
+    Logger.log('Ã¢Å“â€¦ Auth Token: Configured (' + token.substring(0, 10) + '...)');
   } catch (e) {
-    Logger.log('❌ Auth Token: Missing');
+    Logger.log('Ã¢ÂÅ’ Auth Token: Missing');
   }
 
   // Check WhatsApp Number
   try {
     const num = SecureConfig.get('TWILIO_WHATSAPP_NUMBER');
-    Logger.log('✅ WhatsApp Number: ' + num);
+    Logger.log('Ã¢Å“â€¦ WhatsApp Number: ' + num);
   } catch (e) {
-    Logger.log('❌ WhatsApp Number: Missing');
+    Logger.log('Ã¢ÂÅ’ WhatsApp Number: Missing');
     Logger.log('   For sandbox: whatsapp:+14155238886');
     Logger.log('   For production: whatsapp:+YOUR_TWILIO_NUMBER');
   }
 
   Logger.log('');
-  Logger.log('📚 Twilio WhatsApp Quickstart:');
+  Logger.log('Ã°Å¸â€œÅ¡ Twilio WhatsApp Quickstart:');
   Logger.log('   https://www.twilio.com/docs/whatsapp/quickstart');
   Logger.log('');
-  Logger.log('💡 For sandbox testing, users must first send:');
+  Logger.log('Ã°Å¸â€™Â¡ For sandbox testing, users must first send:');
   Logger.log('   "join <your-sandbox-keyword>" to +1 415 523 8886');
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  RETRYQUEUE
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                 URBANMISTRII ORACLE v22.4 - RETRY QUEUE                       ║
- * ║                 Automatic Retry for Failed Messages (Hardened)                ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                 URBANMISTRII ORACLE v22.4 - RETRY QUEUE                       Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                 Automatic Retry for Failed Messages (Hardened)                Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const RetryQueue = {
   SHEET_NAME: 'DB_RetryQueue',
   MAX_RETRIES: 3,
   VALID_TYPES: ['WHATSAPP', 'EMAIL'],
-  
+
   /**
    * Initialize retry queue sheet if it doesn't exist
    */
@@ -1429,24 +1593,24 @@ const RetryQueue = {
       }
 
       let sheet = ss.getSheetByName(this.SHEET_NAME);
-      
+
       if (!sheet) {
         sheet = ss.insertSheet(this.SHEET_NAME);
         sheet.appendRow([
-          'ID', 'Created', 'Type', 'Payload', 'RetryAfter', 
+          'ID', 'Created', 'Type', 'Payload', 'RetryAfter',
           'Attempts', 'LastError', 'Status'
         ]);
         sheet.getRange(1, 1, 1, 8).setFontWeight('bold').setBackground('#f4b400');
         Log.info('RETRY_QUEUE', 'Initialized retry queue sheet');
       }
-      
+
       return sheet;
     } catch (e) {
       Log.error('RETRY_QUEUE', 'Init failed', { error: e.message });
       return null;
     }
   },
-  
+
   /**
    * Add a failed message to the retry queue
    * @param {string} type - 'WHATSAPP' or 'EMAIL'
@@ -1468,11 +1632,11 @@ const RetryQueue = {
     try {
       const sheet = this.init();
       if (!sheet) return false;
-      
+
       const id = Utilities.getUuid();
       const retryAfter = DateTime.addHours(new Date(), 1); // First retry in 1 hour
       const safeError = (error || 'Unknown error').substring(0, 500); // Limit error length
-      
+
       // Safely stringify payload
       let payloadStr;
       try {
@@ -1491,16 +1655,16 @@ const RetryQueue = {
         safeError,
         'PENDING'
       ]);
-      
+
       Log.info('RETRY_QUEUE', 'Added to queue', { type, id });
       return id;
-      
+
     } catch (e) {
       Log.error('RETRY_QUEUE', 'Failed to add to queue', { error: e.message });
       return false;
     }
   },
-  
+
   /**
    * Process pending retries (called by background cycle)
    */
@@ -1514,24 +1678,24 @@ const RetryQueue = {
     try {
       const sheet = this.init();
       if (!sheet) return;
-      
+
       const data = sheet.getDataRange().getValues();
       const now = new Date();
       let processed = 0;
       const MAX_PROCESS_PER_RUN = 10; // Limit per run to prevent timeout
-      
+
       for (let i = 1; i < data.length && processed < MAX_PROCESS_PER_RUN; i++) {
         const status = data[i][7];
         const retryAfter = new Date(data[i][4]);
         const attempts = parseInt(data[i][5]) || 0;
-        
+
         // Skip if not pending or not due yet
         if (status !== 'PENDING') continue;
         if (retryAfter > now) continue;
-        
+
         const row = i + 1;
         const type = data[i][2];
-        
+
         // Safely parse payload
         let payload;
         try {
@@ -1542,11 +1706,11 @@ const RetryQueue = {
           sheet.getRange(row, 7).setValue('Invalid payload JSON');
           continue;
         }
-        
+
         Log.info('RETRY_QUEUE', `Retrying ${type}`, { attempts: attempts + 1 });
-        
+
         let result;
-        
+
         // Retry based on type
         if (type === 'WHATSAPP') {
           result = Guards.safeExecute(
@@ -1572,7 +1736,7 @@ const RetryQueue = {
         } else {
           result = { success: false, error: 'Unknown type' };
         }
-        
+
         if (result && result.success) {
           // Success! Mark as completed
           sheet.getRange(row, 8).setValue('COMPLETED');
@@ -1581,7 +1745,7 @@ const RetryQueue = {
         } else {
           // Failed again
           const newAttempts = attempts + 1;
-          
+
           if (newAttempts >= this.MAX_RETRIES) {
             // Give up
             sheet.getRange(row, 8).setValue('FAILED');
@@ -1595,19 +1759,19 @@ const RetryQueue = {
             sheet.getRange(row, 7).setValue(result?.error || 'Unknown error');
           }
         }
-        
+
         processed++;
       }
-      
+
       if (processed > 0) {
         Log.info('RETRY_QUEUE', `Processed ${processed} retries`);
       }
-      
+
     } catch (e) {
       Log.error('RETRY_QUEUE', 'Process failed', { error: e.message });
     }
   },
-  
+
   /**
    * Get queue statistics
    */
@@ -1615,23 +1779,23 @@ const RetryQueue = {
     try {
       const sheet = this.init();
       if (!sheet) return null;
-      
+
       const data = sheet.getDataRange().getValues();
       const stats = { pending: 0, completed: 0, failed: 0, total: data.length - 1 };
-      
+
       for (let i = 1; i < data.length; i++) {
         const status = data[i][7];
         if (status === 'PENDING') stats.pending++;
         else if (status === 'COMPLETED') stats.completed++;
         else if (status === 'FAILED') stats.failed++;
       }
-      
+
       return stats;
     } catch (e) {
       return null;
     }
   },
-  
+
   /**
    * Clean up old completed/failed entries (older than 7 days)
    */
@@ -1639,29 +1803,29 @@ const RetryQueue = {
     try {
       const sheet = this.init();
       if (!sheet) return;
-      
+
       const data = sheet.getDataRange().getValues();
       const cutoff = DateTime.addDays(new Date(), -7);
       const rowsToDelete = [];
-      
+
       for (let i = 1; i < data.length; i++) {
         const created = new Date(data[i][1]);
         const status = data[i][7];
-        
+
         if ((status === 'COMPLETED' || status === 'FAILED') && created < cutoff) {
           rowsToDelete.push(i + 1);
         }
       }
-      
+
       // Delete from bottom to top to maintain row indices
       for (let i = rowsToDelete.length - 1; i >= 0; i--) {
         sheet.deleteRow(rowsToDelete[i]);
       }
-      
+
       if (rowsToDelete.length > 0) {
         Log.info('RETRY_QUEUE', `Cleaned up ${rowsToDelete.length} old entries`);
       }
-      
+
     } catch (e) {
       Log.error('RETRY_QUEUE', 'Cleanup failed', { error: e.message });
     }
@@ -1671,38 +1835,38 @@ const RetryQueue = {
 /**
  * Test retry queue
  */
-function testRetryQueue() {
+function testRetryQueue_() {
   Logger.log('Testing Retry Queue...');
-  
+
   // Initialize
   RetryQueue.init();
-  
+
   // Add test item
   const id = RetryQueue.add('WHATSAPP', {
     destination: '9999999999',
     template: 'test_template',
     params: ['Test User']
   }, 'Test error');
-  
+
   Logger.log('Added to queue: ' + id);
-  
+
   // Get stats
   const stats = RetryQueue.getStats();
   Logger.log('Queue stats: ' + JSON.stringify(stats));
-  
-  Logger.log('✅ Retry Queue test passed');
+
+  Logger.log('Ã¢Å“â€¦ Retry Queue test passed');
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  CALENDAR
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                 URBANMISTRII ORACLE v22.4 - CALENDAR                          ║
- * ║                 Google Calendar Integration (Hardened)                        ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                 URBANMISTRII ORACLE v22.4 - CALENDAR                          Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                 Google Calendar Integration (Hardened)                        Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const Calendar = {
@@ -1734,7 +1898,7 @@ const Calendar = {
         Logger.log(`[CALENDAR TEST] Would create interview for ${candidate.name} at ${dateTime}`);
         return { success: true, testMode: true, eventId: 'TEST_EVENT_ID' };
       }
-      
+
       const calendar = CalendarApp.getDefaultCalendar();
       if (!calendar) {
         Log.error('CALENDAR', 'Could not access default calendar');
@@ -1742,15 +1906,15 @@ const Calendar = {
       }
 
       const endTime = new Date(dateTime.getTime() + safeDuration * 60 * 1000);
-      
+
       // Safe candidate data extraction
       const safeName = Guards.get(candidate, 'name', 'Candidate');
       const safeRole = Guards.get(candidate, 'role', 'Designer');
       const safeEmail = Guards.get(candidate, 'email', '');
-      
+
       // Create event
       const event = calendar.createEvent(
-        `🎯 Interview: ${safeName} (${safeRole})`,
+        `Ã°Å¸Å½Â¯ Interview: ${safeName} (${safeRole})`,
         dateTime,
         endTime,
         {
@@ -1760,33 +1924,33 @@ const Calendar = {
           sendInvites: true
         }
       );
-      
+
       // Set reminder
       event.addPopupReminder(30); // 30 minutes before
       event.addEmailReminder(60); // 1 hour before
-      
+
       // Add color coding based on role
       const color = this._getRoleColor(candidate.role);
       event.setColor(color);
-      
+
       Log.success('CALENDAR', 'Interview scheduled', {
         candidate: candidate.name,
         date: dateTime.toISOString(),
         eventId: event.getId()
       });
-      
+
       return {
         success: true,
         eventId: event.getId(),
         eventUrl: event.getEventSeries ? null : `https://calendar.google.com/calendar/event?eid=${event.getId()}`
       };
-      
+
     } catch (e) {
       Log.error('CALENDAR', 'Failed to create interview', { error: e.message });
       return { success: false, error: e.message };
     }
   },
-  
+
   /**
    * Get available interview slots for a given date
    * @param {Date} date - The date to check
@@ -1796,36 +1960,36 @@ const Calendar = {
   getAvailableSlots(date, slotDuration = 45) {
     try {
       const calendar = CalendarApp.getDefaultCalendar();
-      
+
       // Define working hours (10 AM to 7 PM IST)
       const workStart = 10;
       const workEnd = 19;
-      
+
       // Get all events for the day
       const startOfDay = new Date(date);
       startOfDay.setHours(0, 0, 0, 0);
       const endOfDay = new Date(date);
       endOfDay.setHours(23, 59, 59, 999);
-      
+
       const events = calendar.getEvents(startOfDay, endOfDay);
-      
+
       // Generate all possible slots
       const slots = [];
       for (let hour = workStart; hour < workEnd; hour++) {
         for (let min = 0; min < 60; min += slotDuration) {
           if (hour === workEnd - 1 && min + slotDuration > 60) continue;
-          
+
           const slotStart = new Date(date);
           slotStart.setHours(hour, min, 0, 0);
           const slotEnd = new Date(slotStart.getTime() + slotDuration * 60 * 1000);
-          
+
           // Check if slot conflicts with any event
           const isAvailable = !events.some(event => {
             const eventStart = event.getStartTime();
             const eventEnd = event.getEndTime();
             return (slotStart < eventEnd && slotEnd > eventStart);
           });
-          
+
           if (isAvailable) {
             slots.push({
               start: slotStart,
@@ -1835,15 +1999,15 @@ const Calendar = {
           }
         }
       }
-      
+
       return slots;
-      
+
     } catch (e) {
       Log.error('CALENDAR', 'Failed to get slots', { error: e.message });
       return [];
     }
   },
-  
+
   /**
    * Cancel/delete an interview event
    */
@@ -1851,22 +2015,22 @@ const Calendar = {
     try {
       const calendar = CalendarApp.getDefaultCalendar();
       const event = calendar.getEventById(eventId);
-      
+
       if (event) {
-        event.setDescription(event.getDescription() + `\n\n❌ CANCELLED: ${reason}`);
+        event.setDescription(event.getDescription() + `\n\nÃ¢ÂÅ’ CANCELLED: ${reason}`);
         event.deleteEvent();
-        
+
         Log.info('CALENDAR', 'Interview cancelled', { eventId, reason });
         return { success: true };
       }
-      
+
       return { success: false, error: 'Event not found' };
-      
+
     } catch (e) {
       return { success: false, error: e.message };
     }
   },
-  
+
   /**
    * Reschedule an interview
    */
@@ -1874,26 +2038,26 @@ const Calendar = {
     try {
       const calendar = CalendarApp.getDefaultCalendar();
       const event = calendar.getEventById(eventId);
-      
+
       if (event) {
         const duration = event.getEndTime() - event.getStartTime();
         event.setTime(newDateTime, new Date(newDateTime.getTime() + duration));
-        
+
         Log.info('CALENDAR', 'Interview rescheduled', { eventId, newDate: newDateTime.toISOString() });
         return { success: true };
       }
-      
+
       return { success: false, error: 'Event not found' };
-      
+
     } catch (e) {
       return { success: false, error: e.message };
     }
   },
-  
-  // ═══════════════════════════════════════════════════════════════════════════════
+
+  // Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
   //                              HELPER METHODS
-  // ═══════════════════════════════════════════════════════════════════════════════
-  
+  // Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+
   _generateDescription(candidate) {
     const safeName = Guards.get(candidate, 'name', 'Not provided');
     const safeRole = Guards.get(candidate, 'role', 'Not provided');
@@ -1903,42 +2067,42 @@ const Calendar = {
     const safeStatus = Guards.get(candidate, 'status', 'Interview Pending');
 
     return `
-📋 CANDIDATE DETAILS
-━━━━━━━━━━━━━━━━━━━━
+Ã°Å¸â€œâ€¹ CANDIDATE DETAILS
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 Name: ${safeName}
 Role: ${safeRole}
 Email: ${safeEmail}
 Phone: ${safePhone}
 
-📁 PORTFOLIO
+Ã°Å¸â€œÂ PORTFOLIO
 ${safePortfolio}
 
-📊 STATUS
+Ã°Å¸â€œÅ  STATUS
 ${safeStatus}
 
-🔗 QUICK LINKS
-• View in Sheet: ${getSheetUrl()}
-• HR Contact: ${CONFIG.TEAM.ADMIN_EMAIL}
+Ã°Å¸â€â€” QUICK LINKS
+Ã¢â‚¬Â¢ View in Sheet: ${getSheetUrl()}
+Ã¢â‚¬Â¢ HR Contact: ${CONFIG.TEAM.ADMIN_EMAIL}
 
-━━━━━━━━━━━━━━━━━━━━
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 Generated by Oracle v22.2
     `.trim();
   },
-  
+
   _getGuests(candidateEmail, interviewerEmail) {
     const guests = [CONFIG.TEAM.ADMIN_EMAIL];
     if (candidateEmail) guests.push(candidateEmail);
     if (interviewerEmail) guests.push(interviewerEmail);
     return guests.join(',');
   },
-  
+
   _getRoleColor(role) {
     // Google Calendar colors (1-11)
     if (role.toLowerCase().includes('senior')) return '11'; // Red
     if (role.toLowerCase().includes('junior')) return '5';  // Yellow
     return '10'; // Green (Intern)
   },
-  
+
   _formatTime(date) {
     return date.toLocaleTimeString('en-IN', {
       hour: '2-digit',
@@ -1952,18 +2116,18 @@ Generated by Oracle v22.2
 /**
  * Test calendar integration
  */
-function testCalendar() {
+function testCalendar_() {
   Logger.log('Testing Calendar integration...');
-  
+
   // Test getting available slots
   const tomorrow = DateTime.addDays(new Date(), 1);
   const slots = Calendar.getAvailableSlots(tomorrow);
-  
+
   Logger.log(`Found ${slots.length} available slots for tomorrow`);
   if (slots.length > 0) {
     Logger.log('First slot: ' + slots[0].label);
   }
-  
+
   // Test creating interview (in test mode)
   const testCandidate = {
     name: 'Test Candidate',
@@ -1971,23 +2135,23 @@ function testCalendar() {
     phone: '9999999999',
     role: 'Junior Designer'
   };
-  
+
   const result = Calendar.createInterview(testCandidate, slots[0]?.start || tomorrow);
   Logger.log('Create result: ' + JSON.stringify(result));
-  
-  Logger.log('✅ Calendar test completed');
+
+  Logger.log('Ã¢Å“â€¦ Calendar test completed');
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  ANALYTICS
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                 URBANMISTRII ORACLE v22.1 - ANALYTICS                         ║
- * ║                 Metrics, Reports & Insights                                   ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                 URBANMISTRII ORACLE v22.1 - ANALYTICS                         Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                 Metrics, Reports & Insights                                   Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const Analytics = {
@@ -2173,19 +2337,19 @@ const Analytics = {
     if (!metrics) return null;
 
     const report = `
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                    WEEKLY RECRUITMENT REPORT                                   ║
-║                    ${new Date().toLocaleDateString('en-IN')}                                              ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
+Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+Ã¢â€¢â€˜                    WEEKLY RECRUITMENT REPORT                                   Ã¢â€¢â€˜
+Ã¢â€¢â€˜                    ${new Date().toLocaleDateString('en-IN')}                                              Ã¢â€¢â€˜
+Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
  THIS WEEK'S HIGHLIGHTS
- ━━━━━━━━━━━━━━━━━━━━━━━━━
+ Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
  New Applications (last 7 days): ${metrics.thisWeek.applications}
  New Hires: ${metrics.thisWeek.hires}
  New Rejections: ${metrics.thisWeek.rejections}
 
 PIPELINE STATUS
-━━━━━━━━━━━━━━━━━━
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 New:               ${metrics.pipeline.new}
 In Process:        ${metrics.pipeline.inProcess}
 Test Sent:         ${metrics.pipeline.testSent}
@@ -2193,36 +2357,36 @@ Test Submitted:    ${metrics.pipeline.testSubmitted}
 Under Review:      ${metrics.pipeline.underReview}
 Interview Pending: ${metrics.pipeline.interviewPending}
 Interview Done:    ${metrics.pipeline.interviewDone}
-━━━━━━━━━━━━━━━━━━
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 Hired:             ${metrics.pipeline.hired}
 Rejected:          ${metrics.pipeline.rejected}
 
 CONVERSION FUNNEL
-━━━━━━━━━━━━━━━━━━━━
-Application → Test: ${metrics.funnel.applicationToTest}
-Test → Interview:   ${metrics.funnel.testToInterview}
-Interview → Hire:   ${metrics.funnel.interviewToHire}
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
+Application Ã¢â€ â€™ Test: ${metrics.funnel.applicationToTest}
+Test Ã¢â€ â€™ Interview:   ${metrics.funnel.testToInterview}
+Interview Ã¢â€ â€™ Hire:   ${metrics.funnel.interviewToHire}
 Overall:            ${metrics.funnel.overallConversion}
 
-⏱️ PERFORMANCE
-━━━━━━━━━━━━━━
+Ã¢ÂÂ±Ã¯Â¸Â PERFORMANCE
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 Avg Time to Hire:      ${metrics.performance.avgTimeToHire}
 Avg Test Time:         ${metrics.performance.avgTestTime}
 Test Completion Rate:  ${metrics.performance.avgTestCompletionRate}
 
  BY ROLE (Top 10)
- ━━━━━━━━━━━━━━━━━
+ Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
  ${Object.entries(metrics.byRole)
-      .sort((a, b) => b[1].total - a[1].total)
-      .slice(0, 10)
-      .filter(([role]) => role !== 'Unknown')
-      .map(([role, data]) =>
-        `${role}: ${data.total} total, ${data.hired} hired (${((data.hired / data.total) * 100 || 0).toFixed(0)}%)`
-      ).join('\n')}
+        .sort((a, b) => b[1].total - a[1].total)
+        .slice(0, 10)
+        .filter(([role]) => role !== 'Unknown')
+        .map(([role, data]) =>
+          `${role}: ${data.total} total, ${data.hired} hired (${((data.hired / data.total) * 100 || 0).toFixed(0)}%)`
+        ).join('\n')}
 
  NOTE: Pipeline "NEW" count shows current status, not new applications this week.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 Generated by Oracle v22.0 | ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
     `.trim();
 
@@ -2361,7 +2525,7 @@ function testAnalytics() {
   const report = Analytics.generateWeeklyReport();
   Logger.log(report);
 
-  Logger.log('✅ Analytics test passed');
+  Logger.log('Ã¢Å“â€¦ Analytics test passed');
 }
 
 /**
@@ -2373,14 +2537,14 @@ function sendWeeklyAnalyticsReport() {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  EMAIL
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                 URBANMISTRII ORACLE v22.2 - EMAIL MODULE                      ║
- * ║                 Gmail Processing & Smart Responses (Hardened)                ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                 URBANMISTRII ORACLE v22.2 - EMAIL MODULE                      Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                 Gmail Processing & Smart Responses (Hardened)                Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 /**
@@ -2420,7 +2584,7 @@ function processInbox() {
         const msg = messages[messages.length - 1]; // Get last message
         const from = msg.getFrom() || '';
         const email = (from.match(/[\w.-]+@[\w.-]+\.\w+/) || [''])[0];
-        
+
         if (!email) {
           Log.warn('INBOX', 'Could not extract email from sender', { from });
           thread.addLabel(label);
@@ -2476,7 +2640,7 @@ function handleEmailTestSubmission(email, analysis, message) {
   }
 
   Log.info('EMAIL', 'Processing test submission', { email: Sanitize.maskEmail(email) });
-  
+
   const candidate = Guards.safeExecute(
     () => SheetUtils.findCandidateByEmail(email),
     'findCandidateByEmail',
@@ -2492,7 +2656,7 @@ function handleEmailTestSubmission(email, analysis, message) {
       ${EmailTemplates.warningBox('Please ensure you have applied through our official channels before submitting your test.')}
       <p>Best regards,<br><strong>Hiring Team, Urbanmistrii</strong></p>
     `);
-    
+
     try {
       message.reply('', { htmlBody: notFoundHtml });
     } catch (replyError) {
@@ -2505,7 +2669,7 @@ function handleEmailTestSubmission(email, analysis, message) {
   SheetUtils.updateStatus(candidate.row, CONFIG.RULES.STATUSES.TEST_SUBMITTED, email);
 
   const safeName = Guards.get(analysis, 'name', 'Candidate');
-  
+
   try {
     const attachments = message.getAttachments() || [];
     GmailApp.sendEmail(CONFIG.TEAM.ADMIN_EMAIL, `Test Submission: ${safeName}`,
@@ -2601,7 +2765,7 @@ function handleFormResponse(email, body, message) {
       safeUpdate('willingToRelocate', CONFIG.COLUMNS.RELOCATION);
 
       SheetUtils.updateCell(existing.row, CONFIG.COLUMNS.UPDATED, new Date());
-      SheetUtils.updateCell(existing.row, CONFIG.COLUMNS.LOG, '📝 Form response updated via email');
+      SheetUtils.updateCell(existing.row, CONFIG.COLUMNS.LOG, 'Ã°Å¸â€œÂ Form response updated via email');
 
     } else {
       // Create new candidate row
@@ -2610,31 +2774,31 @@ function handleFormResponse(email, body, message) {
       const department = ConfigHelpers.getDepartment(formData.role || '');
 
       sheet.appendRow([
-      CONFIG.RULES.STATUSES.NEW,           // STATUS
-      new Date(),                           // UPDATED
-      new Date(),                           // TIMESTAMP
-      formData.name,                        // NAME
-      formData.phone || '',                 // PHONE
-      formData.email || email,              // EMAIL
-      formData.role || '',                  // ROLE
-      formData.degree || '',                // DEGREE
-      formData.startDate || '',             // START_DATE
-      formData.tenure || '',                // TENURE
-      formData.salaryExpected || '',        // SALARY_EXP
-      formData.salaryLast || '',            // SALARY_LAST
-      formData.experience || '',            // EXPERIENCE
-      formData.portfolioUrl || '',          // PORTFOLIO_URL
-      formData.cvUrl || '',                 // CV_URL
-      formData.city || '',                  // CITY
-      formData.hindiProficient || '',       // HINDI
-      formData.healthNotes || '',           // HEALTH
-      formData.previousApplication || '',   // PREV_EXP
-      formData.testAvailability || '',      // TEST_AVAILABILITY_DATE
-      '',                                   // TEST_AVAILABILITY_TIME
-      '',                                   // EMAIL_ALT
-      formData.willingToRelocate || '',     // RELOCATION
-      'From email form response',        // LOG
-      '', '', '', '', department, '', ''    // System columns
+        CONFIG.RULES.STATUSES.NEW,           // STATUS
+        new Date(),                           // UPDATED
+        new Date(),                           // TIMESTAMP
+        formData.name,                        // NAME
+        formData.phone || '',                 // PHONE
+        formData.email || email,              // EMAIL
+        formData.role || '',                  // ROLE
+        formData.degree || '',                // DEGREE
+        formData.startDate || '',             // START_DATE
+        formData.tenure || '',                // TENURE
+        formData.salaryExpected || '',        // SALARY_EXP
+        formData.salaryLast || '',            // SALARY_LAST
+        formData.experience || '',            // EXPERIENCE
+        formData.portfolioUrl || '',          // PORTFOLIO_URL
+        formData.cvUrl || '',                 // CV_URL
+        formData.city || '',                  // CITY
+        formData.hindiProficient || '',       // HINDI
+        formData.healthNotes || '',           // HEALTH
+        formData.previousApplication || '',   // PREV_EXP
+        formData.testAvailability || '',      // TEST_AVAILABILITY_DATE
+        '',                                   // TEST_AVAILABILITY_TIME
+        '',                                   // EMAIL_ALT
+        formData.willingToRelocate || '',     // RELOCATION
+        'From email form response',        // LOG
+        '', '', '', '', department, '', ''    // System columns
       ]);
     }
 
@@ -2678,12 +2842,12 @@ function handleEmailApplication(email, analysis, message) {
     // v22.0: Check for duplicates
     if (CONFIG.FEATURES.DUPLICATE_CHECK) {
       const candidateInfo = AI.extractCandidateInfo(
-        message.getPlainBody() || '', 
+        message.getPlainBody() || '',
         message.getSubject() || ''
       );
       const dupCheck = Duplicates.check(
-        email, 
-        Guards.get(candidateInfo, 'phone'), 
+        email,
+        Guards.get(candidateInfo, 'phone'),
         Guards.get(candidateInfo, 'name') || Guards.get(analysis, 'name')
       );
 
@@ -2711,7 +2875,7 @@ function handleEmailApplication(email, analysis, message) {
     }
 
     const candidateInfo = AI.extractCandidateInfo(
-      message.getPlainBody() || '', 
+      message.getPlainBody() || '',
       message.getSubject() || ''
     );
     if (!candidateInfo) {
@@ -2750,8 +2914,8 @@ function handleEmailApplication(email, analysis, message) {
 
     Log.success('EMAIL', 'New candidate added', { name: candidateInfo.name, department });
 
-  // Send branded HTML email with form link
-  const applicationHtml = EmailTemplates.wrap(`
+    // Send branded HTML email with form link
+    const applicationHtml = EmailTemplates.wrap(`
     <h3>Application Received!</h3>
     <p>Hello <strong>${candidateInfo.name || 'there'}</strong>,</p>
     <p>Thank you for your interest in joining Urbanmistrii! We have received your application.</p>
@@ -2769,11 +2933,11 @@ function handleEmailApplication(email, analysis, message) {
     <p>Best regards,<br><strong>Hiring Team, Urbanmistrii</strong></p>
   `);
 
-  GmailApp.sendEmail(email, 'Complete Your Application - Urbanmistrii',
-    `Hi ${candidateInfo.name || 'there'}, Thank you for applying! Please complete our application form: ${CONFIG.APPLICATION_FORM_URL}`,
-    { htmlBody: applicationHtml, name: 'Urbanmistrii Hiring' });
+    GmailApp.sendEmail(email, 'Complete Your Application - Urbanmistrii',
+      `Hi ${candidateInfo.name || 'there'}, Thank you for applying! Please complete our application form: ${CONFIG.APPLICATION_FORM_URL}`,
+      { htmlBody: applicationHtml, name: 'Urbanmistrii Hiring' });
 
-  Notify.email(CONFIG.TEAM.ADMIN_EMAIL, `New Application: ${candidateInfo.name}`,
+    Notify.email(CONFIG.TEAM.ADMIN_EMAIL, `New Application: ${candidateInfo.name}`,
       `New candidate from email (${department} dept).\n\nEmail: ${email}\nName: ${candidateInfo.name}\n\nForm link sent to candidate.\n\nReview at: ${getSheetUrl()}`);
 
   } catch (e) {
@@ -2848,7 +3012,7 @@ function handleEmailQuestion(email, analysis, body) {
 
 function handleEmailEscalation(email, subject, body) {
   Log.warn('EMAIL', 'Escalation detected', { email: Sanitize.maskEmail(email) });
-  Notify.email(CONFIG.TEAM.ADMIN_EMAIL, `🚨 URGENT: Escalated Email from ${email}`,
+  Notify.email(CONFIG.TEAM.ADMIN_EMAIL, `Ã°Å¸Å¡Â¨ URGENT: Escalated Email from ${email}`,
     `Urgent email needs attention.\n\nFrom: ${email}\nSubject: ${subject}\n\nBody:\n${body}`);
   const escalationHtml = EmailTemplates.wrap(`
     <h3>Message Received</h3>
@@ -2863,9 +3027,9 @@ function handleEmailEscalation(email, subject, body) {
   GmailApp.sendEmail(email, 'Re: ' + subject, 'We have received your message and will respond soon.', { htmlBody: escalationHtml, name: 'Urbanmistrii' });
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                        CANDIDATE TIMELINE TRACKING
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 const CandidateTimeline = {
   add(email, event, data = {}) {
@@ -2895,9 +3059,9 @@ const CandidateTimeline = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                        PRIVACY-SAFE SYNC
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function syncToPublicView() {
   try {
@@ -2935,136 +3099,136 @@ function syncToPublicView() {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  FORMHANDLERS
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                     URBANMISTRII ORACLE v22.4 - FORM HANDLERS                 ║
- * ║                     Processing Google Form Submissions                        ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                     URBANMISTRII ORACLE v22.4 - FORM HANDLERS                 Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                     Processing Google Form Submissions                        Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const FormHandlers = {
-    /**
-     * Handle leave submission from Google Form
-     * Trigger: On Form Submit (Spreadsheet)
-     * Form: https://docs.google.com/forms/d/e/1sFoC-e83AN7j2VXklmCC4Pah2B6-uvCCWNJTVLH3Sqg/viewform
-     */
-    handleLeaveFormSubmit(e) {
-        try {
-            const responses = e.namedValues;
-            const name = (responses['Name'] || responses['Employee Name'] || [''])[0].trim();
-            const email = (responses['Email'] || [''])[0].trim();
-            const month = (responses['Month'] || [''])[0].trim();
-            const year = (responses['Year'] || new Date().getFullYear().toString()).trim();
-            const leavesTaken = parseInt((responses['Leaves Taken'] || responses['Total Leaves'] || ['0'])[0]) || 0;
-            const notes = (responses['Notes'] || [''])[0].trim();
-            const workingDays = parseInt((responses['Working Days'] || ['26'])[0]) || 26;
+  /**
+   * Handle leave submission from Google Form
+   * Trigger: On Form Submit (Spreadsheet)
+   * Form: https://docs.google.com/forms/d/e/1sFoC-e83AN7j2VXklmCC4Pah2B6-uvCCWNJTVLH3Sqg/viewform
+   */
+  handleLeaveFormSubmit(e) {
+    try {
+      const responses = e.namedValues;
+      const name = (responses['Name'] || responses['Employee Name'] || [''])[0].trim();
+      const email = (responses['Email'] || [''])[0].trim();
+      const month = (responses['Month'] || [''])[0].trim();
+      const year = (responses['Year'] || new Date().getFullYear().toString()).trim();
+      const leavesTaken = parseInt((responses['Leaves Taken'] || responses['Total Leaves'] || ['0'])[0]) || 0;
+      const notes = (responses['Notes'] || [''])[0].trim();
+      const workingDays = parseInt((responses['Working Days'] || ['26'])[0]) || 26;
 
-            if (!name || !email) {
-                Log.error('SALARY', 'Missing name or email in leave submission');
-                return;
-            }
+      if (!name || !email) {
+        Log.error('SALARY', 'Missing name or email in leave submission');
+        return;
+      }
 
-            Log.info('SALARY', `Processing leave submission from ${name}`, { email, leavesTaken, month, year });
+      Log.info('SALARY', `Processing leave submission from ${name}`, { email, leavesTaken, month, year });
 
-            const currentMonth = month || new Date().toLocaleString('en-US', { month: 'long' });
-            const currentYear = year || new Date().getFullYear().toString();
-            const monthlySheetName = `Salary_${currentMonth}_${currentYear}`;
+      const currentMonth = month || new Date().toLocaleString('en-US', { month: 'long' });
+      const currentYear = year || new Date().getFullYear().toString();
+      const monthlySheetName = `Salary_${currentMonth}_${currentYear}`;
 
-            const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
+      const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
 
-            let monthlySheet;
-            try {
-                monthlySheet = ss.getSheetByName(monthlySheetName);
-                if (!monthlySheet) {
-                    monthlySheet = this._createMonthlySalarySheet(ss, monthlySheetName, workingDays);
-                }
-            } catch (e) {
-                monthlySheet = this._createMonthlySalarySheet(ss, monthlySheetName, workingDays);
-            }
-
-            const presentDays = Math.max(0, workingDays - leavesTaken);
-
-            const rowData = this._findOrCreateEmployeeRow(monthlySheet, name, email);
-
-            monthlySheet.getRange(rowData.row, 1, 1, 6).setValues([[
-                new Date(),
-                name,
-                email,
-                leavesTaken,
-                presentDays,
-                notes || ''
-            ]]);
-
-            this._checkAllSubmissionsAndNotify(monthlySheet, monthlySheetName, workingDays);
-
-            Log.success('SALARY', 'Leave submission processed', { name, leavesTaken, presentDays });
-
-        } catch (err) {
-            Log.error('SALARY', 'Failed to handle leave form submission', { error: err.message, stack: err.stack });
+      let monthlySheet;
+      try {
+        monthlySheet = ss.getSheetByName(monthlySheetName);
+        if (!monthlySheet) {
+          monthlySheet = this._createMonthlySalarySheet(ss, monthlySheetName, workingDays);
         }
-    },
+      } catch (e) {
+        monthlySheet = this._createMonthlySalarySheet(ss, monthlySheetName, workingDays);
+      }
 
-    _createMonthlySalarySheet(ss, sheetName, workingDays) {
-        const sheet = ss.insertSheet(sheetName);
-        sheet.appendRow(['Timestamp', 'Employee Name', 'Email', 'Leaves Taken', 'Present Days', 'Notes', 'Salary Status']);
-        sheet.getRange(1, 1, 1, 7).setFontWeight('bold').setBackground('#4285f4').setFontColor('#ffffff');
-        sheet.setColumnWidth(1, 180);
-        sheet.setColumnWidth(2, 200);
-        sheet.setColumnWidth(3, 220);
-        sheet.setColumnWidth(4, 120);
-        sheet.setColumnWidth(5, 120);
-        sheet.setColumnWidth(6, 300);
-        sheet.setColumnWidth(7, 150);
-        sheet.setFrozenRows(1);
-        return sheet;
-    },
+      const presentDays = Math.max(0, workingDays - leavesTaken);
 
-    _findOrCreateEmployeeRow(sheet, name, email) {
-        const data = sheet.getDataRange().getValues();
-        const numRows = data.length;
+      const rowData = this._findOrCreateEmployeeRow(monthlySheet, name, email);
 
-        for (let i = 1; i < numRows; i++) {
-            const rowEmail = data[i][2];
-            if (rowEmail === email) {
-                return { row: i + 1, exists: true };
-            }
+      monthlySheet.getRange(rowData.row, 1, 1, 6).setValues([[
+        new Date(),
+        name,
+        email,
+        leavesTaken,
+        presentDays,
+        notes || ''
+      ]]);
+
+      this._checkAllSubmissionsAndNotify(monthlySheet, monthlySheetName, workingDays);
+
+      Log.success('SALARY', 'Leave submission processed', { name, leavesTaken, presentDays });
+
+    } catch (err) {
+      Log.error('SALARY', 'Failed to handle leave form submission', { error: err.message, stack: err.stack });
+    }
+  },
+
+  _createMonthlySalarySheet(ss, sheetName, workingDays) {
+    const sheet = ss.insertSheet(sheetName);
+    sheet.appendRow(['Timestamp', 'Employee Name', 'Email', 'Leaves Taken', 'Present Days', 'Notes', 'Salary Status']);
+    sheet.getRange(1, 1, 1, 7).setFontWeight('bold').setBackground('#4285f4').setFontColor('#ffffff');
+    sheet.setColumnWidth(1, 180);
+    sheet.setColumnWidth(2, 200);
+    sheet.setColumnWidth(3, 220);
+    sheet.setColumnWidth(4, 120);
+    sheet.setColumnWidth(5, 120);
+    sheet.setColumnWidth(6, 300);
+    sheet.setColumnWidth(7, 150);
+    sheet.setFrozenRows(1);
+    return sheet;
+  },
+
+  _findOrCreateEmployeeRow(sheet, name, email) {
+    const data = sheet.getDataRange().getValues();
+    const numRows = data.length;
+
+    for (let i = 1; i < numRows; i++) {
+      const rowEmail = data[i][2];
+      if (rowEmail === email) {
+        return { row: i + 1, exists: true };
+      }
+    }
+
+    const newRow = numRows + 1;
+    return { row: newRow, exists: false };
+  },
+
+  _checkAllSubmissionsAndNotify(sheet, sheetName, workingDays) {
+    try {
+      const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
+      const salaryTracker = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.SALARY_TRACKER);
+      const allEmployees = salaryTracker.getDataRange().getValues();
+      const activeEmails = new Set();
+      for (let i = 1; i < allEmployees.length; i++) {
+        if (allEmployees[i][8] === 'Active') {
+          activeEmails.add(allEmployees[i][2]);
         }
+      }
 
-        const newRow = numRows + 1;
-        return { row: newRow, exists: false };
-    },
+      // FIX: Get monthlyData from the passed sheet parameter
+      const monthlyData = sheet.getDataRange().getValues();
+      const submittedEmails = new Set();
+      for (let i = 1; i < monthlyData.length; i++) {
+        submittedEmails.add(monthlyData[i][2]);
+      }
 
-    _checkAllSubmissionsAndNotify(sheet, sheetName, workingDays) {
-        try {
-            const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
-            const salaryTracker = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.SALARY_TRACKER);
-            const allEmployees = salaryTracker.getDataRange().getValues();
-            const activeEmails = new Set();
-            for (let i = 1; i < allEmployees.length; i++) {
-                if (allEmployees[i][8] === 'Active') {
-                    activeEmails.add(allEmployees[i][2]);
-                }
-            }
+      const missingEmails = [...activeEmails].filter(email => !submittedEmails.has(email));
+      const submissionsCount = monthlyData.length - 1; // FIX: Calculate submissions count
 
-            // FIX: Get monthlyData from the passed sheet parameter
-            const monthlyData = sheet.getDataRange().getValues();
-            const submittedEmails = new Set();
-            for (let i = 1; i < monthlyData.length; i++) {
-                submittedEmails.add(monthlyData[i][2]);
-            }
-
-            const missingEmails = [...activeEmails].filter(email => !submittedEmails.has(email));
-            const submissionsCount = monthlyData.length - 1; // FIX: Calculate submissions count
-
-            if (missingEmails.length === 0 && activeEmails.size > 0) {
-                const notificationHtml = EmailTemplates.wrap(`
-                    <h3>✅ Monthly Leave Report Complete</h3>
+      if (missingEmails.length === 0 && activeEmails.size > 0) {
+        const notificationHtml = EmailTemplates.wrap(`
+                    <h3>Ã¢Å“â€¦ Monthly Leave Report Complete</h3>
                     <p>All employees have submitted their leave information for <strong>${sheetName}</strong>.</p>
                     <div style="background-color: #e8f5e9; padding: 20px; border-radius: 8px; margin: 20px 0;">
-                        <h4 style="margin: 0 0 10px 0;">📊 Summary:</h4>
+                        <h4 style="margin: 0 0 10px 0;">Ã°Å¸â€œÅ  Summary:</h4>
                         <ul style="margin: 0;">
                             <li>Total Employees: ${activeEmails.size}</li>
                             <li>Total Submissions: ${submissionsCount}</li>
@@ -3084,186 +3248,186 @@ const FormHandlers = {
                     </p>
                 `);
 
-                GmailApp.sendEmail(
-                    CONFIG.TEAM.ADMIN_EMAIL,
-                    `✅ Complete: ${sheetName} - All Employees Submitted`,
-                    `All ${activeEmails.size} employees have submitted leave data. Review sheet: ${ss.getUrl()}`,
-                    { htmlBody: notificationHtml, name: 'Urbanmistrii Oracle' }
-                );
+        GmailApp.sendEmail(
+          CONFIG.TEAM.ADMIN_EMAIL,
+          `Ã¢Å“â€¦ Complete: ${sheetName} - All Employees Submitted`,
+          `All ${activeEmails.size} employees have submitted leave data. Review sheet: ${ss.getUrl()}`,
+          { htmlBody: notificationHtml, name: 'Urbanmistrii Oracle' }
+        );
 
-                Log.success('SALARY', 'All submissions received - notification sent', { total: activeEmails.size });
-            } else {
-                Log.info('SALARY', `Waiting for ${missingEmails.length} more submissions`, { missing: missingEmails });
-            }
+        Log.success('SALARY', 'All submissions received - notification sent', { total: activeEmails.size });
+      } else {
+        Log.info('SALARY', `Waiting for ${missingEmails.length} more submissions`, { missing: missingEmails });
+      }
 
-        } catch (e) {
-            Log.error('SALARY', 'Failed to check all submissions', { error: e.message });
+    } catch (e) {
+      Log.error('SALARY', 'Failed to check all submissions', { error: e.message });
+    }
+  },
+
+  /**
+   * Handle test submission from Google Form
+   * Trigger: On Form Submit (Spreadsheet)
+   */
+  handleTestFormSubmit(e) {
+    try {
+      const responses = e.namedValues;
+      // Handle potential variations in field names
+      const email = (responses['Email Address'] || responses['Email'] || responses['Username'] || [''])[0].trim();
+
+      if (!email) {
+        Log.error('FORM', 'No email found in form submission');
+        return;
+      }
+
+      const pdfDocsUrl = (responses['PDF/Docs Upload'] || responses['PDF/Docs'] || responses['Upload PDF/Docs'] || [''])[0];
+      const dwgUrl = (responses['DWG Upload'] || responses['DWG Files'] || responses['Upload DWG'] || [''])[0];
+      const otherFilesUrl = (responses['Other Files'] || responses['Other Uploads'] || [''])[0];
+      const testNotes = (responses['Test Notes'] || responses['Notes'] || [''])[0];
+
+      const submissionData = {
+        pdfDocsUrl,
+        dwgUrl,
+        otherFilesUrl,
+        testNotes
+      };
+
+      Log.info('FORM', 'Processing test submission', { email });
+
+      // Find candidate by email
+      const candidate = SheetUtils.findCandidateByEmail(email);
+
+      // VALIDATION: Must have candidate AND at least one file
+      const hasFiles = pdfDocsUrl || dwgUrl || otherFilesUrl;
+
+      if (!candidate) {
+        Log.warn('FORM', 'Candidate not found in system - skipping submission', { email });
+        return;
+      }
+
+      if (!hasFiles) {
+        Log.warn('FORM', 'No files submitted - skipping notification', { email });
+        return;
+      }
+
+      const submissionTime = new Date();
+      let hoursTaken = null;
+      let timeStatus = 'Unknown';
+      let candidateName = 'Unknown';
+      let candidateRole = 'Unknown';
+      let candidatePhone = 'Unknown';
+      let testSentTime = null;
+
+      if (candidate) {
+        candidateName = candidate.name;
+        candidateRole = candidate.role;
+        candidatePhone = candidate.phone;
+        testSentTime = candidate.testSent;
+
+        if (testSentTime) {
+          hoursTaken = DateTime.hoursBetween(new Date(testSentTime), submissionTime);
+          const roleNormalized = (candidate.role || '').toLowerCase();
+          const timeLimit = CONFIG.RULES.TIME_LIMITS[roleNormalized.includes('senior') ? 'senior' : roleNormalized.includes('junior') ? 'junior' : 'intern'] || 2;
+          timeStatus = hoursTaken <= timeLimit ? `ON TIME (${hoursTaken.toFixed(1)}h / ${timeLimit}h)` : `LATE (${hoursTaken.toFixed(1)}h / ${timeLimit}h)`;
         }
-    },
 
-    /**
-     * Handle test submission from Google Form
-     * Trigger: On Form Submit (Spreadsheet)
-     */
-    handleTestFormSubmit(e) {
-        try {
-            const responses = e.namedValues;
-            // Handle potential variations in field names
-            const email = (responses['Email Address'] || responses['Email'] || responses['Username'] || [''])[0].trim();
+        // Update candidate sheet
+        const allUrls = [pdfDocsUrl, dwgUrl, otherFilesUrl].filter(Boolean).join(' | ');
+        SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_URL, allUrls);
+        SheetUtils.updateStatus(candidate.row, CONFIG.RULES.STATUSES.TEST_SUBMITTED, email);
+        SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.TEST_SUBMITTED, submissionTime);
+        SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Form: ${timeStatus}`);
 
-            if (!email) {
-                Log.error('FORM', 'No email found in form submission');
-                return;
-            }
-
-            const pdfDocsUrl = (responses['PDF/Docs Upload'] || responses['PDF/Docs'] || responses['Upload PDF/Docs'] || [''])[0];
-            const dwgUrl = (responses['DWG Upload'] || responses['DWG Files'] || responses['Upload DWG'] || [''])[0];
-            const otherFilesUrl = (responses['Other Files'] || responses['Other Uploads'] || [''])[0];
-            const testNotes = (responses['Test Notes'] || responses['Notes'] || [''])[0];
-
-            const submissionData = {
-                pdfDocsUrl,
-                dwgUrl,
-                otherFilesUrl,
-                testNotes
-            };
-
-            Log.info('FORM', 'Processing test submission', { email });
-
-            // Find candidate by email
-            const candidate = SheetUtils.findCandidateByEmail(email);
-
-            // VALIDATION: Must have candidate AND at least one file
-            const hasFiles = pdfDocsUrl || dwgUrl || otherFilesUrl;
-
-            if (!candidate) {
-                Log.warn('FORM', 'Candidate not found in system - skipping submission', { email });
-                return;
-            }
-
-            if (!hasFiles) {
-                Log.warn('FORM', 'No files submitted - skipping notification', { email });
-                return;
-            }
-
-            const submissionTime = new Date();
-            let hoursTaken = null;
-            let timeStatus = 'Unknown';
-            let candidateName = 'Unknown';
-            let candidateRole = 'Unknown';
-            let candidatePhone = 'Unknown';
-            let testSentTime = null;
-
-            if (candidate) {
-                candidateName = candidate.name;
-                candidateRole = candidate.role;
-                candidatePhone = candidate.phone;
-                testSentTime = candidate.testSent;
-
-                if (testSentTime) {
-                    hoursTaken = DateTime.hoursBetween(new Date(testSentTime), submissionTime);
-                    const roleNormalized = (candidate.role || '').toLowerCase();
-                    const timeLimit = CONFIG.RULES.TIME_LIMITS[roleNormalized.includes('senior') ? 'senior' : roleNormalized.includes('junior') ? 'junior' : 'intern'] || 2;
-                    timeStatus = hoursTaken <= timeLimit ? `ON TIME (${hoursTaken.toFixed(1)}h / ${timeLimit}h)` : `LATE (${hoursTaken.toFixed(1)}h / ${timeLimit}h)`;
-                }
-
-                // Update candidate sheet
-                const allUrls = [pdfDocsUrl, dwgUrl, otherFilesUrl].filter(Boolean).join(' | ');
-                SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_URL, allUrls);
-                SheetUtils.updateStatus(candidate.row, CONFIG.RULES.STATUSES.TEST_SUBMITTED, email);
-                SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.TEST_SUBMITTED, submissionTime);
-                SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Form: ${timeStatus}`);
-
-                // Trigger AI scoring
-                if (pdfDocsUrl || dwgUrl) {
-                    const scoreUrl = pdfDocsUrl || dwgUrl;
-                    const score = AI.scorePortfolio(scoreUrl, candidate.role);
-                    if (score && score.score) {
-                        SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.AI_SCORE, score.score);
-                        SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_FEEDBACK, score.summary);
-                    }
-                }
-
-                CandidateTimeline.add(email, 'TEST_SUBMITTED_VIA_FORM', {
-                    pdfDocsUrl, dwgUrl, otherFilesUrl, timeStatus, hoursTaken
-                });
-            }
-
-            // Log to DB_TestSubmissions sheet (only if valid candidate and files)
-            if (candidate && hasFiles) {
-                this._logToTestSubmissions({
-                    timestamp: submissionTime,
-                    name: candidateName,
-                    email: email,
-                    role: candidateRole,
-                    phone: candidatePhone,
-                    pdfDocsUrl,
-                    dwgUrl,
-                    otherFilesUrl,
-                    testNotes,
-                    timeStatus,
-                    hoursTaken,
-                    testSentAt: testSentTime
-                });
-
-                // Notify Admin (only if valid candidate and files)
-                this._notifyAdmin(candidateName, email, candidateRole, candidatePhone, submissionData, timeStatus);
-            }
-
-            Log.success('FORM', 'Test submission processed', { email, timeStatus });
-
-        } catch (err) {
-            Log.error('FORM', 'Failed to handle form submission', { error: err.message, stack: err.stack });
+        // Trigger AI scoring
+        if (pdfDocsUrl || dwgUrl) {
+          const scoreUrl = pdfDocsUrl || dwgUrl;
+          const score = AI.scorePortfolio(scoreUrl, candidate.role);
+          if (score && score.score) {
+            SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.AI_SCORE, score.score);
+            SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_FEEDBACK, score.summary);
+          }
         }
-    },
 
-    /**
-     * Internal logger for Test Submissions
-     */
-    _logToTestSubmissions(logData) {
-        try {
-            let subSheet;
-            try {
-                subSheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.TEST_SUBMISSIONS);
-            } catch (e) {
-                const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
-                subSheet = ss.insertSheet(CONFIG.SHEETS.TABS.TEST_SUBMISSIONS);
-                subSheet.appendRow([
-                    'Timestamp', 'Name', 'Email', 'Role', 'Phone',
-                    'PDF/Docs URL', 'DWG URL', 'Other Files', 'Test Notes',
-                    'Time Allotted (hrs)', 'Time Taken (hrs)', 'Status', 'Test Sent At'
-                ]);
-                subSheet.getRange(1, 1, 1, 13).setFontWeight('bold').setBackground('#4285f4').setFontColor('#ffffff');
-            }
+        CandidateTimeline.add(email, 'TEST_SUBMITTED_VIA_FORM', {
+          pdfDocsUrl, dwgUrl, otherFilesUrl, timeStatus, hoursTaken
+        });
+      }
 
-            const roleNormalized = (logData.role || '').toLowerCase();
-            const timeLimit = CONFIG.RULES.TIME_LIMITS[roleNormalized.includes('senior') ? 'senior' : roleNormalized.includes('junior') ? 'junior' : 'intern'] || 2;
+      // Log to DB_TestSubmissions sheet (only if valid candidate and files)
+      if (candidate && hasFiles) {
+        this._logToTestSubmissions({
+          timestamp: submissionTime,
+          name: candidateName,
+          email: email,
+          role: candidateRole,
+          phone: candidatePhone,
+          pdfDocsUrl,
+          dwgUrl,
+          otherFilesUrl,
+          testNotes,
+          timeStatus,
+          hoursTaken,
+          testSentAt: testSentTime
+        });
 
-            subSheet.appendRow([
-                logData.timestamp,
-                logData.name,
-                logData.email,
-                logData.role,
-                logData.phone,
-                logData.pdfDocsUrl || '',
-                logData.dwgUrl || '',
-                logData.otherFilesUrl || '',
-                logData.testNotes || '',
-                timeLimit,
-                logData.hoursTaken ? logData.hoursTaken.toFixed(2) : '',
-                logData.timeStatus,
-                logData.testSentAt || ''
-            ]);
-        } catch (e) {
-            Log.error('FORM', 'Failed to write to DB_TestSubmissions', { error: e.message });
-        }
-    },
+        // Notify Admin (only if valid candidate and files)
+        this._notifyAdmin(candidateName, email, candidateRole, candidatePhone, submissionData, timeStatus);
+      }
 
-    /**
-     * Internal admin notification
-     */
-    _notifyAdmin(name, email, role, phone, data, timeStatus) {
-        const adminEmailHtml = EmailTemplates.wrap(`
+      Log.success('FORM', 'Test submission processed', { email, timeStatus });
+
+    } catch (err) {
+      Log.error('FORM', 'Failed to handle form submission', { error: err.message, stack: err.stack });
+    }
+  },
+
+  /**
+   * Internal logger for Test Submissions
+   */
+  _logToTestSubmissions(logData) {
+    try {
+      let subSheet;
+      try {
+        subSheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.TEST_SUBMISSIONS);
+      } catch (e) {
+        const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
+        subSheet = ss.insertSheet(CONFIG.SHEETS.TABS.TEST_SUBMISSIONS);
+        subSheet.appendRow([
+          'Timestamp', 'Name', 'Email', 'Role', 'Phone',
+          'PDF/Docs URL', 'DWG URL', 'Other Files', 'Test Notes',
+          'Time Allotted (hrs)', 'Time Taken (hrs)', 'Status', 'Test Sent At'
+        ]);
+        subSheet.getRange(1, 1, 1, 13).setFontWeight('bold').setBackground('#4285f4').setFontColor('#ffffff');
+      }
+
+      const roleNormalized = (logData.role || '').toLowerCase();
+      const timeLimit = CONFIG.RULES.TIME_LIMITS[roleNormalized.includes('senior') ? 'senior' : roleNormalized.includes('junior') ? 'junior' : 'intern'] || 2;
+
+      subSheet.appendRow([
+        logData.timestamp,
+        logData.name,
+        logData.email,
+        logData.role,
+        logData.phone,
+        logData.pdfDocsUrl || '',
+        logData.dwgUrl || '',
+        logData.otherFilesUrl || '',
+        logData.testNotes || '',
+        timeLimit,
+        logData.hoursTaken ? logData.hoursTaken.toFixed(2) : '',
+        logData.timeStatus,
+        logData.testSentAt || ''
+      ]);
+    } catch (e) {
+      Log.error('FORM', 'Failed to write to DB_TestSubmissions', { error: e.message });
+    }
+  },
+
+  /**
+   * Internal admin notification
+   */
+  _notifyAdmin(name, email, role, phone, data, timeStatus) {
+    const adminEmailHtml = EmailTemplates.wrap(`
       <h3>Test Submission Received (via Google Form)</h3>
       <p><strong>${name}</strong> has submitted their test.</p>
       
@@ -3292,13 +3456,13 @@ const FormHandlers = {
       </p>
     `);
 
-        GmailApp.sendEmail(
-            CONFIG.TEAM.ADMIN_EMAIL,
-            `Form Submission: ${name} - ${timeStatus}`,
-            `${name} submitted their test via form. Time: ${timeStatus}.`,
-            { htmlBody: adminEmailHtml, name: 'Urbanmistrii Oracle' }
-        );
-    }
+    GmailApp.sendEmail(
+      CONFIG.TEAM.ADMIN_EMAIL,
+      `Form Submission: ${name} - ${timeStatus}`,
+      `${name} submitted their test via form. Time: ${timeStatus}.`,
+      { htmlBody: adminEmailHtml, name: 'Urbanmistrii Oracle' }
+    );
+  }
 };
 
 /**
@@ -3306,7 +3470,7 @@ const FormHandlers = {
  * @param {object} e - Form submission event
  */
 function onLeaveFormSubmit(e) {
-    FormHandlers.handleLeaveFormSubmit(e);
+  FormHandlers.handleLeaveFormSubmit(e);
 }
 
 /**
@@ -3314,21 +3478,21 @@ function onLeaveFormSubmit(e) {
  * @param {object} e - Form submission event  
  */
 function onTestFormSubmit(e) {
-    FormHandlers.handleTestFormSubmit(e);
+  FormHandlers.handleTestFormSubmit(e);
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  PORTAL
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                 URBANMISTRII ORACLE v22.4 - CANDIDATE PORTAL                  ║
- * ║                 Self-Service Web App for Candidates                           ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                 URBANMISTRII ORACLE v22.4 - CANDIDATE PORTAL                  Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                 Self-Service Web App for Candidates                           Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * 
- * Deploy: Publish → Deploy as web app
+ * Deploy: Publish Ã¢â€ â€™ Deploy as web app
  * URL will be: https://script.google.com/macros/s/.../exec
  */
 
@@ -3366,7 +3530,7 @@ function doGet(e) {
   } catch (err) {
     return HtmlService.createHtmlOutput(`
       <div style="font-family: sans-serif; padding: 50px; text-align: center;">
-        <h1 style="color: #d32f2f;">🚨 Portal Runtime Error</h1>
+        <h1 style="color: #d32f2f;">Ã°Å¸Å¡Â¨ Portal Runtime Error</h1>
         <p>The portal encountered a technical issue during load.</p>
         <pre style="background: #f5f5f5; padding: 20px; border-radius: 8px; text-align: left; display: inline-block; margin-top: 20px;">
 Error: ${err.message}
@@ -3502,7 +3666,7 @@ const Portal = {
     SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_URL, allUrls);
     SheetUtils.updateStatus(candidate.row, CONFIG.RULES.STATUSES.TEST_SUBMITTED, candidate.email);
     SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.TEST_SUBMITTED, submissionTime);
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `📤 Portal: ${timeStatus}`);
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã°Å¸â€œÂ¤ Portal: ${timeStatus}`);
 
     // Write to DB_TestSubmissions sheet
     try {
@@ -3615,7 +3779,7 @@ const Portal = {
       // Update interview date in sheet
       SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.INTERVIEW_DATE, dateTime);
       SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.CALENDAR_EVENT_ID, calResult.eventId);
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `📅 Interview booked via portal: ${DateTime.formatIST(dateTime, 'full')}`);
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã°Å¸â€œâ€¦ Interview booked via portal: ${DateTime.formatIST(dateTime, 'full')}`);
 
       CandidateTimeline.add(candidate.email, 'INTERVIEW_BOOKED_VIA_PORTAL', { date: dateTime.toISOString() });
 
@@ -3778,7 +3942,7 @@ const Portal = {
   <div class="container">
     <div class="card">
       <div class="header">
-        <div class="logo">🏠 UrbanMistrii</div>
+        <div class="logo">Ã°Å¸ÂÂ  UrbanMistrii</div>
         <div class="welcome">Welcome, ${candidate.name}!</div>
       </div>
       
@@ -3811,41 +3975,41 @@ const Portal = {
       
       <!-- Test Upload Section -->
       <div id="testUploadSection" class="${this.shouldShowTestUpload(candidate.status) ? '' : 'hidden'}">
-        <h3 class="section-title">📤 Submit Your Test</h3>
+        <h3 class="section-title">Ã°Å¸â€œÂ¤ Submit Your Test</h3>
         <p style="color: #666; margin-bottom: 20px;">Upload your test files by providing links to Google Drive, Dropbox, or any file sharing service. Make sure the links are accessible (set to "Anyone with link can view").</p>
         
         <form id="testForm">
           <div class="form-group">
-            <label>📄 PDF/Documents/Design Notes *</label>
+            <label>Ã°Å¸â€œâ€ž PDF/Documents/Design Notes *</label>
             <input type="url" id="pdfDocsUrl" placeholder="https://drive.google.com/..." required>
             <small style="color: #888;">Presentation, design notes, PDFs (required)</small>
           </div>
           
           <div class="form-group">
-            <label>📐 DWG/CAD Files</label>
+            <label>Ã°Å¸â€œÂ DWG/CAD Files</label>
             <input type="url" id="dwgUrl" placeholder="https://drive.google.com/...">
             <small style="color: #888;">AutoCAD, DWG files (if applicable)</small>
           </div>
           
           <div class="form-group">
-            <label>📁 Other Supporting Files</label>
+            <label>Ã°Å¸â€œÂ Other Supporting Files</label>
             <input type="url" id="otherFilesUrl" placeholder="https://...">
             <small style="color: #888;">Any other files - 3D renders, references, etc.</small>
           </div>
           
           <div class="form-group">
-            <label>📝 Test Notes</label>
+            <label>Ã°Å¸â€œÂ Test Notes</label>
             <textarea id="testNotes" rows="4" placeholder="Describe your approach, any challenges faced, or additional context about your submission..."></textarea>
           </div>
           
-          <button type="submit" class="btn">🚀 Submit Test</button>
+          <button type="submit" class="btn">Ã°Å¸Å¡â‚¬ Submit Test</button>
         </form>
         <div id="testMessage" class="message hidden"></div>
       </div>
       
       <!-- Interview Booking Section -->
       <div id="interviewSection" class="${this.shouldShowInterviewBooking(candidate.status) ? '' : 'hidden'}">
-        <h3 class="section-title">📅 Book Your Interview</h3>
+        <h3 class="section-title">Ã°Å¸â€œâ€¦ Book Your Interview</h3>
         <form id="interviewForm">
           <div class="form-group">
             <label>Select Date</label>
@@ -3864,7 +4028,7 @@ const Portal = {
     </div>
     
     <div class="footer">
-      UrbanMistrii Candidate Portal • Powered by Oracle v22.0
+      UrbanMistrii Candidate Portal Ã¢â‚¬Â¢ Powered by Oracle v22.0
     </div>
   </div>
   
@@ -3877,7 +4041,7 @@ const Portal = {
       e.preventDefault();
       const btn = e.target.querySelector('button');
       btn.disabled = true;
-      btn.textContent = '⏳ Submitting...';
+      btn.textContent = 'Ã¢ÂÂ³ Submitting...';
       
       try {
         const res = await fetch(API_URL, {
@@ -3896,14 +4060,14 @@ const Portal = {
         if (data.success) {
           e.target.classList.add('hidden');
           // Show success animation
-          document.getElementById('testUploadSection').innerHTML = '<div style="text-align: center; padding: 40px;"><div style="font-size: 64px;">✅</div><h3>Test Submitted Successfully!</h3><p>We will review your submission and get back to you soon.</p></div>';
+          document.getElementById('testUploadSection').innerHTML = '<div style="text-align: center; padding: 40px;"><div style="font-size: 64px;">Ã¢Å“â€¦</div><h3>Test Submitted Successfully!</h3><p>We will review your submission and get back to you soon.</p></div>';
         }
       } catch (err) {
         showMessage('testMessage', false, err.message);
       }
       
       btn.disabled = false;
-      btn.textContent = '🚀 Submit Test';
+      btn.textContent = 'Ã°Å¸Å¡â‚¬ Submit Test';
     });
     
     // Date selection for interview
@@ -3978,18 +4142,18 @@ const Portal = {
    */
   getStatusInfo(status) {
     const info = {
-      [CONFIG.RULES.STATUSES.NEW]: { icon: '📋', title: 'Application Received', description: 'We are reviewing your application', color: '#2196f3' },
-      [CONFIG.RULES.STATUSES.IN_PROCESS]: { icon: '⏳', title: 'In Process', description: 'Your application is being processed', color: '#ff9800' },
-      [CONFIG.RULES.STATUSES.TEST_SENT]: { icon: '📝', title: 'Test Assigned', description: 'Please complete and submit your test', color: '#9c27b0' },
-      [CONFIG.RULES.STATUSES.TEST_SUBMITTED]: { icon: '✅', title: 'Test Submitted', description: 'We received your test and are reviewing it', color: '#4caf50' },
-      [CONFIG.RULES.STATUSES.UNDER_REVIEW]: { icon: '🔍', title: 'Under Review', description: 'Your work is being evaluated', color: '#607d8b' },
-      [CONFIG.RULES.STATUSES.INTERVIEW_PENDING]: { icon: '📅', title: 'Interview Pending', description: 'Book your interview slot below', color: '#e91e63' },
-      [CONFIG.RULES.STATUSES.INTERVIEW_DONE]: { icon: '🎯', title: 'Interview Complete', description: 'We will share the decision soon', color: '#673ab7' },
-      [CONFIG.RULES.STATUSES.HIRED]: { icon: '🎉', title: 'Congratulations!', description: 'Welcome to the UrbanMistrii team!', color: '#4caf50' },
-      [CONFIG.RULES.STATUSES.REJECTED]: { icon: '💔', title: 'Not Selected', description: 'Thank you for your interest', color: '#9e9e9e' }
+      [CONFIG.RULES.STATUSES.NEW]: { icon: 'Ã°Å¸â€œâ€¹', title: 'Application Received', description: 'We are reviewing your application', color: '#2196f3' },
+      [CONFIG.RULES.STATUSES.IN_PROCESS]: { icon: 'Ã¢ÂÂ³', title: 'In Process', description: 'Your application is being processed', color: '#ff9800' },
+      [CONFIG.RULES.STATUSES.TEST_SENT]: { icon: 'Ã°Å¸â€œÂ', title: 'Test Assigned', description: 'Please complete and submit your test', color: '#9c27b0' },
+      [CONFIG.RULES.STATUSES.TEST_SUBMITTED]: { icon: 'Ã¢Å“â€¦', title: 'Test Submitted', description: 'We received your test and are reviewing it', color: '#4caf50' },
+      [CONFIG.RULES.STATUSES.UNDER_REVIEW]: { icon: 'Ã°Å¸â€Â', title: 'Under Review', description: 'Your work is being evaluated', color: '#607d8b' },
+      [CONFIG.RULES.STATUSES.INTERVIEW_PENDING]: { icon: 'Ã°Å¸â€œâ€¦', title: 'Interview Pending', description: 'Book your interview slot below', color: '#e91e63' },
+      [CONFIG.RULES.STATUSES.INTERVIEW_DONE]: { icon: 'Ã°Å¸Å½Â¯', title: 'Interview Complete', description: 'We will share the decision soon', color: '#673ab7' },
+      [CONFIG.RULES.STATUSES.HIRED]: { icon: 'Ã°Å¸Å½â€°', title: 'Congratulations!', description: 'Welcome to the UrbanMistrii team!', color: '#4caf50' },
+      [CONFIG.RULES.STATUSES.REJECTED]: { icon: 'Ã°Å¸â€™â€', title: 'Not Selected', description: 'Thank you for your interest', color: '#9e9e9e' }
     };
 
-    return info[status] || { icon: '📋', title: status, description: '', color: '#2196f3' };
+    return info[status] || { icon: 'Ã°Å¸â€œâ€¹', title: status, description: '', color: '#2196f3' };
   },
 
   shouldShowTestUpload(status) {
@@ -4015,7 +4179,7 @@ const Portal = {
 </head>
 <body>
   <div class="error">
-    <h1>⚠️ Access Error</h1>
+    <h1>Ã¢Å¡Â Ã¯Â¸Â Access Error</h1>
     <p>${message}</p>
     <div id="sessionFix" style="display:none; margin-top:20px; padding:15px; background:#fff3e0; border-radius:8px;">
       <p style="font-size:14px; margin-bottom:10px;">Having trouble? Try the clean link:</p>
@@ -4056,13 +4220,13 @@ function sendPortalLink(email) {
 
   Notify.email(
     email,
-    '🔗 Your UrbanMistrii Candidate Portal',
+    'Ã°Å¸â€â€” Your UrbanMistrii Candidate Portal',
     `Hello!
 
 You now have access to your personal candidate portal where you can:
-• Check your application status
-• Submit your test
-• Book interview slots
+Ã¢â‚¬Â¢ Check your application status
+Ã¢â‚¬Â¢ Submit your test
+Ã¢â‚¬Â¢ Book interview slots
 
 Access your portal here:
 ${portalUrl}
@@ -4082,9 +4246,9 @@ Team UrbanMistrii`
  * Run this function to get a working portal URL
  */
 function testPortal() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         PORTAL TEST - GENERATING TEST LINK                        ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         PORTAL TEST - GENERATING TEST LINK                        Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   const sheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
   const data = sheet.getDataRange().getValues();
@@ -4106,11 +4270,11 @@ function testPortal() {
   }
 
   if (!testCandidate) {
-    Logger.log('❌ No candidates found in sheet!');
+    Logger.log('Ã¢ÂÅ’ No candidates found in sheet!');
     return;
   }
 
-  Logger.log(`\n📋 Testing with: ${testCandidate.name} (${testCandidate.email})`);
+  Logger.log(`\nÃ°Å¸â€œâ€¹ Testing with: ${testCandidate.name} (${testCandidate.email})`);
   Logger.log(`   Status: ${testCandidate.status}`);
 
   // Generate or get existing token
@@ -4118,19 +4282,19 @@ function testPortal() {
 
   if (!token) {
     token = Portal.generateToken(testCandidate.email);
-    Logger.log('🔑 Generated new token');
+    Logger.log('Ã°Å¸â€â€˜ Generated new token');
   } else {
-    Logger.log('🔑 Using existing token');
+    Logger.log('Ã°Å¸â€â€˜ Using existing token');
   }
 
   // Build portal URL
   const baseUrl = CONFIG.PORTAL_URL;
   const portalUrl = baseUrl + '?token=' + token;
 
-  Logger.log('\n════════════════════════════════════════════════════════════════════');
-  Logger.log('✅ PORTAL TEST URL:');
+  Logger.log('\nÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('Ã¢Å“â€¦ PORTAL TEST URL:');
   Logger.log(portalUrl);
-  Logger.log('════════════════════════════════════════════════════════════════════');
+  Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
   Logger.log('\nOpen this URL in your browser to test the portal.');
   Logger.log('(The candidate will see their status and can submit test if status is TEST_SENT)');
 }
@@ -4147,14 +4311,14 @@ function generatePortalLinkFor(email) {
 
   const token = Portal.generateToken(email);
   if (!token) {
-    Logger.log('❌ Candidate not found: ' + email);
+    Logger.log('Ã¢ÂÅ’ Candidate not found: ' + email);
     return;
   }
 
   const baseUrl = CONFIG.PORTAL_URL;
   const portalUrl = baseUrl + '?token=' + token;
 
-  Logger.log('✅ Portal link for ' + email + ':');
+  Logger.log('Ã¢Å“â€¦ Portal link for ' + email + ':');
   Logger.log(portalUrl);
 }
 
@@ -4213,14 +4377,14 @@ function sendOracleTestToYash() {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  INTERVIEWBOOKING
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║             URBANMISTRII ORACLE v22.5 - INTERVIEW BOOKING SYSTEM              ║
- * ║      Allows employees to book interviews directly from the public sheet       ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜             URBANMISTRII ORACLE v22.5 - INTERVIEW BOOKING SYSTEM              Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜      Allows employees to book interviews directly from the public sheet       Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * 
  * FEATURES:
  * - Date & Time picker modal
@@ -4230,78 +4394,78 @@ function sendOracleTestToYash() {
  * - Logs all bookings in timeline
  */
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                              MENU INTEGRATION
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Add custom menu to the public sheet for interview booking
  */
 function onOpen() {
-    try {
-        const ui = SpreadsheetApp.getUi();
-        ui.createMenu('📅 Interview Booking')
-            .addItem('📅 Book Interview for Selected Row', 'showBookingDialog')
-            .addItem('📊 View My Bookings', 'showMyBookings')
-            .addSeparator()
-            .addItem('⚙️ Setup Booking System', 'setupInterviewBooking')
-            .addToUi();
-    } catch (e) {
-        // Silently fail if menu can't be added (viewer permissions)
-        Logger.log('Menu not added: ' + e.message);
-    }
+  try {
+    const ui = SpreadsheetApp.getUi();
+    ui.createMenu('Ã°Å¸â€œâ€¦ Interview Booking')
+      .addItem('Ã°Å¸â€œâ€¦ Book Interview for Selected Row', 'showBookingDialog')
+      .addItem('Ã°Å¸â€œÅ  View My Bookings', 'showMyBookings')
+      .addSeparator()
+      .addItem('Ã¢Å¡â„¢Ã¯Â¸Â Setup Booking System', 'setupInterviewBooking')
+      .addToUi();
+  } catch (e) {
+    // Silently fail if menu can't be added (viewer permissions)
+    Logger.log('Menu not added: ' + e.message);
+  }
 }
 
 /**
  * Show the interview booking dialog
  */
 function showBookingDialog() {
-    const sheet = SpreadsheetApp.getActiveSheet();
-    const row = sheet.getActiveRange().getRow();
+  const sheet = SpreadsheetApp.getActiveSheet();
+  const row = sheet.getActiveRange().getRow();
 
-    if (row < 2) {
-        SpreadsheetApp.getUi().alert('⚠️ Please select a candidate row (not the header)');
-        return;
-    }
+  if (row < 2) {
+    SpreadsheetApp.getUi().alert('Ã¢Å¡Â Ã¯Â¸Â Please select a candidate row (not the header)');
+    return;
+  }
 
-    // Get candidate data from the row
-    const rowData = sheet.getRange(row, 1, 1, 20).getValues()[0];
+  // Get candidate data from the row
+  const rowData = sheet.getRange(row, 1, 1, 20).getValues()[0];
 
-    const candidateInfo = {
-        row: row,
-        status: rowData[0] || 'Unknown',
-        name: rowData[3] || 'Not provided',            // Column D - Name
-        phone: rowData[4] || '',                        // Column E - Phone
-        email: rowData[5] || '',                        // Column F - Email
-        role: rowData[6] || 'Designer',                 // Column G - Desired Position
-        portfolio: rowData[10] || '',                   // Column K - Portfolio
-        cv: rowData[11] || ''                           // Column L - CV
-    };
+  const candidateInfo = {
+    row: row,
+    status: rowData[0] || 'Unknown',
+    name: rowData[3] || 'Not provided',            // Column D - Name
+    phone: rowData[4] || '',                        // Column E - Phone
+    email: rowData[5] || '',                        // Column F - Email
+    role: rowData[6] || 'Designer',                 // Column G - Desired Position
+    portfolio: rowData[10] || '',                   // Column K - Portfolio
+    cv: rowData[11] || ''                           // Column L - CV
+  };
 
-    // Store candidate info for the booking
-    PropertiesService.getUserProperties().setProperty('PENDING_BOOKING', JSON.stringify(candidateInfo));
+  // Store candidate info for the booking
+  PropertiesService.getUserProperties().setProperty('PENDING_BOOKING', JSON.stringify(candidateInfo));
 
-    // Create and show the HTML dialog
-    const html = HtmlService.createHtmlOutput(getBookingDialogHtml(candidateInfo))
-        .setWidth(500)
-        .setHeight(600);
+  // Create and show the HTML dialog
+  const html = HtmlService.createHtmlOutput(getBookingDialogHtml(candidateInfo))
+    .setWidth(500)
+    .setHeight(600);
 
-    SpreadsheetApp.getUi().showModalDialog(html, '📅 Book Interview: ' + candidateInfo.name);
+  SpreadsheetApp.getUi().showModalDialog(html, 'Ã°Å¸â€œâ€¦ Book Interview: ' + candidateInfo.name);
 }
 
 /**
  * Generate the booking dialog HTML
  */
 function getBookingDialogHtml(candidate) {
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    const minDate = tomorrow.toISOString().split('T')[0];
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const minDate = tomorrow.toISOString().split('T')[0];
 
-    const maxDate = new Date();
-    maxDate.setDate(maxDate.getDate() + 30);
-    const maxDateStr = maxDate.toISOString().split('T')[0];
+  const maxDate = new Date();
+  maxDate.setDate(maxDate.getDate() + 30);
+  const maxDateStr = maxDate.toISOString().split('T')[0];
 
-    return `
+  return `
 <!DOCTYPE html>
 <html>
 <head>
@@ -4343,21 +4507,21 @@ function getBookingDialogHtml(candidate) {
 <body>
   <div class="container">
     <div id="form-view">
-      <h2>📅 Schedule Interview</h2>
+      <h2>Ã°Å¸â€œâ€¦ Schedule Interview</h2>
       
       <div class="candidate-card">
         <div class="candidate-name">${escapeHtml(candidate.name)}</div>
-        <div class="candidate-role">🎯 ${escapeHtml(candidate.role)}</div>
-        <div class="candidate-email">📧 ${escapeHtml(candidate.email)}</div>
+        <div class="candidate-role">Ã°Å¸Å½Â¯ ${escapeHtml(candidate.role)}</div>
+        <div class="candidate-email">Ã°Å¸â€œÂ§ ${escapeHtml(candidate.email)}</div>
       </div>
       
       <div class="form-group">
-        <label>📆 Select Date</label>
+        <label>Ã°Å¸â€œâ€  Select Date</label>
         <input type="date" id="interview-date" min="${minDate}" max="${maxDateStr}" required>
       </div>
       
       <div class="form-group">
-        <label>⏰ Select Time (IST)</label>
+        <label>Ã¢ÂÂ° Select Time (IST)</label>
         <div class="time-slots" id="time-slots">
           <div class="time-slot" data-time="10:00">10:00 AM</div>
           <div class="time-slot" data-time="10:30">10:30 AM</div>
@@ -4378,7 +4542,7 @@ function getBookingDialogHtml(candidate) {
       </div>
       
       <div class="form-group">
-        <label>⏱️ Duration</label>
+        <label>Ã¢ÂÂ±Ã¯Â¸Â Duration</label>
         <div class="duration-selector">
           <div class="duration-option" data-duration="30">30 min</div>
           <div class="duration-option selected" data-duration="45">45 min</div>
@@ -4387,14 +4551,14 @@ function getBookingDialogHtml(candidate) {
       </div>
       
       <div class="form-group">
-        <label>📝 Interview Notes (Optional)</label>
+        <label>Ã°Å¸â€œÂ Interview Notes (Optional)</label>
         <input type="text" id="notes" class="notes-input" placeholder="E.g., Focus on portfolio review, technical skills...">
       </div>
       
       <div class="error" id="error-msg"></div>
       
       <button class="btn btn-primary" id="book-btn" onclick="bookInterview()" disabled>
-        📅 Book Interview & Send Invites
+        Ã°Å¸â€œâ€¦ Book Interview & Send Invites
       </button>
       <button class="btn btn-secondary" onclick="google.script.host.close()">Cancel</button>
     </div>
@@ -4406,7 +4570,7 @@ function getBookingDialogHtml(candidate) {
     </div>
     
     <div class="success" id="success-view">
-      <div class="success-icon">✅</div>
+      <div class="success-icon">Ã¢Å“â€¦</div>
       <h2>Interview Booked!</h2>
       <p id="success-details"></p>
       <button class="btn btn-primary" onclick="google.script.host.close()">Close</button>
@@ -4472,7 +4636,7 @@ function getBookingDialogHtml(candidate) {
       document.getElementById('success-details').innerHTML = 
         '<strong>' + result.dateTime + '</strong><br>' +
         'Duration: ' + result.duration + ' minutes<br>' +
-        '📧 Invites sent to ' + result.invitesSent + ' people';
+        'Ã°Å¸â€œÂ§ Invites sent to ' + result.invitesSent + ' people';
     }
     
     function onError(error) {
@@ -4483,7 +4647,7 @@ function getBookingDialogHtml(candidate) {
     
     function showError(msg) {
       const el = document.getElementById('error-msg');
-      el.textContent = '❌ ' + msg;
+      el.textContent = 'Ã¢ÂÅ’ ' + msg;
       el.style.display = 'block';
       setTimeout(() => el.style.display = 'none', 5000);
     }
@@ -4497,153 +4661,153 @@ function getBookingDialogHtml(candidate) {
  * Escape HTML for safe display
  */
 function escapeHtml(text) {
-    if (!text) return '';
-    return String(text)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
+  if (!text) return '';
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                           BOOKING LOGIC
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Create the interview booking - the main function called from the dialog
  */
 function createInterviewBooking(candidateInfo, dateStr, timeStr, duration, notes) {
-    try {
-        // Validate inputs
-        if (!candidateInfo || !candidateInfo.name) {
-            throw new Error('Invalid candidate information');
-        }
-
-        if (!dateStr || !timeStr) {
-            throw new Error('Date and time are required');
-        }
-
-        // Parse date and time
-        const [year, month, day] = dateStr.split('-').map(Number);
-        const [hours, minutes] = timeStr.split(':').map(Number);
-
-        const interviewDate = new Date(year, month - 1, day, hours, minutes, 0);
-
-        // Validate the date is in the future
-        if (interviewDate <= new Date()) {
-            throw new Error('Interview must be scheduled for a future date/time');
-        }
-
-        // Get the booker's email
-        const bookerEmail = Session.getActiveUser().getEmail();
-
-        // Get HR email from config (with fallback)
-        const hrEmail = getHREmail();
-
-        // Create the calendar event
-        const endTime = new Date(interviewDate.getTime() + duration * 60 * 1000);
-
-        const calendar = CalendarApp.getDefaultCalendar();
-
-        // Build guest list
-        const guests = [];
-        if (candidateInfo.email && isValidEmail(candidateInfo.email)) {
-            guests.push(candidateInfo.email);
-        }
-        if (hrEmail && hrEmail !== bookerEmail) {
-            guests.push(hrEmail);
-        }
-
-        // Create event with Google Meet
-        const event = calendar.createEvent(
-            `🎯 Interview: ${candidateInfo.name} - ${candidateInfo.role}`,
-            interviewDate,
-            endTime,
-            {
-                description: generateInterviewDescription(candidateInfo, notes, bookerEmail),
-                location: 'Google Meet (link in invite)',
-                guests: guests.join(','),
-                sendInvites: true
-            }
-        );
-
-        // Add Google Meet
-        try {
-            event.setConferencing({
-                conferenceType: 'hangoutsMeet'
-            });
-        } catch (e) {
-            Logger.log('Could not add Meet link: ' + e.message);
-        }
-
-        // Set reminders
-        event.addPopupReminder(30);  // 30 min before
-        event.addEmailReminder(60); // 1 hour before
-
-        // Set color (purple for interviews)
-        event.setColor('3'); // Purple
-
-        // Update the sheet with interview date
-        updateSheetWithInterview(candidateInfo.row, interviewDate, bookerEmail);
-
-        // Log to timeline
-        logInterviewBooking(candidateInfo, interviewDate, bookerEmail);
-
-        // Format date for response
-        const formattedDate = interviewDate.toLocaleString('en-IN', {
-            weekday: 'short',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: true,
-            timeZone: 'Asia/Kolkata'
-        });
-
-        return {
-            success: true,
-            eventId: event.getId(),
-            dateTime: formattedDate,
-            duration: duration,
-            invitesSent: guests.length + 1 // +1 for calendar owner
-        };
-
-    } catch (e) {
-        Logger.log('Interview booking error: ' + e.message);
-        throw new Error('Failed to book interview: ' + e.message);
+  try {
+    // Validate inputs
+    if (!candidateInfo || !candidateInfo.name) {
+      throw new Error('Invalid candidate information');
     }
+
+    if (!dateStr || !timeStr) {
+      throw new Error('Date and time are required');
+    }
+
+    // Parse date and time
+    const [year, month, day] = dateStr.split('-').map(Number);
+    const [hours, minutes] = timeStr.split(':').map(Number);
+
+    const interviewDate = new Date(year, month - 1, day, hours, minutes, 0);
+
+    // Validate the date is in the future
+    if (interviewDate <= new Date()) {
+      throw new Error('Interview must be scheduled for a future date/time');
+    }
+
+    // Get the booker's email
+    const bookerEmail = Session.getActiveUser().getEmail();
+
+    // Get HR email from config (with fallback)
+    const hrEmail = getHREmail();
+
+    // Create the calendar event
+    const endTime = new Date(interviewDate.getTime() + duration * 60 * 1000);
+
+    const calendar = CalendarApp.getDefaultCalendar();
+
+    // Build guest list
+    const guests = [];
+    if (candidateInfo.email && isValidEmail(candidateInfo.email)) {
+      guests.push(candidateInfo.email);
+    }
+    if (hrEmail && hrEmail !== bookerEmail) {
+      guests.push(hrEmail);
+    }
+
+    // Create event with Google Meet
+    const event = calendar.createEvent(
+      `Ã°Å¸Å½Â¯ Interview: ${candidateInfo.name} - ${candidateInfo.role}`,
+      interviewDate,
+      endTime,
+      {
+        description: generateInterviewDescription(candidateInfo, notes, bookerEmail),
+        location: 'Google Meet (link in invite)',
+        guests: guests.join(','),
+        sendInvites: true
+      }
+    );
+
+    // Add Google Meet
+    try {
+      event.setConferencing({
+        conferenceType: 'hangoutsMeet'
+      });
+    } catch (e) {
+      Logger.log('Could not add Meet link: ' + e.message);
+    }
+
+    // Set reminders
+    event.addPopupReminder(30);  // 30 min before
+    event.addEmailReminder(60); // 1 hour before
+
+    // Set color (purple for interviews)
+    event.setColor('3'); // Purple
+
+    // Update the sheet with interview date
+    updateSheetWithInterview(candidateInfo.row, interviewDate, bookerEmail);
+
+    // Log to timeline
+    logInterviewBooking(candidateInfo, interviewDate, bookerEmail);
+
+    // Format date for response
+    const formattedDate = interviewDate.toLocaleString('en-IN', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+      timeZone: 'Asia/Kolkata'
+    });
+
+    return {
+      success: true,
+      eventId: event.getId(),
+      dateTime: formattedDate,
+      duration: duration,
+      invitesSent: guests.length + 1 // +1 for calendar owner
+    };
+
+  } catch (e) {
+    Logger.log('Interview booking error: ' + e.message);
+    throw new Error('Failed to book interview: ' + e.message);
+  }
 }
 
 /**
  * Generate the interview description
  */
 function generateInterviewDescription(candidate, notes, bookerEmail) {
-    return `
-📋 INTERVIEW DETAILS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  return `
+Ã°Å¸â€œâ€¹ INTERVIEW DETAILS
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 
-👤 CANDIDATE INFORMATION
-• Name: ${candidate.name}
-• Position: ${candidate.role}
-• Email: ${candidate.email || 'Not provided'}
-• Phone: ${candidate.phone || 'Not provided'}
+Ã°Å¸â€˜Â¤ CANDIDATE INFORMATION
+Ã¢â‚¬Â¢ Name: ${candidate.name}
+Ã¢â‚¬Â¢ Position: ${candidate.role}
+Ã¢â‚¬Â¢ Email: ${candidate.email || 'Not provided'}
+Ã¢â‚¬Â¢ Phone: ${candidate.phone || 'Not provided'}
 
-📁 RESOURCES
-• Portfolio: ${candidate.portfolio || 'Not provided'}
-• CV: ${candidate.cv || 'Not provided'}
+Ã°Å¸â€œÂ RESOURCES
+Ã¢â‚¬Â¢ Portfolio: ${candidate.portfolio || 'Not provided'}
+Ã¢â‚¬Â¢ CV: ${candidate.cv || 'Not provided'}
 
-📝 INTERVIEW NOTES
+Ã°Å¸â€œÂ INTERVIEW NOTES
 ${notes || 'No specific notes added'}
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 
-⏱️ Scheduled by: ${bookerEmail}
-📅 Booked on: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
+Ã¢ÂÂ±Ã¯Â¸Â Scheduled by: ${bookerEmail}
+Ã°Å¸â€œâ€¦ Booked on: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
 
-🔗 View Candidate Sheet: https://docs.google.com/spreadsheets/d/1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4/
+Ã°Å¸â€â€” View Candidate Sheet: https://docs.google.com/spreadsheets/d/1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4/
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ã¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€ÂÃ¢â€Â
 Generated by UrbanMistrii Oracle v22.5
   `.trim();
 }
@@ -4652,249 +4816,249 @@ Generated by UrbanMistrii Oracle v22.5
  * Get HR email from config or fallback
  */
 function getHREmail() {
-    try {
-        // Try to get from CONFIG if available
-        if (typeof CONFIG !== 'undefined' && CONFIG.TEAM && CONFIG.TEAM.ADMIN_EMAIL) {
-            return CONFIG.TEAM.ADMIN_EMAIL;
-        }
-
-        // Try script properties
-        const props = PropertiesService.getScriptProperties();
-        const hrEmail = props.getProperty('HR_EMAIL');
-        if (hrEmail) return hrEmail;
-
-        // Default fallback
-        return 'mail@urbanmistrii.com';
-    } catch (e) {
-        return 'mail@urbanmistrii.com';
+  try {
+    // Try to get from CONFIG if available
+    if (typeof CONFIG !== 'undefined' && CONFIG.TEAM && CONFIG.TEAM.ADMIN_EMAIL) {
+      return CONFIG.TEAM.ADMIN_EMAIL;
     }
+
+    // Try script properties
+    const props = PropertiesService.getScriptProperties();
+    const hrEmail = props.getProperty('HR_EMAIL');
+    if (hrEmail) return hrEmail;
+
+    // Default fallback
+    return 'mail@urbanmistrii.com';
+  } catch (e) {
+    return 'mail@urbanmistrii.com';
+  }
 }
 
 /**
  * Validate email format
  */
 function isValidEmail(email) {
-    if (!email) return false;
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
+  if (!email) return false;
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
 }
 
 /**
  * Update the sheet with interview information
  */
 function updateSheetWithInterview(row, interviewDate, bookerEmail) {
-    try {
-        const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  try {
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
-        // Find or create "Interview Scheduled" column
-        const headers = sheet.getRange(1, 1, 1, 30).getValues()[0];
-        let interviewCol = headers.findIndex(h =>
-            h && h.toString().toLowerCase().includes('interview scheduled')
-        ) + 1;
+    // Find or create "Interview Scheduled" column
+    const headers = sheet.getRange(1, 1, 1, 30).getValues()[0];
+    let interviewCol = headers.findIndex(h =>
+      h && h.toString().toLowerCase().includes('interview scheduled')
+    ) + 1;
 
-        // If column doesn't exist, add it
-        if (interviewCol === 0) {
-            const lastCol = sheet.getLastColumn() + 1;
-            sheet.getRange(1, lastCol).setValue('📅 Interview Scheduled');
-            interviewCol = lastCol;
-        }
-
-        // Format the interview date
-        const formatted = interviewDate.toLocaleString('en-IN', {
-            weekday: 'short',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: true,
-            timeZone: 'Asia/Kolkata'
-        });
-
-        // Update the cell with interview info
-        sheet.getRange(row, interviewCol).setValue(`${formatted}\n(by ${bookerEmail.split('@')[0]})`);
-
-        // Also update status if it exists
-        const statusCol = headers.findIndex(h =>
-            h && h.toString().toLowerCase() === 'status'
-        ) + 1;
-
-        if (statusCol > 0) {
-            const currentStatus = sheet.getRange(row, statusCol).getValue();
-            if (!currentStatus.toString().toLowerCase().includes('interview')) {
-                sheet.getRange(row, statusCol).setValue('INTERVIEW_SCHEDULED');
-            }
-        }
-
-        Logger.log(`Updated row ${row} with interview date`);
-
-    } catch (e) {
-        Logger.log('Failed to update sheet: ' + e.message);
-        // Don't throw - the calendar event was still created
+    // If column doesn't exist, add it
+    if (interviewCol === 0) {
+      const lastCol = sheet.getLastColumn() + 1;
+      sheet.getRange(1, lastCol).setValue('Ã°Å¸â€œâ€¦ Interview Scheduled');
+      interviewCol = lastCol;
     }
+
+    // Format the interview date
+    const formatted = interviewDate.toLocaleString('en-IN', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+      timeZone: 'Asia/Kolkata'
+    });
+
+    // Update the cell with interview info
+    sheet.getRange(row, interviewCol).setValue(`${formatted}\n(by ${bookerEmail.split('@')[0]})`);
+
+    // Also update status if it exists
+    const statusCol = headers.findIndex(h =>
+      h && h.toString().toLowerCase() === 'status'
+    ) + 1;
+
+    if (statusCol > 0) {
+      const currentStatus = sheet.getRange(row, statusCol).getValue();
+      if (!currentStatus.toString().toLowerCase().includes('interview')) {
+        sheet.getRange(row, statusCol).setValue('INTERVIEW_SCHEDULED');
+      }
+    }
+
+    Logger.log(`Updated row ${row} with interview date`);
+
+  } catch (e) {
+    Logger.log('Failed to update sheet: ' + e.message);
+    // Don't throw - the calendar event was still created
+  }
 }
 
 /**
  * Log the interview booking to timeline
  */
 function logInterviewBooking(candidate, interviewDate, bookerEmail) {
-    try {
-        // Try to log using the existing Log system
-        if (typeof Log !== 'undefined' && Log.success) {
-            Log.success('INTERVIEW', 'Interview booked', {
-                candidate: candidate.name,
-                role: candidate.role,
-                date: interviewDate.toISOString(),
-                bookedBy: bookerEmail
-            });
-        } else {
-            Logger.log(`INTERVIEW BOOKED: ${candidate.name} - ${interviewDate} by ${bookerEmail}`);
-        }
-    } catch (e) {
-        Logger.log('Timeline log failed: ' + e.message);
+  try {
+    // Try to log using the existing Log system
+    if (typeof Log !== 'undefined' && Log.success) {
+      Log.success('INTERVIEW', 'Interview booked', {
+        candidate: candidate.name,
+        role: candidate.role,
+        date: interviewDate.toISOString(),
+        bookedBy: bookerEmail
+      });
+    } else {
+      Logger.log(`INTERVIEW BOOKED: ${candidate.name} - ${interviewDate} by ${bookerEmail}`);
     }
+  } catch (e) {
+    Logger.log('Timeline log failed: ' + e.message);
+  }
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                           SETUP & UTILITIES
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Setup the interview booking system
  */
 function setupInterviewBooking() {
-    const ui = SpreadsheetApp.getUi();
+  const ui = SpreadsheetApp.getUi();
 
-    // Add the Interview Scheduled column if missing
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    const headers = sheet.getRange(1, 1, 1, 30).getValues()[0];
+  // Add the Interview Scheduled column if missing
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const headers = sheet.getRange(1, 1, 1, 30).getValues()[0];
 
-    let interviewCol = headers.findIndex(h =>
-        h && h.toString().toLowerCase().includes('interview scheduled')
-    ) + 1;
+  let interviewCol = headers.findIndex(h =>
+    h && h.toString().toLowerCase().includes('interview scheduled')
+  ) + 1;
 
-    if (interviewCol === 0) {
-        const lastCol = sheet.getLastColumn() + 1;
-        sheet.getRange(1, lastCol).setValue('📅 Interview Scheduled');
-        sheet.getRange(1, lastCol).setBackground('#4a90d9').setFontColor('white').setFontWeight('bold');
+  if (interviewCol === 0) {
+    const lastCol = sheet.getLastColumn() + 1;
+    sheet.getRange(1, lastCol).setValue('Ã°Å¸â€œâ€¦ Interview Scheduled');
+    sheet.getRange(1, lastCol).setBackground('#4a90d9').setFontColor('white').setFontWeight('bold');
 
-        ui.alert('✅ Setup Complete',
-            'Interview Booking System is ready!\n\n' +
-            'How to use:\n' +
-            '1. Select a candidate row\n' +
-            '2. Click "Interview Booking" → "Book Interview"\n' +
-            '3. Pick date and time\n' +
-            '4. Click Book - invites sent automatically!',
-            ui.ButtonSet.OK);
-    } else {
-        ui.alert('ℹ️ Already Setup',
-            'Interview Booking System is already configured.\n\n' +
-            'Use: Interview Booking → Book Interview for Selected Row',
-            ui.ButtonSet.OK);
-    }
+    ui.alert('Ã¢Å“â€¦ Setup Complete',
+      'Interview Booking System is ready!\n\n' +
+      'How to use:\n' +
+      '1. Select a candidate row\n' +
+      '2. Click "Interview Booking" Ã¢â€ â€™ "Book Interview"\n' +
+      '3. Pick date and time\n' +
+      '4. Click Book - invites sent automatically!',
+      ui.ButtonSet.OK);
+  } else {
+    ui.alert('Ã¢â€žÂ¹Ã¯Â¸Â Already Setup',
+      'Interview Booking System is already configured.\n\n' +
+      'Use: Interview Booking Ã¢â€ â€™ Book Interview for Selected Row',
+      ui.ButtonSet.OK);
+  }
 }
 
 /**
  * Show my bookings
  */
 function showMyBookings() {
-    const ui = SpreadsheetApp.getUi();
-    const email = Session.getActiveUser().getEmail();
+  const ui = SpreadsheetApp.getUi();
+  const email = Session.getActiveUser().getEmail();
 
-    // Get upcoming interviews from calendar
-    const calendar = CalendarApp.getDefaultCalendar();
-    const now = new Date();
-    const nextMonth = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
+  // Get upcoming interviews from calendar
+  const calendar = CalendarApp.getDefaultCalendar();
+  const now = new Date();
+  const nextMonth = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
 
-    const events = calendar.getEvents(now, nextMonth);
-    const interviews = events.filter(e => e.getTitle().includes('Interview:'));
+  const events = calendar.getEvents(now, nextMonth);
+  const interviews = events.filter(e => e.getTitle().includes('Interview:'));
 
-    if (interviews.length === 0) {
-        ui.alert('📅 Your Bookings', 'No upcoming interviews scheduled.', ui.ButtonSet.OK);
-        return;
-    }
+  if (interviews.length === 0) {
+    ui.alert('Ã°Å¸â€œâ€¦ Your Bookings', 'No upcoming interviews scheduled.', ui.ButtonSet.OK);
+    return;
+  }
 
-    let message = 'Your upcoming interviews:\n\n';
-    interviews.forEach((event, idx) => {
-        const date = event.getStartTime().toLocaleString('en-IN', {
-            weekday: 'short',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
-            hour12: true,
-            timeZone: 'Asia/Kolkata'
-        });
-        message += `${idx + 1}. ${event.getTitle()}\n   📅 ${date}\n\n`;
+  let message = 'Your upcoming interviews:\n\n';
+  interviews.forEach((event, idx) => {
+    const date = event.getStartTime().toLocaleString('en-IN', {
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+      timeZone: 'Asia/Kolkata'
     });
+    message += `${idx + 1}. ${event.getTitle()}\n   Ã°Å¸â€œâ€¦ ${date}\n\n`;
+  });
 
-    ui.alert('📅 Your Upcoming Interviews', message, ui.ButtonSet.OK);
+  ui.alert('Ã°Å¸â€œâ€¦ Your Upcoming Interviews', message, ui.ButtonSet.OK);
 }
 
 /**
  * Test the interview booking system
  */
 function testInterviewBooking() {
-    Logger.log('=== Testing Interview Booking System ===');
+  Logger.log('=== Testing Interview Booking System ===');
 
-    // Test 1: Check calendar access
-    try {
-        const calendar = CalendarApp.getDefaultCalendar();
-        Logger.log('✅ Calendar access: OK');
-    } catch (e) {
-        Logger.log('❌ Calendar access: FAILED - ' + e.message);
-        return;
-    }
+  // Test 1: Check calendar access
+  try {
+    const calendar = CalendarApp.getDefaultCalendar();
+    Logger.log('Ã¢Å“â€¦ Calendar access: OK');
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ Calendar access: FAILED - ' + e.message);
+    return;
+  }
 
-    // Test 2: Check sheet access
-    try {
-        const ss = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4');
-        Logger.log('✅ Sheet access: OK');
-    } catch (e) {
-        Logger.log('❌ Sheet access: FAILED - ' + e.message);
-    }
+  // Test 2: Check sheet access
+  try {
+    const ss = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4');
+    Logger.log('Ã¢Å“â€¦ Sheet access: OK');
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ Sheet access: FAILED - ' + e.message);
+  }
 
-    // Test 3: Check email
-    try {
-        const email = Session.getActiveUser().getEmail();
-        Logger.log('✅ User email: ' + email);
-    } catch (e) {
-        Logger.log('❌ User email: FAILED');
-    }
+  // Test 3: Check email
+  try {
+    const email = Session.getActiveUser().getEmail();
+    Logger.log('Ã¢Å“â€¦ User email: ' + email);
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ User email: FAILED');
+  }
 
-    // Test 4: Create a test booking (dry run)
-    const testCandidate = {
-        row: 999,
-        name: 'Test Candidate',
-        email: 'test@example.com',
-        role: 'Junior Designer',
-        phone: '9876543210'
-    };
+  // Test 4: Create a test booking (dry run)
+  const testCandidate = {
+    row: 999,
+    name: 'Test Candidate',
+    email: 'test@example.com',
+    role: 'Junior Designer',
+    phone: '9876543210'
+  };
 
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
-    tomorrow.setHours(14, 0, 0, 0);
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(14, 0, 0, 0);
 
-    Logger.log('Test candidate: ' + JSON.stringify(testCandidate));
-    Logger.log('Test date: ' + tomorrow.toISOString());
-    Logger.log('HR Email: ' + getHREmail());
+  Logger.log('Test candidate: ' + JSON.stringify(testCandidate));
+  Logger.log('Test date: ' + tomorrow.toISOString());
+  Logger.log('HR Email: ' + getHREmail());
 
-    Logger.log('');
-    Logger.log('=== Interview Booking System Ready! ===');
-    Logger.log('To use: Open the public sheet, select a row, then use the Interview Booking menu');
+  Logger.log('');
+  Logger.log('=== Interview Booking System Ready! ===');
+  Logger.log('To use: Open the public sheet, select a row, then use the Interview Booking menu');
 
-    return 'Interview Booking System test completed. Check logs for details.';
+  return 'Interview Booking System test completed. Check logs for details.';
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  CORE
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                 URBANMISTRII ORACLE v22.4 - CORE ENGINE                       ║
- * ║                 Main Orchestrator & Automation Logic (Hardened)               ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                 URBANMISTRII ORACLE v22.4 - CORE ENGINE                       Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                 Main Orchestrator & Automation Logic (Hardened)               Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * 
  * v22.4 FIXES:
  * - Fixed test scheduling: now respects time, handles past dates, immediate send
@@ -4945,7 +5109,7 @@ function onFormSubmit(e) {
     // Validate candidate has minimum required data
     if (Guards.isEmpty(candidate.email) && Guards.isEmpty(candidate.phone)) {
       Log.warn('FORM', 'Form submission missing email and phone', { row, name: candidate.name });
-      SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, '⚠️ No contact info');
+      SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, 'Ã¢Å¡Â Ã¯Â¸Â No contact info');
       return;
     }
 
@@ -5178,9 +5342,9 @@ function testInterviewEmail(email) {
  * Run this periodically or manually to catch missed confirmations
  */
 function processUnconfirmedInterviews() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         PROCESSING UNCONFIRMED INTERVIEWS                        ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         PROCESSING UNCONFIRMED INTERVIEWS                        Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   try {
     const sheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
@@ -5198,7 +5362,7 @@ function processUnconfirmedInterviews() {
 
       // If has interview date but no confirmation in log
       if (interviewDate && email && !log.includes('confirmed') && !log.includes('Interview confirmed')) {
-        Logger.log(`   → Row ${row}: Sending confirmation to ${name}...`);
+        Logger.log(`   Ã¢â€ â€™ Row ${row}: Sending confirmation to ${name}...`);
 
         const candidate = {
           row: row,
@@ -5213,10 +5377,10 @@ function processUnconfirmedInterviews() {
 
         if (result.success) {
           confirmed++;
-          Logger.log(`     ✅ Confirmation sent`);
+          Logger.log(`     Ã¢Å“â€¦ Confirmation sent`);
         } else {
           errors++;
-          Logger.log(`     ❌ Failed: ${result.error}`);
+          Logger.log(`     Ã¢ÂÅ’ Failed: ${result.error}`);
         }
 
         // Rate limit
@@ -5225,17 +5389,17 @@ function processUnconfirmedInterviews() {
     }
 
     Logger.log('');
-    Logger.log(`   ✅ Sent ${confirmed} confirmations, ${errors} errors`);
+    Logger.log(`   Ã¢Å“â€¦ Sent ${confirmed} confirmations, ${errors} errors`);
     return { confirmed, errors };
 
   } catch (e) {
-    Logger.log('❌ Failed: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Failed: ' + e.message);
     return { confirmed: 0, errors: 1, error: e.message };
   }
 }
 
 /**
- * 🆕 Send confirmation to a specific row
+ * Ã°Å¸â€ â€¢ Send confirmation to a specific row
  */
 function sendConfirmationToRow(rowNumber) {
   try {
@@ -5252,21 +5416,21 @@ function sendConfirmationToRow(rowNumber) {
     };
 
     if (!candidate.email) {
-      Logger.log('❌ No email for row ' + rowNumber);
+      Logger.log('Ã¢ÂÅ’ No email for row ' + rowNumber);
       return { success: false, error: 'No email' };
     }
 
     if (!candidate.interviewDate) {
-      Logger.log('❌ No interview date for row ' + rowNumber);
+      Logger.log('Ã¢ÂÅ’ No interview date for row ' + rowNumber);
       return { success: false, error: 'No interview date' };
     }
 
     const result = sendInterviewConfirmationEmail(candidate);
-    Logger.log(`Row ${rowNumber}: ${result.success ? '✅ Confirmation sent' : '❌ Failed: ' + result.error}`);
+    Logger.log(`Row ${rowNumber}: ${result.success ? 'Ã¢Å“â€¦ Confirmation sent' : 'Ã¢ÂÅ’ Failed: ' + result.error}`);
     return result;
 
   } catch (e) {
-    Logger.log('❌ Error: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Error: ' + e.message);
     return { success: false, error: e.message };
   }
 }
@@ -5284,9 +5448,9 @@ function universalAutomationEngine(e) {
   try {
     const sheet = e.source.getActiveSheet();
     const range = e.range;
-    
+
     if (!sheet || !range) return;
-    
+
     const row = range.getRow();
     const col = range.getColumn();
 
@@ -5328,9 +5492,9 @@ function universalAutomationEngine(e) {
     handleStatusChange(candidate, sheet);
 
   } catch (e) {
-    Log.critical('AUTOMATION', 'Automation engine crashed', { 
-      error: e.message, 
-      stack: (e.stack || '').substring(0, 500) 
+    Log.critical('AUTOMATION', 'Automation engine crashed', {
+      error: e.message,
+      stack: (e.stack || '').substring(0, 500)
     });
   }
 }
@@ -5359,7 +5523,7 @@ function handleNewCandidate(candidate, sheet) {
       CandidateTimeline.add(candidate.email, 'APPLICATION_RECEIVED', { role: candidate.role });
     }
     // NOTE: Admin notification is sent by onFormSubmit() - don't duplicate here
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '📥 Application logged');
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã°Å¸â€œÂ¥ Application logged');
   } catch (e) {
     Log.error('HANDLER', 'handleNewCandidate failed', { error: e.message });
   }
@@ -5369,7 +5533,7 @@ function handleInProcess(candidate, sheet) {
   try {
     Log.info('HANDLER', 'Sending welcome message', { name: candidate.name });
     if (Guards.isEmpty(candidate.phone)) {
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '⚠️ No phone');
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å¡Â Ã¯Â¸Â No phone');
       return;
     }
     // Rate limit check
@@ -5380,17 +5544,17 @@ function handleInProcess(candidate, sheet) {
     }
     const result = Guards.safeExecute(() => WhatsApp.sendWelcome(candidate.phone, candidate.name), 'WHATSAPP_WELCOME');
     if (result && result.success) {
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '✅ Welcome sent');
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Welcome sent');
       if (!Guards.isEmpty(candidate.email)) {
         CandidateTimeline.add(candidate.email, 'WELCOME_SENT');
       }
     } else {
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `❌ Failed: ${result?.error || 'Unknown'}`);  
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÅ’ Failed: ${result?.error || 'Unknown'}`);
       RetryQueue.add('WHATSAPP', { destination: candidate.phone, type: 'welcome', name: candidate.name }, result?.error || 'Unknown');
     }
   } catch (e) {
     Log.error('HANDLER', 'handleInProcess failed', { error: e.message });
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `❌ Error: ${e.message}`);
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÅ’ Error: ${e.message}`);
   }
 }
 
@@ -5398,37 +5562,37 @@ function handleTestSent(candidate, sheet) {
   try {
     Log.info('HANDLER', 'Sending test link', { name: candidate.name });
     if (Guards.isEmpty(candidate.phone)) {
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '⚠️ No phone');
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å¡Â Ã¯Â¸Â No phone');
       return;
     }
     // Rate limit check
     if (!Guards.rateLimit('whatsapp_send', 10, 60000)) {
       Log.warn('HANDLER', 'Rate limited, queuing test link');
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '⏳ Queued (rate limit)');
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢ÂÂ³ Queued (rate limit)');
       RetryQueue.add('WHATSAPP', { destination: candidate.phone, type: 'test', name: candidate.name, role: candidate.role }, 'Rate limited');
       return;
     }
     const result = Guards.safeExecute(() => WhatsApp.sendTestLink(candidate.phone, candidate.name, candidate.role, candidate.department), 'WHATSAPP_TEST');
     if (result && result.success) {
       SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.TEST_SENT, new Date());
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '✅ Test sent');
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Test sent');
       if (!Guards.isEmpty(candidate.email)) {
         CandidateTimeline.add(candidate.email, 'TEST_SENT', { role: candidate.role });
       }
     } else {
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `❌ Failed: ${result?.error || 'Unknown'}`);
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÅ’ Failed: ${result?.error || 'Unknown'}`);
       RetryQueue.add('WHATSAPP', { destination: candidate.phone, type: 'test', name: candidate.name, role: candidate.role }, result?.error);
     }
   } catch (e) {
     Log.error('HANDLER', 'handleTestSent failed', { error: e.message });
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `❌ Error: ${e.message}`);
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÅ’ Error: ${e.message}`);
   }
 }
 
 function handleTestSubmitted(candidate, sheet) {
   try {
     Log.info('HANDLER', 'Processing test submission', { name: candidate.name });
-    
+
     const testSentTime = Guards.safeExecute(
       () => sheet.getRange(candidate.row, CONFIG.COLUMNS.TEST_SENT).getValue(),
       'GET_TEST_SENT_TIME'
@@ -5441,18 +5605,18 @@ function handleTestSubmitted(candidate, sheet) {
       const hoursTaken = DateTime.hoursBetween(testSentTime, submittedTime);
       const timeLimit = ConfigHelpers.getTimeLimit(candidate.role, candidate.department);
       const withinLimit = hoursTaken <= timeLimit;
-      
+
       SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG,
-        `${withinLimit ? '✅' : '⚠️'} Submitted in ${hoursTaken.toFixed(1)}h (limit: ${timeLimit}h)`);
-      
+        `${withinLimit ? 'Ã¢Å“â€¦' : 'Ã¢Å¡Â Ã¯Â¸Â'} Submitted in ${hoursTaken.toFixed(1)}h (limit: ${timeLimit}h)`);
+
       if (!Guards.isEmpty(candidate.email)) {
-        CandidateTimeline.add(candidate.email, 'TEST_SUBMITTED', { 
-          hoursTaken: hoursTaken.toFixed(1), 
-          onTime: withinLimit 
+        CandidateTimeline.add(candidate.email, 'TEST_SUBMITTED', {
+          hoursTaken: hoursTaken.toFixed(1),
+          onTime: withinLimit
         });
       }
     } else {
-      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '✅ Test submitted');
+      SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Test submitted');
     }
 
     // v22.0: Auto portfolio scoring (with Guards)
@@ -5464,7 +5628,7 @@ function handleTestSubmitted(candidate, sheet) {
           const score = AI.scorePortfolio(portfolioUrl, candidate.role);
           if (score && !score.error && score.score) {
             SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_SCORE, score.score);
-            SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_FEEDBACK, 
+            SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.PORTFOLIO_FEEDBACK,
               Guards.toString(score.summary).substring(0, 500));
             if (!Guards.isEmpty(candidate.email)) {
               CandidateTimeline.add(candidate.email, 'PORTFOLIO_SCORED', {
@@ -5480,13 +5644,13 @@ function handleTestSubmitted(candidate, sheet) {
     // Notify team
     Guards.safeExecute(() => {
       const hoursTaken = testSentTime ? DateTime.hoursBetween(testSentTime, submittedTime) : 'unknown';
-      Notify.team(`📝 Test Submitted: ${candidate.name}`,
+      Notify.team(`Ã°Å¸â€œÂ Test Submitted: ${candidate.name}`,
         `${candidate.name} submitted their ${candidate.role} test${typeof hoursTaken === 'number' ? ` in ${hoursTaken.toFixed(1)} hours` : ''}.`);
     }, 'NOTIFY_TEST_SUBMITTED');
 
   } catch (e) {
     Log.error('HANDLER', 'handleTestSubmitted failed', { error: e.message });
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `❌ Error: ${e.message}`);
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÅ’ Error: ${e.message}`);
   }
 }
 
@@ -5516,7 +5680,7 @@ function handleInterviewPending(candidate, sheet) {
 
   // Send WhatsApp notification
   if (!candidate.phone) {
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '⚠️ No phone for WhatsApp');
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å¡Â Ã¯Â¸Â No phone for WhatsApp');
     return;
   }
 
@@ -5524,7 +5688,7 @@ function handleInterviewPending(candidate, sheet) {
   const result = WhatsApp.sendInterviewSchedule(candidate.phone, candidate.name, candidate.role, dateStr);
 
   if (result.success) {
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '✅ Interview scheduled');
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Interview scheduled');
     CandidateTimeline.add(candidate.email, 'INTERVIEW_SCHEDULED', { date: dateStr });
 
     // v22.0: Send portal link for self-booking if no date set
@@ -5532,7 +5696,7 @@ function handleInterviewPending(candidate, sheet) {
       sendPortalLink(candidate.email);
     }
   } else {
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `❌ Failed: ${result.error}`);
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÅ’ Failed: ${result.error}`);
     // v22.0: Add to retry queue
     RetryQueue.add('WHATSAPP', {
       destination: candidate.phone,
@@ -5543,7 +5707,7 @@ function handleInterviewPending(candidate, sheet) {
 
 function handlePendingRejection(candidate, sheet) {
   const rejectAt = DateTime.addHours(new Date(), CONFIG.RULES.REJECTION_DELAY_HRS);
-  SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `⏳ Will reject at ${DateTime.formatIST(rejectAt, 'full')}`);
+  SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, `Ã¢ÂÂ³ Will reject at ${DateTime.formatIST(rejectAt, 'full')}`);
   CandidateTimeline.add(candidate.email, 'REJECTION_QUEUED', { rejectAt: rejectAt.toISOString() });
 }
 
@@ -5553,18 +5717,18 @@ function handlePendingRejection(candidate, sheet) {
 function handleUnderReview(candidate, sheet) {
   try {
     Log.info('HANDLER', 'Candidate under review', { name: candidate.name });
-    
+
     // Notify team that evaluation should begin
     Guards.safeExecute(() => {
-      Notify.team(`🔍 Ready for Review: ${candidate.name}`,
+      Notify.team(`Ã°Å¸â€Â Ready for Review: ${candidate.name}`,
         `${candidate.name}'s test submission is ready for evaluation.\n\n` +
         `Role: ${candidate.role}\n` +
         `Review at: ${getSheetUrl()}`);
     }, 'NOTIFY_UNDER_REVIEW');
 
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '🔍 Under review by team');
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã°Å¸â€Â Under review by team');
     CandidateTimeline.add(candidate.email, 'UNDER_REVIEW', { role: candidate.role });
-    
+
     // Send acknowledgment to candidate
     if (candidate.email) {
       const reviewHtml = EmailTemplates.wrap(`
@@ -5581,8 +5745,8 @@ function handleUnderReview(candidate, sheet) {
         `)}
         <p>Best regards,<br><strong>Hiring Team, Urbanmistrii</strong></p>
       `);
-      
-      GmailApp.sendEmail(candidate.email, 'Your Test is Being Reviewed - Urbanmistrii', 
+
+      GmailApp.sendEmail(candidate.email, 'Your Test is Being Reviewed - Urbanmistrii',
         `Hi ${candidate.name}, Your test is being reviewed. We'll get back to you within 2-3 business days.`,
         { htmlBody: reviewHtml, name: 'Urbanmistrii Hiring' });
     }
@@ -5597,17 +5761,17 @@ function handleUnderReview(candidate, sheet) {
 function handleInterviewDone(candidate, sheet) {
   try {
     Log.info('HANDLER', 'Interview completed', { name: candidate.name });
-    
-    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '✅ Interview completed - decision pending');
+
+    SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Interview completed - decision pending');
     CandidateTimeline.add(candidate.email, 'INTERVIEW_COMPLETED', { role: candidate.role });
-    
+
     // Notify admin to make a decision
     Guards.safeExecute(() => {
-      Notify.email(CONFIG.TEAM.ADMIN_EMAIL, `📋 Decision Needed: ${candidate.name}`,
+      Notify.email(CONFIG.TEAM.ADMIN_EMAIL, `Ã°Å¸â€œâ€¹ Decision Needed: ${candidate.name}`,
         `Interview completed for ${candidate.name} (${candidate.role}).\n\n` +
         `Please update their status to either:\n` +
-        `• HIRED - if proceeding with offer\n` +
-        `• PENDING REJECTION - if not moving forward\n\n` +
+        `Ã¢â‚¬Â¢ HIRED - if proceeding with offer\n` +
+        `Ã¢â‚¬Â¢ PENDING REJECTION - if not moving forward\n\n` +
         `Review at: ${getSheetUrl()}`);
     }, 'NOTIFY_INTERVIEW_DONE');
 
@@ -5625,7 +5789,7 @@ function handleInterviewDone(candidate, sheet) {
         <p>Thank you again for your interest in Urbanmistrii!</p>
         <p>Best regards,<br><strong>Hiring Team, Urbanmistrii</strong></p>
       `);
-      
+
       GmailApp.sendEmail(candidate.email, 'Thank You for Interviewing - Urbanmistrii',
         `Hi ${candidate.name}, Thank you for interviewing with us. We'll be in touch within 3-5 business days.`,
         { htmlBody: thankYouHtml, name: 'Urbanmistrii Hiring' });
@@ -5663,9 +5827,9 @@ function handleRejected(candidate, sheet) {
 
 function handleHired(candidate, sheet) {
   Log.success('HANDLER', 'Candidate hired!', { name: candidate.name });
-  SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, '🎉 Hired!');
+  SheetUtils.updateCell(candidate.row, CONFIG.COLUMNS.LOG, 'Ã°Å¸Å½â€° Hired!');
   CandidateTimeline.add(candidate.email, 'HIRED', { role: candidate.role });
-  Notify.team(`🎉 New Hire: ${candidate.name}`, `${candidate.name} has been hired for ${candidate.role} role.`);
+  Notify.team(`Ã°Å¸Å½â€° New Hire: ${candidate.name}`, `${candidate.name} has been hired for ${candidate.role} role.`);
 
   // Add to Salary Tracker
   addToSalaryTracker(candidate);
@@ -5673,25 +5837,25 @@ function handleHired(candidate, sheet) {
 
 function runOracleBackgroundCycle() {
   try {
-    Log.info('CYCLE', 'Starting background cycle v22.0');
+    Log.info('CYCLE', 'Starting background cycle v22.1');
 
-    // Core processing
-    processInbox();
-    processRejectionQueue();
-    processFollowUps();
-    processScheduledTests();
+    // Core processing - Wrapped in safe execution to prevent one failure stops all
+    Guards.safeExecute(() => processInbox(), 'Cycle:Inbox');
+    Guards.safeExecute(() => processRejectionQueue(), 'Cycle:RejectionQueue');
+    Guards.safeExecute(() => processFollowUps(), 'Cycle:FollowUps');
+    Guards.safeExecute(() => processScheduledTests(), 'Cycle:ScheduledTests');
 
     // v22.0: New processors
     if (typeof RetryQueue !== 'undefined') {
-      RetryQueue.process();
+      Guards.safeExecute(() => RetryQueue.process(), 'Cycle:RetryQueue');
     }
 
     // Sync public view
-    syncToPublicView();
+    Guards.safeExecute(() => syncToPublicView(), 'Cycle:SyncPublic');
 
     Log.success('CYCLE', 'Background cycle complete');
   } catch (e) {
-    Log.critical('CYCLE', 'Background cycle failed', { error: e.message });
+    Log.critical('CYCLE', 'Background cycle failed', { error: e.message, stack: e.stack });
   }
 }
 
@@ -5734,7 +5898,7 @@ function processScheduledTests() {
   try {
     const now = new Date();
     const nowIST = DateTime.getIST(now);
-    
+
     // Look for IN_PROCESS candidates who have a test availability date set
     const candidates = SheetUtils.getCandidatesByStatus(CONFIG.RULES.STATUSES.IN_PROCESS);
     let sent = 0;
@@ -5765,7 +5929,7 @@ function processScheduledTests() {
 
       // Parse the scheduled date and time
       const scheduledDateTime = parseScheduledDateTime(testAvailabilityDate, testAvailabilityTime);
-      
+
       if (!scheduledDateTime) {
         // No valid date - skip (they might not have scheduled)
         skipped++;
@@ -5777,7 +5941,7 @@ function processScheduledTests() {
       const shouldSend = isTimeToSendTest(scheduledDateTime, nowIST);
 
       if (shouldSend) {
-        Logger.log(`📅 Sending scheduled test to ${name} (${role}) - Scheduled: ${scheduledDateTime.toLocaleString()}`);
+        Logger.log(`Ã°Å¸â€œâ€¦ Sending scheduled test to ${name} (${role}) - Scheduled: ${scheduledDateTime.toLocaleString()}`);
 
         const result = WhatsApp.sendTestLink(phone, name, role, department);
 
@@ -5787,7 +5951,7 @@ function processScheduledTests() {
             { row: c.row, col: CONFIG.COLUMNS.STATUS, value: CONFIG.RULES.STATUSES.TEST_SENT },
             { row: c.row, col: CONFIG.COLUMNS.TEST_SENT, value: new Date() },
             { row: c.row, col: CONFIG.COLUMNS.UPDATED, value: new Date() },
-            { row: c.row, col: CONFIG.COLUMNS.LOG, value: `✅ Test sent (scheduled: ${DateTime.formatIST(scheduledDateTime, 'full')})` }
+            { row: c.row, col: CONFIG.COLUMNS.LOG, value: `Ã¢Å“â€¦ Test sent (scheduled: ${DateTime.formatIST(scheduledDateTime, 'full')})` }
           ];
           SheetUtils.batchUpdate(updates);
 
@@ -5809,7 +5973,7 @@ function processScheduledTests() {
             error: result.error,
             scheduledDateTime: scheduledDateTime.toISOString()
           });
-          SheetUtils.updateCell(c.row, CONFIG.COLUMNS.LOG, `⚠️ Failed: ${result.error}`);
+          SheetUtils.updateCell(c.row, CONFIG.COLUMNS.LOG, `Ã¢Å¡Â Ã¯Â¸Â Failed: ${result.error}`);
           Log.error('SCHEDULED_TEST', `Failed to send to ${name}`, { error: result.error });
         }
       } else {
@@ -5885,7 +6049,7 @@ function parseScheduledDateTime(dateInput, timeInput) {
  */
 function isTimeToSendTest(scheduledDateTime, now) {
   if (!scheduledDateTime || !now) return false;
-  
+
   // If scheduled time is in the past or right now, send it
   // Adding 1 minute buffer for clock differences
   const bufferMs = 60 * 1000; // 1 minute
@@ -5942,9 +6106,9 @@ function addToSalaryTracker(candidate) {
  * Run this to populate salary tracker with existing hired candidates
  */
 function syncAllHiredToSalaryTracker() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         SYNCING HIRED CANDIDATES TO SALARY TRACKER                 ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         SYNCING HIRED CANDIDATES TO SALARY TRACKER                 Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   try {
     const candidatesSheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
@@ -5981,18 +6145,18 @@ function syncAllHiredToSalaryTracker() {
         ]);
 
         synced++;
-        Logger.log(`   → Row ${row}: ${name}`);
+        Logger.log(`   Ã¢â€ â€™ Row ${row}: ${name}`);
       } else {
         skipped++;
       }
     }
 
     Logger.log('');
-    Logger.log(`✅ Synced ${synced} hired candidates to Salary Tracker`);
-    Logger.log(`ℹ️ Skipped ${skipped} (not hired)`);
+    Logger.log(`Ã¢Å“â€¦ Synced ${synced} hired candidates to Salary Tracker`);
+    Logger.log(`Ã¢â€žÂ¹Ã¯Â¸Â Skipped ${skipped} (not hired)`);
 
   } catch (e) {
-    Logger.log('❌ Sync failed: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Sync failed: ' + e.message);
   }
 }
 
@@ -6001,23 +6165,23 @@ function syncAllHiredToSalaryTracker() {
  * Run this after all employees have submitted their leave form
  */
 function calculateMonthlySalaries(monthName, year, workingDays) {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         CALCULATING MONTHLY SALARIES                              ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         CALCULATING MONTHLY SALARIES                              Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   try {
     const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
     const monthlySheetName = monthName ? `Salary_${monthName}_${year}` : `Salary_${new Date().toLocaleString('en-US', { month: 'long' })}_${new Date().getFullYear()}`;
-    
+
     const monthlySheet = ss.getSheetByName(monthlySheetName);
     if (!monthlySheet) {
-      Logger.log(`❌ Monthly sheet "${monthlySheetName}" not found. Please make sure employees have submitted their leave forms.`);
+      Logger.log(`Ã¢ÂÅ’ Monthly sheet "${monthlySheetName}" not found. Please make sure employees have submitted their leave forms.`);
       return;
     }
 
     const salaryTracker = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.SALARY_TRACKER);
     const trackerData = salaryTracker.getDataRange().getValues();
-    
+
     const monthlyData = monthlySheet.getDataRange().getValues();
     const workingDaysInput = workingDays || 26;
 
@@ -6038,32 +6202,32 @@ function calculateMonthlySalaries(monthName, year, workingDays) {
           const perDaySalary = salaryPerMonth / workingDaysInput;
           monthlySalary = perDaySalary * presentDays;
 
-          monthlySheet.getRange(row, 7).setValue(`₹${monthlySalary.toFixed(2)}`);
+          monthlySheet.getRange(row, 7).setValue(`Ã¢â€šÂ¹${monthlySalary.toFixed(2)}`);
 
           processed++;
-          Logger.log(`   → ${trackerData[j][1]}: ₹${monthlySalary.toFixed(2)} (${presentDays} days)`);
+          Logger.log(`   Ã¢â€ â€™ ${trackerData[j][1]}: Ã¢â€šÂ¹${monthlySalary.toFixed(2)} (${presentDays} days)`);
           break;
         }
       }
 
       if (monthlySalary === 0) {
         skipped++;
-        Logger.log(`   ⚠️ Skipping ${monthlyData[i][1]} - not found in salary tracker`);
+        Logger.log(`   Ã¢Å¡Â Ã¯Â¸Â Skipping ${monthlyData[i][1]} - not found in salary tracker`);
       }
     }
 
     Logger.log('');
-    Logger.log(`✅ Salary Calculation Complete:`);
+    Logger.log(`Ã¢Å“â€¦ Salary Calculation Complete:`);
     Logger.log(`   Processed: ${processed} employees`);
     Logger.log(`   Skipped: ${skipped} employees`);
     Logger.log(`   Working Days: ${workingDaysInput}`);
-    
+
     Log.success('SALARY', 'Monthly salaries calculated', { processed, skipped, month: monthlySheetName });
 
     return { processed, skipped, sheet: monthlySheetName };
 
   } catch (e) {
-    Logger.log('❌ Salary calculation failed: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Salary calculation failed: ' + e.message);
     Log.error('SALARY', 'Salary calculation failed', { error: e.message });
   }
 }
@@ -6073,17 +6237,17 @@ function calculateMonthlySalaries(monthName, year, workingDays) {
  * Run this before the salary cutoff date
  */
 function sendLeaveFormReminders(monthName, year) {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         SENDING LEAVE FORM REMINDERS                              ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         SENDING LEAVE FORM REMINDERS                              Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   try {
     const ss = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
     const monthlySheetName = monthName ? `Salary_${monthName}_${year}` : `Salary_${new Date().toLocaleString('en-US', { month: 'long' })}_${new Date().getFullYear()}`;
-    
+
     const monthlySheet = ss.getSheetByName(monthlySheetName);
     const salaryTracker = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.SALARY_TRACKER);
-    
+
     const trackerData = salaryTracker.getDataRange().getValues();
     const activeEmails = new Set();
     const employeeNames = {};
@@ -6107,7 +6271,7 @@ function sendLeaveFormReminders(monthName, year) {
     const missingEmails = [...activeEmails].filter(email => !submittedEmails.has(email));
 
     if (missingEmails.length === 0) {
-      Logger.log('✅ All employees have submitted. No reminders needed.');
+      Logger.log('Ã¢Å“â€¦ All employees have submitted. No reminders needed.');
       return;
     }
 
@@ -6117,13 +6281,13 @@ function sendLeaveFormReminders(monthName, year) {
       try {
         const name = employeeNames[email];
         const reminderHtml = EmailTemplates.wrap(`
-          <h3>📋 Leave Data Required - Salary Processing</h3>
+          <h3>Ã°Å¸â€œâ€¹ Leave Data Required - Salary Processing</h3>
           <p>Hi <strong>${name}</strong>,</p>
           <p>Please submit your leave data for <strong>${monthlySheetName}</strong>.</p>
           <div style="background-color: #fff3e0; padding: 20px; border-radius: 8px; margin: 20px 0;">
             <p><strong>Required Action:</strong> Fill out the leave form below</p>
-            <p>• Total leaves taken this month</p>
-            <p>• Any notes regarding your attendance</p>
+            <p>Ã¢â‚¬Â¢ Total leaves taken this month</p>
+            <p>Ã¢â‚¬Â¢ Any notes regarding your attendance</p>
           </div>
           <p style="margin-top: 20px;">
             ${EmailTemplates.button('FILL LEAVE FORM', CONFIG.LEAVE_FORM_URL)}
@@ -6133,32 +6297,32 @@ function sendLeaveFormReminders(monthName, year) {
 
         GmailApp.sendEmail(
           email,
-          `📋 Action Required: Leave Data for ${monthlySheetName}`,
+          `Ã°Å¸â€œâ€¹ Action Required: Leave Data for ${monthlySheetName}`,
           `Hi ${name},\n\nPlease submit your leave data for ${monthlySheetName}.\n\nForm: ${CONFIG.LEAVE_FORM_URL}\n\nThis is required for salary processing.\n\nThanks,\nUrbanmistrii HR Team`,
           { htmlBody: reminderHtml, name: 'Urbanmistrii HR' }
         );
 
-        Logger.log(`   → Reminded: ${name} (${email})`);
+        Logger.log(`   Ã¢â€ â€™ Reminded: ${name} (${email})`);
         Utilities.sleep(1000);
 
       } catch (e) {
-        Logger.log(`   ❌ Failed to send to ${email}: ${e.message}`);
+        Logger.log(`   Ã¢ÂÅ’ Failed to send to ${email}: ${e.message}`);
       }
     }
 
     Logger.log('');
-    Logger.log(`✅ Reminders sent to ${missingEmails.length} employees`);
+    Logger.log(`Ã¢Å“â€¦ Reminders sent to ${missingEmails.length} employees`);
     Log.success('SALARY', 'Leave form reminders sent', { count: missingEmails.length });
 
   } catch (e) {
-    Logger.log('❌ Failed to send reminders: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Failed to send reminders: ' + e.message);
     Log.error('SALARY', 'Reminders failed', { error: e.message });
   }
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                              WEBHOOK API (v22.4)
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Webhook handler for external API calls
@@ -6172,58 +6336,58 @@ function doPost(e) {
   try {
     // Parse request
     const data = JSON.parse(e.postData.contents);
-    
+
     // Validate webhook key (security)
     const providedKey = e.parameter.key || data.key;
     const expectedKey = CONFIG.WEBHOOK?.SECRET_KEY || 'urbanmistrii_oracle_webhook_2024';
-    
+
     if (!CONFIG.WEBHOOK?.ENABLED) {
       return jsonResponse({ success: false, error: 'Webhook disabled' }, 403);
     }
-    
+
     if (providedKey !== expectedKey) {
       Log.warn('WEBHOOK', 'Invalid API key provided');
       return jsonResponse({ success: false, error: 'Invalid API key' }, 401);
     }
-    
+
     // Validate action
     const allowedActions = CONFIG.WEBHOOK?.ALLOWED_ACTIONS || [];
     if (!allowedActions.includes(data.action)) {
       return jsonResponse({ success: false, error: 'Action not allowed: ' + data.action }, 400);
     }
-    
+
     Log.info('WEBHOOK', `API call: ${data.action}`, { params: Object.keys(data) });
-    
+
     // Handle actions
     let result;
-    
+
     switch (data.action) {
       case 'trigger_test':
         // Trigger test send for a specific candidate
         result = webhookTriggerTest(data.email);
         break;
-        
+
       case 'update_status':
         // Update candidate status
         result = webhookUpdateStatus(data.email, data.status);
         break;
-        
+
       case 'get_candidate':
         // Get candidate info
         result = webhookGetCandidate(data.email);
         break;
-        
+
       case 'retry_errors':
         // Retry all pending errors
         result = ErrorRecovery.retryAll();
         break;
-        
+
       default:
         result = { success: false, error: 'Unknown action: ' + data.action };
     }
-    
+
     return jsonResponse(result);
-    
+
   } catch (err) {
     Log.error('WEBHOOK', 'Handler failed', { error: err.message });
     return jsonResponse({ success: false, error: err.message }, 500);
@@ -6246,33 +6410,33 @@ function jsonResponse(data, statusCode = 200) {
  */
 function webhookTriggerTest(email) {
   if (!email) return { success: false, error: 'Email required' };
-  
+
   const candidate = SheetUtils.findCandidateByEmail(email);
   if (!candidate) return { success: false, error: 'Candidate not found' };
-  
+
   // Check if test already sent
   if (candidate.testSent) {
     return { success: false, error: 'Test already sent', testSentAt: candidate.testSent };
   }
-  
+
   // Send test
   const phone = candidate.phone;
   const name = candidate.name;
   const role = candidate.role || 'intern';
   const department = candidate.data[CONFIG.COLUMNS.DEPARTMENT - 1];
-  
+
   if (!phone) return { success: false, error: 'No phone number' };
-  
+
   const result = WhatsApp.sendTestLink(phone, name, role, department);
-  
+
   if (result.success || result.testMode) {
     SheetUtils.batchUpdate([
       { row: candidate.row, col: CONFIG.COLUMNS.STATUS, value: CONFIG.RULES.STATUSES.TEST_SENT },
       { row: candidate.row, col: CONFIG.COLUMNS.TEST_SENT, value: new Date() },
       { row: candidate.row, col: CONFIG.COLUMNS.UPDATED, value: new Date() },
-      { row: candidate.row, col: CONFIG.COLUMNS.LOG, value: '✅ Test sent via webhook API' }
+      { row: candidate.row, col: CONFIG.COLUMNS.LOG, value: 'Ã¢Å“â€¦ Test sent via webhook API' }
     ]);
-    
+
     return { success: true, message: `Test sent to ${name}`, testMode: result.testMode };
   } else {
     return { success: false, error: result.error };
@@ -6285,23 +6449,23 @@ function webhookTriggerTest(email) {
 function webhookUpdateStatus(email, newStatus) {
   if (!email) return { success: false, error: 'Email required' };
   if (!newStatus) return { success: false, error: 'Status required' };
-  
+
   // Validate status
   const validStatuses = Object.values(CONFIG.RULES.STATUSES);
   if (!validStatuses.includes(newStatus)) {
     return { success: false, error: 'Invalid status', validStatuses };
   }
-  
+
   const candidate = SheetUtils.findCandidateByEmail(email);
   if (!candidate) return { success: false, error: 'Candidate not found' };
-  
+
   const oldStatus = candidate.status;
   const isValidTransition = StatusMachine.isValidTransition(oldStatus, newStatus);
-  
+
   SheetUtils.updateStatus(candidate.row, newStatus, email);
-  
-  return { 
-    success: true, 
+
+  return {
+    success: true,
     message: `Status updated: ${oldStatus} -> ${newStatus}`,
     warning: isValidTransition ? null : 'Unusual status transition'
   };
@@ -6312,10 +6476,10 @@ function webhookUpdateStatus(email, newStatus) {
  */
 function webhookGetCandidate(email) {
   if (!email) return { success: false, error: 'Email required' };
-  
+
   const candidate = SheetUtils.findCandidateByEmail(email);
   if (!candidate) return { success: false, error: 'Candidate not found' };
-  
+
   return {
     success: true,
     candidate: {
@@ -6333,44 +6497,44 @@ function webhookGetCandidate(email) {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  ONBOARDING SUITE V2
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /*
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║  URBAN MISTRII - ONBOARDING SUITE v6.0 (WORLD-CLASS AI SUITE)                ║
- * ║  Features: Advanced AI Intent Detection, Memory Window, Audit & Auto-Fix     ║
- * ║  Beautiful Email Templates, Comprehensive Testing, Enterprise Automation     ║
- * ║  🔗 Integrated with HR Ecosystem (Offboarding, Letter Generator)             ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜  URBAN MISTRII - ONBOARDING SUITE v6.0 (WORLD-CLASS AI SUITE)                Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Features: Advanced AI Intent Detection, Memory Window, Audit & Auto-Fix     Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Beautiful Email Templates, Comprehensive Testing, Enterprise Automation     Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Ã°Å¸â€â€” Integrated with HR Ecosystem (Offboarding, Letter Generator)             Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 // CONFIG is now imported from Config.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🤖 WORLD-CLASS AI ENGINE (Advanced Intent Detection)                        ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸Â¤â€“ WORLD-CLASS AI ENGINE (Advanced Intent Detection)                        Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 // AI is now imported from AI.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  UTILITIES                                                                     ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  UTILITIES                                                                     Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 // U (Utils) is now imported from Utils.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  📧 BEAUTIFUL EMAIL TEMPLATES (Matching Offboarding Suite Design)            ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€œÂ§ BEAUTIFUL EMAIL TEMPLATES (Matching Offboarding Suite Design)            Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 // T (Templates) is now imported from Utils.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  📨 ADVANCED GMAIL MONITOR (Memory Window + Intent Detection)                ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€œÂ¨ ADVANCED GMAIL MONITOR (Memory Window + Intent Detection)                Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function monitorOnboardingEmails() {
-  console.log("═══ ONBOARDING v6.0: Advanced Email Processing ═══");
+  console.log("Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â ONBOARDING v6.0: Advanced Email Processing Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â");
 
   try {
     // Ensure labels exist
@@ -6424,7 +6588,7 @@ function processSignupThreadAdvanced(thread, myEmail) {
   }
   if (sender.includes(myEmail)) return;
 
-  // 🧠 MEMORY WINDOW: Read last 3 messages for context (like offboarding suite)
+  // Ã°Å¸Â§Â  MEMORY WINDOW: Read last 3 messages for context (like offboarding suite)
   let combinedContext = "";
   let scanCount = 0;
   for (let i = msgs.length - 1; i >= 0; i--) {
@@ -6440,7 +6604,7 @@ function processSignupThreadAdvanced(thread, myEmail) {
 
   // Analyze with world-class intent detection
   const analysis = AI.detectIntent(combinedContext, subject);
-  console.log(`👤 Sender: ${email} | Intent: ${analysis.type}`);
+  console.log(`Ã°Å¸â€˜Â¤ Sender: ${email} | Intent: ${analysis.type}`);
 
   // Execute based on intent
   if (analysis.type === "ONBOARDING_REQUEST") {
@@ -6469,7 +6633,7 @@ function executeOnboardingAction(analysis, thread, email, sender) {
     case "ONBOARDING_REQUEST":
       // Prevent duplicate form sends
       if (AI.isDuplicateSignup(thread, email)) {
-        console.log(`↩️ SKIPPING: Already sent form to ${email} recently`);
+        console.log(`Ã¢â€ Â©Ã¯Â¸Â SKIPPING: Already sent form to ${email} recently`);
         thread.addLabel(U.label(CONFIG.LABELS.SENT));
         thread.markRead();
         return;
@@ -6477,13 +6641,13 @@ function executeOnboardingAction(analysis, thread, email, sender) {
 
       // Check if employee already exists
       if (U.employeeExists(email)) {
-        console.log(`ℹ️ Employee ${email} already exists in database`);
+        console.log(`Ã¢â€žÂ¹Ã¯Â¸Â Employee ${email} already exists in database`);
         thread.addLabel(U.label(CONFIG.LABELS.PROCESSED));
         thread.markRead();
         return;
       }
 
-      console.log(`📥 New Onboarding Request: ${email}`);
+      console.log(`Ã°Å¸â€œÂ¥ New Onboarding Request: ${email}`);
 
       // AI Name Extraction
       const name = AI.extractName(thread.getMessages()[thread.getMessages().length - 1].getPlainBody(), sender);
@@ -6497,7 +6661,7 @@ function executeOnboardingAction(analysis, thread, email, sender) {
       thread.addLabel(U.label(CONFIG.LABELS.SENT));
       thread.markRead();
 
-      console.log(`✅ Welcome email sent to ${name} (${email})`);
+      console.log(`Ã¢Å“â€¦ Welcome email sent to ${name} (${email})`);
       Log.add("FORM_SENT", email, thread.getFirstMessageSubject(), `Welcome email sent to ${name}`, `Form link: ${CONFIG.REAL_FORM_LINK}`);
       break;
 
@@ -6515,33 +6679,33 @@ function executeOnboardingAction(analysis, thread, email, sender) {
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  STAGE 2: FORM PROCESSOR (Automated - Runs on Form Submit)                    ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  STAGE 2: FORM PROCESSOR (Automated - Runs on Form Submit)                    Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function processFormSubmission(e) {
-  if (!e) { 
-    console.warn("⚠️ Submit the onboarding form to test this function."); 
-    return; 
+  if (!e) {
+    console.warn("Ã¢Å¡Â Ã¯Â¸Â Submit the onboarding form to test this function.");
+    return;
   }
-  
+
   const responses = e.namedValues;
   const { ss, sheet } = U.sheet();
-  
-  console.log("═══ PROCESSING ONBOARDING FORM SUBMISSION ═══");
-  
+
+  console.log("Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â PROCESSING ONBOARDING FORM SUBMISSION Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â");
+
   // Adaptive value extraction
   const getVal = (keywords) => {
     if (!Array.isArray(keywords)) keywords = [keywords];
     for (const keyword of keywords) {
-      const foundKey = Object.keys(responses).find(k => 
+      const foundKey = Object.keys(responses).find(k =>
         k.toLowerCase().includes(keyword.toLowerCase())
       );
       if (foundKey) return responses[foundKey][0];
     }
     return "";
   };
-  
+
   // Extract all form data
   const name = getVal(["Full Name", "name", "employee name"]);
   const email = getVal(["Email", "email address"]);
@@ -6550,18 +6714,18 @@ function processFormSubmission(e) {
   const team = getVal(["team", "department"]);
   const type = getVal(["full-time", "employment type", "intern"]);
   const salary = getVal(["monthly compensation", "salary", "ctc"]);
-  
+
   // Build position string
   const position = `${team} (${type.toLowerCase().includes("intern") ? "Intern" : "Full Time"})`;
-  
+
   // Extract file links (Google Drive IDs)
   const makeLink = (id) => id ? `https://drive.google.com/open?id=${id}` : "";
   const cv = makeLink(getVal(["CV", "resume"]));
   const aadhar = makeLink(getVal(["Aadhar", "id proof"]));
   const photo = makeLink(getVal(["photograph", "photo", "picture"]));
-  
-  console.log(`📝 New Employee: ${name} | Position: ${position} | Salary: ${salary}`);
-  
+
+  console.log(`Ã°Å¸â€œÂ New Employee: ${name} | Position: ${position} | Salary: ${salary}`);
+
   // Prepare row data (matching column structure)
   const rowData = new Array(CONFIG.HEADERS.length).fill("");
   rowData[CONFIG.COLUMNS.JOINING_DATE] = joinDate;
@@ -6583,19 +6747,19 @@ function processFormSubmission(e) {
   rowData[CONFIG.COLUMNS.RESUME_LINK] = cv;
   rowData[CONFIG.COLUMNS.AADHAR_LINK] = aadhar;
   rowData[CONFIG.COLUMNS.PHOTO_LINK] = photo;
-  
+
   // Append to master sheet
   sheet.appendRow(rowData);
-  console.log(`✅ Added ${name} to master database`);
-  
+  console.log(`Ã¢Å“â€¦ Added ${name} to master database`);
+
   // Send handbooks
   sendHandbooks(email, name);
-  
+
   // Log activity
   Log.add("FORM_PROCESSED", email, "Onboarding Form", `Employee added: ${name}`, `Position: ${position}, Salary: ${salary}`);
   Log.flush();
-  
-  console.log(`🎉 ONBOARDING COMPLETE for ${name}`);
+
+  console.log(`Ã°Å¸Å½â€° ONBOARDING COMPLETE for ${name}`);
 }
 
 function sendDocAckOnboarding(thread, email, docType) {
@@ -6631,7 +6795,7 @@ function sendGeneralAckOnboarding(thread, email) {
 }
 
 function notifyHROnboarding(thread, email, reason) {
-  GmailApp.sendEmail(CONFIG.HR_EMAIL, `🚨 HR ALERT: Onboarding - ${email}`, `Reason: ${reason}\nCheck onboarding thread.`);
+  GmailApp.sendEmail(CONFIG.HR_EMAIL, `Ã°Å¸Å¡Â¨ HR ALERT: Onboarding - ${email}`, `Reason: ${reason}\nCheck onboarding thread.`);
   thread.addLabel(U.label(CONFIG.LABELS.ESCALATED));
   Log.add("ESCALATED", email, thread.getFirstMessageSubject(), "Sensitive content escalated to HR", reason);
 }
@@ -6654,7 +6818,7 @@ function markProcessedOnboarding(msgId) {
 function sendHandbooks(email, name) {
   const props = PropertiesService.getScriptProperties();
   let attFolderId = props.getProperty("ATT_FOLDER_ID");
-  
+
   if (!attFolderId) {
     // Try to find attachment folder
     const rootFolder = U.getFolderByName(CONFIG.ROOT_FOLDER);
@@ -6666,22 +6830,22 @@ function sendHandbooks(email, name) {
       }
     }
   }
-  
+
   if (!attFolderId) {
-    console.warn("⚠️ Attachment folder not found. Run setupOnboardingSystem() first.");
+    console.warn("Ã¢Å¡Â Ã¯Â¸Â Attachment folder not found. Run setupOnboardingSystem() first.");
     Log.add("WARNING", email, "", "Handbooks not sent", "Attachment folder not configured");
     return;
   }
-  
+
   try {
     const folder = DriveApp.getFolderById(attFolderId);
     const files = folder.getFiles();
     const attachments = { policy: [], drafting: [] };
-    
+
     while (files.hasNext()) {
       const file = files.next();
       const fname = file.getName().toLowerCase();
-      
+
       if (fname.includes("etiquette") || fname.includes("leave") || fname.includes("hr policy") || fname.includes("policy")) {
         attachments.policy.push(file);
       }
@@ -6689,106 +6853,106 @@ function sendHandbooks(email, name) {
         attachments.drafting.push(file);
       }
     }
-    
+
     // Send policy documents
     if (attachments.policy.length > 0) {
-      GmailApp.sendEmail(email, "Onboarding Resources: Policies & Guidelines 📄", "", {
+      GmailApp.sendEmail(email, "Onboarding Resources: Policies & Guidelines Ã°Å¸â€œâ€ž", "", {
         htmlBody: T.handbooksEmail(name, "policy"),
         attachments: attachments.policy,
         name: "HR Team, Urbanmistrii"
       });
-      console.log(`📧 Sent ${attachments.policy.length} policy document(s) to ${email}`);
+      console.log(`Ã°Å¸â€œÂ§ Sent ${attachments.policy.length} policy document(s) to ${email}`);
       Log.add("HANDBOOKS_SENT", email, "Policy Documents", `Sent ${attachments.policy.length} policy files`, "");
     }
-    
+
     Utilities.sleep(2000); // Prevent rate limiting
-    
+
     // Send drafting handbook
     if (attachments.drafting.length > 0) {
-      GmailApp.sendEmail(email, "Confidential: UM Drafting Handbook 📐", "", {
+      GmailApp.sendEmail(email, "Confidential: UM Drafting Handbook Ã°Å¸â€œÂ", "", {
         htmlBody: T.handbooksEmail(name, "drafting"),
         attachments: attachments.drafting,
         name: "HR Team, Urbanmistrii"
       });
-      console.log(`📧 Sent ${attachments.drafting.length} drafting handbook(s) to ${email}`);
+      console.log(`Ã°Å¸â€œÂ§ Sent ${attachments.drafting.length} drafting handbook(s) to ${email}`);
       Log.add("HANDBOOKS_SENT", email, "Drafting Handbook", `Sent ${attachments.drafting.length} drafting files`, "Confidential");
     }
-    
+
   } catch (e) {
-    console.error(`❌ Error sending handbooks to ${email}: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Error sending handbooks to ${email}: ${e.message}`);
     Log.add("ERROR", email, "", "Handbook delivery failed", e.message);
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  SETUP & INSTALLATION                                                          ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  SETUP & INSTALLATION                                                          Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function setupOnboardingSystem() {
-  console.log("🚀 SETTING UP ONBOARDING SYSTEM v2.0\n");
-  
+  console.log("Ã°Å¸Å¡â‚¬ SETTING UP ONBOARDING SYSTEM v2.0\n");
+
   const props = PropertiesService.getScriptProperties();
-  
+
   // 1. Ensure Root Folder
   let rootFolder = U.getFolderByName(CONFIG.ROOT_FOLDER);
   if (!rootFolder) {
     rootFolder = DriveApp.createFolder(CONFIG.ROOT_FOLDER);
-    console.log(`✅ Created root folder: ${CONFIG.ROOT_FOLDER}`);
+    console.log(`Ã¢Å“â€¦ Created root folder: ${CONFIG.ROOT_FOLDER}`);
   } else {
-    console.log(`✅ Found root folder: ${CONFIG.ROOT_FOLDER}`);
+    console.log(`Ã¢Å“â€¦ Found root folder: ${CONFIG.ROOT_FOLDER}`);
   }
-  
+
   // 2. Ensure Attachment Folder
   let attFolder = U.getFolderByName(CONFIG.ATTACHMENT_FOLDER, rootFolder);
   if (!attFolder) {
     attFolder = rootFolder.createFolder(CONFIG.ATTACHMENT_FOLDER);
-    console.log(`✅ Created attachment folder: ${CONFIG.ATTACHMENT_FOLDER}`);
-    console.log(`⚠️ Please upload HR policies and handbooks to this folder`);
+    console.log(`Ã¢Å“â€¦ Created attachment folder: ${CONFIG.ATTACHMENT_FOLDER}`);
+    console.log(`Ã¢Å¡Â Ã¯Â¸Â Please upload HR policies and handbooks to this folder`);
   } else {
-    console.log(`✅ Found attachment folder: ${CONFIG.ATTACHMENT_FOLDER}`);
+    console.log(`Ã¢Å“â€¦ Found attachment folder: ${CONFIG.ATTACHMENT_FOLDER}`);
   }
   props.setProperty("ATT_FOLDER_ID", attFolder.getId());
-  
+
   // 3. Connect to Master Sheet (should already exist from offboarding setup)
   const ss = SpreadsheetApp.openById(CONFIG.SHEET_ID);
   let sheet = ss.getSheetByName(CONFIG.SHEET_TAB);
-  
+
   if (!sheet) {
     sheet = ss.insertSheet(CONFIG.SHEET_TAB);
     sheet.appendRow(CONFIG.HEADERS);
     sheet.getRange(1, 1, 1, CONFIG.HEADERS.length).setFontWeight("bold").setBackground("#d9ead3");
     sheet.setFrozenRows(1);
-    console.log(`✅ Created employee sheet with headers`);
+    console.log(`Ã¢Å“â€¦ Created employee sheet with headers`);
   } else {
-    console.log(`✅ Connected to existing employee sheet`);
+    console.log(`Ã¢Å“â€¦ Connected to existing employee sheet`);
   }
-  
+
   // 4. Ensure Activity Log Sheet
   let logSheet = ss.getSheetByName(CONFIG.LOG_SHEET);
   if (!logSheet) {
     logSheet = ss.insertSheet(CONFIG.LOG_SHEET);
     logSheet.appendRow(["Timestamp", "Type", "Email", "Subject", "Action", "Details"]);
     logSheet.getRange(1, 1, 1, 6).setFontWeight("bold").setBackground("#fff2cc");
-    console.log(`✅ Created activity log sheet`);
+    console.log(`Ã¢Å“â€¦ Created activity log sheet`);
   } else {
-    console.log(`✅ Found activity log sheet`);
+    console.log(`Ã¢Å“â€¦ Found activity log sheet`);
   }
-  
+
   // 5. Create Gmail Labels
   Object.values(CONFIG.LABELS).forEach(labelName => {
     U.label(labelName);
   });
-  console.log(`✅ Created Gmail labels`);
-  
-  console.log("\n🎉 ONBOARDING SYSTEM SETUP COMPLETE!");
-  console.log("\n📋 NEXT STEPS:");
+  console.log(`Ã¢Å“â€¦ Created Gmail labels`);
+
+  console.log("\nÃ°Å¸Å½â€° ONBOARDING SYSTEM SETUP COMPLETE!");
+  console.log("\nÃ°Å¸â€œâ€¹ NEXT STEPS:");
   console.log("1. Upload HR handbooks to the attachment folder");
   console.log("2. Run installOnboardingTriggers() to activate automation");
   console.log("3. Test with testOnboardingFlow()");
 }
 
 function installOnboardingTriggers() {
-  console.log("🔧 INSTALLING ADVANCED ONBOARDING TRIGGERS\n");
+  console.log("Ã°Å¸â€Â§ INSTALLING ADVANCED ONBOARDING TRIGGERS\n");
 
   // Clear existing onboarding triggers
   const triggers = ScriptApp.getProjectTriggers();
@@ -6798,37 +6962,37 @@ function installOnboardingTriggers() {
       ScriptApp.deleteTrigger(t);
     }
   });
-  console.log("🧹 Cleared old onboarding triggers");
+  console.log("Ã°Å¸Â§Â¹ Cleared old onboarding triggers");
 
   // 1. Advanced Gmail Monitor (Every 5 Minutes)
   ScriptApp.newTrigger('monitorOnboardingEmails')
     .timeBased()
     .everyMinutes(5)
     .create();
-  console.log("✅ Installed advanced Gmail monitor (every 5 minutes)");
+  console.log("Ã¢Å“â€¦ Installed advanced Gmail monitor (every 5 minutes)");
 
   // 2. Form Processor (On Form Submit)
   ScriptApp.newTrigger('processFormSubmission')
     .forSpreadsheet(CONFIG.SHEET_ID)
     .onFormSubmit()
     .create();
-  console.log("✅ Installed form processor (instant on submit)");
+  console.log("Ã¢Å“â€¦ Installed form processor (instant on submit)");
 
-  console.log("\n🚀 ONBOARDING SUITE v6.0 IS NOW LIVE!");
-  console.log("🤖 Advanced AI Intent Detection: Active");
-  console.log("🧠 Memory Window Processing: Active");
-  console.log("📧 Email Monitoring: " + CONFIG.KEYWORDS.ONBOARDING_TRIGGERS.join(", "));
+  console.log("\nÃ°Å¸Å¡â‚¬ ONBOARDING SUITE v6.0 IS NOW LIVE!");
+  console.log("Ã°Å¸Â¤â€“ Advanced AI Intent Detection: Active");
+  console.log("Ã°Å¸Â§Â  Memory Window Processing: Active");
+  console.log("Ã°Å¸â€œÂ§ Email Monitoring: " + CONFIG.KEYWORDS.ONBOARDING_TRIGGERS.join(", "));
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  ACTIVITY LOGGER (Oracle v5.1 Pattern)                                        ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  ACTIVITY LOGGER (Oracle v5.1 Pattern)                                        Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 // Log is now imported from Utils.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🕵️‍♂️ AUDIT & AUTO-FIX: Ensure All Onboarding Steps Completed                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€¢ÂµÃ¯Â¸ÂÃ¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â AUDIT & AUTO-FIX: Ensure All Onboarding Steps Completed                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function AUDIT_AND_FIX_ONBOARDING() {
   // Scan last 15 days of threads, check for onboarding requests that didn't get forms
@@ -6908,19 +7072,19 @@ function AUDIT_AND_FIX_ONBOARDING() {
   Logger.log(`Onboarding audit complete. Forms sent to: ${pendingRequests.map(r => r.email).join(", ")}`);
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🧪 COMPREHENSIVE TESTING SUITE                                              ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸Â§Âª COMPREHENSIVE TESTING SUITE                                              Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function TEST_ALL_ONBOARDING_FEATURES() {
   const testEmail = CONFIG.HR_EMAIL; // Send all test emails to HR
   const testName = "Test Employee";
 
   try {
-    Logger.log("🧪 Starting comprehensive onboarding test...");
+    Logger.log("Ã°Å¸Â§Âª Starting comprehensive onboarding test...");
 
     // Test 1: Welcome Email with Form Link
-    Logger.log("📧 Testing Welcome Email...");
+    Logger.log("Ã°Å¸â€œÂ§ Testing Welcome Email...");
     const welcomeHtml = T.welcomeEmail(testName, CONFIG.REAL_FORM_LINK);
     GmailApp.sendEmail(testEmail, "[TEST] Welcome to Urban Mistrii!", "", {
       htmlBody: welcomeHtml,
@@ -6929,7 +7093,7 @@ function TEST_ALL_ONBOARDING_FEATURES() {
     Log.add("TEST_WELCOME", testEmail, "Welcome Email Test", "Test welcome email sent", "");
 
     // Test 2: Policy Documents Email
-    Logger.log("📄 Testing Policy Documents Email...");
+    Logger.log("Ã°Å¸â€œâ€ž Testing Policy Documents Email...");
     const policyHtml = T.handbooksEmail(testName, "policy");
     GmailApp.sendEmail(testEmail, "[TEST] Company Policies & Guidelines", "", {
       htmlBody: policyHtml,
@@ -6938,7 +7102,7 @@ function TEST_ALL_ONBOARDING_FEATURES() {
     Log.add("TEST_POLICY", testEmail, "Policy Email Test", "Test policy email sent", "");
 
     // Test 3: Drafting Handbook Email
-    Logger.log("📐 Testing Drafting Handbook Email...");
+    Logger.log("Ã°Å¸â€œÂ Testing Drafting Handbook Email...");
     const handbookHtml = T.handbooksEmail(testName, "drafting");
     GmailApp.sendEmail(testEmail, "[TEST] Confidential: UM Drafting Handbook", "", {
       htmlBody: handbookHtml,
@@ -6947,7 +7111,7 @@ function TEST_ALL_ONBOARDING_FEATURES() {
     Log.add("TEST_HANDBOOK", testEmail, "Handbook Email Test", "Test handbook email sent", "");
 
     // Test 4: Document Request Acknowledgment
-    Logger.log("📋 Testing Document Request Acknowledgment...");
+    Logger.log("Ã°Å¸â€œâ€¹ Testing Document Request Acknowledgment...");
     const docHtml = T.wrap(`
       <div style="${T.style.header}">Document Request Received</div>
       <div style="padding:20px;">
@@ -6962,7 +7126,7 @@ function TEST_ALL_ONBOARDING_FEATURES() {
     Log.add("TEST_DOC_ACK", testEmail, "Document Ack Test", "Test document acknowledgment sent", "");
 
     // Test 5: General Inquiry Acknowledgment
-    Logger.log("💬 Testing General Inquiry Acknowledgment...");
+    Logger.log("Ã°Å¸â€™Â¬ Testing General Inquiry Acknowledgment...");
     const generalHtml = T.wrap(`
       <div style="${T.style.header}">Inquiry Received</div>
       <div style="padding:20px;">
@@ -6974,22 +7138,22 @@ function TEST_ALL_ONBOARDING_FEATURES() {
     Log.add("TEST_GENERAL_ACK", testEmail, "General Ack Test", "Test general acknowledgment sent", "");
 
     // Test 6: HR Alert Email
-    Logger.log("🚨 Testing HR Alert Email...");
+    Logger.log("Ã°Å¸Å¡Â¨ Testing HR Alert Email...");
     GmailApp.sendEmail(CONFIG.HR_EMAIL, `[TEST] HR ALERT: Onboarding - ${testEmail}`, `Reason: Test sensitive content detection\nThis is a test alert for the onboarding system.`, { name: "Onboarding AI" });
     Log.add("TEST_HR_ALERT", CONFIG.HR_EMAIL, "HR Alert Test", "Test HR alert sent", "");
 
-    Logger.log("✅ All onboarding feature tests completed!");
-    Logger.log(`📧 All test emails sent to: ${testEmail}`);
-    Logger.log("\n🎯 Test Results:");
-    Logger.log("• Welcome Email: Check for form link and styling");
-    Logger.log("• Policy Email: Check for attachment placeholders");
-    Logger.log("• Handbook Email: Check confidential markings");
-    Logger.log("• Document Ack: Check professional response");
-    Logger.log("• General Ack: Check helpful tone");
-    Logger.log("• HR Alert: Check escalation format");
+    Logger.log("Ã¢Å“â€¦ All onboarding feature tests completed!");
+    Logger.log(`Ã°Å¸â€œÂ§ All test emails sent to: ${testEmail}`);
+    Logger.log("\nÃ°Å¸Å½Â¯ Test Results:");
+    Logger.log("Ã¢â‚¬Â¢ Welcome Email: Check for form link and styling");
+    Logger.log("Ã¢â‚¬Â¢ Policy Email: Check for attachment placeholders");
+    Logger.log("Ã¢â‚¬Â¢ Handbook Email: Check confidential markings");
+    Logger.log("Ã¢â‚¬Â¢ Document Ack: Check professional response");
+    Logger.log("Ã¢â‚¬Â¢ General Ack: Check helpful tone");
+    Logger.log("Ã¢â‚¬Â¢ HR Alert: Check escalation format");
 
   } catch (e) {
-    Logger.log("❌ Error in TEST_ALL_ONBOARDING_FEATURES: " + e.message);
+    Logger.log("Ã¢ÂÅ’ Error in TEST_ALL_ONBOARDING_FEATURES: " + e.message);
     Log.add("TEST_ERROR", CONFIG.HR_EMAIL, "Test Suite Failed", "Comprehensive test failed", e.message);
   }
 
@@ -6998,40 +7162,40 @@ function TEST_ALL_ONBOARDING_FEATURES() {
 
 function manualSendWelcomeEmail(email, name) {
   if (!email || !name) {
-    console.error("❌ Usage: manualSendWelcomeEmail('employee@email.com', 'Employee Name')");
+    console.error("Ã¢ÂÅ’ Usage: manualSendWelcomeEmail('employee@email.com', 'Employee Name')");
     return;
   }
-  
-  console.log(`\n🚀 MANUALLY SENDING WELCOME EMAIL`);
+
+  console.log(`\nÃ°Å¸Å¡â‚¬ MANUALLY SENDING WELCOME EMAIL`);
   console.log(`To: ${email}`);
   console.log(`Name: ${name}\n`);
-  
+
   GmailApp.sendEmail(email, `Welcome to UrbanMistrii, ${name}! (Action Required)`, "", {
     htmlBody: T.welcomeEmail(name, CONFIG.REAL_FORM_LINK),
     name: "HR Team, Urbanmistrii"
   });
-  
-  console.log("✅ Welcome email sent!");
+
+  console.log("Ã¢Å“â€¦ Welcome email sent!");
   Log.add("MANUAL_SEND", email, "Welcome Email", `Manually sent to ${name}`, "");
   Log.flush();
 }
 
 function testOnboardingFlow() {
-  console.log("\n🧪 RUNNING COMPREHENSIVE ONBOARDING TEST SUITE\n");
+  console.log("\nÃ°Å¸Â§Âª RUNNING COMPREHENSIVE ONBOARDING TEST SUITE\n");
 
-  console.log("🎯 This will test ALL onboarding features:");
-  console.log("• Welcome Email with Form Link");
-  console.log("• Policy Documents Email");
-  console.log("• Drafting Handbook Email");
-  console.log("• Document Request Acknowledgment");
-  console.log("• General Inquiry Acknowledgment");
-  console.log("• HR Alert System");
+  console.log("Ã°Å¸Å½Â¯ This will test ALL onboarding features:");
+  console.log("Ã¢â‚¬Â¢ Welcome Email with Form Link");
+  console.log("Ã¢â‚¬Â¢ Policy Documents Email");
+  console.log("Ã¢â‚¬Â¢ Drafting Handbook Email");
+  console.log("Ã¢â‚¬Â¢ Document Request Acknowledgment");
+  console.log("Ã¢â‚¬Â¢ General Inquiry Acknowledgment");
+  console.log("Ã¢â‚¬Â¢ HR Alert System");
   console.log("");
 
   TEST_ALL_ONBOARDING_FEATURES();
 
-  console.log("\n✅ COMPREHENSIVE TEST COMPLETED!");
-  console.log("\n📋 CHECKLIST:");
+  console.log("\nÃ¢Å“â€¦ COMPREHENSIVE TEST COMPLETED!");
+  console.log("\nÃ°Å¸â€œâ€¹ CHECKLIST:");
   console.log("1. Check HR inbox for 6 test emails with [TEST] prefixes");
   console.log("2. Verify beautiful email styling and branding");
   console.log("3. Test form submission workflow manually");
@@ -7041,12 +7205,12 @@ function testOnboardingFlow() {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  OFFBOARDING EXIT SUITE V2
-// ═══════════════════════════════════════════════════════════════════════════
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🕵️‍♂️ AUDIT & AUTO-FIX: Ensure All Steps Completed for All Candidates        ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€¢ÂµÃ¯Â¸ÂÃ¢â‚¬ÂÃ¢â„¢â€šÃ¯Â¸Â AUDIT & AUTO-FIX: Ensure All Steps Completed for All Candidates        Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function AUDIT_AND_FIX_OFFBOARDING() {
   // Scan last 15 days of threads, check for candidates who got Step 2 but not Step 3, and send Step 3 if needed
@@ -7178,34 +7342,34 @@ function extractEmailFromMsg(msg) {
   return email;
 }
 /*
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║  URBAN MISTRII - OFFBOARDING AI SUITE v6.0 (FINAL)                            ║
- * ║  Features: Context Memory, Priority Flow, PDF Approvals, Manual Fix Tools     ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜  URBAN MISTRII - OFFBOARDING AI SUITE v6.0 (FINAL)                            Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Features: Context Memory, Priority Flow, PDF Approvals, Manual Fix Tools     Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 // CONFIG is now imported from Config.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🧠 AI ENGINE: CONTEXT & INTENT SCORING                                       ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸Â§Â  AI ENGINE: CONTEXT & INTENT SCORING                                       Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 // AI is now imported from AI.js - removing duplicate declaration
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  📨 INTELLIGENT PROCESSOR (MEMORY WINDOW)                                     ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€œÂ¨ INTELLIGENT PROCESSOR (MEMORY WINDOW)                                     Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function processInbox() {
   const query = `to:me -label:${CONFIG.LABELS.STOP} -label:${CONFIG.LABELS.PROCESSED} -from:${CONFIG.HR_EMAIL}`;
   const threads = GmailApp.search(query, 0, 20);
 
-  if (threads.length === 0) { console.log("✅ Inbox Clean."); return; }
+  if (threads.length === 0) { console.log("Ã¢Å“â€¦ Inbox Clean."); return; }
 
   Object.values(CONFIG.LABELS).forEach(l => { try { GmailApp.createLabel(l); } catch (e) { } });
   const processedCache = getProcessedIDs();
 
-  console.log(`📨 Scanning ${threads.length} threads...`);
+  console.log(`Ã°Å¸â€œÂ¨ Scanning ${threads.length} threads...`);
 
   for (const thread of threads) {
     try {
@@ -7214,11 +7378,11 @@ function processInbox() {
       const msgId = lastMsg.getId();
       const sender = lastMsg.getFrom();
 
-      // 🛑 DEDUPLICATION
+      // Ã°Å¸â€ºâ€˜ DEDUPLICATION
       if (sender.includes("urbanmistrii.com")) continue;
-      if (processedCache[msgId]) { console.log(`⏩ Skipping processed ID: ${msgId}`); continue; }
+      if (processedCache[msgId]) { console.log(`Ã¢ÂÂ© Skipping processed ID: ${msgId}`); continue; }
 
-      // 🧠 MEMORY WINDOW: Read last 3 messages (robust)
+      // Ã°Å¸Â§Â  MEMORY WINDOW: Read last 3 messages (robust)
       let combinedContext = "";
       let scanCount = 0;
       for (let i = msgs.length - 1; i >= 0; i--) {
@@ -7235,7 +7399,7 @@ function processInbox() {
       // Analyze
       const analysis = AI.detectIntent(combinedContext, lastMsg.getSubject());
       const name = AI.extractName(lastMsg);
-      console.log(`👤 User: ${name} | Intent: ${analysis.type}`);
+      console.log(`Ã°Å¸â€˜Â¤ User: ${name} | Intent: ${analysis.type}`);
 
       // Execute: Always run step 1, 2, 3 in order if detected
       if (analysis.type === "SUBMISSION_WORKLOG") {
@@ -7257,13 +7421,13 @@ function processInbox() {
       if (analysis.type === "UNKNOWN") {
         Log.add(sender, "UNKNOWN_INTENT", "No action taken");
       }
-    } catch (e) { console.error(`❌ Error processing thread: ${e.message}`); }
+    } catch (e) { console.error(`Ã¢ÂÅ’ Error processing thread: ${e.message}`); }
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  ⚡ AUTOMATED ACTIONS                                                         ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã¢Å¡Â¡ AUTOMATED ACTIONS                                                         Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function executeAction(analysis, thread, email, name) {
   if (!thread) return;
@@ -7316,7 +7480,7 @@ function sendDocAck(thread, email, name, type) {
       <p>Dear ${name},</p>
       <p>We have logged your request for the <strong>${typeName}</strong>.</p>
       <div style="${T.style.box}">
-        <p>Note: Documents are usually released only after the full offboarding process (Worklog → Form → Exit Survey) is complete.</p>
+        <p>Note: Documents are usually released only after the full offboarding process (Worklog Ã¢â€ â€™ Form Ã¢â€ â€™ Exit Survey) is complete.</p>
       </div>
     </div>
   `);
@@ -7340,13 +7504,13 @@ function sendGeneralAck(thread, email, name) {
 }
 
 function notifyHR(thread, email, name, reason) {
-  GmailApp.sendEmail(CONFIG.HR_EMAIL, `🚨 HR ALERT: ${name}`, `Reason: ${reason}\nCheck thread.`);
+  GmailApp.sendEmail(CONFIG.HR_EMAIL, `Ã°Å¸Å¡Â¨ HR ALERT: ${name}`, `Reason: ${reason}\nCheck thread.`);
   thread.addLabel(GmailApp.getUserLabelByName(CONFIG.LABELS.ESCALATED));
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  📄 STEP 2, 3 & PDF GENERATION (Form Submit Trigger)                         ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€œâ€ž STEP 2, 3 & PDF GENERATION (Form Submit Trigger)                         Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function onFormSubmit(e) {
   if (!e) return;
@@ -7374,13 +7538,13 @@ function onFormSubmit(e) {
 
   // STEP 2: Offboarding Form submitted
   if (isOffboarding) {
-    console.log(`✅ Offboarding Form received from ${name}. Generating Experience Letter and sending Step 3.`);
+    console.log(`Ã¢Å“â€¦ Offboarding Form received from ${name}. Generating Experience Letter and sending Step 3.`);
     // 1. Generate and send Experience Letter PDF immediately
     if (rowIdx > 0 && data[rowIdx][data[0].length - 1] === "COMPLETED") {
       console.log("Letter already generated for this row. Skipping duplicate.");
     } else {
       const pdfBlob = createPdf(name, pos);
-      GmailApp.sendEmail(email, "Your Experience Letter – Urbanmistrii", "Please find attached your experience letter.", { attachments: [pdfBlob], name: "HR Team" });
+      GmailApp.sendEmail(email, "Your Experience Letter Ã¢â‚¬â€œ Urbanmistrii", "Please find attached your experience letter.", { attachments: [pdfBlob], name: "HR Team" });
       Log.add(email, "PDF_SENT", "Experience Letter sent after Step 2");
       if (rowIdx > 0) sheet.getRange(rowIdx + 1, data[0].length).setValue("COMPLETED");
     }
@@ -7401,28 +7565,28 @@ function onFormSubmit(e) {
   }
   // STEP 3: Exit Survey submitted (optional feedback)
   else if (isExitSurvey) {
-    console.log(`✅ Exit Survey received from ${name}. (PDF already sent after Step 2)`);
+    console.log(`Ã¢Å“â€¦ Exit Survey received from ${name}. (PDF already sent after Step 2)`);
     Log.add(email, "EXIT_SURVEY", "Exit survey submitted");
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🛠️ MANUAL TEST BUTTON FOR EXPERIENCE LETTER                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€ºÂ Ã¯Â¸Â MANUAL TEST BUTTON FOR EXPERIENCE LETTER                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🛠️ MANUAL TEST BUTTON FOR EXPERIENCE LETTER                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€ºÂ Ã¯Â¸Â MANUAL TEST BUTTON FOR EXPERIENCE LETTER                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function TEST_ALL_FEATURES() {
   const testEmail = CONFIG.HR_EMAIL; // Send all test emails to HR
   const testName = "Test Employee";
 
   try {
-    Logger.log("🧪 Starting comprehensive feature test...");
+    Logger.log("Ã°Å¸Â§Âª Starting comprehensive feature test...");
 
     // Test 1: Step 2 Worklog Received Email
-    Logger.log("📧 Testing Step 2 Worklog Email...");
+    Logger.log("Ã°Å¸â€œÂ§ Testing Step 2 Worklog Email...");
     const step2Html = T.wrap(`
       <div style="${T.style.header}">Work Log / Logbook Received</div>
       <div style="padding:20px;">
@@ -7441,14 +7605,14 @@ function TEST_ALL_FEATURES() {
     Log.add(testEmail, "TEST_STEP2", "Test Step 2 email sent");
 
     // Test 2: Document Request Acknowledgment
-    Logger.log("📄 Testing Document Request Email...");
+    Logger.log("Ã°Å¸â€œâ€ž Testing Document Request Email...");
     const docHtml = T.wrap(`
       <div style="${T.style.header}">Request Received: Experience Letter</div>
       <div style="padding:20px;">
         <p>Dear ${testName},</p>
         <p>We have logged your request for the <strong>experience letter</strong>.</p>
         <div style="${T.style.box}">
-          <p>Note: Documents are usually released only after the full offboarding process (Worklog → Form → Exit Survey) is complete.</p>
+          <p>Note: Documents are usually released only after the full offboarding process (Worklog Ã¢â€ â€™ Form Ã¢â€ â€™ Exit Survey) is complete.</p>
         </div>
       </div>
     `);
@@ -7456,7 +7620,7 @@ function TEST_ALL_FEATURES() {
     Log.add(testEmail, "TEST_DOC_ACK", "Test document acknowledgment sent");
 
     // Test 3: General Inquiry Acknowledgment
-    Logger.log("💬 Testing General Inquiry Email...");
+    Logger.log("Ã°Å¸â€™Â¬ Testing General Inquiry Email...");
     const generalHtml = T.wrap(`
       <div style="${T.style.header}">Inquiry Received</div>
       <div style="padding:20px;">
@@ -7468,7 +7632,7 @@ function TEST_ALL_FEATURES() {
     Log.add(testEmail, "TEST_GENERAL_ACK", "Test general acknowledgment sent");
 
     // Test 4: Step 3 Exit Survey Email
-    Logger.log("📝 Testing Step 3 Exit Survey Email...");
+    Logger.log("Ã°Å¸â€œÂ Testing Step 3 Exit Survey Email...");
     const step3Html = T.wrap(`
       <div style="${T.style.header}">Step 2 Complete</div>
       <div style="padding:20px;">
@@ -7484,21 +7648,21 @@ function TEST_ALL_FEATURES() {
     Log.add(testEmail, "TEST_STEP3", "Test Step 3 email sent");
 
     // Test 5: Experience Letter PDF Generation
-    Logger.log("📄 Testing Experience Letter PDF...");
+    Logger.log("Ã°Å¸â€œâ€ž Testing Experience Letter PDF...");
     const pdfBlob = createPdf(testName, "Software Engineer");
     GmailApp.sendEmail(testEmail, "[TEST] Experience Letter PDF", `Test PDF for ${testName} (Software Engineer)`, { attachments: [pdfBlob], name: "HR Team" });
     Log.add(testEmail, "TEST_PDF", "Test PDF sent");
 
     // Test 6: HR Alert Email
-    Logger.log("🚨 Testing HR Alert Email...");
+    Logger.log("Ã°Å¸Å¡Â¨ Testing HR Alert Email...");
     GmailApp.sendEmail(CONFIG.HR_EMAIL, `[TEST] HR ALERT: ${testName}`, `Reason: Test sensitive content detection\nThis is a test alert for the offboarding system.`, { name: "Offboarding AI" });
     Log.add(CONFIG.HR_EMAIL, "TEST_HR_ALERT", "Test HR alert sent");
 
-    Logger.log("✅ All feature tests completed! Check your inbox for test emails.");
-    Logger.log(`📧 All test emails sent to: ${testEmail}`);
+    Logger.log("Ã¢Å“â€¦ All feature tests completed! Check your inbox for test emails.");
+    Logger.log(`Ã°Å¸â€œÂ§ All test emails sent to: ${testEmail}`);
 
   } catch (e) {
-    Logger.log("❌ Error in TEST_ALL_FEATURES: " + e.message);
+    Logger.log("Ã¢ÂÅ’ Error in TEST_ALL_FEATURES: " + e.message);
     Log.add(CONFIG.HR_EMAIL, "TEST_ERROR", "Test failed: " + e.message);
   }
 }
@@ -7546,25 +7710,25 @@ function doGet(e) {
   const { action, id } = e.parameter;
   const props = PropertiesService.getScriptProperties();
   const raw = props.getProperty(id);
-  if (!raw) return HtmlService.createHtmlOutput("<h3>❌ Link Expired or Already Processed.</h3>");
+  if (!raw) return HtmlService.createHtmlOutput("<h3>Ã¢ÂÅ’ Link Expired or Already Processed.</h3>");
   const data = JSON.parse(raw);
 
   if (action === "approve") {
     const file = DriveApp.getFileById(data.fileId);
     GmailApp.sendEmail(data.email, "Experience Letter", "Please find attached your experience letter.", { attachments: [file.getBlob()] });
     props.deleteProperty(id);
-    return HtmlService.createHtmlOutput("<h2 style='color:green'>✅ Approved & Sent.</h2>");
+    return HtmlService.createHtmlOutput("<h2 style='color:green'>Ã¢Å“â€¦ Approved & Sent.</h2>");
   }
   if (action === "reject") {
     GmailApp.sendEmail(CONFIG.HR_EMAIL, `Rejected: ${data.name}`, "Manually create the PDF.");
     props.deleteProperty(id);
-    return HtmlService.createHtmlOutput("<h2 style='color:red'>❌ Rejected.</h2>");
+    return HtmlService.createHtmlOutput("<h2 style='color:red'>Ã¢ÂÅ’ Rejected.</h2>");
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  💾 SYSTEM UTILITIES                                                          ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€™Â¾ SYSTEM UTILITIES                                                          Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function getProcessedIDs() {
   const props = PropertiesService.getScriptProperties();
@@ -7590,12 +7754,12 @@ function installTriggers() {
   t.forEach(x => ScriptApp.deleteTrigger(x));
   ScriptApp.newTrigger("processInbox").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("onFormSubmit").forSpreadsheet(SpreadsheetApp.openById(CONFIG.SHEET_ID)).onFormSubmit().create();
-  console.log("✅ All Triggers Installed.");
+  console.log("Ã¢Å“â€¦ All Triggers Installed.");
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  🛠️ MANUAL FIXES                                                              ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  Ã°Å¸â€ºÂ Ã¯Â¸Â MANUAL FIXES                                                              Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 // (MANUAL_FIX_ARCHANA removed)
 function sendStep1_WorkLogRequest(thread, email, name) {
@@ -7630,61 +7794,61 @@ function sendStep1_WorkLogRequest(thread, email, name) {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  PAYROLL LIFECYCLE MANAGER
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /*
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║  URBAN MISTRII - PAYROLL & EMPLOYEE LIFECYCLE MANAGER                        ║
- * ║  Features: Monthly Payroll Reports, Active/Departed Tracking, Auto-Email     ║
- * ║  🔗 Part of HR Automation Ecosystem (Central Database Manager)               ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜  URBAN MISTRII - PAYROLL & EMPLOYEE LIFECYCLE MANAGER                        Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Features: Monthly Payroll Reports, Active/Departed Tracking, Auto-Email     Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Ã°Å¸â€â€” Part of HR Automation Ecosystem (Central Database Manager)               Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const PAYROLL_CONFIG = {
-  // 🔗 HR ECOSYSTEM INTEGRATION
+  // Ã°Å¸â€â€” HR ECOSYSTEM INTEGRATION
   ECOSYSTEM: {
     ONBOARDING_SCRIPT: "onboarding_suite_v2.gs",
     OFFBOARDING_SCRIPT: "offboarding_exit_suite_v2.gs",
     OFFER_LETTER_GEN: "offer_letter_generator.gs",
     JOINING_LETTER_GEN: "joining_letter_generator.gs"
   },
-  
-  // 📊 MASTER DATABASE
+
+  // Ã°Å¸â€œÅ  MASTER DATABASE
   SHEET_ID: "1b6JIPZo2G0YgB-Ee2WVL7PP-GP5h4HpLcev5NBEtMmE",
-  
-  // 📋 SHEET STRUCTURE
+
+  // Ã°Å¸â€œâ€¹ SHEET STRUCTURE
   SHEETS: {
     ACTIVE: "Employees",           // Active employees (Sheet 1)
     DEPARTED: "Departed Employees", // Offboarded employees (Sheet 2)
     PAYROLL_LOG: "Payroll History"  // Monthly report log
   },
-  
-  // 📧 EMAIL SETTINGS
+
+  // Ã°Å¸â€œÂ§ EMAIL SETTINGS
   HR_EMAIL: "hr@urbanmistrii.com",
   RITIKA_EMAIL: "ritika@urbanmistrii.com",
   TZ: "Asia/Kolkata",
-  
-  // 📅 PAYROLL SETTINGS
+
+  // Ã°Å¸â€œâ€¦ PAYROLL SETTINGS
   PAYROLL_DAY: 1, // 1st of every month
-  
-  // 🏖️ LEAVE MANAGEMENT
+
+  // Ã°Å¸Ââ€“Ã¯Â¸Â LEAVE MANAGEMENT
   LEAVE_POLICY: {
     ADVANCE_DAYS: 14, // Must apply 14 days in advance
     SEARCH_LABEL: "HR/Leave Requests",
     TRIGGER_KEYWORDS: ["leave", "request leave", "apply for leave", "leave application", "taking leave"]
   },
-  
-  // 📋 MONTHLY ATTENDANCE FORM
+
+  // Ã°Å¸â€œâ€¹ MONTHLY ATTENDANCE FORM
   MONTHLY_FORM_ID: "1sFoC-e83AN7j2VXklmCC4Pah2B6-uvCCWNJTVLH3Sqg", // Monthly Attendance & Expense Report form
-  
+
   COMPANY_INFO: {
     NAME: "URBANMISTRII STUDIO",
     ADDRESS_LINE1: "199 ANUPAM APARTMENT",
     ADDRESS_LINE2: "SAKET NEW DELHI"
   },
-  
-  // 💰 COLUMN MAPPING (Active Employees Sheet)
+
+  // Ã°Å¸â€™Â° COLUMN MAPPING (Active Employees Sheet)
   ACTIVE_COLS: {
     JOINING_DATE: 0,      // A
     NAME: 1,              // B
@@ -7702,8 +7866,8 @@ const PAYROLL_CONFIG = {
     DAYS_WITH_UM: 13,     // N
     POSITION: 14          // O
   },
-  
-  // 📋 DEPARTED EMPLOYEE COLUMNS
+
+  // Ã°Å¸â€œâ€¹ DEPARTED EMPLOYEE COLUMNS
   DEPARTED_COLS: {
     NAME: 0,
     EMAIL: 1,
@@ -7719,9 +7883,9 @@ const PAYROLL_CONFIG = {
   }
 };
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  EMPLOYEE LIFECYCLE MANAGEMENT                                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  EMPLOYEE LIFECYCLE MANAGEMENT                                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Move employee from Active to Departed sheet
@@ -7729,27 +7893,27 @@ const PAYROLL_CONFIG = {
  */
 function moveEmployeeToDeparted(email, offboardingData) {
   if (!email) {
-    console.error("❌ Email required to move employee");
+    console.error("Ã¢ÂÅ’ Email required to move employee");
     return false;
   }
-  
+
   try {
-    console.log(`🔄 Moving ${email} to Departed Employees sheet`);
-    
+    console.log(`Ã°Å¸â€â€ž Moving ${email} to Departed Employees sheet`);
+
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     const activeSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.ACTIVE);
     const departedSheet = getDepartedSheet(ss);
-    
+
     if (!activeSheet) {
-      console.error("❌ Active employees sheet not found");
+      console.error("Ã¢ÂÅ’ Active employees sheet not found");
       return false;
     }
-    
+
     // Find employee in active sheet
     const activeData = activeSheet.getDataRange().getValues();
     let employeeRow = null;
     let rowIndex = -1;
-    
+
     for (let i = 1; i < activeData.length; i++) {
       const rowEmail = String(activeData[i][PAYROLL_CONFIG.ACTIVE_COLS.REMARKS]).toLowerCase().trim();
       if (rowEmail === email.toLowerCase().trim()) {
@@ -7758,17 +7922,17 @@ function moveEmployeeToDeparted(email, offboardingData) {
         break;
       }
     }
-    
+
     if (!employeeRow) {
-      console.warn(`⚠️ Employee ${email} not found in active sheet`);
+      console.warn(`Ã¢Å¡Â Ã¯Â¸Â Employee ${email} not found in active sheet`);
       return false;
     }
-    
+
     // Calculate duration
     const joiningDate = employeeRow[PAYROLL_CONFIG.ACTIVE_COLS.JOINING_DATE];
     const lastDay = offboardingData?.lastWorkingDay || new Date();
     const duration = calculateDuration(joiningDate, lastDay);
-    
+
     // Prepare departed employee data
     const departedData = [
       employeeRow[PAYROLL_CONFIG.ACTIVE_COLS.NAME],                    // Name
@@ -7783,66 +7947,66 @@ function moveEmployeeToDeparted(email, offboardingData) {
       offboardingData?.projects || "See work log",                     // Projects
       offboardingData?.notes || ""                                     // Notes
     ];
-    
+
     // Append to departed sheet
     departedSheet.appendRow(departedData);
-    console.log(`✅ Added ${employeeRow[PAYROLL_CONFIG.ACTIVE_COLS.NAME]} to Departed Employees`);
-    
+    console.log(`Ã¢Å“â€¦ Added ${employeeRow[PAYROLL_CONFIG.ACTIVE_COLS.NAME]} to Departed Employees`);
+
     // Delete from active sheet
     activeSheet.deleteRow(rowIndex);
-    console.log(`✅ Removed from Active Employees`);
-    
+    console.log(`Ã¢Å“â€¦ Removed from Active Employees`);
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to move employee: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to move employee: ${e.message}`);
     return false;
   }
 }
 
 function getDepartedSheet(ss) {
   let departedSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.DEPARTED);
-  
+
   if (!departedSheet) {
     // Create departed sheet with headers
     departedSheet = ss.insertSheet(PAYROLL_CONFIG.SHEETS.DEPARTED);
     const headers = [
       "Employee Name", "Email", "Position", "Joining Date", "Last Working Day",
-      "Duration with UM", "Final Salary", "Exit Reason", "Offboard Date", 
+      "Duration with UM", "Final Salary", "Exit Reason", "Offboard Date",
       "Projects Worked On", "Notes"
     ];
     departedSheet.appendRow(headers);
     departedSheet.getRange(1, 1, 1, headers.length).setFontWeight("bold").setBackground("#f4cccc");
     departedSheet.setFrozenRows(1);
-    console.log("✅ Created Departed Employees sheet");
+    console.log("Ã¢Å“â€¦ Created Departed Employees sheet");
   }
-  
+
   return departedSheet;
 }
 
 function calculateDuration(startDate, endDate) {
   if (!startDate || !endDate) return "N/A";
-  
+
   const start = new Date(startDate);
   const end = new Date(endDate);
-  
+
   const diffMs = end - start;
   const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  
+
   const years = Math.floor(diffDays / 365);
   const months = Math.floor((diffDays % 365) / 30);
   const days = Math.floor((diffDays % 365) % 30);
-  
+
   const parts = [];
   if (years > 0) parts.push(`${years} Year${years > 1 ? 's' : ''}`);
   if (months > 0) parts.push(`${months} Month${months > 1 ? 's' : ''}`);
   if (days > 0) parts.push(`${days} Day${days > 1 ? 's' : ''}`);
-  
+
   return parts.length > 0 ? parts.join(' & ') : "Less than 1 day";
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  MONTHLY PAYROLL REPORT GENERATOR                                             ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  MONTHLY PAYROLL REPORT GENERATOR                                             Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Generate and email monthly payroll report
@@ -7854,108 +8018,108 @@ function generateMonthlyPayrollReport(targetMonth, targetYear) {
     const now = new Date();
     targetMonth = now.getMonth(); // 0-11 (previous month when run on 1st)
     targetYear = now.getFullYear();
-    
+
     // Adjust for January (get December of previous year)
     if (targetMonth === 0) {
       targetMonth = 11; // December
       targetYear -= 1;
     }
   }
-  
+
   const monthNames = ["January", "February", "March", "April", "May", "June",
-                      "July", "August", "September", "October", "November", "December"];
+    "July", "August", "September", "October", "November", "December"];
   const monthName = monthNames[targetMonth];
-  
-  console.log(`📊 Generating payroll report for ${monthName} ${targetYear}`);
-  
+
+  console.log(`Ã°Å¸â€œÅ  Generating payroll report for ${monthName} ${targetYear}`);
+
   try {
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     const activeSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.ACTIVE);
-    
+
     if (!activeSheet) {
-      console.error("❌ Active employees sheet not found");
+      console.error("Ã¢ÂÅ’ Active employees sheet not found");
       return false;
     }
-    
+
     // Create new spreadsheet for the report
     const reportName = `${monthName}_Employee_Salary_${targetYear}`;
     const reportSS = SpreadsheetApp.create(reportName);
     const reportSheet = reportSS.getActiveSheet();
     reportSheet.setName("Payroll Report");
-    
+
     // Add company header
     reportSheet.appendRow(["", PAYROLL_CONFIG.COMPANY_INFO.NAME]);
     reportSheet.appendRow(["", PAYROLL_CONFIG.COMPANY_INFO.ADDRESS_LINE1]);
     reportSheet.appendRow(["", PAYROLL_CONFIG.COMPANY_INFO.ADDRESS_LINE2]);
     reportSheet.appendRow([]); // Empty row
     reportSheet.appendRow([]); // Empty row
-    
+
     // Format company header
     reportSheet.getRange(1, 2, 3, 1).setFontWeight("bold").setFontSize(12);
-    
+
     // Copy active employee data
     const activeData = activeSheet.getDataRange().getValues();
     const headers = activeData[0];
-    
+
     // Append headers
     const headerRow = 6; // Row 6 for headers
     reportSheet.getRange(headerRow, 1, 1, headers.length).setValues([headers]);
     reportSheet.getRange(headerRow, 1, 1, headers.length).setFontWeight("bold").setBackground("#cfe2f3");
-    
+
     // Copy employee data (skip header row)
     let grossTotal = 0;
     let deductions = 0;
     let additions = 0;
     let additionsNotes = [];
-    
+
     for (let i = 1; i < activeData.length; i++) {
       const row = activeData[i];
-      
+
       // Skip empty rows or summary rows
       if (!row[PAYROLL_CONFIG.ACTIVE_COLS.NAME]) continue;
-      
+
       reportSheet.appendRow(row);
-      
+
       // Calculate totals
       const salary = parseCurrency(row[PAYROLL_CONFIG.ACTIVE_COLS.TOTAL_SALARY] || row[PAYROLL_CONFIG.ACTIVE_COLS.CURRENT_SAL]);
       if (salary > 0) {
         grossTotal += salary;
       }
-      
+
       const deduction = parseCurrency(row[PAYROLL_CONFIG.ACTIVE_COLS.OTHER_DEDUCTIONS]);
       if (deduction > 0) {
         deductions += deduction;
       }
-      
+
       const conveyance = parseCurrency(row[PAYROLL_CONFIG.ACTIVE_COLS.CONVEYANCE]);
       if (conveyance > 0) {
         additions += conveyance;
-        additionsNotes.push(`${row[PAYROLL_CONFIG.ACTIVE_COLS.NAME]}: ₹${conveyance.toLocaleString('en-IN')}`);
+        additionsNotes.push(`${row[PAYROLL_CONFIG.ACTIVE_COLS.NAME]}: Ã¢â€šÂ¹${conveyance.toLocaleString('en-IN')}`);
       }
     }
-    
+
     // Add summary section
     const lastRow = reportSheet.getLastRow();
     reportSheet.appendRow([]);
     reportSheet.appendRow(["", "", "", "", "", "", "", "", "", "", "Gross Total", grossTotal.toFixed(2)]);
-    reportSheet.appendRow(["", "", "", "", "", "", `₹${grossTotal.toLocaleString('en-IN')}`, "", "", "", "Deductions", deductions.toFixed(2)]);
+    reportSheet.appendRow(["", "", "", "", "", "", `Ã¢â€šÂ¹${grossTotal.toLocaleString('en-IN')}`, "", "", "", "Deductions", deductions.toFixed(2)]);
     reportSheet.appendRow(["", "", "", "", "", "", "", "", "", "", "Additions", additions.toFixed(2), additionsNotes.join(", ")]);
     reportSheet.appendRow(["", "", "", "", "", "", "", "", "", "", "Total Payable For " + monthName, (grossTotal - deductions + additions).toFixed(2)]);
-    
+
     // Format summary section
     const summaryStartRow = lastRow + 2;
     reportSheet.getRange(summaryStartRow, 11, 4, 2).setFontWeight("bold").setBackground("#fff2cc");
-    
+
     // Auto-resize columns
     for (let i = 1; i <= headers.length; i++) {
       reportSheet.autoResizeColumn(i);
     }
-    
+
     // Convert to PDF
     const reportFile = DriveApp.getFileById(reportSS.getId());
     const pdfBlob = reportFile.getAs('application/pdf');
     pdfBlob.setName(reportName + '.pdf');
-    
+
     // Email the report
     const subject = `Monthly Payroll Report: ${monthName} ${targetYear}`;
     const emailBody = `Dear HR Team,
@@ -7963,34 +8127,34 @@ function generateMonthlyPayrollReport(targetMonth, targetYear) {
 Please find attached the monthly payroll report for ${monthName} ${targetYear}.
 
 SUMMARY:
-• Active Employees: ${activeData.length - 1}
-• Gross Total: ₹${grossTotal.toLocaleString('en-IN')}
-• Deductions: ₹${deductions.toLocaleString('en-IN')}
-• Additions: ₹${additions.toLocaleString('en-IN')}
-• Total Payable: ₹${(grossTotal - deductions + additions).toLocaleString('en-IN')}
+Ã¢â‚¬Â¢ Active Employees: ${activeData.length - 1}
+Ã¢â‚¬Â¢ Gross Total: Ã¢â€šÂ¹${grossTotal.toLocaleString('en-IN')}
+Ã¢â‚¬Â¢ Deductions: Ã¢â€šÂ¹${deductions.toLocaleString('en-IN')}
+Ã¢â‚¬Â¢ Additions: Ã¢â€šÂ¹${additions.toLocaleString('en-IN')}
+Ã¢â‚¬Â¢ Total Payable: Ã¢â€šÂ¹${(grossTotal - deductions + additions).toLocaleString('en-IN')}
 
 This report has been automatically generated by the HR Automation System.
 
 Best regards,
 HR Automation System
 UrbanMistrii`;
-    
+
     GmailApp.sendEmail(PAYROLL_CONFIG.HR_EMAIL, subject, emailBody, {
       attachments: [pdfBlob],
       name: "HR Automation System"
     });
-    
-    console.log(`✅ Payroll report emailed to ${PAYROLL_CONFIG.HR_EMAIL}`);
-    
+
+    console.log(`Ã¢Å“â€¦ Payroll report emailed to ${PAYROLL_CONFIG.HR_EMAIL}`);
+
     // Log to history
     logPayrollReport(monthName, targetYear, grossTotal - deductions + additions, activeData.length - 1);
-    
+
     // Clean up temporary spreadsheet (keep file in Drive, just close)
     // Don't delete - HR may want to access the detailed spreadsheet
-    
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to generate payroll report: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to generate payroll report: ${e.message}`);
     console.error(e.stack);
     return false;
   }
@@ -7998,7 +8162,7 @@ UrbanMistrii`;
 
 function parseCurrency(value) {
   if (!value) return 0;
-  const str = String(value).replace(/[₹,]/g, '').trim();
+  const str = String(value).replace(/[Ã¢â€šÂ¹,]/g, '').trim();
   const num = parseFloat(str);
   return isNaN(num) ? 0 : num;
 }
@@ -8007,29 +8171,29 @@ function logPayrollReport(month, year, totalPayable, employeeCount) {
   try {
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     let logSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.PAYROLL_LOG);
-    
+
     if (!logSheet) {
       logSheet = ss.insertSheet(PAYROLL_CONFIG.SHEETS.PAYROLL_LOG);
       logSheet.appendRow(["Month", "Year", "Report Generated", "Total Payable", "Employee Count", "Status"]);
       logSheet.getRange(1, 1, 1, 6).setFontWeight("bold").setBackground("#d9ead3");
     }
-    
+
     const timestamp = Utilities.formatDate(new Date(), PAYROLL_CONFIG.TZ, 'yyyy-MM-dd HH:mm:ss');
     logSheet.appendRow([month, year, timestamp, totalPayable.toFixed(2), employeeCount, "Sent to " + PAYROLL_CONFIG.HR_EMAIL]);
-    
-    console.log("✅ Logged payroll report to history");
+
+    console.log("Ã¢Å“â€¦ Logged payroll report to history");
   } catch (e) {
     console.error("Failed to log payroll report:", e.message);
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  AUTOMATED TRIGGER SETUP                                                       ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  AUTOMATED TRIGGER SETUP                                                       Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function installPayrollTriggers() {
-  console.log("🔧 INSTALLING PAYROLL AUTOMATION TRIGGERS\n");
-  
+  console.log("Ã°Å¸â€Â§ INSTALLING PAYROLL AUTOMATION TRIGGERS\n");
+
   // Clear existing payroll triggers
   const triggers = ScriptApp.getProjectTriggers();
   triggers.forEach(t => {
@@ -8037,98 +8201,98 @@ function installPayrollTriggers() {
       ScriptApp.deleteTrigger(t);
     }
   });
-  
+
   // Monthly trigger: 1st of every month at 9:00 AM
   ScriptApp.newTrigger('runMonthlyPayrollReport')
     .timeBased()
     .onMonthDay(PAYROLL_CONFIG.PAYROLL_DAY)
     .atHour(9)
     .create();
-  
-  console.log(`✅ Installed monthly payroll trigger (${PAYROLL_CONFIG.PAYROLL_DAY}st of every month at 9:00 AM)`);
-  console.log("\n🚀 PAYROLL AUTOMATION IS NOW LIVE!");
+
+  console.log(`Ã¢Å“â€¦ Installed monthly payroll trigger (${PAYROLL_CONFIG.PAYROLL_DAY}st of every month at 9:00 AM)`);
+  console.log("\nÃ°Å¸Å¡â‚¬ PAYROLL AUTOMATION IS NOW LIVE!");
 }
 
 function runMonthlyPayrollReport() {
-  console.log("⏰ SCHEDULED PAYROLL REPORT EXECUTION");
+  console.log("Ã¢ÂÂ° SCHEDULED PAYROLL REPORT EXECUTION");
   generateMonthlyPayrollReport();
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  SETUP & MAINTENANCE                                                           ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  SETUP & MAINTENANCE                                                           Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function setupPayrollSystem() {
-  console.log("🚀 SETTING UP PAYROLL & LIFECYCLE MANAGEMENT SYSTEM\n");
-  
+  console.log("Ã°Å¸Å¡â‚¬ SETTING UP PAYROLL & LIFECYCLE MANAGEMENT SYSTEM\n");
+
   try {
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
-    
+
     // 1. Ensure Departed Employees sheet exists
     getDepartedSheet(ss);
-    
+
     // 2. Ensure Payroll History sheet exists
     let logSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.PAYROLL_LOG);
     if (!logSheet) {
       logSheet = ss.insertSheet(PAYROLL_CONFIG.SHEETS.PAYROLL_LOG);
       logSheet.appendRow(["Month", "Year", "Report Generated", "Total Payable", "Employee Count", "Status"]);
       logSheet.getRange(1, 1, 1, 6).setFontWeight("bold").setBackground("#d9ead3");
-      console.log("✅ Created Payroll History sheet");
+      console.log("Ã¢Å“â€¦ Created Payroll History sheet");
     } else {
-      console.log("✅ Found Payroll History sheet");
+      console.log("Ã¢Å“â€¦ Found Payroll History sheet");
     }
-    
-    console.log("\n🎉 PAYROLL SYSTEM SETUP COMPLETE!");
-    console.log("\n📋 NEXT STEPS:");
+
+    console.log("\nÃ°Å¸Å½â€° PAYROLL SYSTEM SETUP COMPLETE!");
+    console.log("\nÃ°Å¸â€œâ€¹ NEXT STEPS:");
     console.log("1. Run installPayrollTriggers() to activate monthly automation");
     console.log("2. Test with testPayrollReport()");
     console.log("3. Test employee lifecycle with testMoveEmployee()");
-    
+
     return true;
   } catch (e) {
-    console.error(`❌ Setup failed: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Setup failed: ${e.message}`);
     return false;
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  DATA POPULATION & TESTING                                                     ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  DATA POPULATION & TESTING                                                     Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Populate sheet with real October 2025 employee data
  * Run this once to add your actual employee records
  */
 function populateOctoberData() {
-  console.log("📥 POPULATING OCTOBER 2025 EMPLOYEE DATA\n");
-  
+  console.log("Ã°Å¸â€œÂ¥ POPULATING OCTOBER 2025 EMPLOYEE DATA\n");
+
   try {
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     const activeSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.ACTIVE);
-    
+
     if (!activeSheet) {
-      console.error("❌ Active employees sheet not found");
+      console.error("Ã¢ÂÅ’ Active employees sheet not found");
       return false;
     }
-    
+
     // October 2025 employee data
     const employeeData = [
-      ["12/08/2024", "Avishi Pathak", "avishi@urbanmistrii.com", 10, "", 10, "", "₹35,000", "₹1,129.03", "", "₹35,000.00", "", "₹35,000.00", "1 Years 3 months & 22 days", "Project Architect"],
-      ["01/01/2024", "Yash", "yash@urbanmistrii.com", 2, "", 2, "", "₹15,000", "₹483.87", "", "₹15,000.00", "", "₹15,000.00", "1 Years 11 months & 3 days", "Ops"],
-      ["09/06/2025", "Vanshika Khemani", "vanshika@urbanmistrii.com", 2, 2, 4, "16-17th oct", "₹30,000", "₹967.74", "", "₹30,000.00", "", "₹30,000.00", "0 Years 5 months & 25 days", "Junior Architect"],
-      ["03/07/2025", "Archana Rastogi", "archana@urbanmistrii.com", 0, 3, 3, "23, 24 & 25 october", "₹10,000", "₹322.58", "", "₹10,000.00", "", "₹10,000.00", "0 Years 5 months & 1 days", "Architectural Intern"],
-      ["06/08/2025", "Chirag JK", "chirag@urbanmistrii.com", 1, 1, 2, "25 October", "₹10,000", "₹322.58", "", "₹10,000.00", "", "₹10,000.00", "0 Years 3 months & 28 days", "Architectural Intern"],
-      ["07/08/2025", "Tushar", "tushar@urbanmistrii.com", 0, 2, 2, "23rd October,31st October", "₹10,000", "₹322.58", "", "₹10,000.00", "", "₹10,000.00", "0 Years 3 months & 27 days", "Architectural Intern"],
-      ["01/11/2025", "Navdha Kapila", "navdha@urbanmistrii.com", 0, 0, 0, "", "₹37,500", "₹1,209.68", "", "₹37,500.00", "", "₹37,500.00", "0 Years 1 months & 3 days", "Senior Architect"],
-      ["13/10/2025", "Devam", "devam@urbanmistrii.com", 0, 1, 1, "23rd october", "₹24,000", "₹774.19", "", "₹24,000.00", "₹15,200", "₹39,200.00", "0 Years 1 months & 21 days", "Junior Architect"]
+      ["12/08/2024", "Avishi Pathak", "avishi@urbanmistrii.com", 10, "", 10, "", "Ã¢â€šÂ¹35,000", "Ã¢â€šÂ¹1,129.03", "", "Ã¢â€šÂ¹35,000.00", "", "Ã¢â€šÂ¹35,000.00", "1 Years 3 months & 22 days", "Project Architect"],
+      ["01/01/2024", "Yash", "yash@urbanmistrii.com", 2, "", 2, "", "Ã¢â€šÂ¹15,000", "Ã¢â€šÂ¹483.87", "", "Ã¢â€šÂ¹15,000.00", "", "Ã¢â€šÂ¹15,000.00", "1 Years 11 months & 3 days", "Ops"],
+      ["09/06/2025", "Vanshika Khemani", "vanshika@urbanmistrii.com", 2, 2, 4, "16-17th oct", "Ã¢â€šÂ¹30,000", "Ã¢â€šÂ¹967.74", "", "Ã¢â€šÂ¹30,000.00", "", "Ã¢â€šÂ¹30,000.00", "0 Years 5 months & 25 days", "Junior Architect"],
+      ["03/07/2025", "Archana Rastogi", "archana@urbanmistrii.com", 0, 3, 3, "23, 24 & 25 october", "Ã¢â€šÂ¹10,000", "Ã¢â€šÂ¹322.58", "", "Ã¢â€šÂ¹10,000.00", "", "Ã¢â€šÂ¹10,000.00", "0 Years 5 months & 1 days", "Architectural Intern"],
+      ["06/08/2025", "Chirag JK", "chirag@urbanmistrii.com", 1, 1, 2, "25 October", "Ã¢â€šÂ¹10,000", "Ã¢â€šÂ¹322.58", "", "Ã¢â€šÂ¹10,000.00", "", "Ã¢â€šÂ¹10,000.00", "0 Years 3 months & 28 days", "Architectural Intern"],
+      ["07/08/2025", "Tushar", "tushar@urbanmistrii.com", 0, 2, 2, "23rd October,31st October", "Ã¢â€šÂ¹10,000", "Ã¢â€šÂ¹322.58", "", "Ã¢â€šÂ¹10,000.00", "", "Ã¢â€šÂ¹10,000.00", "0 Years 3 months & 27 days", "Architectural Intern"],
+      ["01/11/2025", "Navdha Kapila", "navdha@urbanmistrii.com", 0, 0, 0, "", "Ã¢â€šÂ¹37,500", "Ã¢â€šÂ¹1,209.68", "", "Ã¢â€šÂ¹37,500.00", "", "Ã¢â€šÂ¹37,500.00", "0 Years 1 months & 3 days", "Senior Architect"],
+      ["13/10/2025", "Devam", "devam@urbanmistrii.com", 0, 1, 1, "23rd october", "Ã¢â€šÂ¹24,000", "Ã¢â€šÂ¹774.19", "", "Ã¢â€šÂ¹24,000.00", "Ã¢â€šÂ¹15,200", "Ã¢â€šÂ¹39,200.00", "0 Years 1 months & 21 days", "Junior Architect"]
     ];
-    
+
     // Check if sheet already has data (more than just headers)
     const existingData = activeSheet.getDataRange().getValues();
     if (existingData.length > 1) {
-      console.log("⚠️ Sheet already contains employee data");
+      console.log("Ã¢Å¡Â Ã¯Â¸Â Sheet already contains employee data");
       console.log(`Current rows: ${existingData.length - 1} employees`);
-      
+
       const response = Browser.msgBox(
         "Data Already Exists",
         "The sheet already has employee data. Do you want to:\n\n" +
@@ -8137,74 +8301,74 @@ function populateOctoberData() {
         "CANCEL - Stop without changes",
         Browser.Buttons.YES_NO_CANCEL
       );
-      
+
       if (response === "cancel") {
-        console.log("❌ Operation cancelled by user");
+        console.log("Ã¢ÂÅ’ Operation cancelled by user");
         return false;
       } else if (response === "no") {
         // Clear all data except headers
         if (existingData.length > 1) {
           activeSheet.deleteRows(2, existingData.length - 1);
         }
-        console.log("✅ Cleared existing employee data");
+        console.log("Ã¢Å“â€¦ Cleared existing employee data");
       }
     }
-    
+
     // Add employee data
     for (let i = 0; i < employeeData.length; i++) {
       activeSheet.appendRow(employeeData[i]);
-      console.log(`✅ Added: ${employeeData[i][1]}`);
+      console.log(`Ã¢Å“â€¦ Added: ${employeeData[i][1]}`);
     }
-    
-    console.log(`\n✅ Successfully added ${employeeData.length} employees`);
-    console.log("\n📊 OCTOBER 2025 SUMMARY:");
-    console.log("   • Gross Total: ₹1,10,000");
-    console.log("   • Additions: ₹15,200 (Devam - 21 days)");
-    console.log("   • Total Payable: ₹1,25,200");
-    
-    console.log("\n📋 NEXT STEPS:");
+
+    console.log(`\nÃ¢Å“â€¦ Successfully added ${employeeData.length} employees`);
+    console.log("\nÃ°Å¸â€œÅ  OCTOBER 2025 SUMMARY:");
+    console.log("   Ã¢â‚¬Â¢ Gross Total: Ã¢â€šÂ¹1,10,000");
+    console.log("   Ã¢â‚¬Â¢ Additions: Ã¢â€šÂ¹15,200 (Devam - 21 days)");
+    console.log("   Ã¢â‚¬Â¢ Total Payable: Ã¢â€šÂ¹1,25,200");
+
+    console.log("\nÃ°Å¸â€œâ€¹ NEXT STEPS:");
     console.log("1. Review data in 'Employees' sheet");
     console.log("2. Run testPayrollReport() to generate October report");
     console.log("3. Update November data and generate December report");
-    
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to populate data: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to populate data: ${e.message}`);
     console.error(e.stack);
     return false;
   }
 }
 
 function testPayrollReport() {
-  console.log("\n🧪 TESTING PAYROLL REPORT GENERATION\n");
-  
+  console.log("\nÃ°Å¸Â§Âª TESTING PAYROLL REPORT GENERATION\n");
+
   // Generate report for current/previous month
   const now = new Date();
   const lastMonth = now.getMonth() === 0 ? 11 : now.getMonth() - 1;
   const year = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
-  
+
   const monthNames = ["January", "February", "March", "April", "May", "June",
-                      "July", "August", "September", "October", "November", "December"];
-  
-  console.log(`📊 Generating test report for ${monthNames[lastMonth]} ${year}`);
-  console.log(`📧 Will be sent to: ${PAYROLL_CONFIG.HR_EMAIL}\n`);
-  
+    "July", "August", "September", "October", "November", "December"];
+
+  console.log(`Ã°Å¸â€œÅ  Generating test report for ${monthNames[lastMonth]} ${year}`);
+  console.log(`Ã°Å¸â€œÂ§ Will be sent to: ${PAYROLL_CONFIG.HR_EMAIL}\n`);
+
   const success = generateMonthlyPayrollReport(lastMonth, year);
-  
+
   if (success) {
-    console.log("\n✅ TEST SUCCESSFUL!");
-    console.log("📋 Check:");
+    console.log("\nÃ¢Å“â€¦ TEST SUCCESSFUL!");
+    console.log("Ã°Å¸â€œâ€¹ Check:");
     console.log("   1. Your inbox for the PDF report");
     console.log("   2. Google Drive for the detailed spreadsheet");
     console.log("   3. 'Payroll History' sheet for log entry");
   } else {
-    console.log("\n❌ TEST FAILED - Check logs above");
+    console.log("\nÃ¢ÂÅ’ TEST FAILED - Check logs above");
   }
 }
 
 function testMoveEmployee() {
-  console.log("\n🧪 TESTING EMPLOYEE LIFECYCLE (Move to Departed)\n");
-  
+  console.log("\nÃ°Å¸Â§Âª TESTING EMPLOYEE LIFECYCLE (Move to Departed)\n");
+
   const testEmail = "test@urbanmistrii.com";
   const testData = {
     lastWorkingDay: new Date(),
@@ -8212,54 +8376,54 @@ function testMoveEmployee() {
     projects: "Test Project A, Test Project B",
     notes: "Test employee for lifecycle demo"
   };
-  
-  console.log(`📧 Test Email: ${testEmail}`);
-  console.log("⚠️ Note: This will move the employee from Active to Departed sheet\n");
-  
+
+  console.log(`Ã°Å¸â€œÂ§ Test Email: ${testEmail}`);
+  console.log("Ã¢Å¡Â Ã¯Â¸Â Note: This will move the employee from Active to Departed sheet\n");
+
   const success = moveEmployeeToDeparted(testEmail, testData);
-  
+
   if (success) {
-    console.log("\n✅ TEST SUCCESSFUL!");
-    console.log("📋 Check:");
+    console.log("\nÃ¢Å“â€¦ TEST SUCCESSFUL!");
+    console.log("Ã°Å¸â€œâ€¹ Check:");
     console.log("   1. 'Departed Employees' sheet for the moved employee");
     console.log("   2. 'Employees' (Active) sheet - employee should be removed");
   } else {
-    console.log("\n❌ TEST FAILED - Employee may not exist or check logs above");
+    console.log("\nÃ¢ÂÅ’ TEST FAILED - Employee may not exist or check logs above");
   }
 }
 
 function manualGeneratePayrollReport(month, year) {
   if (!month || !year) {
-    console.error("❌ Usage: manualGeneratePayrollReport(10, 2025) // For October 2025");
+    console.error("Ã¢ÂÅ’ Usage: manualGeneratePayrollReport(10, 2025) // For October 2025");
     console.log("Month: 0=Jan, 1=Feb, 2=Mar, 3=Apr, 4=May, 5=Jun, 6=Jul, 7=Aug, 8=Sep, 9=Oct, 10=Nov, 11=Dec");
     return;
   }
-  
-  console.log("\n🚀 MANUALLY GENERATING PAYROLL REPORT");
+
+  console.log("\nÃ°Å¸Å¡â‚¬ MANUALLY GENERATING PAYROLL REPORT");
   generateMonthlyPayrollReport(month - 1, year); // Convert to 0-indexed
 }
 
 function manualMoveEmployee(email, exitReason, projects, notes) {
   if (!email) {
-    console.error("❌ Usage: manualMoveEmployee('employee@email.com', 'Exit Reason', 'Project List', 'Notes')");
+    console.error("Ã¢ÂÅ’ Usage: manualMoveEmployee('employee@email.com', 'Exit Reason', 'Project List', 'Notes')");
     return;
   }
-  
-  console.log("\n🚀 MANUALLY MOVING EMPLOYEE TO DEPARTED");
-  
+
+  console.log("\nÃ°Å¸Å¡â‚¬ MANUALLY MOVING EMPLOYEE TO DEPARTED");
+
   const data = {
     lastWorkingDay: new Date(),
     exitReason: exitReason || "Manual Move",
     projects: projects || "See work log",
     notes: notes || ""
   };
-  
+
   moveEmployeeToDeparted(email, data);
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  LEAVE MANAGEMENT SYSTEM                                                       ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  LEAVE MANAGEMENT SYSTEM                                                       Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Monitor Gmail for leave requests and process automatically
@@ -8269,16 +8433,16 @@ function monitorLeaveRequests() {
   try {
     const keywords = PAYROLL_CONFIG.LEAVE_POLICY.TRIGGER_KEYWORDS.join(" OR ");
     const query = `to:hr@urbanmistrii.com (${keywords}) is:unread -label:processed`;
-    
+
     const threads = GmailApp.search(query, 0, 10);
-    
+
     if (threads.length === 0) {
-      console.log("📭 No new leave requests");
+      console.log("Ã°Å¸â€œÂ­ No new leave requests");
       return;
     }
-    
-    console.log(`📬 Found ${threads.length} leave request(s)`);
-    
+
+    console.log(`Ã°Å¸â€œÂ¬ Found ${threads.length} leave request(s)`);
+
     threads.forEach(thread => {
       try {
         processLeaveRequest(thread);
@@ -8287,7 +8451,7 @@ function monitorLeaveRequests() {
         console.error(`Failed to process thread: ${e.message}`);
       }
     });
-    
+
   } catch (e) {
     console.error(`Leave monitor error: ${e.message}`);
   }
@@ -8296,46 +8460,46 @@ function monitorLeaveRequests() {
 function processLeaveRequest(thread) {
   const messages = thread.getMessages();
   const lastMessage = messages[messages.length - 1];
-  
+
   const from = lastMessage.getFrom();
   const sender = lastMessage.getReplyTo() || from;
   const subject = lastMessage.getSubject();
   const body = lastMessage.getPlainBody();
   const receivedDate = lastMessage.getDate();
-  
-  console.log(`\n📨 Processing leave request from: ${sender}`);
-  
+
+  console.log(`\nÃ°Å¸â€œÂ¨ Processing leave request from: ${sender}`);
+
   // Extract employee details
   const emailMatch = sender.match(/([^<]+)<([^>]+)>/);
   let employeeName = emailMatch ? emailMatch[1].trim() : sender.split('@')[0];
   let employeeEmail = emailMatch ? emailMatch[2].trim() : sender;
-  
+
   // Parse leave details from email body
   const leaveDetails = parseLeaveDetails(body, subject);
-  
+
   if (!leaveDetails.startDate) {
-    console.log("⚠️ Could not parse leave dates, skipping");
+    console.log("Ã¢Å¡Â Ã¯Â¸Â Could not parse leave dates, skipping");
     return;
   }
-  
+
   // Check if leave meets policy (14 days advance)
   const daysInAdvance = Math.floor((leaveDetails.startDate - receivedDate) / (1000 * 60 * 60 * 24));
   const meetsPolicy = daysInAdvance >= PAYROLL_CONFIG.LEAVE_POLICY.ADVANCE_DAYS;
-  
-  console.log(`📅 Leave dates: ${formatDate(leaveDetails.startDate)} to ${formatDate(leaveDetails.endDate)}`);
-  console.log(`⏰ Applied ${daysInAdvance} days in advance (Policy: ${PAYROLL_CONFIG.LEAVE_POLICY.ADVANCE_DAYS} days)`);
-  console.log(`${meetsPolicy ? '✅' : '⚠️'} Policy ${meetsPolicy ? 'met' : 'NOT met'}`);
-  
+
+  console.log(`Ã°Å¸â€œâ€¦ Leave dates: ${formatDate(leaveDetails.startDate)} to ${formatDate(leaveDetails.endDate)}`);
+  console.log(`Ã¢ÂÂ° Applied ${daysInAdvance} days in advance (Policy: ${PAYROLL_CONFIG.LEAVE_POLICY.ADVANCE_DAYS} days)`);
+  console.log(`${meetsPolicy ? 'Ã¢Å“â€¦' : 'Ã¢Å¡Â Ã¯Â¸Â'} Policy ${meetsPolicy ? 'met' : 'NOT met'}`);
+
   // 1. Send policy reply to employee
   sendLeaveReply(employeeEmail, employeeName, leaveDetails, meetsPolicy);
-  
+
   // 2. Forward to Ritika with nice card
   forwardToRitika(employeeName, employeeEmail, leaveDetails, body, meetsPolicy, daysInAdvance);
-  
+
   // 3. Record in database
   recordLeaveInDB(employeeEmail, employeeName, leaveDetails);
-  
-  console.log(`✅ Processed leave request for ${employeeName}`);
+
+  console.log(`Ã¢Å“â€¦ Processed leave request for ${employeeName}`);
 }
 
 function parseLeaveDetails(body, subject) {
@@ -8346,17 +8510,17 @@ function parseLeaveDetails(body, subject) {
     reason: "Personal reasons",
     dates: []
   };
-  
+
   // Common date patterns
   const datePatterns = [
     /(\d{1,2})\s*(january|february|march|april|may|june|july|august|september|october|november|december)\s*(\d{4})/gi,
     /(\d{1,2})[-\/](\d{1,2})[-\/](\d{4})/g,
     /(monday|tuesday|wednesday|thursday|friday|saturday|sunday),?\s*(\d{1,2})\s*(january|february|march|april|may|june|july|august|september|october|november|december)\s*(\d{4})/gi
   ];
-  
+
   const text = (subject + " " + body).toLowerCase();
   const foundDates = [];
-  
+
   // Extract all dates
   datePatterns.forEach(pattern => {
     let match;
@@ -8372,29 +8536,29 @@ function parseLeaveDetails(body, subject) {
       }
     }
   });
-  
+
   // Sort dates
   foundDates.sort((a, b) => a - b);
-  
+
   if (foundDates.length > 0) {
     details.startDate = foundDates[0];
     details.endDate = foundDates[foundDates.length - 1];
     details.days = Math.ceil((details.endDate - details.startDate) / (1000 * 60 * 60 * 24)) + 1;
     details.dates = foundDates.map(d => formatDate(d));
   }
-  
+
   // Extract reason
   const reasonMatch = body.match(/(?:due to|reason:|because of)\s*([^\n.]+)/i);
   if (reasonMatch) {
     details.reason = reasonMatch[1].trim();
   }
-  
+
   return details;
 }
 
 function sendLeaveReply(email, name, leaveDetails, meetsPolicy) {
   const subject = "Re: Leave Request - Policy Notice";
-  
+
   const styles = {
     container: `font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e0e0e0; color: #333333;`,
     header: `background-color: #1a1a1a; padding: 30px 40px; text-align: left; border-bottom: 4px solid #e74c3c;`,
@@ -8405,7 +8569,7 @@ function sendLeaveReply(email, name, leaveDetails, meetsPolicy) {
     highlightBox: `background-color: #f8f9fa; border-left: 4px solid #1a1a1a; padding: 20px; margin: 25px 0;`,
     footer: `background-color: #f4f4f4; padding: 20px 40px; text-align: center; font-size: 12px; color: #888; border-top: 1px solid #e0e0e0;`
   };
-  
+
   const htmlBody = `
     <div style="${styles.container}">
       
@@ -8465,18 +8629,18 @@ function sendLeaveReply(email, name, leaveDetails, meetsPolicy) {
       
     </div>
   `;
-  
+
   GmailApp.sendEmail(email, subject, "", {
     htmlBody: htmlBody,
     name: "HR - UrbanMistrii"
   });
-  
-  console.log(`📧 Policy reply sent to ${email}`);
+
+  console.log(`Ã°Å¸â€œÂ§ Policy reply sent to ${email}`);
 }
 
 function forwardToRitika(name, email, leaveDetails, originalBody, meetsPolicy, daysInAdvance) {
   const subject = `Leave Request: ${name} (${leaveDetails.days} day${leaveDetails.days > 1 ? 's' : ''})`;
-  
+
   const styles = {
     container: `font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e0e0e0; color: #333333;`,
     header: `background-color: #1a1a1a; padding: 30px 40px; text-align: left; border-bottom: 4px solid #e74c3c;`,
@@ -8487,7 +8651,7 @@ function forwardToRitika(name, email, leaveDetails, originalBody, meetsPolicy, d
     highlightBox: `background-color: #f8f9fa; border-left: 4px solid #1a1a1a; padding: 20px; margin: 25px 0;`,
     footer: `background-color: #f4f4f4; padding: 20px 40px; text-align: center; font-size: 12px; color: #888; border-top: 1px solid #e0e0e0;`
   };
-  
+
   const htmlBody = `
     <div style="${styles.container}">
       
@@ -8555,79 +8719,79 @@ ${originalBody.substring(0, 600)}${originalBody.length > 600 ? '...' : ''}
       
     </div>
   `;
-  
+
   GmailApp.sendEmail(PAYROLL_CONFIG.RITIKA_EMAIL, subject, "", {
     htmlBody: htmlBody,
     name: "HR Automation - UrbanMistrii",
     replyTo: email
   });
-  
-  console.log(`✅ Forwarded to Ritika at ${PAYROLL_CONFIG.RITIKA_EMAIL}`);
+
+  console.log(`Ã¢Å“â€¦ Forwarded to Ritika at ${PAYROLL_CONFIG.RITIKA_EMAIL}`);
 }
 
 function recordLeaveInDB(email, name, leaveDetails) {
   try {
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     const activeSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.ACTIVE);
-    
+
     if (!activeSheet) {
-      console.error("❌ Active employees sheet not found");
+      console.error("Ã¢ÂÅ’ Active employees sheet not found");
       return false;
     }
-    
+
     // Find employee
     const data = activeSheet.getDataRange().getValues();
     let rowIndex = -1;
-    
+
     for (let i = 1; i < data.length; i++) {
       const rowEmail = String(data[i][PAYROLL_CONFIG.ACTIVE_COLS.REMARKS]).toLowerCase().trim();
       const rowName = String(data[i][PAYROLL_CONFIG.ACTIVE_COLS.NAME]).toLowerCase().trim();
-      
+
       if (rowEmail === email.toLowerCase().trim() || rowName.includes(name.toLowerCase().trim())) {
         rowIndex = i + 1; // 1-based for sheet operations
         break;
       }
     }
-    
+
     if (rowIndex === -1) {
-      console.warn(`⚠️ Employee not found in database: ${name} (${email})`);
+      console.warn(`Ã¢Å¡Â Ã¯Â¸Â Employee not found in database: ${name} (${email})`);
       return false;
     }
-    
+
     const employeeData = data[rowIndex - 1];
-    
+
     // Update leave columns
     const currentMonth = new Date().getMonth(); // 0-11
     const currentLeavesCol = currentMonth === 9 ? PAYROLL_CONFIG.ACTIVE_COLS.OCT_LEAVES : PAYROLL_CONFIG.ACTIVE_COLS.OCT_LEAVES; // E column
     const totalLeavesCol = PAYROLL_CONFIG.ACTIVE_COLS.TOTAL_LEAVES; // F
     const leaveDatesCol = PAYROLL_CONFIG.ACTIVE_COLS.LEAVE_DATES; // G
-    
+
     // Get current values
     let currentMonthLeaves = parseInt(employeeData[currentLeavesCol]) || 0;
     let totalLeaves = parseInt(employeeData[totalLeavesCol]) || 0;
     let leaveDates = String(employeeData[leaveDatesCol] || "");
-    
+
     // Add new leaves
     currentMonthLeaves += leaveDetails.days;
     totalLeaves += leaveDetails.days;
-    
+
     // Append leave dates
     const newDates = leaveDetails.dates.join(", ");
     leaveDates = leaveDates ? `${leaveDates}, ${newDates}` : newDates;
-    
+
     // Update sheet
     activeSheet.getRange(rowIndex, currentLeavesCol + 1).setValue(currentMonthLeaves);
     activeSheet.getRange(rowIndex, totalLeavesCol + 1).setValue(totalLeaves);
     activeSheet.getRange(rowIndex, leaveDatesCol + 1).setValue(leaveDates);
-    
-    console.log(`✅ Updated database for ${name}:`);
-    console.log(`   • Current month leaves: ${currentMonthLeaves}`);
-    console.log(`   • Total leaves: ${totalLeaves}`);
-    console.log(`   • Leave dates: ${leaveDates}`);
-    
+
+    console.log(`Ã¢Å“â€¦ Updated database for ${name}:`);
+    console.log(`   Ã¢â‚¬Â¢ Current month leaves: ${currentMonthLeaves}`);
+    console.log(`   Ã¢â‚¬Â¢ Total leaves: ${totalLeaves}`);
+    console.log(`   Ã¢â‚¬Â¢ Leave dates: ${leaveDates}`);
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to record leave: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to record leave: ${e.message}`);
     return false;
   }
 }
@@ -8646,8 +8810,8 @@ function getDayOfWeek(date) {
 }
 
 function installLeaveTriggers() {
-  console.log("🔧 INSTALLING LEAVE MANAGEMENT TRIGGERS\n");
-  
+  console.log("Ã°Å¸â€Â§ INSTALLING LEAVE MANAGEMENT TRIGGERS\n");
+
   // Clear existing leave triggers
   const triggers = ScriptApp.getProjectTriggers();
   triggers.forEach(t => {
@@ -8655,16 +8819,16 @@ function installLeaveTriggers() {
       ScriptApp.deleteTrigger(t);
     }
   });
-  
+
   // Monitor every 10 minutes
   ScriptApp.newTrigger('monitorLeaveRequests')
     .timeBased()
     .everyMinutes(10)
     .create();
-  
-  console.log("✅ Installed leave monitoring trigger (every 10 minutes)");
-  console.log("\n🚀 LEAVE AUTOMATION IS NOW LIVE!");
-  console.log("\n📋 System will:");
+
+  console.log("Ã¢Å“â€¦ Installed leave monitoring trigger (every 10 minutes)");
+  console.log("\nÃ°Å¸Å¡â‚¬ LEAVE AUTOMATION IS NOW LIVE!");
+  console.log("\nÃ°Å¸â€œâ€¹ System will:");
   console.log("   1. Monitor hr@urbanmistrii.com for leave requests");
   console.log("   2. Reply to employee with policy notice");
   console.log(`   3. Forward to Ritika at ${PAYROLL_CONFIG.RITIKA_EMAIL}`);
@@ -8672,39 +8836,39 @@ function installLeaveTriggers() {
 }
 
 function testLeaveSystem() {
-  console.log("\n🧪 TESTING LEAVE MANAGEMENT SYSTEM\n");
-  console.log("📋 This will process any unread leave requests in hr@urbanmistrii.com");
-  console.log(`⚠️ Test emails will be sent to employees and ${PAYROLL_CONFIG.RITIKA_EMAIL}\n`);
-  
+  console.log("\nÃ°Å¸Â§Âª TESTING LEAVE MANAGEMENT SYSTEM\n");
+  console.log("Ã°Å¸â€œâ€¹ This will process any unread leave requests in hr@urbanmistrii.com");
+  console.log(`Ã¢Å¡Â Ã¯Â¸Â Test emails will be sent to employees and ${PAYROLL_CONFIG.RITIKA_EMAIL}\n`);
+
   monitorLeaveRequests();
-  
-  console.log("\n✅ TEST COMPLETE - Check:");
+
+  console.log("\nÃ¢Å“â€¦ TEST COMPLETE - Check:");
   console.log("   1. Employee received policy reply");
   console.log("   2. Ritika received formatted card");
   console.log("   3. Database updated with leave records");
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  MONTHLY ATTENDANCE & EXPENSE FORM SYSTEM                                      ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  MONTHLY ATTENDANCE & EXPENSE FORM SYSTEM                                      Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Create Monthly Attendance & Expense Form
  * Run this once during setup to create the form
  */
 function createMonthlyAttendanceForm() {
-  console.log("📝 CREATING MONTHLY ATTENDANCE & EXPENSE FORM\n");
-  
+  console.log("Ã°Å¸â€œÂ CREATING MONTHLY ATTENDANCE & EXPENSE FORM\n");
+
   try {
     const form = FormApp.create("Monthly Attendance & Expense Report");
-    
+
     // Set form description
     form.setDescription(
       "Please submit your attendance and expense details for the previous month. " +
       "This form is sent automatically on the 1st of every month.\n\n" +
       "All fields are mandatory unless marked optional."
     );
-    
+
     // Configure form settings
     form.setCollectEmail(true);
     form.setLimitOneResponsePerUser(false);
@@ -8713,92 +8877,92 @@ function createMonthlyAttendanceForm() {
       "Thank you! Your attendance and expense report has been submitted successfully. " +
       "The data will be processed for payroll calculation."
     );
-    
+
     // Add form fields
-    
+
     // 1. Employee Name
     form.addTextItem()
       .setTitle("Employee Name")
       .setHelpText("Your full name as per company records")
       .setRequired(true);
-    
+
     // 2. Month & Year
     const now = new Date();
     const lastMonth = now.getMonth() === 0 ? 11 : now.getMonth() - 1;
     const lastYear = now.getMonth() === 0 ? now.getFullYear() - 1 : now.getFullYear();
     const monthNames = ["January", "February", "March", "April", "May", "June",
-                        "July", "August", "September", "October", "November", "December"];
-    
+      "July", "August", "September", "October", "November", "December"];
+
     form.addTextItem()
       .setTitle("Reporting Month")
       .setHelpText(`Enter the month and year (e.g., ${monthNames[lastMonth]} ${lastYear})`)
       .setRequired(true);
-    
+
     // 3. Number of Leaves Taken
     form.addTextItem()
       .setTitle("Number of Leaves Taken Last Month")
       .setHelpText("Enter the total number of leaves you took (enter 0 if no leaves)")
       .setRequired(true);
-    
+
     // 4. Leave Dates
     form.addParagraphTextItem()
       .setTitle("Leave Dates (if any)")
       .setHelpText("List all leave dates (e.g., 5th Dec, 12th Dec, 25th Dec). Leave blank if no leaves taken.")
       .setRequired(false);
-    
+
     // 5. Leave Reason
     form.addParagraphTextItem()
       .setTitle("Reason for Leave (if any)")
       .setHelpText("Briefly explain the reason for your leaves. Leave blank if no leaves taken.")
       .setRequired(false);
-    
+
     // 6. Conveyance Expense
     form.addTextItem()
       .setTitle("Conveyance Expense Amount")
-      .setHelpText("Enter total conveyance/travel expense amount in ₹ (enter 0 if no expense)")
+      .setHelpText("Enter total conveyance/travel expense amount in Ã¢â€šÂ¹ (enter 0 if no expense)")
       .setRequired(true);
-    
+
     // 7. Conveyance Details
     form.addParagraphTextItem()
       .setTitle("Conveyance Expense Details")
       .setHelpText("Provide details: dates, purpose, locations traveled, etc. (e.g., 'Client meeting in Gurgaon on 10th Dec, Site visit in Noida on 15th Dec')")
       .setRequired(false);
-    
+
     // 8. Proof Link (Google Drive or any cloud storage)
     form.addTextItem()
       .setTitle("Conveyance Proof Link")
       .setHelpText("Upload your bills/receipts to Google Drive and paste the sharing link here. Required if claiming conveyance.")
       .setRequired(false);
-    
+
     // 9. Additional Notes
     form.addParagraphTextItem()
       .setTitle("Additional Notes (Optional)")
       .setHelpText("Any other information you'd like to share")
       .setRequired(false);
-    
+
     const formId = form.getId();
     const formUrl = form.getPublishedUrl();
     const editUrl = form.getEditUrl();
-    
-    console.log("✅ Form created successfully!");
-    console.log(`\n📋 Form Details:`);
-    console.log(`   • Form ID: ${formId}`);
-    console.log(`   • Form URL: ${formUrl}`);
-    console.log(`   • Edit URL: ${editUrl}`);
-    
-    console.log(`\n📝 NEXT STEPS:`);
+
+    console.log("Ã¢Å“â€¦ Form created successfully!");
+    console.log(`\nÃ°Å¸â€œâ€¹ Form Details:`);
+    console.log(`   Ã¢â‚¬Â¢ Form ID: ${formId}`);
+    console.log(`   Ã¢â‚¬Â¢ Form URL: ${formUrl}`);
+    console.log(`   Ã¢â‚¬Â¢ Edit URL: ${editUrl}`);
+
+    console.log(`\nÃ°Å¸â€œÂ NEXT STEPS:`);
     console.log(`1. Copy the Form ID above and save it in PAYROLL_CONFIG.MONTHLY_FORM_ID`);
     console.log(`2. Run setupMonthlyFormTrigger() to enable form submission processing`);
     console.log(`3. Run installMonthlyFormEmailTrigger() to send forms on 1st of every month`);
     console.log(`4. Test with testMonthlyFormEmail() to send test email to all employees`);
-    
+
     return {
       formId: formId,
       formUrl: formUrl,
       editUrl: editUrl
     };
   } catch (e) {
-    console.error(`❌ Failed to create form: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to create form: ${e.message}`);
     return null;
   }
 }
@@ -8808,71 +8972,71 @@ function createMonthlyAttendanceForm() {
  * Runs automatically on 1st of every month
  */
 function sendMonthlyFormToAllEmployees() {
-  console.log("📧 SENDING MONTHLY ATTENDANCE FORM TO ALL EMPLOYEES\n");
-  
+  console.log("Ã°Å¸â€œÂ§ SENDING MONTHLY ATTENDANCE FORM TO ALL EMPLOYEES\n");
+
   try {
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     const activeSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.ACTIVE);
-    
+
     if (!activeSheet) {
-      console.error("❌ Active employees sheet not found");
+      console.error("Ã¢ÂÅ’ Active employees sheet not found");
       return false;
     }
-    
+
     // Get form URL
     const formId = PAYROLL_CONFIG.MONTHLY_FORM_ID || "";
     if (!formId) {
-      console.error("❌ Monthly form ID not configured in PAYROLL_CONFIG.MONTHLY_FORM_ID");
+      console.error("Ã¢ÂÅ’ Monthly form ID not configured in PAYROLL_CONFIG.MONTHLY_FORM_ID");
       return false;
     }
-    
+
     const form = FormApp.openById(formId);
     const formUrl = form.getPublishedUrl();
-    
+
     // Get current month details
     const now = new Date();
     const currentMonth = now.getMonth(); // 0-11
     const currentYear = now.getFullYear();
     const lastMonth = currentMonth === 0 ? 11 : currentMonth - 1;
     const lastYear = currentMonth === 0 ? currentYear - 1 : currentYear;
-    
+
     const monthNames = ["January", "February", "March", "April", "May", "June",
-                        "July", "August", "September", "October", "November", "December"];
+      "July", "August", "September", "October", "November", "December"];
     const lastMonthName = monthNames[lastMonth];
     const currentMonthName = monthNames[currentMonth];
-    
+
     // Get all active employees
     const data = activeSheet.getDataRange().getValues();
     let emailsSent = 0;
-    
+
     for (let i = 1; i < data.length; i++) {
       const row = data[i];
       const name = row[PAYROLL_CONFIG.ACTIVE_COLS.NAME];
       const email = row[PAYROLL_CONFIG.ACTIVE_COLS.REMARKS];
-      
+
       if (!name || !email) continue;
-      
+
       try {
         sendMonthlyFormEmail(name, email, formUrl, lastMonthName, lastYear, currentMonthName);
         emailsSent++;
-        console.log(`✅ Sent to: ${name} (${email})`);
+        console.log(`Ã¢Å“â€¦ Sent to: ${name} (${email})`);
         Utilities.sleep(1000); // 1 second delay between emails
       } catch (e) {
-        console.error(`❌ Failed to send to ${name}: ${e.message}`);
+        console.error(`Ã¢ÂÅ’ Failed to send to ${name}: ${e.message}`);
       }
     }
-    
-    console.log(`\n✅ Monthly form emails sent to ${emailsSent} employees`);
+
+    console.log(`\nÃ¢Å“â€¦ Monthly form emails sent to ${emailsSent} employees`);
     return true;
   } catch (e) {
-    console.error(`❌ Failed to send monthly forms: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to send monthly forms: ${e.message}`);
     return false;
   }
 }
 
 function sendMonthlyFormEmail(name, email, formUrl, reportMonth, reportYear, currentMonth) {
   const subject = `Monthly Attendance & Expense Report - ${reportMonth} ${reportYear}`;
-  
+
   // Urban Mistrii signature style
   const styles = {
     container: `font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #ffffff; border: 1px solid #e0e0e0; color: #333333;`,
@@ -8885,7 +9049,7 @@ function sendMonthlyFormEmail(name, email, formUrl, reportMonth, reportYear, cur
     btn: `display: inline-block; background-color: #e74c3c; color: #ffffff !important; padding: 14px 30px; text-decoration: none; font-weight: 600; border-radius: 2px; letter-spacing: 0.5px; margin-top: 10px;`,
     footer: `background-color: #f4f4f4; padding: 20px 40px; text-align: center; font-size: 12px; color: #888; border-top: 1px solid #e0e0e0;`
   };
-  
+
   const htmlBody = `
     <div style="${styles.container}">
       
@@ -8946,7 +9110,7 @@ function sendMonthlyFormEmail(name, email, formUrl, reportMonth, reportYear, cur
       
     </div>
   `;
-  
+
   GmailApp.sendEmail(email, subject, "", {
     htmlBody: htmlBody,
     name: "HR - UrbanMistrii"
@@ -8958,12 +9122,12 @@ function sendMonthlyFormEmail(name, email, formUrl, reportMonth, reportYear, cur
  * Automatically updates employee data in salary sheet
  */
 function processMonthlyFormSubmission(e) {
-  console.log("\n📋 PROCESSING MONTHLY FORM SUBMISSION\n");
-  
+  console.log("\nÃ°Å¸â€œâ€¹ PROCESSING MONTHLY FORM SUBMISSION\n");
+
   try {
     const responses = e.response.getItemResponses();
     const email = e.response.getRespondentEmail();
-    
+
     // Extract form data
     const formData = {};
     responses.forEach(response => {
@@ -8971,70 +9135,70 @@ function processMonthlyFormSubmission(e) {
       const answer = response.getResponse();
       formData[question] = answer;
     });
-    
-    console.log(`📧 Submission from: ${email}`);
-    console.log(`👤 Employee: ${formData["Employee Name"]}`);
-    
+
+    console.log(`Ã°Å¸â€œÂ§ Submission from: ${email}`);
+    console.log(`Ã°Å¸â€˜Â¤ Employee: ${formData["Employee Name"]}`);
+
     // Update database
     const ss = SpreadsheetApp.openById(PAYROLL_CONFIG.SHEET_ID);
     const activeSheet = ss.getSheetByName(PAYROLL_CONFIG.SHEETS.ACTIVE);
-    
+
     if (!activeSheet) {
-      console.error("❌ Active employees sheet not found");
+      console.error("Ã¢ÂÅ’ Active employees sheet not found");
       return false;
     }
-    
+
     // Find employee
     const data = activeSheet.getDataRange().getValues();
     let rowIndex = -1;
-    
+
     for (let i = 1; i < data.length; i++) {
       const rowEmail = String(data[i][PAYROLL_CONFIG.ACTIVE_COLS.REMARKS]).toLowerCase().trim();
       const rowName = String(data[i][PAYROLL_CONFIG.ACTIVE_COLS.NAME]).toLowerCase().trim();
       const submittedName = String(formData["Employee Name"]).toLowerCase().trim();
-      
+
       if (rowEmail === email.toLowerCase().trim() || rowName.includes(submittedName)) {
         rowIndex = i + 1; // 1-based indexing
         break;
       }
     }
-    
+
     if (rowIndex === -1) {
-      console.warn(`⚠️ Employee not found: ${formData["Employee Name"]} (${email})`);
+      console.warn(`Ã¢Å¡Â Ã¯Â¸Â Employee not found: ${formData["Employee Name"]} (${email})`);
       return false;
     }
-    
+
     const employeeData = data[rowIndex - 1];
-    
+
     // Update leave data
     const leavesCount = parseInt(formData["Number of Leaves Taken Last Month"]) || 0;
     const leaveDates = formData["Leave Dates (if any)"] || "";
     const currentMonthLeaves = parseInt(employeeData[PAYROLL_CONFIG.ACTIVE_COLS.OCT_LEAVES]) || 0;
     const totalLeaves = parseInt(employeeData[PAYROLL_CONFIG.ACTIVE_COLS.TOTAL_LEAVES]) || 0;
     const existingDates = String(employeeData[PAYROLL_CONFIG.ACTIVE_COLS.LEAVE_DATES] || "");
-    
+
     // Update conveyance
-    const conveyanceAmount = parseFloat(formData["Conveyance Expense Amount"]?.replace(/[₹,]/g, '') || "0") || 0;
+    const conveyanceAmount = parseFloat(formData["Conveyance Expense Amount"]?.replace(/[Ã¢â€šÂ¹,]/g, '') || "0") || 0;
     const currentConveyance = parseCurrency(employeeData[PAYROLL_CONFIG.ACTIVE_COLS.CONVEYANCE]) || 0;
-    
+
     // Update sheet
     activeSheet.getRange(rowIndex, PAYROLL_CONFIG.ACTIVE_COLS.OCT_LEAVES + 1).setValue(currentMonthLeaves + leavesCount);
     activeSheet.getRange(rowIndex, PAYROLL_CONFIG.ACTIVE_COLS.TOTAL_LEAVES + 1).setValue(totalLeaves + leavesCount);
-    
+
     const updatedDates = existingDates ? `${existingDates}, ${leaveDates}` : leaveDates;
     activeSheet.getRange(rowIndex, PAYROLL_CONFIG.ACTIVE_COLS.LEAVE_DATES + 1).setValue(updatedDates);
-    
+
     activeSheet.getRange(rowIndex, PAYROLL_CONFIG.ACTIVE_COLS.CONVEYANCE + 1).setValue(currentConveyance + conveyanceAmount);
-    
-    console.log(`✅ Updated database for ${formData["Employee Name"]}:`);
-    console.log(`   • Leaves added: ${leavesCount}`);
-    console.log(`   • Conveyance added: ₹${conveyanceAmount.toLocaleString('en-IN')}`);
-    console.log(`   • Total leaves now: ${totalLeaves + leavesCount}`);
-    console.log(`   • Total conveyance now: ₹${(currentConveyance + conveyanceAmount).toLocaleString('en-IN')}`);
-    
+
+    console.log(`Ã¢Å“â€¦ Updated database for ${formData["Employee Name"]}:`);
+    console.log(`   Ã¢â‚¬Â¢ Leaves added: ${leavesCount}`);
+    console.log(`   Ã¢â‚¬Â¢ Conveyance added: Ã¢â€šÂ¹${conveyanceAmount.toLocaleString('en-IN')}`);
+    console.log(`   Ã¢â‚¬Â¢ Total leaves now: ${totalLeaves + leavesCount}`);
+    console.log(`   Ã¢â‚¬Â¢ Total conveyance now: Ã¢â€šÂ¹${(currentConveyance + conveyanceAmount).toLocaleString('en-IN')}`);
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to process form submission: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to process form submission: ${e.message}`);
     console.error(e.stack);
     return false;
   }
@@ -9044,15 +9208,15 @@ function processMonthlyFormSubmission(e) {
  * Setup form submission trigger
  */
 function setupMonthlyFormTrigger() {
-  console.log("🔧 SETTING UP MONTHLY FORM SUBMISSION TRIGGER\n");
-  
+  console.log("Ã°Å¸â€Â§ SETTING UP MONTHLY FORM SUBMISSION TRIGGER\n");
+
   const formId = PAYROLL_CONFIG.MONTHLY_FORM_ID || "";
   if (!formId) {
-    console.error("❌ Please set PAYROLL_CONFIG.MONTHLY_FORM_ID first");
+    console.error("Ã¢ÂÅ’ Please set PAYROLL_CONFIG.MONTHLY_FORM_ID first");
     console.log("Run createMonthlyAttendanceForm() to create the form");
     return false;
   }
-  
+
   try {
     // Remove existing form triggers
     const triggers = ScriptApp.getProjectTriggers();
@@ -9061,19 +9225,19 @@ function setupMonthlyFormTrigger() {
         ScriptApp.deleteTrigger(t);
       }
     });
-    
+
     // Create new form submission trigger
     const form = FormApp.openById(formId);
     ScriptApp.newTrigger('processMonthlyFormSubmission')
       .forForm(form)
       .onFormSubmit()
       .create();
-    
-    console.log("✅ Form submission trigger installed");
-    console.log("📋 Every form submission will now auto-update the salary sheet");
+
+    console.log("Ã¢Å“â€¦ Form submission trigger installed");
+    console.log("Ã°Å¸â€œâ€¹ Every form submission will now auto-update the salary sheet");
     return true;
   } catch (e) {
-    console.error(`❌ Failed to setup trigger: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to setup trigger: ${e.message}`);
     return false;
   }
 }
@@ -9082,8 +9246,8 @@ function setupMonthlyFormTrigger() {
  * Install monthly email trigger
  */
 function installMonthlyFormEmailTrigger() {
-  console.log("🔧 INSTALLING MONTHLY FORM EMAIL TRIGGER\n");
-  
+  console.log("Ã°Å¸â€Â§ INSTALLING MONTHLY FORM EMAIL TRIGGER\n");
+
   // Clear existing triggers
   const triggers = ScriptApp.getProjectTriggers();
   triggers.forEach(t => {
@@ -9091,30 +9255,30 @@ function installMonthlyFormEmailTrigger() {
       ScriptApp.deleteTrigger(t);
     }
   });
-  
+
   // Create monthly trigger: 1st of every month at 8:00 AM
   ScriptApp.newTrigger('sendMonthlyFormToAllEmployees')
     .timeBased()
     .onMonthDay(1)
     .atHour(8)
     .create();
-  
-  console.log("✅ Installed monthly form email trigger (1st of every month at 8:00 AM)");
-  console.log("\n🚀 MONTHLY FORM AUTOMATION IS NOW LIVE!");
+
+  console.log("Ã¢Å“â€¦ Installed monthly form email trigger (1st of every month at 8:00 AM)");
+  console.log("\nÃ°Å¸Å¡â‚¬ MONTHLY FORM AUTOMATION IS NOW LIVE!");
 }
 
-function testMonthlyFormEmail() {
-  console.log("\n🧪 TESTING MONTHLY FORM EMAIL\n");
-  console.log("⚠️ This will send form emails to ALL active employees\n");
-  
+function testMonthlyFormEmail_() {
+  console.log("\nÃ°Å¸Â§Âª TESTING MONTHLY FORM EMAIL\n");
+  console.log("Ã¢Å¡Â Ã¯Â¸Â This will send form emails to ALL active employees\n");
+
   sendMonthlyFormToAllEmployees();
-  
-  console.log("\n✅ TEST COMPLETE - Check employee inboxes");
+
+  console.log("\nÃ¢Å“â€¦ TEST COMPLETE - Check employee inboxes");
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  INTEGRATION WITH OFFBOARDING SYSTEM                                           ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  INTEGRATION WITH OFFBOARDING SYSTEM                                           Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * This function is called by the offboarding system after exit survey completion
@@ -9132,47 +9296,47 @@ function testMonthlyFormEmail() {
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  OFFER LETTER GENERATOR
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /*
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║  URBAN MISTRII - AI-POWERED OFFER LETTER GENERATOR                            ║
- * ║  Automatically generates personalized experience letters using Gemini AI      ║
- * ║  Can be called from offboarding system or used standalone                     ║
- * ║  🔗 Part of HR Automation Ecosystem (Aware of: Onboarding, Offboarding)      ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜  URBAN MISTRII - AI-POWERED OFFER LETTER GENERATOR                            Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Automatically generates personalized experience letters using Gemini AI      Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Can be called from offboarding system or used standalone                     Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Ã°Å¸â€â€” Part of HR Automation Ecosystem (Aware of: Onboarding, Offboarding)      Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const LETTER_CONFIG = {
-  // 🔗 HR ECOSYSTEM INTEGRATION
+  // Ã°Å¸â€â€” HR ECOSYSTEM INTEGRATION
   ECOSYSTEM: {
     ONBOARDING_SCRIPT: "onboarding_suite_v2.gs",
     OFFBOARDING_SCRIPT: "offboarding_exit_suite_v2.gs",
     JOINING_LETTER_GEN: "joining_letter_generator.gs"
   },
-  
-  // 📊 DATA SOURCE
+
+  // Ã°Å¸â€œÅ  DATA SOURCE
   SHEET_ID: "1b6JIPZo2G0YgB-Ee2WVL7PP-GP5h4HpLcev5NBEtMmE",
   SHEET_TAB: "Employees",
-  
-  // 📄 TEMPLATE
+
+  // Ã°Å¸â€œâ€ž TEMPLATE
   TEMPLATE_DOC_ID: "1T0hYu7k4NU1BcUJYXRGvRA2hRodYVwCUP6Q1DPnCl1k",
-  
-  // 🤖 AI CONFIGURATION
+
+  // Ã°Å¸Â¤â€“ AI CONFIGURATION
   GEMINI_API_KEY: "YOUR_GEMINI_API_KEY_HERE", // Get from https://makersuite.google.com/app/apikey
-  
-  // 📧 EMAIL SETTINGS
+
+  // Ã°Å¸â€œÂ§ EMAIL SETTINGS
   HR_EMAIL: "hr@urbanmistrii.com",
   TZ: "Asia/Kolkata",
-  
-  // 📁 OUTPUT
+
+  // Ã°Å¸â€œÂ OUTPUT
   FOLDER_NAME: "Generated Offer Letters" // Optional: specify Drive folder
 };
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  MAIN FUNCTION - Call this from other scripts                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  MAIN FUNCTION - Call this from other scripts                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Generate and email personalized offer letter
@@ -9182,66 +9346,66 @@ const LETTER_CONFIG = {
  */
 function generateOfferLetter(email, name) {
   if (!email || !name) {
-    console.error("❌ Missing email or name for offer letter generation");
+    console.error("Ã¢ÂÅ’ Missing email or name for offer letter generation");
     return false;
   }
-  
+
   try {
-    console.log(`🤖 GENERATING AI-POWERED OFFER LETTER for ${name} (${email})`);
-    
+    console.log(`Ã°Å¸Â¤â€“ GENERATING AI-POWERED OFFER LETTER for ${name} (${email})`);
+
     // Step 1: Fetch all employee data from master sheet
     const employeeData = fetchEmployeeData(email);
     if (!employeeData) {
-      console.error(`❌ Employee data not found for ${email}`);
+      console.error(`Ã¢ÂÅ’ Employee data not found for ${email}`);
       return false;
     }
-    
+
     // Step 2: Read template document to understand style
     const templateStyle = readTemplateStyle();
-    
+
     // Step 3: Build comprehensive context for AI
     const context = buildEmployeeContext(employeeData);
-    
+
     // Step 4: Generate personalized letter using Gemini AI
     const generatedContent = callGeminiAPI(context, templateStyle, name);
     if (!generatedContent) {
-      console.error("❌ AI generation failed");
+      console.error("Ã¢ÂÅ’ AI generation failed");
       return false;
     }
-    
+
     // Step 5: Create Google Doc with generated content
     const docName = `${name.replace(/\s+/g, '_')}_Experience_Letter_${Utilities.formatDate(new Date(), LETTER_CONFIG.TZ, 'yyyyMMdd')}`;
     const doc = DocumentApp.create(docName);
     const body = doc.getBody();
     body.setText(generatedContent);
-    
+
     // Apply basic formatting
     const titleStyle = {};
     titleStyle[DocumentApp.Attribute.FONT_SIZE] = 14;
     titleStyle[DocumentApp.Attribute.BOLD] = true;
     body.getParagraphs()[0].setAttributes(titleStyle);
-    
+
     const textStyle = {};
     textStyle[DocumentApp.Attribute.FONT_SIZE] = 11;
     textStyle[DocumentApp.Attribute.FONT_FAMILY] = 'Arial';
     body.setAttributes(textStyle);
-    
+
     doc.saveAndClose();
-    console.log(`✅ Document created: ${docName}`);
-    
+    console.log(`Ã¢Å“â€¦ Document created: ${docName}`);
+
     // Step 6: Move to designated folder (if specified)
     const docFile = DriveApp.getFileById(doc.getId());
     const folders = DriveApp.getFoldersByName(LETTER_CONFIG.FOLDER_NAME);
     if (folders.hasNext()) {
       const folder = folders.next();
       docFile.moveTo(folder);
-      console.log(`📁 Moved to folder: ${LETTER_CONFIG.FOLDER_NAME}`);
+      console.log(`Ã°Å¸â€œÂ Moved to folder: ${LETTER_CONFIG.FOLDER_NAME}`);
     }
-    
+
     // Step 7: Convert to PDF
     const pdfBlob = docFile.getAs('application/pdf');
     pdfBlob.setName(docName + '.pdf');
-    
+
     // Step 8: Email PDF to employee
     const subject = "Your UrbanMistrii Experience Letter";
     const emailBody = `Dear ${name},
@@ -9255,35 +9419,35 @@ We wish you continued success in all your endeavors.
 Warm regards,
 HR Team
 UrbanMistrii`;
-    
+
     GmailApp.sendEmail(email, subject, emailBody, {
       attachments: [pdfBlob],
       name: "HR Team, Urbanmistrii"
     });
-    
-    console.log(`📧 Experience letter emailed to ${email}`);
-    console.log(`✅ OFFER LETTER GENERATION COMPLETE`);
-    
+
+    console.log(`Ã°Å¸â€œÂ§ Experience letter emailed to ${email}`);
+    console.log(`Ã¢Å“â€¦ OFFER LETTER GENERATION COMPLETE`);
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to generate offer letter: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to generate offer letter: ${e.message}`);
     console.error(e.stack);
     return false;
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  DATA FETCHING                                                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  DATA FETCHING                                                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function fetchEmployeeData(email) {
   try {
     const ss = SpreadsheetApp.openById(LETTER_CONFIG.SHEET_ID);
     let sheet = ss.getSheetByName(LETTER_CONFIG.SHEET_TAB);
     if (!sheet) sheet = ss.getSheetByName("Sheet1") || ss.getSheets()[0];
-    
+
     const data = sheet.getDataRange().getValues();
-    
+
     // Find employee row by email (column C, index 2)
     for (let i = 1; i < data.length; i++) {
       if (String(data[i][2]).toLowerCase().trim() === email.toLowerCase().trim()) {
@@ -9315,24 +9479,24 @@ function fetchEmployeeData(email) {
     }
     return null;
   } catch (e) {
-    console.error(`❌ Error fetching employee data: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Error fetching employee data: ${e.message}`);
     return null;
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  AI GENERATION ENGINE                                                          ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  AI GENERATION ENGINE                                                          Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function readTemplateStyle() {
   try {
     const doc = DocumentApp.openById(LETTER_CONFIG.TEMPLATE_DOC_ID);
     const body = doc.getBody();
     const text = body.getText().substring(0, 500); // Get first 500 chars for style reference
-    console.log("✅ Template style loaded");
+    console.log("Ã¢Å“â€¦ Template style loaded");
     return text;
   } catch (e) {
-    console.warn(`⚠️ Could not read template: ${e.message}`);
+    console.warn(`Ã¢Å¡Â Ã¯Â¸Â Could not read template: ${e.message}`);
     return "Professional business letter format";
   }
 }
@@ -9340,7 +9504,7 @@ function readTemplateStyle() {
 function buildEmployeeContext(data) {
   const joiningDateStr = data.joiningDate ? Utilities.formatDate(new Date(data.joiningDate), LETTER_CONFIG.TZ, 'MMMM yyyy') : "";
   const lastDayStr = data.lastWorkingDay ? Utilities.formatDate(new Date(data.lastWorkingDay), LETTER_CONFIG.TZ, 'MMMM yyyy') : "";
-  
+
   return `
 EMPLOYEE INFORMATION:
 - Name: ${data.name}
@@ -9364,12 +9528,12 @@ TONE: Professional, appreciative, suitable for future employers
 
 function callGeminiAPI(context, templateStyle, employeeName) {
   const apiKey = LETTER_CONFIG.GEMINI_API_KEY;
-  
+
   if (!apiKey || apiKey === "YOUR_GEMINI_API_KEY_HERE") {
-    console.warn("⚠️ Gemini API key not configured. Using fallback template generation.");
+    console.warn("Ã¢Å¡Â Ã¯Â¸Â Gemini API key not configured. Using fallback template generation.");
     return generateFallbackLetter(context, employeeName);
   }
-  
+
   try {
     const prompt = `You are an HR professional writing an official experience letter for a departing employee.
 
@@ -9395,43 +9559,43 @@ Generate ONLY the letter content. Do not include any explanations or metadata.`;
         parts: [{ text: prompt }]
       }]
     };
-    
+
     const options = {
       method: 'post',
       contentType: 'application/json',
       payload: JSON.stringify(payload),
       muteHttpExceptions: true
     };
-    
+
     const response = UrlFetchApp.fetch(url, options);
     const json = JSON.parse(response.getContentText());
-    
+
     if (json.candidates && json.candidates[0] && json.candidates[0].content) {
       const generatedText = json.candidates[0].content.parts[0].text;
-      console.log(`✅ AI generation successful (${generatedText.length} chars)`);
+      console.log(`Ã¢Å“â€¦ AI generation successful (${generatedText.length} chars)`);
       return generatedText;
     } else {
-      console.error("❌ Unexpected API response:", json);
+      console.error("Ã¢ÂÅ’ Unexpected API response:", json);
       return generateFallbackLetter(context, employeeName);
     }
   } catch (e) {
-    console.error(`❌ Gemini API call failed: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Gemini API call failed: ${e.message}`);
     return generateFallbackLetter(context, employeeName);
   }
 }
 
 function generateFallbackLetter(context, employeeName) {
-  console.log("ℹ️ Using fallback template-based generation");
-  
+  console.log("Ã¢â€žÂ¹Ã¯Â¸Â Using fallback template-based generation");
+
   // Extract data from context
   const positionMatch = context.match(/Latest Position: ([^\n]+)/);
   const tenureMatch = context.match(/Tenure: ([^\n]+)/);
   const projectsMatch = context.match(/Projects Worked On: ([^\n]+)/);
-  
+
   const position = positionMatch ? positionMatch[1] : "Staff Member";
   const tenure = tenureMatch ? tenureMatch[1] : "during their tenure";
   const projects = projectsMatch ? projectsMatch[1] : "various architectural projects";
-  
+
   return `URBANMISTRII
 Architecture & Design
 
@@ -9456,41 +9620,41 @@ UrbanMistrii
 hr@urbanmistrii.com`;
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  STANDALONE TESTING & MANUAL TRIGGERS                                          ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  STANDALONE TESTING & MANUAL TRIGGERS                                          Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function testGenerateOfferLetter() {
-  console.log("\n🧪 TESTING OFFER LETTER GENERATOR\n");
-  
+  console.log("\nÃ°Å¸Â§Âª TESTING OFFER LETTER GENERATOR\n");
+
   // Test with sample employee
   const testEmail = "hr@urbanmistrii.com";
   const testName = "Chirag J.K";
-  
-  console.log(`📧 Generating letter for: ${testName} (${testEmail})`);
-  console.log(`📄 Template: ${LETTER_CONFIG.TEMPLATE_DOC_ID}`);
-  console.log(`🤖 AI: ${LETTER_CONFIG.GEMINI_API_KEY !== "YOUR_GEMINI_API_KEY_HERE" ? "Enabled" : "Fallback Mode"}\n`);
-  
+
+  console.log(`Ã°Å¸â€œÂ§ Generating letter for: ${testName} (${testEmail})`);
+  console.log(`Ã°Å¸â€œâ€ž Template: ${LETTER_CONFIG.TEMPLATE_DOC_ID}`);
+  console.log(`Ã°Å¸Â¤â€“ AI: ${LETTER_CONFIG.GEMINI_API_KEY !== "YOUR_GEMINI_API_KEY_HERE" ? "Enabled" : "Fallback Mode"}\n`);
+
   const success = generateOfferLetter(testEmail, testName);
-  
+
   if (success) {
-    console.log("\n✅ TEST SUCCESSFUL!");
-    console.log("📋 Check:");
+    console.log("\nÃ¢Å“â€¦ TEST SUCCESSFUL!");
+    console.log("Ã°Å¸â€œâ€¹ Check:");
     console.log("   1. Your inbox for the PDF");
     console.log("   2. Google Drive for the document");
     console.log(`   3. Folder: ${LETTER_CONFIG.FOLDER_NAME} (if exists)`);
   } else {
-    console.log("\n❌ TEST FAILED - Check logs above");
+    console.log("\nÃ¢ÂÅ’ TEST FAILED - Check logs above");
   }
 }
 
 function manualGenerateLetter(email, name) {
   if (!email || !name) {
-    console.error("❌ Usage: manualGenerateLetter('employee@email.com', 'Employee Name')");
+    console.error("Ã¢ÂÅ’ Usage: manualGenerateLetter('employee@email.com', 'Employee Name')");
     return;
   }
-  
-  console.log(`\n🚀 MANUALLY GENERATING OFFER LETTER`);
+
+  console.log(`\nÃ°Å¸Å¡â‚¬ MANUALLY GENERATING OFFER LETTER`);
   generateOfferLetter(email, name);
 }
 
@@ -9499,60 +9663,60 @@ function setupLetterGeneratorFolder() {
     const folders = DriveApp.getFoldersByName(LETTER_CONFIG.FOLDER_NAME);
     if (!folders.hasNext()) {
       const folder = DriveApp.createFolder(LETTER_CONFIG.FOLDER_NAME);
-      console.log(`✅ Created folder: ${LETTER_CONFIG.FOLDER_NAME}`);
-      console.log(`📁 Folder ID: ${folder.getId()}`);
+      console.log(`Ã¢Å“â€¦ Created folder: ${LETTER_CONFIG.FOLDER_NAME}`);
+      console.log(`Ã°Å¸â€œÂ Folder ID: ${folder.getId()}`);
     } else {
-      console.log(`✅ Folder already exists: ${LETTER_CONFIG.FOLDER_NAME}`);
+      console.log(`Ã¢Å“â€¦ Folder already exists: ${LETTER_CONFIG.FOLDER_NAME}`);
     }
   } catch (e) {
-    console.error(`❌ Failed to create folder: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to create folder: ${e.message}`);
   }
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  JOINING LETTER GENERATOR
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /*
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║  URBAN MISTRII - AI-POWERED JOINING LETTER GENERATOR                          ║
- * ║  Automatically generates personalized joining/offer letters using Gemini AI   ║
- * ║  Can be called from onboarding system or used standalone                      ║
- * ║  🔗 Part of HR Automation Ecosystem (Aware of: Onboarding, Offboarding)      ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜  URBAN MISTRII - AI-POWERED JOINING LETTER GENERATOR                          Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Automatically generates personalized joining/offer letters using Gemini AI   Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Can be called from onboarding system or used standalone                      Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜  Ã°Å¸â€â€” Part of HR Automation Ecosystem (Aware of: Onboarding, Offboarding)      Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 const JOINING_CONFIG = {
-  // 🔗 HR ECOSYSTEM INTEGRATION
+  // Ã°Å¸â€â€” HR ECOSYSTEM INTEGRATION
   ECOSYSTEM: {
     ONBOARDING_SCRIPT: "onboarding_suite_v2.gs",
     OFFBOARDING_SCRIPT: "offboarding_exit_suite_v2.gs",
     OFFER_LETTER_GEN: "offer_letter_generator.gs"
   },
-  
-  // 📊 DATA SOURCE (Shared master database)
+
+  // Ã°Å¸â€œÅ  DATA SOURCE (Shared master database)
   SHEET_ID: "1b6JIPZo2G0YgB-Ee2WVL7PP-GP5h4HpLcev5NBEtMmE",
   SHEET_TAB: "Employees",
-  
-  // 📄 TEMPLATE
+
+  // Ã°Å¸â€œâ€ž TEMPLATE
   TEMPLATE_DOC_ID: "YOUR_JOINING_LETTER_TEMPLATE_ID", // Update with your template
-  
-  // 🤖 AI CONFIGURATION
+
+  // Ã°Å¸Â¤â€“ AI CONFIGURATION
   GEMINI_API_KEY: "YOUR_GEMINI_API_KEY_HERE", // Get from https://makersuite.google.com/app/apikey
   GEMINI_MODEL: "gemini-1.5-flash",
-  
-  // 📧 EMAIL SETTINGS
+
+  // Ã°Å¸â€œÂ§ EMAIL SETTINGS
   HR_EMAIL: "hr@urbanmistrii.com",
   TZ: "Asia/Kolkata",
-  
-  // 📁 OUTPUT
+
+  // Ã°Å¸â€œÂ OUTPUT
   FOLDER_NAME: "Generated Joining Letters"
 };
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  MAIN FUNCTION - Call this from other scripts                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  MAIN FUNCTION - Call this from other scripts                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * Generate and email personalized joining/offer letter
@@ -9563,20 +9727,20 @@ const JOINING_CONFIG = {
  */
 function generateJoiningLetter(email, name, options = {}) {
   if (!email || !name) {
-    console.error("❌ Missing email or name for joining letter generation");
+    console.error("Ã¢ÂÅ’ Missing email or name for joining letter generation");
     return false;
   }
-  
+
   try {
-    console.log(`🤖 GENERATING AI-POWERED JOINING LETTER for ${name} (${email})`);
-    
+    console.log(`Ã°Å¸Â¤â€“ GENERATING AI-POWERED JOINING LETTER for ${name} (${email})`);
+
     // Step 1: Fetch employee data from master sheet
     const employeeData = fetchJoiningEmployeeData(email);
     if (!employeeData && !options.position) {
-      console.error(`❌ Employee data not found for ${email} and no manual data provided`);
+      console.error(`Ã¢ÂÅ’ Employee data not found for ${email} and no manual data provided`);
       return false;
     }
-    
+
     // Merge manual options with fetched data
     const data = {
       name: name,
@@ -9587,53 +9751,53 @@ function generateJoiningLetter(email, name, options = {}) {
       team: options.team || employeeData?.team || "Design Team",
       phone: options.phone || employeeData?.phone || ""
     };
-    
+
     // Step 2: Read template document to understand style
     const templateStyle = readJoiningTemplateStyle();
-    
+
     // Step 3: Build context for AI
     const context = buildJoiningContext(data);
-    
+
     // Step 4: Generate personalized letter using Gemini AI
     const generatedContent = callJoiningGeminiAPI(context, templateStyle, name);
     if (!generatedContent) {
-      console.error("❌ AI generation failed");
+      console.error("Ã¢ÂÅ’ AI generation failed");
       return false;
     }
-    
+
     // Step 5: Create Google Doc with generated content
     const docName = `${name.replace(/\s+/g, '_')}_Joining_Letter_${Utilities.formatDate(new Date(), JOINING_CONFIG.TZ, 'yyyyMMdd')}`;
     const doc = DocumentApp.create(docName);
     const body = doc.getBody();
     body.setText(generatedContent);
-    
+
     // Apply formatting
     const titleStyle = {};
     titleStyle[DocumentApp.Attribute.FONT_SIZE] = 14;
     titleStyle[DocumentApp.Attribute.BOLD] = true;
     body.getParagraphs()[0].setAttributes(titleStyle);
-    
+
     const textStyle = {};
     textStyle[DocumentApp.Attribute.FONT_SIZE] = 11;
     textStyle[DocumentApp.Attribute.FONT_FAMILY] = 'Arial';
     body.setAttributes(textStyle);
-    
+
     doc.saveAndClose();
-    console.log(`✅ Document created: ${docName}`);
-    
+    console.log(`Ã¢Å“â€¦ Document created: ${docName}`);
+
     // Step 6: Move to designated folder
     const docFile = DriveApp.getFileById(doc.getId());
     const folders = DriveApp.getFoldersByName(JOINING_CONFIG.FOLDER_NAME);
     if (folders.hasNext()) {
       const folder = folders.next();
       docFile.moveTo(folder);
-      console.log(`📁 Moved to folder: ${JOINING_CONFIG.FOLDER_NAME}`);
+      console.log(`Ã°Å¸â€œÂ Moved to folder: ${JOINING_CONFIG.FOLDER_NAME}`);
     }
-    
+
     // Step 7: Convert to PDF
     const pdfBlob = docFile.getAs('application/pdf');
     pdfBlob.setName(docName + '.pdf');
-    
+
     // Step 8: Email PDF to employee
     const subject = "Your UrbanMistrii Joining Letter";
     const joiningDateStr = Utilities.formatDate(new Date(data.joiningDate), JOINING_CONFIG.TZ, 'MMMM dd, yyyy');
@@ -9654,35 +9818,35 @@ We look forward to having you as part of our team!
 Warm regards,
 HR Team
 UrbanMistrii`;
-    
+
     GmailApp.sendEmail(email, subject, emailBody, {
       attachments: [pdfBlob],
       name: "HR Team, Urbanmistrii"
     });
-    
-    console.log(`📧 Joining letter emailed to ${email}`);
-    console.log(`✅ JOINING LETTER GENERATION COMPLETE`);
-    
+
+    console.log(`Ã°Å¸â€œÂ§ Joining letter emailed to ${email}`);
+    console.log(`Ã¢Å“â€¦ JOINING LETTER GENERATION COMPLETE`);
+
     return true;
   } catch (e) {
-    console.error(`❌ Failed to generate joining letter: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to generate joining letter: ${e.message}`);
     console.error(e.stack);
     return false;
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  DATA FETCHING                                                                 ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  DATA FETCHING                                                                 Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function fetchJoiningEmployeeData(email) {
   try {
     const ss = SpreadsheetApp.openById(JOINING_CONFIG.SHEET_ID);
     let sheet = ss.getSheetByName(JOINING_CONFIG.SHEET_TAB);
     if (!sheet) sheet = ss.getSheetByName("Sheet1") || ss.getSheets()[0];
-    
+
     const data = sheet.getDataRange().getValues();
-    
+
     // Column mapping (matching onboarding/offboarding structure)
     // A: Joining Date, B: Name, C: Email, H: Salary, O: Position, P: Phone
     for (let i = 1; i < data.length; i++) {
@@ -9690,7 +9854,7 @@ function fetchJoiningEmployeeData(email) {
         const row = data[i];
         const position = row[14] || "Staff"; // Col O
         const team = position.includes("(") ? position.split("(")[0].trim() : position;
-        
+
         return {
           name: row[1] || "Employee", // Col B
           joiningDate: row[0] || new Date(), // Col A
@@ -9704,36 +9868,36 @@ function fetchJoiningEmployeeData(email) {
     }
     return null;
   } catch (e) {
-    console.error(`❌ Error fetching employee data: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Error fetching employee data: ${e.message}`);
     return null;
   }
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  AI GENERATION ENGINE                                                          ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  AI GENERATION ENGINE                                                          Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function readJoiningTemplateStyle() {
   try {
     if (JOINING_CONFIG.TEMPLATE_DOC_ID === "YOUR_JOINING_LETTER_TEMPLATE_ID") {
-      console.log("ℹ️ No template configured, using default style");
+      console.log("Ã¢â€žÂ¹Ã¯Â¸Â No template configured, using default style");
       return "Professional business letter format with company letterhead";
     }
-    
+
     const doc = DocumentApp.openById(JOINING_CONFIG.TEMPLATE_DOC_ID);
     const body = doc.getBody();
     const text = body.getText().substring(0, 500);
-    console.log("✅ Template style loaded");
+    console.log("Ã¢Å“â€¦ Template style loaded");
     return text;
   } catch (e) {
-    console.warn(`⚠️ Could not read template: ${e.message}`);
+    console.warn(`Ã¢Å¡Â Ã¯Â¸Â Could not read template: ${e.message}`);
     return "Professional business letter format with company letterhead";
   }
 }
 
 function buildJoiningContext(data) {
   const joiningDateStr = Utilities.formatDate(new Date(data.joiningDate), JOINING_CONFIG.TZ, 'MMMM dd, yyyy');
-  
+
   return `
 EMPLOYEE INFORMATION:
 - Name: ${data.name}
@@ -9751,12 +9915,12 @@ TONE: Professional, welcoming, formal
 
 function callJoiningGeminiAPI(context, templateStyle, employeeName) {
   const apiKey = JOINING_CONFIG.GEMINI_API_KEY;
-  
+
   if (!apiKey || apiKey === "YOUR_GEMINI_API_KEY_HERE") {
-    console.warn("⚠️ Gemini API key not configured. Using fallback template generation.");
+    console.warn("Ã¢Å¡Â Ã¯Â¸Â Gemini API key not configured. Using fallback template generation.");
     return generateFallbackJoiningLetter(context, employeeName);
   }
-  
+
   try {
     const prompt = `You are an HR professional writing an official joining letter (offer letter) for a new employee.
 
@@ -9784,47 +9948,47 @@ Generate ONLY the letter content. Do not include any explanations or metadata.`;
         parts: [{ text: prompt }]
       }]
     };
-    
+
     const options = {
       method: 'post',
       contentType: 'application/json',
       payload: JSON.stringify(payload),
       muteHttpExceptions: true
     };
-    
+
     const response = UrlFetchApp.fetch(url, options);
     const json = JSON.parse(response.getContentText());
-    
+
     if (json.candidates && json.candidates[0] && json.candidates[0].content) {
       const generatedText = json.candidates[0].content.parts[0].text;
-      console.log(`✅ AI generation successful (${generatedText.length} chars)`);
+      console.log(`Ã¢Å“â€¦ AI generation successful (${generatedText.length} chars)`);
       return generatedText;
     } else {
-      console.error("❌ Unexpected API response:", json);
+      console.error("Ã¢ÂÅ’ Unexpected API response:", json);
       return generateFallbackJoiningLetter(context, employeeName);
     }
   } catch (e) {
-    console.error(`❌ Gemini API call failed: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Gemini API call failed: ${e.message}`);
     return generateFallbackJoiningLetter(context, employeeName);
   }
 }
 
 function generateFallbackJoiningLetter(context, employeeName) {
-  console.log("ℹ️ Using fallback template-based generation");
-  
+  console.log("Ã¢â€žÂ¹Ã¯Â¸Â Using fallback template-based generation");
+
   // Extract data from context
   const positionMatch = context.match(/Position: ([^\n]+)/);
   const joiningDateMatch = context.match(/Joining Date: ([^\n]+)/);
   const compensationMatch = context.match(/Compensation: ([^\n]+)/);
   const teamMatch = context.match(/Team: ([^\n]+)/);
-  
+
   const position = positionMatch ? positionMatch[1] : "Staff Member";
   const joiningDate = joiningDateMatch ? joiningDateMatch[1] : "as discussed";
   const compensation = compensationMatch ? compensationMatch[1] : "as per discussion";
   const team = teamMatch ? teamMatch[1] : "Design Team";
-  
+
   const today = Utilities.formatDate(new Date(), JOINING_CONFIG.TZ, 'MMMM dd, yyyy');
-  
+
   return `URBANMISTRII
 Architecture & Design
 
@@ -9837,18 +10001,18 @@ Subject: Offer of Employment - ${position}
 We are pleased to offer you the position of ${position} at UrbanMistrii. We believe your skills and enthusiasm will be a valuable addition to our ${team}.
 
 POSITION DETAILS:
-• Position: ${position}
-• Joining Date: ${joiningDate}
-• Monthly Compensation: ${compensation}
-• Team: ${team}
-• Reporting: As per organizational structure
-• Working Hours: Standard office hours (as communicated)
+Ã¢â‚¬Â¢ Position: ${position}
+Ã¢â‚¬Â¢ Joining Date: ${joiningDate}
+Ã¢â‚¬Â¢ Monthly Compensation: ${compensation}
+Ã¢â‚¬Â¢ Team: ${team}
+Ã¢â‚¬Â¢ Reporting: As per organizational structure
+Ã¢â‚¬Â¢ Working Hours: Standard office hours (as communicated)
 
 Your role will involve contributing to architectural and design projects, collaborating with team members, and maintaining the high standards of quality that UrbanMistrii is known for.
 
-${position.toLowerCase().includes("intern") ? 
-  "This is an internship position for the duration discussed during your interview." : 
-  "Your employment will be subject to a probation period of 3 months, during which your performance will be reviewed."}
+${position.toLowerCase().includes("intern") ?
+      "This is an internship position for the duration discussed during your interview." :
+      "Your employment will be subject to a probation period of 3 months, during which your performance will be reviewed."}
 
 You will be entitled to company policies as outlined in our HR handbook, which will be shared with you during onboarding. This includes leave policy, code of conduct, and other operational guidelines.
 
@@ -9865,13 +10029,13 @@ UrbanMistrii
 ${JOINING_CONFIG.HR_EMAIL}`;
 }
 
-// ╔═══════════════════════════════════════════════════════════════════════════════╗
-// ║  STANDALONE TESTING & MANUAL TRIGGERS                                          ║
-// ╚═══════════════════════════════════════════════════════════════════════════════╝
+// Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+// Ã¢â€¢â€˜  STANDALONE TESTING & MANUAL TRIGGERS                                          Ã¢â€¢â€˜
+// Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 function testGenerateJoiningLetter() {
-  console.log("\n🧪 TESTING JOINING LETTER GENERATOR\n");
-  
+  console.log("\nÃ°Å¸Â§Âª TESTING JOINING LETTER GENERATOR\n");
+
   // Test with sample employee
   const testEmail = "hr@urbanmistrii.com";
   const testName = "Priya Sharma";
@@ -9881,40 +10045,40 @@ function testGenerateJoiningLetter() {
     salary: "15,000",
     joiningDate: new Date(2025, 0, 15) // January 15, 2025
   };
-  
-  console.log(`📧 Generating letter for: ${testName} (${testEmail})`);
-  console.log(`📄 Position: ${testOptions.position}`);
-  console.log(`💰 Salary: ${testOptions.salary}`);
-  console.log(`🤖 AI: ${JOINING_CONFIG.GEMINI_API_KEY !== "YOUR_GEMINI_API_KEY_HERE" ? "Enabled" : "Fallback Mode"}\n`);
-  
+
+  console.log(`Ã°Å¸â€œÂ§ Generating letter for: ${testName} (${testEmail})`);
+  console.log(`Ã°Å¸â€œâ€ž Position: ${testOptions.position}`);
+  console.log(`Ã°Å¸â€™Â° Salary: ${testOptions.salary}`);
+  console.log(`Ã°Å¸Â¤â€“ AI: ${JOINING_CONFIG.GEMINI_API_KEY !== "YOUR_GEMINI_API_KEY_HERE" ? "Enabled" : "Fallback Mode"}\n`);
+
   const success = generateJoiningLetter(testEmail, testName, testOptions);
-  
+
   if (success) {
-    console.log("\n✅ TEST SUCCESSFUL!");
-    console.log("📋 Check:");
+    console.log("\nÃ¢Å“â€¦ TEST SUCCESSFUL!");
+    console.log("Ã°Å¸â€œâ€¹ Check:");
     console.log("   1. Your inbox for the PDF");
     console.log("   2. Google Drive for the document");
     console.log(`   3. Folder: ${JOINING_CONFIG.FOLDER_NAME} (if exists)`);
   } else {
-    console.log("\n❌ TEST FAILED - Check logs above");
+    console.log("\nÃ¢ÂÅ’ TEST FAILED - Check logs above");
   }
 }
 
 function manualGenerateJoiningLetter(email, name, position, salary, joiningDate) {
   if (!email || !name) {
-    console.error("❌ Usage: manualGenerateJoiningLetter('employee@email.com', 'Employee Name', 'Position', 'Salary', new Date())");
+    console.error("Ã¢ÂÅ’ Usage: manualGenerateJoiningLetter('employee@email.com', 'Employee Name', 'Position', 'Salary', new Date())");
     console.log("Example: manualGenerateJoiningLetter('priya@email.com', 'Priya Sharma', 'Architecture Intern', '15000', new Date(2025,0,15))");
     return;
   }
-  
-  console.log(`\n🚀 MANUALLY GENERATING JOINING LETTER`);
-  
+
+  console.log(`\nÃ°Å¸Å¡â‚¬ MANUALLY GENERATING JOINING LETTER`);
+
   const options = {
     position: position || "Staff Member",
     salary: salary || "As per discussion",
     joiningDate: joiningDate || new Date()
   };
-  
+
   generateJoiningLetter(email, name, options);
 }
 
@@ -9923,21 +10087,21 @@ function setupJoiningLetterFolder() {
     const folders = DriveApp.getFoldersByName(JOINING_CONFIG.FOLDER_NAME);
     if (!folders.hasNext()) {
       const folder = DriveApp.createFolder(JOINING_CONFIG.FOLDER_NAME);
-      console.log(`✅ Created folder: ${JOINING_CONFIG.FOLDER_NAME}`);
-      console.log(`📁 Folder ID: ${folder.getId()}`);
+      console.log(`Ã¢Å“â€¦ Created folder: ${JOINING_CONFIG.FOLDER_NAME}`);
+      console.log(`Ã°Å¸â€œÂ Folder ID: ${folder.getId()}`);
     } else {
-      console.log(`✅ Folder already exists: ${JOINING_CONFIG.FOLDER_NAME}`);
+      console.log(`Ã¢Å“â€¦ Folder already exists: ${JOINING_CONFIG.FOLDER_NAME}`);
     }
   } catch (e) {
-    console.error(`❌ Failed to create folder: ${e.message}`);
+    console.error(`Ã¢ÂÅ’ Failed to create folder: ${e.message}`);
   }
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  MANUAL TRIGGER OFFBOARDING
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
  * MANUAL OFFBOARDING TRIGGER SCRIPT
  * 
@@ -9948,7 +10112,7 @@ function setupJoiningLetterFolder() {
  * 4. Once satisfied, run 'sendToAvishiReal()' to send the actual email.
  */
 
-// 🔸 PLACEHOLDER LINKS - UPDATE THESE IF AVAILABLE 🔸
+// Ã°Å¸â€Â¸ PLACEHOLDER LINKS - UPDATE THESE IF AVAILABLE Ã°Å¸â€Â¸
 const LINK_INTERN_LOG = "https://docs.google.com/document/d/YOUR_INTERN_LOG_ID/edit";
 const LINK_FULLTIME_LOG = "https://docs.google.com/document/d/YOUR_FULLTIME_LOG_ID/edit";
 const FORM_OFFBOARD_FALLBACK = "https://docs.google.com/forms/d/YOUR_OFFBOARDING_FORM_ID/viewform";
@@ -9958,7 +10122,7 @@ function testOffboardingWithYash() {
   // We use Avishi's name so Yash sees it exactly as she would
   const name = "Avishi Pathak";
 
-  console.log(`🚀 Sending TEST offboarding email to ${email} (simulating for ${name})`);
+  console.log(`Ã°Å¸Å¡â‚¬ Sending TEST offboarding email to ${email} (simulating for ${name})`);
   sendOffboardingEmailManual(email, name);
 }
 
@@ -9966,13 +10130,13 @@ function sendToAvishiReal() {
   const email = "avishi@urbanmistrii.com";
   const name = "Avishi Pathak";
 
-  console.log(`🚀 Sending REAL offboarding email to ${name} (${email})`);
+  console.log(`Ã°Å¸Å¡â‚¬ Sending REAL offboarding email to ${name} (${email})`);
   sendOffboardingEmailManual(email, name);
 }
 
 function sendOffboardingEmailManual(targetEmail, targetName) {
   if (!targetEmail) {
-    console.error("❌ No email provided");
+    console.error("Ã¢ÂÅ’ No email provided");
     return;
   }
 
@@ -9989,7 +10153,7 @@ function sendOffboardingEmailManual(targetEmail, targetName) {
   const linkFulltime = (typeof CONFIG !== 'undefined' && CONFIG.LINK_LOG_FULLTIME) || LINK_FULLTIME_LOG;
 
   if (offboardUrl.includes("YOUR_")) {
-    console.warn("⚠️ WARNING: Offboarding URL appears to be a placeholder.");
+    console.warn("Ã¢Å¡Â Ã¯Â¸Â WARNING: Offboarding URL appears to be a placeholder.");
   }
 
   const subject = "Action Required: Offboarding & Alumni Transition";
@@ -10071,125 +10235,125 @@ function sendOffboardingEmailManual(targetEmail, targetName) {
   `;
 
   GmailApp.sendEmail(targetEmail, subject, "", { htmlBody: htmlBody });
-  console.log(`✨ Premium Offboarding Email sent to ${targetEmail}`);
+  console.log(`Ã¢Å“Â¨ Premium Offboarding Email sent to ${targetEmail}`);
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  TIMESTAMPFIX
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ═══════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * EMERGENCY TIMESTAMP FIX
  * Use these functions to diagnose and fix the timestamp issue
- * ═══════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 /**
  * STEP 1: Run this to diagnose your sheet structure
  */
 function DIAGNOSE_SHEET_COLUMNS() {
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         SHEET COLUMN DIAGNOSTIC                                  ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
-    Logger.log('');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         SHEET COLUMN DIAGNOSTIC                                  Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('');
 
-    try {
-        const sheet = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
-            .getSheetByName('DB_Candidates');
+  try {
+    const sheet = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
+      .getSheetByName('DB_Candidates');
 
-        if (!sheet) {
-            Logger.log('❌ Sheet "DB_Candidates" not found');
-            Logger.log('Available sheets:');
-            SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
-                .getSheets()
-                .forEach(s => Logger.log(`   - ${s.getName()}`));
-            return;
-        }
-
-        const headers = sheet.getRange(1, 1, 1, 35).getValues()[0];
-
-        Logger.log('═══ YOUR ACTUAL SHEET HEADERS ═══');
-        headers.forEach((header, index) => {
-            if (header) {
-                Logger.log(`Column ${(index + 1).toString().padStart(2, ' ')}: "${header}"`);
-            }
-        });
-
-        Logger.log('');
-        Logger.log('═══ CURRENT CONFIG MAPPING ═══');
-        Logger.log(`STATUS:     Column ${CONFIG.COLUMNS.STATUS}    → "${headers[CONFIG.COLUMNS.STATUS - 1] || 'EMPTY'}"`);
-        Logger.log(`UPDATED:    Column ${CONFIG.COLUMNS.UPDATED}   → "${headers[CONFIG.COLUMNS.UPDATED - 1] || 'EMPTY'}"`);
-        Logger.log(`TIMESTAMP:  Column ${CONFIG.COLUMNS.TIMESTAMP} → "${headers[CONFIG.COLUMNS.TIMESTAMP - 1] || 'EMPTY'}"`);
-        Logger.log(`NAME:       Column ${CONFIG.COLUMNS.NAME}      → "${headers[CONFIG.COLUMNS.NAME - 1] || 'EMPTY'}"`);
-        Logger.log(`PHONE:      Column ${CONFIG.COLUMNS.PHONE}     → "${headers[CONFIG.COLUMNS.PHONE - 1] || 'EMPTY'}"`);
-        Logger.log(`EMAIL:      Column ${CONFIG.COLUMNS.EMAIL}     → "${headers[CONFIG.COLUMNS.EMAIL - 1] || 'EMPTY'}"`);
-
-        Logger.log('');
-        Logger.log('═══ DIAGNOSIS ═══');
-
-        if (headers[0] && headers[0].toLowerCase().includes('status')) {
-            Logger.log('✅ Column 1 is STATUS (correct)');
-        } else {
-            Logger.log(`❌ Column 1 is "${headers[0]}" (should be STATUS)`);
-        }
-
-        if (headers[1] && (headers[1].toLowerCase().includes('update') || headers[1].toLowerCase().includes('timestamp'))) {
-            Logger.log('✅ Column 2 is for timestamps (correct)');
-        } else {
-            Logger.log(`⚠️ Column 2 is "${headers[1]}" (might be wrong)`);
-        }
-
-        Logger.log('');
-        Logger.log('═══ ACTIVE TRIGGERS ═══');
-        const triggers = ScriptApp.getProjectTriggers();
-        triggers.forEach(t => {
-            Logger.log(`   • ${t.getHandlerFunction()} (${t.getEventType()})`);
-        });
-
-    } catch (e) {
-        Logger.log('❌ Error: ' + e.message);
+    if (!sheet) {
+      Logger.log('Ã¢ÂÅ’ Sheet "DB_Candidates" not found');
+      Logger.log('Available sheets:');
+      SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
+        .getSheets()
+        .forEach(s => Logger.log(`   - ${s.getName()}`));
+      return;
     }
+
+    const headers = sheet.getRange(1, 1, 1, 35).getValues()[0];
+
+    Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â YOUR ACTUAL SHEET HEADERS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+    headers.forEach((header, index) => {
+      if (header) {
+        Logger.log(`Column ${(index + 1).toString().padStart(2, ' ')}: "${header}"`);
+      }
+    });
+
+    Logger.log('');
+    Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â CURRENT CONFIG MAPPING Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+    Logger.log(`STATUS:     Column ${CONFIG.COLUMNS.STATUS}    Ã¢â€ â€™ "${headers[CONFIG.COLUMNS.STATUS - 1] || 'EMPTY'}"`);
+    Logger.log(`UPDATED:    Column ${CONFIG.COLUMNS.UPDATED}   Ã¢â€ â€™ "${headers[CONFIG.COLUMNS.UPDATED - 1] || 'EMPTY'}"`);
+    Logger.log(`TIMESTAMP:  Column ${CONFIG.COLUMNS.TIMESTAMP} Ã¢â€ â€™ "${headers[CONFIG.COLUMNS.TIMESTAMP - 1] || 'EMPTY'}"`);
+    Logger.log(`NAME:       Column ${CONFIG.COLUMNS.NAME}      Ã¢â€ â€™ "${headers[CONFIG.COLUMNS.NAME - 1] || 'EMPTY'}"`);
+    Logger.log(`PHONE:      Column ${CONFIG.COLUMNS.PHONE}     Ã¢â€ â€™ "${headers[CONFIG.COLUMNS.PHONE - 1] || 'EMPTY'}"`);
+    Logger.log(`EMAIL:      Column ${CONFIG.COLUMNS.EMAIL}     Ã¢â€ â€™ "${headers[CONFIG.COLUMNS.EMAIL - 1] || 'EMPTY'}"`);
+
+    Logger.log('');
+    Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â DIAGNOSIS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+
+    if (headers[0] && headers[0].toLowerCase().includes('status')) {
+      Logger.log('Ã¢Å“â€¦ Column 1 is STATUS (correct)');
+    } else {
+      Logger.log(`Ã¢ÂÅ’ Column 1 is "${headers[0]}" (should be STATUS)`);
+    }
+
+    if (headers[1] && (headers[1].toLowerCase().includes('update') || headers[1].toLowerCase().includes('timestamp'))) {
+      Logger.log('Ã¢Å“â€¦ Column 2 is for timestamps (correct)');
+    } else {
+      Logger.log(`Ã¢Å¡Â Ã¯Â¸Â Column 2 is "${headers[1]}" (might be wrong)`);
+    }
+
+    Logger.log('');
+    Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â ACTIVE TRIGGERS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+    const triggers = ScriptApp.getProjectTriggers();
+    triggers.forEach(t => {
+      Logger.log(`   Ã¢â‚¬Â¢ ${t.getHandlerFunction()} (${t.getEventType()})`);
+    });
+
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ Error: ' + e.message);
+  }
 }
 
 /**
  * STEP 2: Disable the auto-timestamp trigger
  */
 function DISABLE_AUTO_TIMESTAMP() {
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         DISABLING AUTO-TIMESTAMP                                 ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
-    Logger.log('');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         DISABLING AUTO-TIMESTAMP                                 Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('');
 
-    const triggers = ScriptApp.getProjectTriggers();
-    let disabled = 0;
+  const triggers = ScriptApp.getProjectTriggers();
+  let disabled = 0;
 
-    triggers.forEach(trigger => {
-        if (trigger.getHandlerFunction() === 'universalAutomationEngine') {
-            ScriptApp.deleteTrigger(trigger);
-            Logger.log('✅ Disabled: universalAutomationEngine (onEdit trigger)');
-            disabled++;
-        }
-    });
-
-    if (disabled === 0) {
-        Logger.log('⚠️ No universalAutomationEngine triggers found');
-    } else {
-        Logger.log('');
-        Logger.log('✅ Auto-timestamp disabled!');
-        Logger.log('');
-        Logger.log('⚠️ NOTE: Status changes will NO LONGER trigger automation');
-        Logger.log('   You can now manually change STATUS without timestamps being written');
-        Logger.log('');
-        Logger.log('To re-enable automation, run: INITIAL_PRODUCTION_SETUP()');
+  triggers.forEach(trigger => {
+    if (trigger.getHandlerFunction() === 'universalAutomationEngine') {
+      ScriptApp.deleteTrigger(trigger);
+      Logger.log('Ã¢Å“â€¦ Disabled: universalAutomationEngine (onEdit trigger)');
+      disabled++;
     }
+  });
 
+  if (disabled === 0) {
+    Logger.log('Ã¢Å¡Â Ã¯Â¸Â No universalAutomationEngine triggers found');
+  } else {
     Logger.log('');
-    Logger.log('Remaining triggers:');
-    ScriptApp.getProjectTriggers().forEach(t => {
-        Logger.log(`   • ${t.getHandlerFunction()} (${t.getEventType()})`);
-    });
+    Logger.log('Ã¢Å“â€¦ Auto-timestamp disabled!');
+    Logger.log('');
+    Logger.log('Ã¢Å¡Â Ã¯Â¸Â NOTE: Status changes will NO LONGER trigger automation');
+    Logger.log('   You can now manually change STATUS without timestamps being written');
+    Logger.log('');
+    Logger.log('To re-enable automation, run: INITIAL_PRODUCTION_SETUP()');
+  }
+
+  Logger.log('');
+  Logger.log('Remaining triggers:');
+  ScriptApp.getProjectTriggers().forEach(t => {
+    Logger.log(`   Ã¢â‚¬Â¢ ${t.getHandlerFunction()} (${t.getEventType()})`);
+  });
 }
 
 /**
@@ -10197,160 +10361,160 @@ function DISABLE_AUTO_TIMESTAMP() {
  * This will remove any timestamps from the STATUS column
  */
 function CLEAN_STATUS_COLUMN() {
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         CLEANING STATUS COLUMN                                   ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         CLEANING STATUS COLUMN                                   Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('');
+
+  try {
+    const sheet = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
+      .getSheetByName('DB_Candidates');
+
+    if (!sheet) {
+      Logger.log('Ã¢ÂÅ’ Sheet not found');
+      return;
+    }
+
+    const lastRow = sheet.getLastRow();
+    const statusData = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+
+    let cleaned = 0;
+    const validStatuses = Object.values(CONFIG.RULES.STATUSES);
+
+    Logger.log(`Scanning ${lastRow - 1} rows...`);
     Logger.log('');
 
-    try {
-        const sheet = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
-            .getSheetByName('DB_Candidates');
+    for (let i = 0; i < statusData.length; i++) {
+      const row = i + 2;
+      const value = statusData[i][0];
 
-        if (!sheet) {
-            Logger.log('❌ Sheet not found');
-            return;
+      // Check if it's a timestamp (Date object or looks like a date)
+      if (value instanceof Date) {
+        Logger.log(`Row ${row}: Found timestamp "${value}" - clearing...`);
+        sheet.getRange(row, 1).clearContent();
+        cleaned++;
+      } else if (typeof value === 'string' && !validStatuses.includes(value.trim())) {
+        // Check if it looks like a date string
+        const parsed = new Date(value);
+        if (!isNaN(parsed.getTime()) && value.includes('/') || value.includes('-')) {
+          Logger.log(`Row ${row}: Found date string "${value}" - clearing...`);
+          sheet.getRange(row, 1).clearContent();
+          cleaned++;
         }
-
-        const lastRow = sheet.getLastRow();
-        const statusData = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
-
-        let cleaned = 0;
-        const validStatuses = Object.values(CONFIG.RULES.STATUSES);
-
-        Logger.log(`Scanning ${lastRow - 1} rows...`);
-        Logger.log('');
-
-        for (let i = 0; i < statusData.length; i++) {
-            const row = i + 2;
-            const value = statusData[i][0];
-
-            // Check if it's a timestamp (Date object or looks like a date)
-            if (value instanceof Date) {
-                Logger.log(`Row ${row}: Found timestamp "${value}" - clearing...`);
-                sheet.getRange(row, 1).clearContent();
-                cleaned++;
-            } else if (typeof value === 'string' && !validStatuses.includes(value.trim())) {
-                // Check if it looks like a date string
-                const parsed = new Date(value);
-                if (!isNaN(parsed.getTime()) && value.includes('/') || value.includes('-')) {
-                    Logger.log(`Row ${row}: Found date string "${value}" - clearing...`);
-                    sheet.getRange(row, 1).clearContent();
-                    cleaned++;
-                }
-            }
-        }
-
-        Logger.log('');
-        Logger.log(`✅ Cleaned ${cleaned} corrupted STATUS cells`);
-        Logger.log('');
-        Logger.log('Valid statuses are:');
-        validStatuses.forEach(s => Logger.log(`   • ${s}`));
-
-    } catch (e) {
-        Logger.log('❌ Error: ' + e.message);
+      }
     }
+
+    Logger.log('');
+    Logger.log(`Ã¢Å“â€¦ Cleaned ${cleaned} corrupted STATUS cells`);
+    Logger.log('');
+    Logger.log('Valid statuses are:');
+    validStatuses.forEach(s => Logger.log(`   Ã¢â‚¬Â¢ ${s}`));
+
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ Error: ' + e.message);
+  }
 }
 
 /**
  * STEP 4: Test if the fix worked
  */
 function TEST_STATUS_UPDATE() {
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         TESTING STATUS UPDATE                                    ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
-    Logger.log('');
-    Logger.log('This will test updating a status WITHOUT triggering automation');
-    Logger.log('');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         TESTING STATUS UPDATE                                    Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('');
+  Logger.log('This will test updating a status WITHOUT triggering automation');
+  Logger.log('');
 
-    const testRow = 2; // Change this to a test row number
+  const testRow = 2; // Change this to a test row number
 
-    try {
-        const sheet = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
-            .getSheetByName('DB_Candidates');
+  try {
+    const sheet = SpreadsheetApp.openById('1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4')
+      .getSheetByName('DB_Candidates');
 
-        const beforeValue = sheet.getRange(testRow, 1).getValue();
-        Logger.log(`Row ${testRow} STATUS before: "${beforeValue}"`);
+    const beforeValue = sheet.getRange(testRow, 1).getValue();
+    Logger.log(`Row ${testRow} STATUS before: "${beforeValue}"`);
 
-        // Manually set status
-        sheet.getRange(testRow, 1).setValue('TEST STATUS');
+    // Manually set status
+    sheet.getRange(testRow, 1).setValue('TEST STATUS');
 
-        // Wait a moment
-        Utilities.sleep(2000);
+    // Wait a moment
+    Utilities.sleep(2000);
 
-        const afterValue = sheet.getRange(testRow, 1).getValue();
-        Logger.log(`Row ${testRow} STATUS after:  "${afterValue}"`);
+    const afterValue = sheet.getRange(testRow, 1).getValue();
+    Logger.log(`Row ${testRow} STATUS after:  "${afterValue}"`);
 
-        if (afterValue === 'TEST STATUS') {
-            Logger.log('');
-            Logger.log('✅ SUCCESS! Status was not overwritten by timestamp');
-            Logger.log('   The fix is working!');
-        } else if (afterValue instanceof Date) {
-            Logger.log('');
-            Logger.log('❌ FAILED! Status was overwritten with timestamp');
-            Logger.log('   Run DISABLE_AUTO_TIMESTAMP() again');
-        }
-
-        // Restore original value
-        sheet.getRange(testRow, 1).setValue(beforeValue);
-        Logger.log('');
-        Logger.log('Restored original value');
-
-    } catch (e) {
-        Logger.log('❌ Error: ' + e.message);
+    if (afterValue === 'TEST STATUS') {
+      Logger.log('');
+      Logger.log('Ã¢Å“â€¦ SUCCESS! Status was not overwritten by timestamp');
+      Logger.log('   The fix is working!');
+    } else if (afterValue instanceof Date) {
+      Logger.log('');
+      Logger.log('Ã¢ÂÅ’ FAILED! Status was overwritten with timestamp');
+      Logger.log('   Run DISABLE_AUTO_TIMESTAMP() again');
     }
+
+    // Restore original value
+    sheet.getRange(testRow, 1).setValue(beforeValue);
+    Logger.log('');
+    Logger.log('Restored original value');
+
+  } catch (e) {
+    Logger.log('Ã¢ÂÅ’ Error: ' + e.message);
+  }
 }
 
 /**
  * COMPLETE FIX - Runs all steps automatically
  */
 function FIX_TIMESTAMP_ISSUE_COMPLETE() {
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         COMPLETE TIMESTAMP FIX                                   ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
-    Logger.log('');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         COMPLETE TIMESTAMP FIX                                   Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('');
 
-    Logger.log('STEP 1: Diagnosing...');
-    Logger.log('═══════════════════════════════════════════════════════════════════');
-    DIAGNOSE_SHEET_COLUMNS();
+  Logger.log('STEP 1: Diagnosing...');
+  Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  DIAGNOSE_SHEET_COLUMNS();
 
-    Logger.log('');
-    Logger.log('STEP 2: Disabling auto-timestamp...');
-    Logger.log('═══════════════════════════════════════════════════════════════════');
-    DISABLE_AUTO_TIMESTAMP();
+  Logger.log('');
+  Logger.log('STEP 2: Disabling auto-timestamp...');
+  Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  DISABLE_AUTO_TIMESTAMP();
 
-    Logger.log('');
-    Logger.log('STEP 3: Cleaning corrupted cells...');
-    Logger.log('═══════════════════════════════════════════════════════════════════');
-    CLEAN_STATUS_COLUMN();
+  Logger.log('');
+  Logger.log('STEP 3: Cleaning corrupted cells...');
+  Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  CLEAN_STATUS_COLUMN();
 
-    Logger.log('');
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         ✅ FIX COMPLETE!                                         ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
-    Logger.log('');
-    Logger.log('You can now manually change STATUS without timestamps appearing!');
-    Logger.log('');
-    Logger.log('⚠️ NOTE: Automation is now DISABLED');
-    Logger.log('   To use automation features, you must call functions manually:');
-    Logger.log('   - sendWelcomeToRow(rowNumber)');
-    Logger.log('   - sendConfirmationToRow(rowNumber)');
-    Logger.log('   - processScheduledTests()');
+  Logger.log('');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         Ã¢Å“â€¦ FIX COMPLETE!                                         Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+  Logger.log('');
+  Logger.log('You can now manually change STATUS without timestamps appearing!');
+  Logger.log('');
+  Logger.log('Ã¢Å¡Â Ã¯Â¸Â NOTE: Automation is now DISABLED');
+  Logger.log('   To use automation features, you must call functions manually:');
+  Logger.log('   - sendWelcomeToRow(rowNumber)');
+  Logger.log('   - sendConfirmationToRow(rowNumber)');
+  Logger.log('   - processScheduledTests()');
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  EMERGENCYFIX
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * EMERGENCY FIX - Stop all failing triggers
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 function EMERGENCY_STOP() {
   "use strict";
-  
+
   try {
     // Delete ALL triggers
     const triggers = ScriptApp.getProjectTriggers();
@@ -10358,7 +10522,7 @@ function EMERGENCY_STOP() {
       ScriptApp.deleteTrigger(trigger);
       console.log("Deleted trigger: " + trigger.getHandlerFunction());
     });
-    
+
     return "SUCCESS: All triggers stopped. System is now paused.";
   } catch (e) {
     return "ERROR stopping triggers: " + e.message;
@@ -10370,36 +10534,36 @@ function EMERGENCY_STOP() {
  */
 function RESTORE_ORACLE_TRIGGERS() {
   "use strict";
-  
+
   try {
     // First stop all triggers
     const triggers = ScriptApp.getProjectTriggers();
     triggers.forEach(trigger => ScriptApp.deleteTrigger(trigger));
-    
+
     // Only create Oracle-specific triggers
     ScriptApp.newTrigger("processInbox")
       .timeBased()
       .everyMinutes(15)
       .create();
-    
+
     ScriptApp.newTrigger("processFollowUps")
       .timeBased()
       .everyHours(1)
       .create();
-    
+
     ScriptApp.newTrigger("generateDailySummary")
       .timeBased()
       .everyDays(1)
       .atHour(9)
       .create();
-    
+
     ScriptApp.newTrigger("generateWeeklyReport")
       .timeBased()
       .everyWeeks(1)
       .onWeekDay(ScriptApp.WeekDay.MONDAY)
       .atHour(10)
       .create();
-    
+
     return "SUCCESS: Oracle triggers restored. SetupWizard triggers removed.";
   } catch (e) {
     return "ERROR restoring triggers: " + e.message;
@@ -10411,206 +10575,140 @@ function RESTORE_ORACLE_TRIGGERS() {
  */
 function checkTriggerStatus() {
   const triggers = ScriptApp.getProjectTriggers();
-  
+
   if (triggers.length === 0) {
     return "No triggers installed. System is paused.";
   }
-  
+
   const status = triggers.map(t => {
     return `- ${t.getHandlerFunction()} (${t.getTriggerSource()})`;
   }).join("\n");
-  
+
   return `Active Triggers (${triggers.length}):\n${status}`;
 }
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  AUTOMATIONSETUP
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                     URBANMISTRII ORACLE v22.3 - AUTOMATION SETUP              ║
- * ║                     Programmatic Setup of Forms & Triggers                    ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                     URBANMISTRII ORACLE v22.3 - AUTOMATION SETUP              Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                     Programmatic Setup of Forms & Triggers                    Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 /**
  * RUN THIS FUNCTION to set up the form and triggers!
  */
 function runAutomationSetup() {
-    AutomationSetup.setupTestSubmissionFlow();
+  AutomationSetup.setupTestSubmissionFlow();
 }
 
 const AutomationSetup = {
-    /**
-     * One-click setup for the Test Submission workflow.
-     * Creates the form, links it to sheets, and sets up trigger.
-     */
-    setupTestSubmissionFlow() {
-        Logger.log('🚀 Starting Test Submission Automation Setup...');
+  /**
+   * One-click setup for the Test Submission workflow.
+   * Creates the form, links it to sheets, and sets up trigger.
+   */
+  setupTestSubmissionFlow() {
+    Logger.log('Ã°Å¸Å¡â‚¬ Starting Test Submission Automation Setup...');
 
-        try {
-            // 1. Create the Form
-            const form = FormApp.create('UrbanMistrii Oracle - Test Submission v2');
-            form.setDescription('Please submit your test files and notes here. Ensure you use the same email address you applied with.');
+    try {
+      // 1. Create the Form
+      const form = FormApp.create('UrbanMistrii Oracle - Test Submission v2');
+      form.setDescription('Please submit your test files and notes here. Ensure you use the same email address you applied with.');
 
-            // 2. Add Fields
-            form.addTextItem().setTitle('Email Address').setRequired(true);
+      // 2. Add Fields
+      form.addTextItem().setTitle('Email Address').setRequired(true);
 
-            // File upload items require a manual click to enable files initially, 
-            // but we can pre-create them. 
-            // NOTE: Google Forms API restricts file uploads to Workspace members only if not handled carefully.
-            form.addSectionHeaderItem().setTitle('File Uploads');
-            form.addParagraphTextItem().setTitle('PDF/Docs Upload').setHelpText('Paste the Google Drive link or Box link to your PDF/Docs/Presentation.');
-            form.addParagraphTextItem().setTitle('DWG Upload').setHelpText('Paste the link to your AutoCAD/DWG files.');
-            form.addParagraphTextItem().setTitle('Other Files').setHelpText('Paste the link to any other supporting files (Renders, references, etc.)');
-            form.addParagraphTextItem().setTitle('Test Notes').setHelpText('Any notes about your design approach or technical challenges.');
+      // File upload items require a manual click to enable files initially, 
+      // but we can pre-create them. 
+      // NOTE: Google Forms API restricts file uploads to Workspace members only if not handled carefully.
+      form.addSectionHeaderItem().setTitle('File Uploads');
+      form.addParagraphTextItem().setTitle('PDF/Docs Upload').setHelpText('Paste the Google Drive link or Box link to your PDF/Docs/Presentation.');
+      form.addParagraphTextItem().setTitle('DWG Upload').setHelpText('Paste the link to your AutoCAD/DWG files.');
+      form.addParagraphTextItem().setTitle('Other Files').setHelpText('Paste the link to any other supporting files (Renders, references, etc.)');
+      form.addParagraphTextItem().setTitle('Test Notes').setHelpText('Any notes about your design approach or technical challenges.');
 
-            // 3. Link to Spreadsheet
-            const ssId = CONFIG.SHEETS.MASTER_ID;
-            form.setDestination(FormApp.DestinationType.SPREADSHEET, ssId);
+      // 3. Link to Spreadsheet
+      const ssId = CONFIG.SHEETS.MASTER_ID;
+      form.setDestination(FormApp.DestinationType.SPREADSHEET, ssId);
 
-            // 4. Set up Trigger
-            this._createFormSubmitTrigger();
+      // 4. Set up Trigger
+      this._createFormSubmitTrigger();
 
-            const formUrl = form.getPublishedUrl();
-            const editorUrl = form.getEditUrl();
+      const formUrl = form.getPublishedUrl();
+      const editorUrl = form.getEditUrl();
 
-            Logger.log('\n✅ SETUP SUCCESSFUL!');
-            Logger.log('════════════════════════════════════════════════════════════════════');
-            Logger.log('📝 FORM URL (Send to candidates):');
-            Logger.log(formUrl);
-            Logger.log('\n🛠️ FORM EDITOR (Check settings):');
-            Logger.log(editorUrl);
-            Logger.log('════════════════════════════════════════════════════════════════════');
+      Logger.log('\nÃ¢Å“â€¦ SETUP SUCCESSFUL!');
+      Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
+      Logger.log('Ã°Å¸â€œÂ FORM URL (Send to candidates):');
+      Logger.log(formUrl);
+      Logger.log('\nÃ°Å¸â€ºÂ Ã¯Â¸Â FORM EDITOR (Check settings):');
+      Logger.log(editorUrl);
+      Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
-            return {
-                success: true,
-                formUrl: formUrl,
-                editorUrl: editorUrl
-            };
+      return {
+        success: true,
+        formUrl: formUrl,
+        editorUrl: editorUrl
+      };
 
-        } catch (err) {
-            Logger.log('❌ SETUP FAILED: ' + err.message);
-            return { success: false, error: err.message };
-        }
-    },
-
-    /**
-     * Programmatically create the On Form Submit trigger
-     */
-    _createFormSubmitTrigger() {
-        const functionName = 'FormHandlers.handleTestFormSubmit';
-
-        // Remove existing triggers to avoid duplicates
-        const triggers = ScriptApp.getProjectTriggers();
-        triggers.forEach(t => {
-            if (t.getHandlerFunction() === functionName) {
-                ScriptApp.deleteTrigger(t);
-            }
-        });
-
-        // Create new trigger
-        ScriptApp.newTrigger(functionName)
-            .forSpreadsheet(SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID))
-            .onFormSubmit()
-            .create();
-
-        Logger.log('✅ Trigger created for: ' + functionName);
+    } catch (err) {
+      Logger.log('Ã¢ÂÅ’ SETUP FAILED: ' + err.message);
+      return { success: false, error: err.message };
     }
+  },
+
+  /**
+   * Programmatically create the On Form Submit trigger
+   */
+  _createFormSubmitTrigger() {
+    const functionName = 'FormHandlers.handleTestFormSubmit';
+
+    // Remove existing triggers to avoid duplicates
+    const triggers = ScriptApp.getProjectTriggers();
+    triggers.forEach(t => {
+      if (t.getHandlerFunction() === functionName) {
+        ScriptApp.deleteTrigger(t);
+      }
+    });
+
+    // Create new trigger
+    ScriptApp.newTrigger(functionName)
+      .forSpreadsheet(SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID))
+      .onFormSubmit()
+      .create();
+
+    Logger.log('Ã¢Å“â€¦ Trigger created for: ' + functionName);
+  }
 };
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  SETUP
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                URBANMISTRII ORACLE v22.1 - SETUP & INSTALLATION               ║
- * ║                Complete Installation & Testing Guide (Enhanced)              ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”
+ * Ã¢â€¢â€˜                URBANMISTRII ORACLE v22.1 - SETUP & INSTALLATION               Ã¢â€¢â€˜
+ * Ã¢â€¢â€˜                Complete Installation & Testing Guide (Enhanced)              Ã¢â€¢â€˜
+ * Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 
 /**
- * STEP 1: Initial setup and activation
- * Run this ONCE to activate Oracle v22.0
+ * (Definition moved to clean interface at top)
  */
-function INITIAL_PRODUCTION_SETUP() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         ORACLE v22.0 - PRODUCTION SETUP                           ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
-
-  try {
-    Logger.log('1️⃣ Validating configuration...');
-    SecureConfig.validate();
-    Logger.log('   ✅ Configuration valid');
-
-    Logger.log('2️⃣ Cleaning up old triggers...');
-    const oldTriggers = ScriptApp.getProjectTriggers();
-    oldTriggers.forEach(t => ScriptApp.deleteTrigger(t));
-    Logger.log(`   ✅ Removed ${oldTriggers.length} old trigger(s)`);
-
-    Logger.log('3️⃣ Creating automation triggers...');
-
-    const masterSs = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
-    ScriptApp.newTrigger('universalAutomationEngine').forSpreadsheet(masterSs).onEdit().create();
-    Logger.log('   ✅ Status change trigger created');
-
-    // 🆕 Form submit trigger for auto-confirmations
-    ScriptApp.newTrigger('onFormSubmit').forSpreadsheet(masterSs).onFormSubmit().create();
-    Logger.log('   ✅ Form submit trigger created (auto-confirmations)');
-
-    // 🆕 Leave form submission trigger (uses global wrapper function)
-    ScriptApp.newTrigger('onLeaveFormSubmit').forSpreadsheet(masterSs).onFormSubmit().create();
-    Logger.log('   ✅ Leave form trigger created (salary tracking)');
-
-    ScriptApp.newTrigger('runOracleBackgroundCycle').timeBased().everyMinutes(15).create();
-    Logger.log('   ✅ Background cycle trigger created (15 min)');
-
-    ScriptApp.newTrigger('sendDailySummary').timeBased().atHour(9).everyDays(1).inTimezone('Asia/Kolkata').create();
-    Logger.log('   ✅ Daily summary trigger created (9 AM IST)');
-
-    // v22.0: Weekly analytics report
-    ScriptApp.newTrigger('sendWeeklyAnalyticsReport').timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(10).inTimezone('Asia/Kolkata').create();
-    Logger.log('   ✅ Weekly analytics trigger created (Monday 10 AM)');
-
-    Logger.log('4️⃣ Initializing sheets...');
-    initializeSheets();
-    Logger.log('   ✅ Sheets initialized');
-
-    // v22.0: Initialize retry queue
-    Logger.log('5️⃣ Initializing v22.0 modules...');
-    if (typeof RetryQueue !== 'undefined') RetryQueue.init();
-    Logger.log('   ✅ Retry queue initialized');
-
-    Log.success('SETUP', 'Oracle v22.0 activated successfully');
-
-    Logger.log('');
-    Logger.log('🎉 Oracle v22.0 is now ACTIVE!');
-    Logger.log('🧪 Test it: Run testCompleteWorkflow()');
-    Logger.log('');
-    Logger.log('v22.0 NEW FEATURES ENABLED:');
-    Logger.log('   • Multi-department support');
-    Logger.log('   • AI Portfolio Scoring');
-    Logger.log('   • Google Calendar Integration');
-    Logger.log('   • Candidate Self-Service Portal');
-    Logger.log('   • Duplicate Detection');
-    Logger.log('   • Message Retry Queue');
-    Logger.log('   • Advanced Analytics');
-
-  } catch (e) {
-    Logger.log('❌ Setup failed: ' + e.message);
-    Log.critical('SETUP', 'Setup failed', { error: e.message });
-  }
+function INITIAL_PRODUCTION_SETUP_OLD_() {
+  INITIAL_PRODUCTION_SETUP();
 }
 
 /**
- * 🧹 EMERGENCY CLEANUP
+ * Ã°Å¸Â§Â¹ EMERGENCY CLEANUP
  * Marks all unread emails as processed/read/labeled to stop loop
  */
-function MARK_INBOX_READ_AND_PROCESSED() {
-  Logger.log('🧹 Starting Inbox Cleanup...');
+function markInboxRead_() {
+  Logger.log('Ã°Å¸Â§Â¹ Starting Inbox Cleanup...');
 
   const labelName = 'ORACLE_PROCESSED';
   let label = GmailApp.getUserLabelByName(labelName);
@@ -10633,10 +10731,10 @@ function MARK_INBOX_READ_AND_PROCESSED() {
     Utilities.sleep(1000); // Prevent rate limiting
   }
 
-  Logger.log(`✅ Cleanup Complete: Marked ${processed} emails as read & processed.`);
+  Logger.log(`Ã¢Å“â€¦ Cleanup Complete: Marked ${processed} emails as read & processed.`);
 }
 
-function initializeSheets() {
+function initializeSheets_() {
   const master = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
 
   const tabs = [
@@ -10645,14 +10743,14 @@ function initializeSheets() {
     { name: CONFIG.SHEETS.TABS.TIMELINE, headers: ['Timestamp', 'Email', 'Event', 'Data'] },
     { name: CONFIG.SHEETS.TABS.ANALYTICS, headers: ['Date', 'Metric', 'Value', 'Metadata'] },
     { name: CONFIG.SHEETS.TABS.FOLLOWUP, headers: ['Date', 'Name', 'Phone', 'Type', 'Status'] },
-    { name: CONFIG.SHEETS.TABS.SALARY_TRACKER, headers: ['Employee Name', 'Email', 'Phone', 'Role', 'Department', 'Hire Date', 'Monthly Salary (₹)', 'Start Date', 'Status', 'Notes'] }
+    { name: CONFIG.SHEETS.TABS.SALARY_TRACKER, headers: ['Employee Name', 'Email', 'Phone', 'Role', 'Department', 'Hire Date', 'Monthly Salary (Ã¢â€šÂ¹)', 'Start Date', 'Status', 'Notes'] }
   ];
 
   tabs.forEach(tab => {
     let sheet = master.getSheetByName(tab.name);
     if (!sheet) {
       sheet = master.insertSheet(tab.name);
-      Logger.log(`   📄 Created sheet: ${tab.name}`);
+      Logger.log(`   Ã°Å¸â€œâ€ž Created sheet: ${tab.name}`);
       if (tab.headers) {
         sheet.appendRow(tab.headers);
         sheet.getRange(1, 1, 1, tab.headers.length).setFontWeight('bold').setBackground('#E0E0E0');
@@ -10673,24 +10771,24 @@ function initializeSheets() {
 
           // Add conditional formatting for salary column
           const salaryRange = sheet.getRange(2, 7, sheet.getMaxRows() - 1, 1);
-          salaryRange.setNumberFormat('₹ #,##0');
+          salaryRange.setNumberFormat('Ã¢â€šÂ¹ #,##0');
         }
       }
     }
   });
 
   // Set up STATUS dropdown on candidates sheet
-  setupStatusDropdown();
+  setupStatusDropdown_();
 }
 
 /**
  * Set up STATUS column dropdown validation on both master and public sheets
  * Run this to ensure consistent status values across all views
  */
-function setupStatusDropdown() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         SETTING UP STATUS DROPDOWN                               ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+function setupStatusDropdown_() {
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         SETTING UP STATUS DROPDOWN                               Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   const statusValues = Object.values(CONFIG.RULES.STATUSES);
   Logger.log(`Status options: ${statusValues.join(', ')}`);
@@ -10707,9 +10805,9 @@ function setupStatusDropdown() {
     const lastRow = Math.max(masterSheet.getLastRow(), 100);
     const statusRange = masterSheet.getRange(2, CONFIG.COLUMNS.STATUS, lastRow, 1);
     statusRange.setDataValidation(rule);
-    Logger.log('✅ Master sheet STATUS dropdown set');
+    Logger.log('Ã¢Å“â€¦ Master sheet STATUS dropdown set');
   } catch (e) {
-    Logger.log('❌ Master sheet error: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Master sheet error: ' + e.message);
   }
 
   // 2. Public Sheet (Team View) - sync first if empty
@@ -10720,14 +10818,14 @@ function setupStatusDropdown() {
     // Create sheet if doesn't exist
     if (!publicSheet) {
       publicSheet = publicSs.insertSheet('Team View');
-      Logger.log('📄 Created Team View sheet');
+      Logger.log('Ã°Å¸â€œâ€ž Created Team View sheet');
     }
 
     const colCount = publicSheet.getLastColumn();
 
     // If empty, run sync first
     if (colCount < 1) {
-      Logger.log('⚠️ Public sheet empty - running sync first...');
+      Logger.log('Ã¢Å¡Â Ã¯Â¸Â Public sheet empty - running sync first...');
       syncToPublicView();
       SpreadsheetApp.flush();
     }
@@ -10742,29 +10840,29 @@ function setupStatusDropdown() {
       if (statusCol > 0) {
         const statusRange = publicSheet.getRange(2, statusCol, lastRow, 1);
         statusRange.setDataValidation(rule);
-        Logger.log('✅ Public sheet STATUS dropdown set (column ' + statusCol + ')');
+        Logger.log('Ã¢Å“â€¦ Public sheet STATUS dropdown set (column ' + statusCol + ')');
       } else {
-        Logger.log('⚠️ STATUS column not found in public sheet headers: ' + headers.join(', '));
+        Logger.log('Ã¢Å¡Â Ã¯Â¸Â STATUS column not found in public sheet headers: ' + headers.join(', '));
       }
     } else {
-      Logger.log('⚠️ Public sheet still empty after sync');
+      Logger.log('Ã¢Å¡Â Ã¯Â¸Â Public sheet still empty after sync');
     }
   } catch (e) {
-    Logger.log('❌ Public sheet error: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Public sheet error: ' + e.message);
   }
 
   Logger.log('');
   Logger.log('Done! Status dropdown is now available on both sheets.');
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                        COMPLETE TESTING SUITE
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
-function testCompleteWorkflow() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         ORACLE v22.0 - COMPLETE WORKFLOW TEST                     ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+function testCompleteWorkflow_() {
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         ORACLE v22.0 - COMPLETE WORKFLOW TEST                     Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   let passed = 0, failed = 0;
 
@@ -10772,10 +10870,10 @@ function testCompleteWorkflow() {
   Logger.log('Test 1: Configuration & API Keys');
   try {
     SecureConfig.validate();
-    Logger.log('✅ PASSED');
+    Logger.log('Ã¢Å“â€¦ PASSED');
     passed++;
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10784,10 +10882,10 @@ function testCompleteWorkflow() {
   try {
     SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
     SpreadsheetApp.openById(CONFIG.SHEETS.PUBLIC_ID);
-    Logger.log('✅ PASSED');
+    Logger.log('Ã¢Å“â€¦ PASSED');
     passed++;
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10796,13 +10894,13 @@ function testCompleteWorkflow() {
   try {
     const response = AI.call('Say "working" in one word');
     if (response && response.toLowerCase().includes('work')) {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error('Unexpected response');
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10810,13 +10908,13 @@ function testCompleteWorkflow() {
   Logger.log('Test 4: Validation Functions');
   try {
     if (Validate.phone('9312943581').valid && Validate.email('test@example.com').valid) {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error('Validation failed');
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10825,13 +10923,13 @@ function testCompleteWorkflow() {
   try {
     const result = WhatsApp.sendWelcome(CONFIG.TEAM.YASH_PHONE, 'Test');
     if (result.success || result.testMode) {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error(result.error);
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10839,29 +10937,29 @@ function testCompleteWorkflow() {
   Logger.log('Test 6: Logging System');
   try {
     Log.info('TEST', 'Test log entry');
-    Logger.log('✅ PASSED');
+    Logger.log('Ã¢Å“â€¦ PASSED');
     passed++;
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
   // v22.0 Tests
   Logger.log('');
-  Logger.log('═══ v22.0 NEW FEATURE TESTS ═══');
+  Logger.log('Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â v22.0 NEW FEATURE TESTS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   // Test 7: Duplicate Detection
   Logger.log('Test 7: Duplicate Detection');
   try {
     const result = Duplicates.check('nonexistent@test.com', '0000000000', 'Test User');
     if (result.isDuplicate === false) {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error('Should not find duplicate');
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10870,13 +10968,13 @@ function testCompleteWorkflow() {
   try {
     const metrics = Analytics.getMetrics();
     if (metrics && metrics.pipeline) {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error('No metrics returned');
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10885,13 +10983,13 @@ function testCompleteWorkflow() {
   try {
     const stats = RetryQueue.getStats();
     if (stats !== null) {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error('Retry queue not initialized');
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10901,10 +10999,10 @@ function testCompleteWorkflow() {
     const tomorrow = DateTime.addDays(new Date(), 1);
     const slots = Calendar.getAvailableSlots(tomorrow);
     Logger.log(`   Found ${slots.length} available slots`);
-    Logger.log('✅ PASSED');
+    Logger.log('Ã¢Å“â€¦ PASSED');
     passed++;
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10913,13 +11011,13 @@ function testCompleteWorkflow() {
   try {
     // Don't actually call AI, just check the method exists
     if (typeof AI.scorePortfolio === 'function') {
-      Logger.log('✅ PASSED');
+      Logger.log('Ã¢Å“â€¦ PASSED');
       passed++;
     } else {
       throw new Error('scorePortfolio not defined');
     }
   } catch (e) {
-    Logger.log('❌ FAILED: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ FAILED: ' + e.message);
     failed++;
   }
 
@@ -10927,19 +11025,19 @@ function testCompleteWorkflow() {
   Logger.log(`Results: ${passed} passed, ${failed} failed`);
 
   if (failed === 0) {
-    Logger.log('🎉 ALL TESTS PASSED! Oracle v22.0 is ready!');
+    Logger.log('Ã°Å¸Å½â€° ALL TESTS PASSED! Oracle v22.0 is ready!');
   } else {
-    Logger.log('⚠️ Some tests failed. Review the errors above.');
+    Logger.log('Ã¢Å¡Â Ã¯Â¸Â Some tests failed. Review the errors above.');
   }
 
   return { passed, failed };
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                        ANALYTICS & REPORTING
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
-function sendDailySummary() {
+function sendDailySummary_() {
   try {
     Log.info('ANALYTICS', 'Generating daily summary');
 
@@ -10973,120 +11071,118 @@ function sendDailySummary() {
   }
 }
 
-function getSystemStatus() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         ORACLE v22.0 - SYSTEM STATUS                             ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+function getSystemStatus_() {
+  Logger.log("");
+  Logger.log("         ORACLE v22.0 - SYSTEM STATUS                              ");
+  Logger.log("");
 
-  Logger.log('🏛️ CORE FEATURES:');
-  Logger.log(`   Test Mode: ${CONFIG.FEATURES.TEST_MODE ? '✅ ON (Safe)' : '❌ OFF (Production)'}`);
-  Logger.log(`   AI: ${CONFIG.FEATURES.AI_ENABLED ? '✅ Enabled' : '❌ Disabled'}`);
-  Logger.log(`   WhatsApp: ${CONFIG.FEATURES.WHATSAPP_ENABLED ? '✅ Enabled' : '❌ Disabled'}`);
+  Logger.log(" CORE FEATURES:");
+  Logger.log("   Test Mode: " + (CONFIG.FEATURES.TEST_MODE ? " ON (Safe)" : " OFF (Production)"));
+  Logger.log("   AI: " + (CONFIG.FEATURES.AI_ENABLED ? " Enabled" : " Disabled"));
+  Logger.log("   WhatsApp: " + (CONFIG.FEATURES.WHATSAPP_ENABLED ? " Enabled" : " Disabled"));
 
-  Logger.log('');
-  Logger.log('🆕 v22.0 FEATURES:');
-  Logger.log(`   Calendar Integration: ${CONFIG.FEATURES.CALENDAR_INTEGRATION ? '✅ Enabled' : '❌ Disabled'}`);
-  Logger.log(`   Candidate Portal: ${CONFIG.FEATURES.PORTAL_ENABLED ? '✅ Enabled' : '❌ Disabled'}`);
-  Logger.log(`   Auto Portfolio Scoring: ${CONFIG.FEATURES.AUTO_PORTFOLIO_SCORING ? '✅ Enabled' : '❌ Disabled'}`);
-  Logger.log(`   Duplicate Check: ${CONFIG.FEATURES.DUPLICATE_CHECK ? '✅ Enabled' : '❌ Disabled'}`);
+  Logger.log("");
+  Logger.log(" v22.0 FEATURES:");
+  Logger.log("   Calendar Integration: " + (CONFIG.FEATURES.CALENDAR_INTEGRATION ? " Enabled" : " Disabled"));
+  Logger.log("   Candidate Portal: " + (CONFIG.FEATURES.PORTAL_ENABLED ? " Enabled" : " Disabled"));
+  Logger.log("   Auto Portfolio Scoring: " + (CONFIG.FEATURES.AUTO_PORTFOLIO_SCORING ? " Enabled" : " Disabled"));
+  Logger.log("   Duplicate Check: " + (CONFIG.FEATURES.DUPLICATE_CHECK ? " Enabled" : " Disabled"));
 
-  Logger.log('');
-  Logger.log('⚙️ TRIGGERS:');
-  ScriptApp.getProjectTriggers().forEach(t => Logger.log(`   • ${t.getHandlerFunction()} (${t.getEventType()})`));
+  Logger.log("");
+  Logger.log(" TRIGGERS:");
+  ScriptApp.getProjectTriggers().forEach(t => Logger.log("    " + t.getHandlerFunction() + " (" + t.getEventType() + ")"));
 
-  Logger.log('');
-  Logger.log('📊 ANALYTICS:');
+  Logger.log("");
+  Logger.log(" ANALYTICS:");
   try {
     const metrics = Analytics.getMetrics();
-    Logger.log(`   Total Candidates: ${metrics.pipeline.total}`);
-    Logger.log(`   Hired: ${metrics.pipeline.hired}`);
-    Logger.log(`   Conversion Rate: ${metrics.funnel.overallConversion}`);
+    Logger.log("   Total Candidates: " + metrics.pipeline.total);
+    Logger.log("   Hired: " + metrics.pipeline.hired);
+    const conversion = metrics.pipeline.total > 0 ? ((metrics.pipeline.hired / metrics.pipeline.total) * 100).toFixed(2) : "0.00";
+    Logger.log("   Conversion Rate: " + conversion + "%");
   } catch (e) {
-    Logger.log('   Could not load analytics');
+    Logger.log("   (Analytics unavailable)");
   }
 
-  Logger.log('');
-  Logger.log('🔄 RETRY QUEUE:');
-  try {
-    const stats = RetryQueue.getStats();
-    Logger.log(`   Pending: ${stats.pending}`);
-    Logger.log(`   Completed: ${stats.completed}`);
-    Logger.log(`   Failed: ${stats.failed}`);
-  } catch (e) {
-    Logger.log('   Could not load retry queue stats');
+  Logger.log("");
+  Logger.log(" RETRY QUEUE:");
+  if (typeof RetryQueue !== "undefined") {
+    const status = RetryQueue.getStatus();
+    Logger.log("   Pending: " + status.pending);
+    Logger.log("   Completed: " + status.completed);
+    Logger.log("   Failed: " + status.failed);
+  } else {
+    Logger.log("   (Queue module not loaded)");
   }
 }
 
-function EMERGENCY_STOP() {
-  Logger.log('🚨 EMERGENCY STOP ACTIVATED');
-  ScriptApp.getProjectTriggers().forEach(t => ScriptApp.deleteTrigger(t));
-  Logger.log('✅ All automations stopped');
-  Logger.log('To restart: Run INITIAL_PRODUCTION_SETUP()');
-  Log.critical('EMERGENCY', 'System stopped by user');
+// Redundant, using top-level EMERGENCY_STOP
+function EMERGENCY_STOP_OLD_() {
+  EMERGENCY_STOP();
 }
 
-function clearLogs() {
+function clearLogs_() {
   const logSheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.LOGS);
   logSheet.clearContents();
   logSheet.appendRow(['Timestamp', 'Level', 'Category', 'Message', 'Data']);
-  Logger.log('✅ Logs cleared');
+  Logger.log('Ã¢Å“â€¦ Logs cleared');
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //                        CATCH-UP / RECOVERY FUNCTIONS
-// ═══════════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 
 /**
  * RUN THIS to catch up on all missed work when system was down
  * Processes: emails, follow-ups, rejections, stuck candidates
  */
 function CATCH_UP_MISSED_WORK() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         ORACLE - CATCH UP ON MISSED WORK                         ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         ORACLE - CATCH UP ON MISSED WORK                         Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   try {
     // Step 1: Process all unread emails (up to 50)
     Logger.log('');
-    Logger.log('📧 STEP 1: Processing unread emails...');
+    Logger.log('Ã°Å¸â€œÂ§ STEP 1: Processing unread emails...');
     processInboxBulk(50);
 
     // Step 2: Process candidates stuck in various states
     Logger.log('');
-    Logger.log('👥 STEP 2: Processing stuck candidates...');
+    Logger.log('Ã°Å¸â€˜Â¥ STEP 2: Processing stuck candidates...');
     processStuckCandidates();
 
     // Step 3: Send follow-ups for overdue tests
     Logger.log('');
-    Logger.log('📲 STEP 3: Sending overdue follow-ups...');
+    Logger.log('Ã°Å¸â€œÂ² STEP 3: Sending overdue follow-ups...');
     processFollowUps();
 
     // Step 4: Process rejection queue
     Logger.log('');
-    Logger.log('❌ STEP 4: Processing rejection queue...');
+    Logger.log('Ã¢ÂÅ’ STEP 4: Processing rejection queue...');
     processRejectionQueue();
 
     // Step 5: Retry any failed messages
     Logger.log('');
-    Logger.log('🔄 STEP 5: Retrying failed messages...');
+    Logger.log('Ã°Å¸â€â€ž STEP 5: Retrying failed messages...');
     if (typeof RetryQueue !== 'undefined') {
       RetryQueue.process();
     }
 
     // Step 6: Sync public view
     Logger.log('');
-    Logger.log('🔄 STEP 6: Syncing public view...');
+    Logger.log('Ã°Å¸â€â€ž STEP 6: Syncing public view...');
     syncToPublicView();
 
     Logger.log('');
-    Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-    Logger.log('║         ✅ CATCH-UP COMPLETE!                                    ║');
-    Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+    Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+    Logger.log('Ã¢â€¢â€˜         Ã¢Å“â€¦ CATCH-UP COMPLETE!                                    Ã¢â€¢â€˜');
+    Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
     Log.success('CATCH_UP', 'Catch-up processing completed');
 
   } catch (e) {
-    Logger.log('❌ Catch-up failed: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Catch-up failed: ' + e.message);
     Log.error('CATCH_UP', 'Catch-up failed', { error: e.message });
   }
 }
@@ -11094,13 +11190,13 @@ function CATCH_UP_MISSED_WORK() {
 /**
  * Process more emails than the regular cycle (for catch-up)
  */
-function processInboxBulk(limit) {
+function processInboxBulk_(limit) {
   try {
     const threads = GmailApp.search('is:unread -category:social', 0, limit || 50);
     Logger.log(`   Found ${threads.length} unread emails`);
 
     if (threads.length === 0) {
-      Logger.log('   ✅ No unread emails to process');
+      Logger.log('   Ã¢Å“â€¦ No unread emails to process');
       return;
     }
 
@@ -11133,17 +11229,17 @@ function processInboxBulk(limit) {
         }
       } catch (e) {
         errors++;
-        Logger.log(`   ⚠️ Error processing email: ${e.message}`);
+        Logger.log(`   Ã¢Å¡Â Ã¯Â¸Â Error processing email: ${e.message}`);
       }
 
       // Small delay to avoid rate limits
       Utilities.sleep(500);
     }
 
-    Logger.log(`   ✅ Processed ${processed} emails, ${errors} errors`);
+    Logger.log(`   Ã¢Å“â€¦ Processed ${processed} emails, ${errors} errors`);
 
   } catch (e) {
-    Logger.log('   ❌ Bulk inbox processing failed: ' + e.message);
+    Logger.log('   Ã¢ÂÅ’ Bulk inbox processing failed: ' + e.message);
   }
 }
 
@@ -11151,7 +11247,7 @@ function processInboxBulk(limit) {
  * Find and process candidates stuck in intermediate states
  * Automatically processes NEW candidates from sheet submissions
  */
-function processStuckCandidates() {
+function processStuckCandidates_() {
   try {
     const sheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
     const data = sheet.getDataRange().getValues();
@@ -11178,7 +11274,7 @@ function processStuckCandidates() {
 
         // Check if welcome was never sent (log doesn't contain welcome confirmation)
         if (!log.includes('Welcome') && !log.includes('welcome') && phone) {
-          Logger.log(`   → Row ${row}: Processing NEW candidate "${name}"...`);
+          Logger.log(`   Ã¢â€ â€™ Row ${row}: Processing NEW candidate "${name}"...`);
 
           try {
             // Send welcome message
@@ -11189,7 +11285,7 @@ function processStuckCandidates() {
               const email = sheet.getRange(row, CONFIG.COLUMNS.EMAIL).getValue();
               SheetUtils.updateStatus(row, CONFIG.RULES.STATUSES.IN_PROCESS, email);
               SheetUtils.updateCell(row, CONFIG.COLUMNS.UPDATED, new Date());
-              SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, '✅ Welcome sent (catch-up)');
+              SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Welcome sent (catch-up)');
 
               // Log to timeline
               if (email) {
@@ -11197,11 +11293,11 @@ function processStuckCandidates() {
               }
 
               processed++;
-              Logger.log(`     ✅ Welcome sent, moved to IN PROCESS`);
+              Logger.log(`     Ã¢Å“â€¦ Welcome sent, moved to IN PROCESS`);
             } else {
-              SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, `⚠️ Welcome failed: ${result.error}`);
+              SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, `Ã¢Å¡Â Ã¯Â¸Â Welcome failed: ${result.error}`);
               errors++;
-              Logger.log(`     ❌ Failed: ${result.error}`);
+              Logger.log(`     Ã¢ÂÅ’ Failed: ${result.error}`);
             }
 
             // Rate limit
@@ -11209,7 +11305,7 @@ function processStuckCandidates() {
 
           } catch (e) {
             errors++;
-            Logger.log(`     ❌ Error: ${e.message}`);
+            Logger.log(`     Ã¢ÂÅ’ Error: ${e.message}`);
           }
         }
       } else if (status === CONFIG.RULES.STATUSES.TEST_SENT) {
@@ -11220,15 +11316,15 @@ function processStuckCandidates() {
     }
 
     Logger.log('');
-    Logger.log(`   📊 Pipeline Status:`);
+    Logger.log(`   Ã°Å¸â€œÅ  Pipeline Status:`);
     Logger.log(`      NEW (remaining): ${newCount - processed}`);
     Logger.log(`      TEST SENT (awaiting submission): ${testSentCount}`);
     Logger.log(`      TEST SUBMITTED (awaiting review): ${submittedCount}`);
     Logger.log('');
-    Logger.log(`   ✅ Processed ${processed} new candidates, ${errors} errors`);
+    Logger.log(`   Ã¢Å“â€¦ Processed ${processed} new candidates, ${errors} errors`);
 
   } catch (e) {
-    Logger.log('   ❌ Failed to process stuck candidates: ' + e.message);
+    Logger.log('   Ã¢ÂÅ’ Failed to process stuck candidates: ' + e.message);
   }
 }
 
@@ -11237,9 +11333,9 @@ function processStuckCandidates() {
  * Use this to bulk-process form submissions
  */
 function processAllNewCandidates() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         PROCESSING ALL NEW CANDIDATES                            ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         PROCESSING ALL NEW CANDIDATES                            Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   processStuckCandidates();
 
@@ -11252,9 +11348,9 @@ function processAllNewCandidates() {
  * Use when you've moved candidates to TEST SENT but the automation didn't trigger
  */
 function processTestSentCandidates() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         SENDING TEST LINKS TO TEST_SENT CANDIDATES               ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('Ã¢â€¢â€Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢â€”');
+  Logger.log('Ã¢â€¢â€˜         SENDING TEST LINKS TO TEST_SENT CANDIDATES               Ã¢â€¢â€˜');
+  Logger.log('Ã¢â€¢Å¡Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â');
 
   try {
     const sheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
@@ -11275,7 +11371,7 @@ function processTestSentCandidates() {
 
       // Find TEST SENT candidates who haven't actually received the test link
       if (status === CONFIG.RULES.STATUSES.TEST_SENT && !testSentTime && phone) {
-        Logger.log(`   → Row ${row}: Sending test to "${name}" (${role})...`);
+        Logger.log(`   Ã¢â€ â€™ Row ${row}: Sending test to "${name}" (${role})...`);
 
         try {
           const result = WhatsApp.sendTestLink(phone, name, role, department);
@@ -11283,29 +11379,29 @@ function processTestSentCandidates() {
           if (result.success || result.testMode) {
             SheetUtils.updateCell(row, CONFIG.COLUMNS.TEST_SENT, new Date());
             SheetUtils.updateCell(row, CONFIG.COLUMNS.UPDATED, new Date());
-            SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, '✅ Test link sent (catch-up)');
+            SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Test link sent (catch-up)');
             processed++;
-            Logger.log(`     ✅ Test link sent`);
+            Logger.log(`     Ã¢Å“â€¦ Test link sent`);
           } else {
             errors++;
-            SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, `⚠️ Test send failed: ${result.error}`);
-            Logger.log(`     ❌ Failed: ${result.error}`);
+            SheetUtils.updateCell(row, CONFIG.COLUMNS.LOG, `Ã¢Å¡Â Ã¯Â¸Â Test send failed: ${result.error}`);
+            Logger.log(`     Ã¢ÂÅ’ Failed: ${result.error}`);
           }
 
           Utilities.sleep(CONFIG.RATE_LIMITS.WHATSAPP_DELAY_MS || 2000);
 
         } catch (e) {
           errors++;
-          Logger.log(`     ❌ Error: ${e.message}`);
+          Logger.log(`     Ã¢ÂÅ’ Error: ${e.message}`);
         }
       }
     }
 
     Logger.log('');
-    Logger.log(`   ✅ Sent ${processed} test links, ${errors} errors`);
+    Logger.log(`   Ã¢Å“â€¦ Sent ${processed} test links, ${errors} errors`);
 
   } catch (e) {
-    Logger.log('❌ Failed: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Failed: ' + e.message);
   }
 }
 
@@ -11328,20 +11424,20 @@ function sendWelcomeToRow(rowNumber) {
     };
 
     if (!candidate.phone) {
-      Logger.log('❌ No phone number for row ' + rowNumber);
+      Logger.log('Ã¢ÂÅ’ No phone number for row ' + rowNumber);
       return;
     }
 
     const result = WhatsApp.sendWelcome(candidate.phone, candidate.name);
-    Logger.log(`Row ${rowNumber}: ${result.success ? '✅ Welcome sent' : '❌ Failed: ' + result.error}`);
+    Logger.log(`Row ${rowNumber}: ${result.success ? 'Ã¢Å“â€¦ Welcome sent' : 'Ã¢ÂÅ’ Failed: ' + result.error}`);
 
     if (result.success) {
-      SheetUtils.updateCell(rowNumber, CONFIG.COLUMNS.LOG, '✅ Welcome sent (manual)');
+      SheetUtils.updateCell(rowNumber, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Welcome sent (manual)');
     }
 
     return result;
   } catch (e) {
-    Logger.log('❌ Error: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Error: ' + e.message);
   }
 }
 
@@ -11362,34 +11458,34 @@ function sendTestLinkToRow(rowNumber) {
     };
 
     if (!candidate.phone) {
-      Logger.log('❌ No phone number for row ' + rowNumber);
+      Logger.log('Ã¢ÂÅ’ No phone number for row ' + rowNumber);
       return;
     }
 
     const result = WhatsApp.sendTestLink(candidate.phone, candidate.name, candidate.role, candidate.department);
-    Logger.log(`Row ${rowNumber}: ${result.success ? '✅ Test link sent' : '❌ Failed: ' + result.error}`);
+    Logger.log(`Row ${rowNumber}: ${result.success ? 'Ã¢Å“â€¦ Test link sent' : 'Ã¢ÂÅ’ Failed: ' + result.error}`);
 
     if (result.success) {
       SheetUtils.updateCell(rowNumber, CONFIG.COLUMNS.TEST_SENT, new Date());
-      SheetUtils.updateCell(rowNumber, CONFIG.COLUMNS.LOG, '✅ Test sent (manual)');
+      SheetUtils.updateCell(rowNumber, CONFIG.COLUMNS.LOG, 'Ã¢Å“â€¦ Test sent (manual)');
     }
 
     return result;
   } catch (e) {
-    Logger.log('❌ Error: ' + e.message);
+    Logger.log('Ã¢ÂÅ’ Error: ' + e.message);
   }
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 //  SETUPWIZARD
-// ═══════════════════════════════════════════════════════════════════════════
+// Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  *                    HR MANAGEMENT SYSTEM - SETUP WIZARD
  *                    1-Click Company Deployment
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * 
  * This wizard runs on first execution to:
  * - Configure company settings via GUI
@@ -11416,24 +11512,24 @@ const WIZARD_CONFIG = {
 };
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * MAIN SETUP FUNCTION - Run this first
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function runSetupWizard() {
   const props = PropertiesService.getScriptProperties();
   const isSetupComplete = props.getProperty(WIZARD_CONFIG.SETUP_COMPLETE_KEY);
-  
+
   if (isSetupComplete === "true") {
     return "Setup already complete. Run 'openSetupEditor()' to change settings.";
   }
-  
+
   // Open the setup wizard GUI
   const html = HtmlService.createHtmlOutput(getSetupTemplate())
     .setWidth(800)
     .setHeight(700)
     .setTitle("HR Management System Setup");
-  
+
   SpreadsheetApp.getActiveSpreadsheet().show(html);
 }
 
@@ -11445,21 +11541,21 @@ function openSetupEditor() {
     .setWidth(800)
     .setHeight(700)
     .setTitle("HR System Configuration");
-  
+
   SpreadsheetApp.getActiveSpreadsheet().show(html);
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * GET EXISTING CONFIGURATION
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function getExistingConfig() {
   const props = PropertiesService.getScriptProperties();
   const config = props.getProperty(WIZARD_CONFIG.COMPANY_CONFIG_KEY);
-  
+
   if (!config) return {};
-  
+
   try {
     return JSON.parse(config);
   } catch (e) {
@@ -11468,28 +11564,28 @@ function getExistingConfig() {
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * SAVE CONFIGURATION
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function saveConfiguration(formData) {
   try {
     const ss = SpreadsheetApp.getActiveSpreadsheet();
-    
+
     // Create all required sheets
     createRequiredSheets(ss, formData);
-    
+
     // Save company configuration
     const props = PropertiesService.getScriptProperties();
     props.setProperty(WIZARD_CONFIG.COMPANY_CONFIG_KEY, JSON.stringify(formData));
     props.setProperty(WIZARD_CONFIG.SETUP_COMPLETE_KEY, "true");
-    
+
     // Update global CONFIG object
     updateGlobalConfig(formData);
-    
+
     // Create all triggers
     createSystemTriggers(ss.getId());
-    
+
     return {
       success: true,
       message: "Setup completed successfully!",
@@ -11504,23 +11600,23 @@ function saveConfiguration(formData) {
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * CREATE REQUIRED SHEETS
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function createRequiredSheets(ss, formData) {
   WIZARD_CONFIG.REQUIRED_SHEETS.forEach(sheetConfig => {
     let sheet = ss.getSheetByName(sheetConfig.name);
-    
+
     if (!sheet) {
       sheet = ss.insertSheet(sheetConfig.name);
       console.log(`Created sheet: ${sheetConfig.name}`);
     }
-    
+
     // Add headers based on sheet type
     addSheetHeaders(sheet, sheetConfig.name, formData);
   });
-  
+
   // Remove default Sheet1 if it exists
   const defaultSheet = ss.getSheetByName("Sheet1");
   if (defaultSheet && ss.getNumSheets() > 1) {
@@ -11529,13 +11625,13 @@ function createRequiredSheets(ss, formData) {
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * ADD SHEET HEADERS
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function addSheetHeaders(sheet, sheetName, formData) {
   const companyName = formData.companyName || "Your Company";
-  
+
   const headers = {
     "DB_Candidates": [
       "STATUS", "UPDATED", "TIMESTAMP", "NAME", "EMAIL", "PHONE", "LOG",
@@ -11576,7 +11672,7 @@ function addSheetHeaders(sheet, sheetName, formData) {
       "Date", "Function", "Error", "Stack Trace", "Resolved"
     ]
   };
-  
+
   if (headers[sheetName] && sheet.getLastRow() === 0) {
     sheet.getRange(1, 1, 1, headers[sheetName].length).setValues([headers[sheetName]]);
     sheet.getRange(1, 1, 1, headers[sheetName].length)
@@ -11584,53 +11680,53 @@ function addSheetHeaders(sheet, sheetName, formData) {
       .setBackground("#4a86e8")
       .setFontColor("white")
       .setHorizontalAlignment("center");
-    
+
     // Freeze header row
     sheet.setFrozenRows(1);
   }
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * CREATE SYSTEM TRIGGERS
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function createSystemTriggers(sheetId) {
   // Delete existing triggers
   const triggers = ScriptApp.getProjectTriggers();
   triggers.forEach(trigger => ScriptApp.deleteTrigger(trigger));
-  
+
   // Create new triggers
   ScriptApp.newTrigger("processInbox")
     .timeBased()
     .everyMinutes(15)
     .create();
-  
+
   ScriptApp.newTrigger("processFollowUps")
     .timeBased()
     .everyHours(1)
     .create();
-  
+
   ScriptApp.newTrigger("generateDailySummary")
     .timeBased()
     .everyDays(1)
     .atHour(9)
     .create();
-  
+
   ScriptApp.newTrigger("generateWeeklyReport")
     .timeBased()
     .everyWeeks(1)
     .onWeekDay(ScriptApp.WeekDay.MONDAY)
     .atHour(10)
     .create();
-  
+
   console.log("System triggers created successfully");
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * UPDATE GLOBAL CONFIG
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function updateGlobalConfig(formData) {
   if (typeof CONFIG !== 'undefined') {
@@ -11640,23 +11736,23 @@ function updateGlobalConfig(formData) {
       LOGO: formData.companyLogo || "",
       COLOR: formData.companyColor || "#4a86e8"
     };
-    
+
     CONFIG.SHEETS = {
       MASTER_ID: SpreadsheetApp.getActiveSpreadsheet().getId(),
       PUBLIC_ID: formData.publicSheetId || ""
     };
-    
+
     CONFIG.EMAIL = {
       HR: formData.hrEmail,
       HIRING: formData.hiringEmail,
       NOTIFICATIONS: formData.notificationEmail
     };
-    
+
     CONFIG.SMS = {
       WHATSAPP_ENABLED: formData.whatsappEnabled,
       WHATSAPP_API_KEY: formData.whatsappApiKey
     };
-    
+
     CONFIG.FEATURES = {
       ENABLE_PORTAL: formData.enablePortal,
       ENABLE_CALENDAR: formData.enableCalendar,
@@ -11666,9 +11762,9 @@ function updateGlobalConfig(formData) {
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * HTML TEMPLATE FOR SETUP WIZARD
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function getSetupTemplate(existingConfig = {}) {
   return `
@@ -11855,7 +11951,7 @@ function getSetupTemplate(existingConfig = {}) {
     <div class="content" id="setupForm">
       <!-- Step 1: Company Information -->
       <div class="section">
-        <h2><span class="section-icon">🏢</span> Company Information</h2>
+        <h2><span class="section-icon">Ã°Å¸ÂÂ¢</span> Company Information</h2>
         <div class="form-group">
           <label>Company Name *</label>
           <input type="text" id="companyName" value="${existingConfig.companyName || ''}" placeholder="e.g., Acme Corporation">
@@ -11876,7 +11972,7 @@ function getSetupTemplate(existingConfig = {}) {
 
       <!-- Step 2: Email Configuration -->
       <div class="section">
-        <h2><span class="section-icon">📧</span> Email Configuration</h2>
+        <h2><span class="section-icon">Ã°Å¸â€œÂ§</span> Email Configuration</h2>
         <div class="form-group">
           <label>HR Email Address *</label>
           <input type="email" id="hrEmail" value="${existingConfig.hrEmail || ''}" placeholder="hr@company.com">
@@ -11893,7 +11989,7 @@ function getSetupTemplate(existingConfig = {}) {
 
       <!-- Step 3: Features & Integrations -->
       <div class="section">
-        <h2><span class="section-icon">⚙️</span> Features & Integrations</h2>
+        <h2><span class="section-icon">Ã¢Å¡â„¢Ã¯Â¸Â</span> Features & Integrations</h2>
         <div class="form-group">
           <label>Public Sheet ID (for candidate portal)</label>
           <input type="text" id="publicSheetId" value="${existingConfig.publicSheetId || ''}" placeholder="Optional">
@@ -11914,7 +12010,7 @@ function getSetupTemplate(existingConfig = {}) {
 
       <!-- Step 4: WhatsApp (Optional) -->
       <div class="section">
-        <h2><span class="section-icon">📱</span> WhatsApp Integration (Optional)</h2>
+        <h2><span class="section-icon">Ã°Å¸â€œÂ±</span> WhatsApp Integration (Optional)</h2>
         <div class="checkbox-group">
           <input type="checkbox" id="whatsappEnabled" ${existingConfig.whatsappEnabled ? 'checked' : ''}>
           <label class="checkbox-label" for="whatsappEnabled">Enable WhatsApp Messaging</label>
@@ -12006,29 +12102,29 @@ function getSetupTemplate(existingConfig = {}) {
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * RESET SETUP (For testing)
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function resetSetup() {
   const props = PropertiesService.getScriptProperties();
   props.deleteProperty(WIZARD_CONFIG.SETUP_COMPLETE_KEY);
   props.deleteProperty(WIZARD_CONFIG.COMPANY_CONFIG_KEY);
-  
+
   return "Setup reset. Run 'runSetupWizard()' to start fresh.";
 }
 
 /**
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  * GET SYSTEM STATUS
- * ════════════════════════════════════════════════════════════════════════════════
+ * Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â
  */
 function getSystemStatus() {
   const props = PropertiesService.getScriptProperties();
   const isSetup = props.getProperty(WIZARD_CONFIG.SETUP_COMPLETE_KEY) === "true";
   const config = getExistingConfig();
   const ss = SpreadsheetApp.getActiveSpreadsheet();
-  
+
   return {
     setupComplete: isSetup,
     companyName: config.companyName || "Not configured",
