@@ -1,50 +1,19 @@
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                    URBANMISTRII ADMIN BOT v1.0 - CONFIG                       ║
- * ║                    Configuration, Utils & Core Utilities                       ║
- * ╠═══════════════════════════════════════════════════════════════════════════════╣
- * ║  CONSOLIDATED FROM: Hiring-oracle-prod                                        ║
- * ║  DATE: 2026-01-29                                                             ║
- * ║  ALL FEATURES PRESERVED                                                       ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * UrbanMistrii Admin Bot v1.0
+ * Central configuration and shared utilities.
+ *
+ * Includes:
+ * - Business rules and pipeline states
+ * - Sheet IDs and column mappings
+ * - Feature flags and integrations
+ * - Security helpers and setup utilities
  */
 
-
-// ═══════════════════════════════════════════════════════════════════════════
-//  CONFIG
-// ═══════════════════════════════════════════════════════════════════════════
-/**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                    HR MANAGEMENT SYSTEM v22.4 - CONFIG                           ║
- * ║                    The Brain's Control Center (Enhanced)                              ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
- * 
- * v22.4 NEW FEATURES:
- * - Fixed test scheduling: respects time, handles past dates
- * - Batch sheet writes for 10x performance
- * - Error recovery dashboard (DB_Errors)
- * - Configurable status transitions
- * - Webhook API support (doPost)
- * - White-labeled for any company
- * - 1-click setup wizard
- * 
- * v22.0 NEW FEATURES:
- * - Multi-department support
- * - AI Portfolio Scoring
- * - Google Calendar Integration
- * - Candidate Self-Service Portal
- * - Duplicate Detection
- * - Retry Queue for Failed Messages
- * - Advanced Analytics
- * 
- * FIRST TIME SETUP:
- * 1. Run: runSetupWizard() - ONE TIME ONLY
- * 2. Configure your company via GUI
- * 3. Never hardcode company details again!
- */
-
+// -----------------------------------------------------------------------------
+// CONFIGURATION
+// -----------------------------------------------------------------------------
 const CONFIG = {
-  // ═══════════════════ COMPANY BRANDING (Populated by SetupWizard) ═══════════════════
+  // Company branding
   COMPANY: {
     NAME: "Your Company",
     DOMAIN: "company.com",
@@ -52,14 +21,14 @@ const CONFIG = {
     COLOR: "#4a86e8"
   },
 
-  // ═══════════════════ EMAIL CONFIGURATION (Populated by SetupWizard) ═══════════════════
+  // Email configuration
   EMAIL: {
     HR: "hr@company.com",
     HIRING: "hiring@company.com",
     NOTIFICATIONS: "alerts@company.com"
   },
 
-  // ═══════════════════ SPREADSHEET IDS (Populated by SetupWizard) ═══════════════════
+  // Spreadsheet IDs
   SHEETS: {
     MASTER_ID: "112UbKamDcvQ-UkXshdhyDRFt0y7SX0NBgP00lvl98V4",
     PUBLIC_ID: "1fBP9vLLOEO02Fen3LKSYd2sxLAwF3V6iuhrk303_Jp4",
@@ -75,8 +44,8 @@ const CONFIG = {
     }
   },
 
-  // ═══════════════════ COLUMN MAPPINGS (1-Based) ═══════════════════
-  // ═══════════════════ COLUMN MAPPINGS (1-Based) ═══════════════════
+  // Column mappings (1-based)
+  // Column mappings (1-based)
   COLUMNS: {
     // User Sheet Headers (1-23)
     STATUS: 1,
@@ -117,7 +86,7 @@ const CONFIG = {
     INTERVIEW_TIME: 34            // NEW: Actual interview time
   },
 
-  // ═══════════════════ BUSINESS RULES ═══════════════════
+  // Business rules
   RULES: {
     TIME_LIMITS: {
       intern: 2,      // hours
@@ -164,7 +133,7 @@ const CONFIG = {
     ALLOWED_ACTIONS: ['trigger_test', 'update_status', 'get_candidate', 'retry_errors']
   },
 
-  // ═══════════════════ WHATSAPP TEMPLATES ═══════════════════
+  // WhatsApp templates
   WHATSAPP: {
     TEMPLATES: {
       WELCOME: "hiring_welcome",
@@ -175,33 +144,33 @@ const CONFIG = {
     }
   },
 
-  // ═══════════════════ TEST LINKS BY ROLE ═══════════════════
+  // Test links by role
   TEST_LINKS: {
     intern: "https://app.box.com/s/lvp6m9rcsgvkjixis6yt5422ajw2mr8t",
     junior: "https://app.box.com/folder/309187038121?s=v2g3zfmrbhok36zbsykca5hhqjfrahqf",
     senior: "https://app.box.com/s/mf3pbeethgznuha1oxzve2lhy79i209v"
   },
 
-  // ═══════════════════ FORMS & LINKS ═══════════════════
+  // Forms and links
   APPLICATION_FORM_URL: "https://docs.google.com/forms/d/e/1FAIpQLScucJWBWNZWMYKu9i06TlZZjeaiijWjjDuEVQyBxcDET66NCg/viewform",
   PORTAL_URL: "https://script.google.com/macros/s/AKfycbyaZbGMBNM33g-fu3uFBWWXP_WsRdS7nuHpqzq8dsIfE-dGfMoZo2t0y2R5Aqeyaq1sVw/exec",
   TEST_SUBMISSION_FORM_URL: "https://docs.google.com/forms/d/e/1FAIpQLSdLSjFWPaI3mpO23JprV6xQfBco5nSAAyxUFRv1eP5sf1xJ9g/viewform",
   LEAVE_FORM_URL: "https://docs.google.com/forms/d/e/1sFoC-e83AN7j2VXklmCC4Pah2B6-uvCCWNJTVLH3Sqg/viewform",
 
-  // ═══════════════════ CONTACTS & EMAILS ═══════════════════
+  // Contacts and emails
   TEAM: {
     ADMIN_EMAIL: "hr@urbanmistrii.com",
     TEAM_EMAILS: ["hr@urbanmistrii.com", "mail@urbanmistrii.com"],
     YASH_PHONE: "919312943581"
   },
 
-  // ═══════════════════ PRIVACY & SECURITY ═══════════════════
+  // Privacy and security
   PRIVACY: {
     SENSITIVE_WORDS: ["salary", "stipend", "ctc", "expected", "pay", "current", "contact", "compensation"],
     GDPR_RETENTION_DAYS: 180 // Auto-delete rejected candidates after 6 months
   },
 
-  // ═══════════════════ AI SETTINGS ═══════════════════
+  // AI settings
   AI: {
     MODELS: {
       PRIMARY: "gemini-2.0-flash",  // Stable production model (Jan 2026)
@@ -211,7 +180,7 @@ const CONFIG = {
     TEMPERATURE: 0.7
   },
 
-  // ═══════════════════ RATE LIMITS ═══════════════════
+  // Rate limits
   RATE_LIMITS: {
     WHATSAPP_DELAY_MS: 2000,    // 2 sec between messages
     EMAIL_BATCH_SIZE: 10,        // Process 10 emails at a time
@@ -219,7 +188,7 @@ const CONFIG = {
     API_RETRY_DELAY_MS: 1000
   },
 
-  // ═══════════════════ FEATURE FLAGS ═══════════════════
+  // Feature flags
   FEATURES: {
     TEST_MODE: false,              // Set true to prevent actual sends
     AI_ENABLED: true,
@@ -233,7 +202,7 @@ const CONFIG = {
     DUPLICATE_CHECK: true          // v22.0: Check for duplicate applications
   },
 
-  // ═══════════════════ DEPARTMENTS (v22.0) - Update test links and evaluators ═══════════════════
+  // Departments
   DEPARTMENTS: {
     DESIGN: {
       name: 'Design',
@@ -271,9 +240,66 @@ const CONFIG = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                          SECURE API KEY MANAGEMENT
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
+
+// Backward compatibility for merged legacy modules.
+// Keeps old onboarding/offboarding utilities from crashing on missing keys.
+CONFIG.HR_EMAIL = CONFIG.HR_EMAIL || CONFIG.TEAM.ADMIN_EMAIL;
+CONFIG.SHEET_ID = CONFIG.SHEET_ID || CONFIG.SHEETS.MASTER_ID;
+CONFIG.SHEET_TAB = CONFIG.SHEET_TAB || CONFIG.SHEETS.TABS.CANDIDATES;
+CONFIG.LOG_SHEET = CONFIG.LOG_SHEET || CONFIG.SHEETS.TABS.LOGS;
+CONFIG.REAL_FORM_LINK = CONFIG.REAL_FORM_LINK || CONFIG.APPLICATION_FORM_URL;
+CONFIG.URL_OFFBOARD = CONFIG.URL_OFFBOARD || CONFIG.TEST_SUBMISSION_FORM_URL;
+CONFIG.URL_EXIT = CONFIG.URL_EXIT || CONFIG.LEAVE_FORM_URL;
+CONFIG.ROOT_FOLDER = CONFIG.ROOT_FOLDER || 'UrbanMistrii_Bot_Files';
+CONFIG.ATTACHMENT_FOLDER = CONFIG.ATTACHMENT_FOLDER || 'Attachments';
+CONFIG.SCAN_DAYS = CONFIG.SCAN_DAYS || 15;
+CONFIG.LINK_LOG_INTERN = CONFIG.LINK_LOG_INTERN || 'https://docs.google.com/document/d/YOUR_INTERN_LOG_ID/edit';
+CONFIG.LINK_LOG_FULLTIME = CONFIG.LINK_LOG_FULLTIME || 'https://docs.google.com/document/d/YOUR_FULLTIME_LOG_ID/edit';
+
+CONFIG.LABELS = CONFIG.LABELS || {
+  STOP: 'ORACLE_STOP',
+  SENT: 'ORACLE_SENT',
+  PROCESSED: 'ORACLE_PROCESSED',
+  ESCALATED: 'ORACLE_ESCALATED'
+};
+
+CONFIG.KEYWORDS = CONFIG.KEYWORDS || {
+  ONBOARDING_TRIGGERS: ['joining', 'onboarding', 'offer accepted', 'new hire', 'welcome onboard']
+};
+
+CONFIG.HEADERS = CONFIG.HEADERS || [
+  'Timestamp', 'Name', 'Email', 'Position', 'Joining Date', 'Leaves Oct', 'Oct Leaves',
+  'Total Leaves', 'Leave Dates', 'Current Salary', 'Per Day', 'Deductions',
+  'Total Minus Deductions', 'Conveyance', 'Total Salary', 'Days With UM',
+  'Phone', 'Resume Link', 'Aadhar Link', 'Photo Link', 'Notes'
+];
+
+const LEGACY_COLUMN_MAP = {
+  JOINING_DATE: 4,
+  LEAVES_OCT: 5,
+  OCT_LEAVES: 6,
+  TOTAL_LEAVES: 7,
+  LEAVE_DATES: 8,
+  CURRENT_SAL: 9,
+  PER_DAY: 10,
+  DEDUCTIONS: 11,
+  TOTAL_MINUS_DED: 12,
+  CONVEYANCE: 13,
+  TOTAL_SALARY: 14,
+  DAYS_WITH_UM: 15,
+  POSITION: 3,
+  RESUME_LINK: 17,
+  AADHAR_LINK: 18,
+  PHOTO_LINK: 19
+};
+Object.keys(LEGACY_COLUMN_MAP).forEach(function (key) {
+  if (typeof CONFIG.COLUMNS[key] === 'undefined') {
+    CONFIG.COLUMNS[key] = LEGACY_COLUMN_MAP[key];
+  }
+});
 
 const SecureConfig = {
   /**
@@ -285,23 +311,23 @@ const SecureConfig = {
 
     // Only run if not already configured
     if (props.getProperty('CONFIG_INITIALIZED')) {
-      Logger.log('⚠️ Already configured. Delete keys manually in Project Settings if you need to reset.');
+      Logger.log(' Already configured. Delete keys manually in Project Settings if you need to reset.');
       return;
     }
 
-    // ⚠️ DEPRECATED: Use SETUP_ALL() instead!
+    //  DEPRECATED: Use SETUP_ALL() instead!
     // This function is kept for backward compatibility only
     // 
     // DO NOT HARDCODE API KEYS HERE!
     // Run: SETUP_ALL("your_gemini_key") instead
 
-    Logger.log('⚠️ DEPRECATED: Use SETUP_ALL("your_gemini_key") instead!');
+    Logger.log(' DEPRECATED: Use SETUP_ALL("your_gemini_key") instead!');
     Logger.log('   Get your key from: https://aistudio.google.com/app/apikey');
     return;
 
-    Logger.log('✅ API Keys stored securely!');
-    Logger.log('🔒 They are encrypted and only accessible by this script.');
-    Logger.log('⚠️ IMPORTANT: Now delete the API keys from this code file!');
+    Logger.log(' API Keys stored securely!');
+    Logger.log(' They are encrypted and only accessible by this script.');
+    Logger.log(' IMPORTANT: Now delete the API keys from this code file!');
   },
 
   /**
@@ -312,7 +338,7 @@ const SecureConfig = {
     const key = props.getProperty(keyName);
 
     if (!key) {
-      throw new Error(`❌ Missing API key: ${keyName}. Run FORCE_RESET_API_KEYS() first!`);
+      throw new Error(` Missing API key: ${keyName}. Run FORCE_RESET_API_KEYS() first!`);
     }
 
     return key;
@@ -337,13 +363,13 @@ const SecureConfig = {
     const missing = required.filter(key => !props.getProperty(key));
 
     if (missing.length > 0) {
-      throw new Error(`❌ Missing API keys: ${missing.join(', ')}. Run FORCE_RESET_API_KEYS() first!`);
+      throw new Error(` Missing API keys: ${missing.join(', ')}. Run FORCE_RESET_API_KEYS() first!`);
     }
 
     // Check optional keys and warn
     const missingOptional = optional.filter(key => !props.getProperty(key));
     if (missingOptional.length > 0) {
-      Logger.log(`⚠️ Optional keys not configured (WhatsApp disabled): ${missingOptional.join(', ')}`);
+      Logger.log(` Optional keys not configured (WhatsApp disabled): ${missingOptional.join(', ')}`);
     }
 
     return true;
@@ -368,20 +394,20 @@ const SecureConfig = {
 };
 
 /**
- * 🚀 ONE-BUTTON SETUP - Run this to configure EVERYTHING
+ *  ONE-BUTTON SETUP - Run this to configure EVERYTHING
  * Tests multiple Gemini models and picks the best working one
  * 
  * Usage: SETUP_ALL("your_gemini_key", "your_groq_key", "your_github_pat")
  * Minimum: SETUP_ALL("your_gemini_key")
  */
 function SETUP_ALL(geminiKey, groqKey, githubPat) {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         🚀 ORACLE COMPLETE SETUP                                  ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('');
+  Logger.log('          ORACLE COMPLETE SETUP                                  ');
+  Logger.log('');
   Logger.log('');
 
   if (!geminiKey) {
-    Logger.log('❌ Usage: SETUP_ALL("your_gemini_api_key")');
+    Logger.log(' Usage: SETUP_ALL("your_gemini_api_key")');
     Logger.log('   Get key from: https://aistudio.google.com/app/apikey');
     return false;
   }
@@ -390,7 +416,7 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
 
   // Step 1: Clear old config
   props.deleteAllProperties();
-  Logger.log('🗑️ Cleared old configuration');
+  Logger.log(' Cleared old configuration');
 
   // Step 2: Store API keys
   props.setProperties({
@@ -402,13 +428,13 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
     'TWILIO_WHATSAPP_NUMBER': 'whatsapp:+14155238886',
     'CONFIG_INITIALIZED': 'true'
   });
-  Logger.log('✅ API keys stored securely');
+  Logger.log(' API keys stored securely');
   Logger.log('');
 
   // Step 3: Test multiple Gemini models to find the best one
-  Logger.log('═══════════════════════════════════════════════════════════════════');
-  Logger.log('🔍 TESTING GEMINI MODELS (finding best available)...');
-  Logger.log('═══════════════════════════════════════════════════════════════════');
+  Logger.log('');
+  Logger.log(' TESTING GEMINI MODELS (finding best available)...');
+  Logger.log('');
 
   const geminiModels = [
     // Latest 2.5 models (best first)
@@ -430,14 +456,14 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
     try {
       const result = _testGeminiModel(geminiKey, model);
       if (result.success) {
-        Logger.log(`   ✅ ${model} - WORKING!`);
+        Logger.log(`    ${model} - WORKING!`);
         workingModel = model;
         break;
       } else {
-        Logger.log(`   ❌ ${model} - ${result.error.substring(0, 50)}`);
+        Logger.log(`    ${model} - ${result.error.substring(0, 50)}`);
       }
     } catch (e) {
-      Logger.log(`   ❌ ${model} - ${e.message.substring(0, 50)}`);
+      Logger.log(`    ${model} - ${e.message.substring(0, 50)}`);
     }
   }
 
@@ -446,18 +472,18 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
   if (workingModel) {
     // Store the working model
     props.setProperty('GEMINI_MODEL', workingModel);
-    Logger.log(`🎉 Best Gemini Model: ${workingModel}`);
+    Logger.log(` Best Gemini Model: ${workingModel}`);
     Logger.log('   (Stored in Script Properties as GEMINI_MODEL)');
   } else {
-    Logger.log('⚠️ No Gemini models working - will rely on fallbacks');
+    Logger.log(' No Gemini models working - will rely on fallbacks');
   }
 
   Logger.log('');
 
   // Step 4: Test fallback providers
-  Logger.log('═══════════════════════════════════════════════════════════════════');
-  Logger.log('🔍 TESTING FALLBACK PROVIDERS...');
-  Logger.log('═══════════════════════════════════════════════════════════════════');
+  Logger.log('');
+  Logger.log(' TESTING FALLBACK PROVIDERS...');
+  Logger.log('');
 
   let groqOk = false;
   let githubOk = false;
@@ -477,16 +503,16 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
       });
       const json = JSON.parse(response.getContentText());
       if (!json.error) {
-        Logger.log('   ✅ GROQ: Working');
+        Logger.log('    GROQ: Working');
         groqOk = true;
       } else {
-        Logger.log(`   ❌ GROQ: ${json.error.message || 'Failed'}`);
+        Logger.log(`    GROQ: ${json.error.message || 'Failed'}`);
       }
     } catch (e) {
-      Logger.log(`   ❌ GROQ: ${e.message.substring(0, 50)}`);
+      Logger.log(`    GROQ: ${e.message.substring(0, 50)}`);
     }
   } else {
-    Logger.log('   ⚪ GROQ: Not configured (optional)');
+    Logger.log('    GROQ: Not configured (optional)');
   }
 
   // Test GitHub Models
@@ -504,33 +530,33 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
       });
       const json = JSON.parse(response.getContentText());
       if (!json.error) {
-        Logger.log('   ✅ GITHUB MODELS: Working');
+        Logger.log('    GITHUB MODELS: Working');
         githubOk = true;
       } else {
-        Logger.log(`   ❌ GITHUB: ${json.error.message || 'Failed'}`);
+        Logger.log(`    GITHUB: ${json.error.message || 'Failed'}`);
       }
     } catch (e) {
-      Logger.log(`   ❌ GITHUB: ${e.message.substring(0, 50)}`);
+      Logger.log(`    GITHUB: ${e.message.substring(0, 50)}`);
     }
   } else {
-    Logger.log('   ⚪ GITHUB MODELS: Not configured (optional)');
+    Logger.log('    GITHUB MODELS: Not configured (optional)');
   }
 
   // Summary
   Logger.log('');
-  Logger.log('═══════════════════════════════════════════════════════════════════');
-  Logger.log('📋 SETUP COMPLETE - SUMMARY');
-  Logger.log('═══════════════════════════════════════════════════════════════════');
-  Logger.log(`   GEMINI:  ${workingModel ? '✅ ' + workingModel : '❌ Not working'}`);
-  Logger.log(`   GROQ:    ${groqOk ? '✅ Working' : groqKey ? '❌ Failed' : '⚪ Not configured'}`);
-  Logger.log(`   GITHUB:  ${githubOk ? '✅ Working' : githubPat ? '❌ Failed' : '⚪ Not configured'}`);
+  Logger.log('');
+  Logger.log(' SETUP COMPLETE - SUMMARY');
+  Logger.log('');
+  Logger.log(`   GEMINI:  ${workingModel ? ' ' + workingModel : ' Not working'}`);
+  Logger.log(`   GROQ:    ${groqOk ? ' Working' : groqKey ? ' Failed' : ' Not configured'}`);
+  Logger.log(`   GITHUB:  ${githubOk ? ' Working' : githubPat ? ' Failed' : ' Not configured'}`);
   Logger.log('');
 
   if (workingModel || groqOk || githubOk) {
-    Logger.log('🎉 AI SYSTEM: READY');
+    Logger.log(' AI SYSTEM: READY');
     return true;
   } else {
-    Logger.log('🚨 AI SYSTEM: NO PROVIDERS WORKING');
+    Logger.log(' AI SYSTEM: NO PROVIDERS WORKING');
     Logger.log('   Please check your API keys');
     return false;
   }
@@ -572,12 +598,12 @@ function _testGeminiModel(apiKey, modelName) {
  */
 function FORCE_RESET_API_KEYS(geminiKey, groqKey, githubPat) {
   if (!geminiKey) {
-    Logger.log('❌ Usage: FORCE_RESET_API_KEYS("your_gemini_key", "optional_groq_key", "optional_github_pat")');
+    Logger.log(' Usage: FORCE_RESET_API_KEYS("your_gemini_key", "optional_groq_key", "optional_github_pat")');
     Logger.log('   Get Gemini key from: https://aistudio.google.com/app/apikey');
     return;
   }
 
-  Logger.log('⚠️ Use SETUP_ALL() instead - it auto-tests and finds working models!');
+  Logger.log(' Use SETUP_ALL() instead - it auto-tests and finds working models!');
   Logger.log('');
   SETUP_ALL(geminiKey, groqKey, githubPat);
 }
@@ -595,8 +621,8 @@ function SETUP_TWILIO(accountSid, authToken) {
   props.setProperty('TWILIO_ACCOUNT_SID', accountSid);
   props.setProperty('TWILIO_AUTH_TOKEN', authToken);
 
-  Logger.log('✅ Twilio credentials stored!');
-  Logger.log('🧪 Test it: diagnosticsWhatsApp()');
+  Logger.log(' Twilio credentials stored!');
+  Logger.log(' Test it: diagnosticsWhatsApp()');
 }
 
 /**
@@ -611,13 +637,13 @@ function SETUP_GROQ(apiKey) {
   const props = PropertiesService.getScriptProperties();
   props.setProperty('GROQ_API_KEY', apiKey);
 
-  Logger.log('✅ Groq API key stored!');
-  Logger.log('🧪 Test it: testAI()');
+  Logger.log(' Groq API key stored!');
+  Logger.log(' Test it: testAI()');
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              HELPER FUNCTIONS
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const ConfigHelpers = {
   /**
@@ -681,7 +707,7 @@ const ConfigHelpers = {
 
       return sheet;
     } catch (e) {
-      Logger.log(`❌ Error accessing sheet "${tabName}": ${e.message}`);
+      Logger.log(` Error accessing sheet "${tabName}": ${e.message}`);
       throw e;
     }
   },
@@ -707,26 +733,26 @@ const ConfigHelpers = {
  * RUN THIS ONCE to initialize secure configuration
  */
 function setupSecureConfig() {
-  Logger.log('═══════════════════════════════════════');
+  Logger.log('');
   Logger.log('   ORACLE v22.0 - SECURE SETUP');
-  Logger.log('═══════════════════════════════════════');
+  Logger.log('');
 
   try {
     SecureConfig.setup();
     SecureConfig.validate();
 
     Logger.log('');
-    Logger.log('✅ Configuration complete!');
-    Logger.log('✅ All API keys are now stored securely.');
+    Logger.log(' Configuration complete!');
+    Logger.log(' All API keys are now stored securely.');
     Logger.log('');
-    Logger.log('⚠️ NEXT STEPS:');
+    Logger.log(' NEXT STEPS:');
     Logger.log('1. Delete the API keys from SecureConfig.setup() function');
     Logger.log('2. Save this script');
     Logger.log('3. Run: testSystemHealth()');
     Logger.log('');
 
   } catch (e) {
-    Logger.log('❌ Setup failed: ' + e.message);
+    Logger.log(' Setup failed: ' + e.message);
   }
 }
 
@@ -734,9 +760,9 @@ function setupSecureConfig() {
  * Test that everything is configured correctly
  */
 function testSystemHealth() {
-  Logger.log('═══════════════════════════════════════');
+  Logger.log('');
   Logger.log('   SYSTEM HEALTH CHECK');
-  Logger.log('═══════════════════════════════════════');
+  Logger.log('');
 
   let passed = 0;
   let failed = 0;
@@ -744,30 +770,30 @@ function testSystemHealth() {
   // Test 1: API Keys
   try {
     SecureConfig.validate();
-    Logger.log('✅ API Keys: Configured');
+    Logger.log(' API Keys: Configured');
     passed++;
   } catch (e) {
-    Logger.log('❌ API Keys: Missing');
+    Logger.log(' API Keys: Missing');
     failed++;
   }
 
   // Test 2: Master Sheet
   try {
     SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
-    Logger.log('✅ Master Sheet: Accessible');
+    Logger.log(' Master Sheet: Accessible');
     passed++;
   } catch (e) {
-    Logger.log('❌ Master Sheet: Not accessible');
+    Logger.log(' Master Sheet: Not accessible');
     failed++;
   }
 
   // Test 3: Public Sheet
   try {
     SpreadsheetApp.openById(CONFIG.SHEETS.PUBLIC_ID);
-    Logger.log('✅ Public Sheet: Accessible');
+    Logger.log(' Public Sheet: Accessible');
     passed++;
   } catch (e) {
-    Logger.log('❌ Public Sheet: Not accessible');
+    Logger.log(' Public Sheet: Not accessible');
     failed++;
   }
 
@@ -776,40 +802,40 @@ function testSystemHealth() {
   Logger.log('--- AI Models ---');
   try {
     AI._callGemini('test', 'test');
-    Logger.log('✅ Gemini: Working');
+    Logger.log(' Gemini: Working');
     passed++;
   } catch (e) {
-    Logger.log('❌ Gemini: ' + e.message.substring(0, 60));
+    Logger.log(' Gemini: ' + e.message.substring(0, 60));
     failed++;
   }
 
   // Test 5: Groq AI
   try {
     AI._callGroq('test', 'test');
-    Logger.log('✅ Groq: Working');
+    Logger.log(' Groq: Working');
     passed++;
   } catch (e) {
-    Logger.log('❌ Groq: ' + e.message.substring(0, 60));
+    Logger.log(' Groq: ' + e.message.substring(0, 60));
     failed++;
   }
 
   Logger.log('');
   Logger.log(`Results: ${passed} passed, ${failed} failed`);
-  Logger.log('═══════════════════════════════════════');
+  Logger.log('');
 
   return failed === 0;
 }
 
 
 
-// ═══════════════════════════════════════════════════════════════════════════
+// 
 //  UTILS
-// ═══════════════════════════════════════════════════════════════════════════
+// 
 /**
- * ╔═══════════════════════════════════════════════════════════════════════════════╗
- * ║                     URBANMISTRII ORACLE v22.4 - UTILS                         ║
- * ║                     Logging, Helpers & Core Utilities (Hardened)              ║
- * ╚═══════════════════════════════════════════════════════════════════════════════╝
+ * 
+ *                      URBANMISTRII ORACLE v22.4 - UTILS                         
+ *                      Logging, Helpers & Core Utilities (Hardened)              
+ * 
  * 
  * v22.4 NEW:
  * - batchUpdate() for 10x faster sheet writes
@@ -817,9 +843,9 @@ function testSystemHealth() {
  * - Improved DateTime parsing
  */
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              GUARDS & SAFETY UTILITIES
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 /**
  * Safe guards to prevent crashes and data leaks
@@ -972,9 +998,9 @@ const Guards = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              STATUS TRANSITIONS
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 /**
  * Valid status transition rules - prevents invalid status changes
@@ -1044,9 +1070,9 @@ const StatusMachine = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              LOGGING SYSTEM
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const Log = {
   _logBuffer: [],
@@ -1078,10 +1104,10 @@ const Log = {
       }
 
       // Also log to console for debugging
-      const icon = level === 'ERROR' || level === 'CRITICAL' ? '❌'
-        : level === 'SUCCESS' ? '✅'
-          : level === 'WARN' ? '⚠️'
-            : 'ℹ️';
+      const icon = level === 'ERROR' || level === 'CRITICAL' ? ''
+        : level === 'SUCCESS' ? ''
+          : level === 'WARN' ? ''
+            : '';
       Logger.log(`${icon} [${level}] ${category}: ${message} ${dataStr}`);
 
       // Buffer logs for batch writing (performance optimization)
@@ -1096,7 +1122,7 @@ const Log = {
       }
 
     } catch (e) {
-      Logger.log(`🚨 LOGGING FAILED: ${e.message}`);
+      Logger.log(` LOGGING FAILED: ${e.message}`);
     }
   },
 
@@ -1114,7 +1140,7 @@ const Log = {
       }
       this._lastFlush = Date.now();
     } catch (e) {
-      Logger.log(`🚨 LOG FLUSH FAILED: ${e.message}`);
+      Logger.log(` LOG FLUSH FAILED: ${e.message}`);
     }
   },
 
@@ -1139,15 +1165,15 @@ const Log = {
     // Critical errors also email the admin immediately
     Notify.email(
       CONFIG.TEAM.ADMIN_EMAIL,
-      `🚨 CRITICAL ERROR: ${category}`,
+      ` CRITICAL ERROR: ${category}`,
       `Message: ${message}\nData: ${JSON.stringify(data, null, 2)}`
     );
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              DATE & TIME HELPERS
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const DateTime = {
   getIST(date = new Date()) {
@@ -1265,9 +1291,9 @@ function generateCalendarLink(name, role, dateInput, timeInput) {
   }
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                          EMAIL TEMPLATES (v9.1 Style)
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const EmailTemplates = {
   // Shared styles
@@ -1331,9 +1357,9 @@ const EmailTemplates = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              SHEET UTILITIES
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const SheetUtils = {
   /**
@@ -1349,14 +1375,14 @@ const SheetUtils = {
       return false;
     }
     try {
-      // 🚨 CRITICAL FIX: Prevent writing timestamps to STATUS column (Col 1)
+      //  CRITICAL FIX: Prevent writing timestamps to STATUS column (Col 1)
       if (col === 1 && value instanceof Date) {
         Log.warn('SHEET', 'Stopped attempt to write timestamp to STATUS column', { row });
         // Redirect to column 2 (Updated) if it looked like a timestamp update
         col = 2;
       }
 
-      // 🚨 CRITICAL FIX: Prevent writing timestamps to STATUS column if using Config ID
+      //  CRITICAL FIX: Prevent writing timestamps to STATUS column if using Config ID
       if (typeof CONFIG !== 'undefined' && col === CONFIG.COLUMNS.STATUS && value instanceof Date) {
         Log.warn('SHEET', 'Stopped attempt to write timestamp to STATUS column (via Config)', { row });
         return false; // Just block it
@@ -1370,6 +1396,46 @@ const SheetUtils = {
       return false;
     }
   },
+
+  /**
+   * Sort the candidate sheet by Timestamp (Column 3) descending
+   */
+  sortByTimestamp(sheet) {
+    try {
+      if (!sheet) sheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
+      const lastRow = sheet.getLastRow();
+      const lastCol = sheet.getLastColumn();
+      if (lastRow < 2) return;
+
+      // Sort range (Header at row 1 remains fixed)
+      sheet.getRange(2, 1, lastRow - 1, lastCol).sort({ column: 3, ascending: false });
+      Log.info('SHEET', 'Sheet sorted by timestamp (descending)');
+    } catch (e) {
+      Log.error('SHEET', 'Sort failed', { error: e.message });
+    }
+  },
+
+  /**
+   * Apply dropdown validation to the Status column
+   */
+  applyStatusValidation(sheet) {
+    try {
+      if (!sheet) sheet = ConfigHelpers.getSheet(CONFIG.SHEETS.TABS.CANDIDATES);
+      const statusList = Object.values(CONFIG.RULES.STATUSES);
+      const validation = SpreadsheetApp.newDataValidation()
+        .requireValueInList(statusList)
+        .setAllowInvalid(false)
+        .build();
+
+      const lastRow = sheet.getLastRow();
+      const rangeSize = Math.max(lastRow - 1, 1000); // Apply to current rows or up to 1000
+      sheet.getRange(2, CONFIG.COLUMNS.STATUS, rangeSize, 1).setDataValidation(validation);
+      Log.info('SHEET', 'Status validation applied');
+    } catch (e) {
+      Log.error('SHEET', 'Validation failed', { error: e.message });
+    }
+  },
+
 
   /**
    * BATCH UPDATE - 10x faster than individual updateCell calls
@@ -1644,9 +1710,9 @@ const SheetUtils = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              VALIDATION
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const Validate = {
   phone(phone) {
@@ -1667,9 +1733,9 @@ const Validate = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              SANITIZATION
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const Sanitize = {
   maskEmail(email) {
@@ -1682,9 +1748,9 @@ const Sanitize = {
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              DUPLICATE DETECTION
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const Duplicates = {
   /**
@@ -1815,9 +1881,9 @@ Team UrbanMistrii`;
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              NOTIFICATIONS
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const Notify = {
   /**
@@ -1950,9 +2016,9 @@ PERFORMANCE
   }
 };
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              ERROR RECOVERY DASHBOARD (v22.4)
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 /**
  * Error Recovery - Logs failed operations for 1-click retry
@@ -2091,7 +2157,7 @@ const ErrorRecovery = {
             if (d.candidateRow) {
               SheetUtils.updateCell(d.candidateRow, CONFIG.COLUMNS.TEST_SENT, new Date());
               SheetUtils.updateCell(d.candidateRow, CONFIG.COLUMNS.STATUS, CONFIG.RULES.STATUSES.TEST_SENT);
-              SheetUtils.updateCell(d.candidateRow, CONFIG.COLUMNS.LOG, '✅ Test sent (retry successful)');
+              SheetUtils.updateCell(d.candidateRow, CONFIG.COLUMNS.LOG, ' Test sent (retry successful)');
             }
           }
           break;
@@ -2205,15 +2271,15 @@ const ErrorRecovery = {
  * Can be called manually or via trigger
  */
 function runErrorRecovery() {
-  Logger.log('╔═══════════════════════════════════════════════════════════════════╗');
-  Logger.log('║         ERROR RECOVERY - RETRYING FAILED OPERATIONS              ║');
-  Logger.log('╚═══════════════════════════════════════════════════════════════════╝');
+  Logger.log('');
+  Logger.log('         ERROR RECOVERY - RETRYING FAILED OPERATIONS              ');
+  Logger.log('');
 
   const stats = ErrorRecovery.getStats();
   Logger.log(`Current stats: ${stats.pending} pending, ${stats.resolved} resolved, ${stats.failed} failed`);
 
   if (stats.pending === 0) {
-    Logger.log('✅ No pending errors to retry');
+    Logger.log(' No pending errors to retry');
     return;
   }
 
@@ -2221,9 +2287,9 @@ function runErrorRecovery() {
   Logger.log(`\nRetry complete: ${result.success} success, ${result.failed} failed`);
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 //                              TEST UTILS
-// ═══════════════════════════════════════════════════════════════════════════════
+// 
 
 const Test = {
   runAll() {
@@ -2240,8 +2306,11 @@ const Test = {
     // Sanitize
     if (Sanitize.maskEmail('testing@example.com') !== 'tes***@example.com') throw new Error('Sanitize fail');
 
-    Logger.log('✅ Utils tests passed');
+    Logger.log(' Utils tests passed');
   }
 };
+
+
+
 
 
