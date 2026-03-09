@@ -13,33 +13,19 @@ function INITIAL_PRODUCTION_SETUP() {
 
   try {
     Logger.log('1) Validating configuration...');
+    validateRequiredConfig_();
     SecureConfig.validate();
     Logger.log('   OK: Configuration valid');
 
-    Logger.log('2) Cleaning up old triggers...');
-    const oldTriggers = ScriptApp.getProjectTriggers();
-    oldTriggers.forEach(t => ScriptApp.deleteTrigger(t));
-    Logger.log(`   OK: Removed ${oldTriggers.length} old trigger(s)`);
+    Logger.log('2) Installing core automation triggers...');
+    const triggerResult = installCoreAutomationTriggers_({ clearAll: true });
+    Logger.log(`   OK: Removed ${triggerResult.removed} trigger(s), installed ${triggerResult.created}`);
 
-    Logger.log('3) Creating automation triggers...');
-
-    const masterSs = SpreadsheetApp.openById(CONFIG.SHEETS.MASTER_ID);
-
-    // Core Triggers (Hidden from menu)
-    ScriptApp.newTrigger('universalAutomationEngine_').forSpreadsheet(masterSs).onEdit().create();
-    ScriptApp.newTrigger('onFormSubmit_').forSpreadsheet(masterSs).onFormSubmit().create();
-    ScriptApp.newTrigger('onLeaveFormSubmit_').forSpreadsheet(masterSs).onFormSubmit().create();
-    ScriptApp.newTrigger('runOracleBackgroundCycle_').timeBased().everyMinutes(15).create();
-    ScriptApp.newTrigger('sendDailySummary_').timeBased().atHour(9).everyDays(1).inTimezone('Asia/Kolkata').create();
-    ScriptApp.newTrigger('sendWeeklyAnalyticsReport_').timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(10).inTimezone('Asia/Kolkata').create();
-
-    Logger.log('   OK: All triggers created');
-
-    Logger.log('4) Initializing sheets...');
+    Logger.log('3) Initializing sheets...');
     initializeSheets_();
     Logger.log('   OK: Sheets initialized');
 
-    Logger.log('5) Initializing modules...');
+    Logger.log('4) Initializing modules...');
     if (typeof RetryQueue !== 'undefined') RetryQueue.init();
 
     Log.success('SETUP', 'Production setup completed successfully');
@@ -88,6 +74,106 @@ function CATCH_UP_ALL_WORK() {
   CATCH_UP_MISSED_WORK();
 }
 
+function RUN_SMOKE_TESTS() {
+  const results = [];
+  const run = (name, fn) => {
+    try {
+      fn();
+      results.push({ name, ok: true });
+    } catch (e) {
+      results.push({ name, ok: false, error: e.message });
+    }
+  };
+
+  run('Configuration sanity', () => validateRequiredConfig_());
+  run('Core handlers available', () => {
+    const required = [
+      ['onFormSubmit_', onFormSubmit_],
+      ['runOracleBackgroundCycle_', runOracleBackgroundCycle_],
+      ['sendDailySummary_', sendDailySummary_],
+      ['doPostWebhook_', doPostWebhook_]
+    ];
+    required.forEach(([name, fn]) => {
+      if (typeof fn !== 'function') throw new Error(`Missing handler: ${name}`);
+    });
+  });
+  run('Webhook signature verification', () => {
+    const secret = 'smoke-test-webhook-secret-1234567890';
+    const timestamp = String(Math.floor(Date.now() / 1000));
+    const nonce = Utilities.getUuid();
+    const body = JSON.stringify({ action: 'get_candidate', email: 'smoke@example.com' });
+    const signature = computeWebhookSignature_(secret, timestamp, nonce, body);
+    const verdict = verifyWebhookSignaturePayload_({
+      secret,
+      timestamp,
+      nonce,
+      signature,
+      body,
+      enforceReplay: false
+    });
+    if (!verdict.ok) throw new Error(verdict.error);
+  });
+
+  const passed = results.filter(r => r.ok).length;
+  const failed = results.length - passed;
+  Logger.log(`Smoke tests: ${passed} passed, ${failed} failed`);
+  results.forEach(r => Logger.log(`${r.ok ? 'PASS' : 'FAIL'} ${r.name}${r.error ? ' - ' + r.error : ''}`));
+  return { passed, failed, results };
+}
+
+function validateRequiredConfig_() {
+  const errors = [];
+  const isPlaceholder = (value) => !value || /YOUR_|CHANGE_ME/i.test(String(value));
+
+  if (isPlaceholder(CONFIG?.SHEETS?.MASTER_ID)) errors.push('CONFIG.SHEETS.MASTER_ID');
+  if (isPlaceholder(CONFIG?.SHEETS?.PUBLIC_ID)) errors.push('CONFIG.SHEETS.PUBLIC_ID');
+  if (isPlaceholder(CONFIG?.PORTAL_URL)) errors.push('CONFIG.PORTAL_URL');
+  if (isPlaceholder(CONFIG?.APPLICATION_FORM_URL)) errors.push('CONFIG.APPLICATION_FORM_URL');
+  if (isPlaceholder(CONFIG?.TEST_SUBMISSION_FORM_URL)) errors.push('CONFIG.TEST_SUBMISSION_FORM_URL');
+  if (isPlaceholder(CONFIG?.LEAVE_FORM_URL)) errors.push('CONFIG.LEAVE_FORM_URL');
+
+  const webhookSecret = CONFIG?.WEBHOOK?.SECRET_KEY;
+  if (!webhookSecret || webhookSecret.length < 24 || webhookSecret === 'urbanmistrii_oracle_webhook_2024' || /CHANGE_ME/i.test(webhookSecret)) {
+    errors.push('CONFIG.WEBHOOK.SECRET_KEY (must be a strong custom secret, 24+ chars)');
+  }
+
+  if (errors.length) {
+    throw new Error('Configuration validation failed:\n - ' + errors.join('\n - '));
+  }
+}
+
+function installCoreAutomationTriggers_(options = {}) {
+  const clearAll = options.clearAll !== false;
+  const masterSpreadsheetId = options.masterSpreadsheetId || CONFIG.SHEETS.MASTER_ID;
+  const masterSs = SpreadsheetApp.openById(masterSpreadsheetId);
+  const handlers = [
+    'universalAutomationEngine_',
+    'onFormSubmit_',
+    'onLeaveFormSubmit_',
+    'runOracleBackgroundCycle_',
+    'sendDailySummary_',
+    'sendWeeklyAnalyticsReport_'
+  ];
+
+  const existing = ScriptApp.getProjectTriggers();
+  let removed = 0;
+  existing.forEach(trigger => {
+    if (clearAll || handlers.includes(trigger.getHandlerFunction())) {
+      ScriptApp.deleteTrigger(trigger);
+      removed++;
+    }
+  });
+
+  ScriptApp.newTrigger('universalAutomationEngine_').forSpreadsheet(masterSs).onEdit().create();
+  ScriptApp.newTrigger('onFormSubmit_').forSpreadsheet(masterSs).onFormSubmit().create();
+  ScriptApp.newTrigger('onLeaveFormSubmit_').forSpreadsheet(masterSs).onFormSubmit().create();
+  ScriptApp.newTrigger('runOracleBackgroundCycle_').timeBased().everyMinutes(15).create();
+  ScriptApp.newTrigger('sendDailySummary_').timeBased().atHour(9).everyDays(1).inTimezone('Asia/Kolkata').create();
+  ScriptApp.newTrigger('sendWeeklyAnalyticsReport_').timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(10).inTimezone('Asia/Kolkata').create();
+
+  return { removed, created: handlers.length };
+}
+
 /** SETUP API KEYS
  * Run this with your Gemini API Key to enable AI features.
  * Example: SETUP_API_KEYS("AIzaSy...")
@@ -115,7 +201,7 @@ function SETUP_API_KEYS(geminiKey) {
         generationConfig: { temperature: 0.1, maxOutputTokens: 10 }
       };
 
-      const response = UrlFetchApp.fetch(url, {
+      const response = Http.fetch(url, {
         method: "post",
         contentType: "application/json",
         payload: JSON.stringify(payload),
@@ -172,8 +258,13 @@ function onFormSubmit_(e) {
 function universalAutomationEngine_(e) { try { universalAutomationEngine(e); } catch (e) { Log.error('TRIGGER', 'Auto fail', { error: e.message }); } }
 function onLeaveFormSubmit_(e) { try { FormHandlers.handleLeaveFormSubmit(e); } catch (e) { Log.error('TRIGGER', 'Leave fail', { error: e.message }); } }
 function runOracleBackgroundCycle_() { try { runOracleBackgroundCycle(); } catch (e) { Log.error('TRIGGER', 'Cycle fail', { error: e.message }); } }
-function sendDailySummary_() { try { Analytics.sendDailySummary(); } catch (e) { } }
-function sendWeeklyAnalyticsReport_() { try { Analytics.sendWeeklyReport(); } catch (e) { } }
+function sendDailySummary_() { try { Analytics.sendDailySummary(); } catch (e) { Log.error('TRIGGER', 'Daily summary failed', { error: e.message }); } }
+function sendWeeklyAnalyticsReport_() { try { Analytics.sendWeeklyReport(); } catch (e) { Log.error('TRIGGER', 'Weekly analytics failed', { error: e.message }); } }
+
+// Legacy aliases kept for older triggers.
+function onFormSubmit(e) { return onFormSubmit_(e); }
+function generateDailySummary() { return sendDailySummary_(); }
+function generateWeeklyReport() { return sendWeeklyAnalyticsReport_(); }
 
 // 
 //  RETRYQUEUE
@@ -343,7 +434,7 @@ const AI = {
       muteHttpExceptions: true
     };
 
-    const response = UrlFetchApp.fetch(url, options);
+    const response = Http.fetch(url, options);
     const rawContent = response.getContentText();
     let json;
 
@@ -391,7 +482,7 @@ const AI = {
       muteHttpExceptions: true
     };
 
-    const response = UrlFetchApp.fetch(url, options);
+    const response = Http.fetch(url, options);
     const rawContent = response.getContentText();
     let json;
 
@@ -439,7 +530,7 @@ const AI = {
       muteHttpExceptions: true
     };
 
-    const response = UrlFetchApp.fetch(url, options);
+    const response = Http.fetch(url, options);
     const rawContent = response.getContentText();
     let json;
 
@@ -482,7 +573,7 @@ const AI = {
       muteHttpExceptions: true
     };
 
-    const response = UrlFetchApp.fetch(url, options);
+    const response = Http.fetch(url, options);
     const rawContent = response.getContentText();
     let json;
 
@@ -871,7 +962,7 @@ const AI = {
     // Try to fetch portfolio content
     let portfolioContent = '';
     try {
-      const response = UrlFetchApp.fetch(portfolioUrl, {
+      const response = Http.fetch(portfolioUrl, {
         muteHttpExceptions: true,
         followRedirects: true,
         validateHttpsCertificates: false
@@ -1257,7 +1348,7 @@ const WhatsApp = {
         'Body': messageBody
       };
 
-      const response = UrlFetchApp.fetch(url, {
+      const response = Http.fetch(url, {
         method: 'post',
         headers: {
           'Authorization': `Basic ${authHeader}`,
@@ -1318,7 +1409,7 @@ const WhatsApp = {
         'ContentVariables': JSON.stringify(contentVariables)
       };
 
-      const response = UrlFetchApp.fetch(url, {
+      const response = Http.fetch(url, {
         method: 'post',
         headers: {
           'Authorization': `Basic ${authHeader}`,
@@ -6442,25 +6533,27 @@ function sendLeaveFormReminders(monthName, year) {
  * Deploy as web app and external tools can trigger Oracle actions
  * 
  * Endpoint: POST to deployed web app URL
- * Headers: X-Oracle-Key: your_secret_key
- * Body (JSON): { action: 'trigger_test', email: 'candidate@email.com' }
+ * Signed request fields required:
+ * - timestamp (unix seconds)
+ * - nonce (unique per request)
+ * - signature = HMAC_SHA256_HEX(secret, `${timestamp}.${nonce}.${canonicalBody}`)
+ * canonicalBody = JSON body excluding signature fields.
+ * Body example:
+ * { action: 'trigger_test', email: 'candidate@email.com', timestamp, nonce, signature }
  */
 function doPostWebhook_(e) {
   try {
-    // Parse request
-    const data = JSON.parse(e.postData.contents);
-
-    // Validate webhook key (security)
-    const providedKey = e.parameter.key || data.key;
-    const expectedKey = CONFIG.WEBHOOK?.SECRET_KEY || 'urbanmistrii_oracle_webhook_2024';
-
     if (!CONFIG.WEBHOOK?.ENABLED) {
       return jsonResponse({ success: false, error: 'Webhook disabled' }, 403);
     }
 
-    if (providedKey !== expectedKey) {
-      Log.warn('WEBHOOK', 'Invalid API key provided');
-      return jsonResponse({ success: false, error: 'Invalid API key' }, 401);
+    const rawBody = Guards.toString(e && e.postData ? e.postData.contents : '{}', '{}');
+    const data = rawBody ? JSON.parse(rawBody) : {};
+
+    const auth = verifyWebhookRequest_(e, data, rawBody);
+    if (!auth.ok) {
+      Log.warn('WEBHOOK', 'Auth failed', { error: auth.error });
+      return jsonResponse({ success: false, error: auth.error }, 401);
     }
 
     // Validate action
@@ -6505,6 +6598,108 @@ function doPostWebhook_(e) {
     Log.error('WEBHOOK', 'Handler failed', { error: err.message });
     return jsonResponse({ success: false, error: err.message }, 500);
   }
+}
+
+function verifyWebhookRequest_(e, data, rawBody) {
+  const secret = Guards.toString(CONFIG?.WEBHOOK?.SECRET_KEY, '');
+  if (!secret || secret.length < 24 || secret === 'urbanmistrii_oracle_webhook_2024' || /CHANGE_ME/i.test(secret)) {
+    return { ok: false, error: 'Webhook secret is not configured securely' };
+  }
+
+  if (CONFIG.WEBHOOK?.REQUIRE_SIGNATURE === false) {
+    const providedKey = Guards.toString((e && e.parameter ? e.parameter.key : '') || data.key, '');
+    return { ok: providedKey === secret, error: 'Invalid webhook key' };
+  }
+
+  const timestamp = Guards.toString(data.timestamp || (e && e.parameter ? (e.parameter.timestamp || e.parameter.ts) : ''), '');
+  const nonce = Guards.toString(data.nonce || (e && e.parameter ? e.parameter.nonce : ''), '');
+  const signature = Guards.toString(
+    data.signature ||
+      data.sig ||
+      (e && e.parameter ? (e.parameter.signature || e.parameter.sig) : ''),
+    ''
+  ).toLowerCase();
+
+  return verifyWebhookSignaturePayload_({
+    secret,
+    timestamp,
+    nonce,
+    signature,
+    body: canonicalizeSignedBody_(rawBody),
+    enforceReplay: true
+  });
+}
+
+function verifyWebhookSignaturePayload_({ secret, timestamp, nonce, signature, body, enforceReplay = true }) {
+  if (!timestamp || !nonce || !signature) {
+    return { ok: false, error: 'Missing signature fields (timestamp, nonce, signature)' };
+  }
+
+  const ts = parseInt(timestamp, 10);
+  if (!Number.isFinite(ts)) return { ok: false, error: 'Invalid timestamp format' };
+
+  const nowSec = Math.floor(Date.now() / 1000);
+  const maxSkew = Guards.toNumber(CONFIG?.WEBHOOK?.SIGNATURE_TTL_SEC, 300);
+  if (Math.abs(nowSec - ts) > maxSkew) {
+    return { ok: false, error: 'Expired signature timestamp' };
+  }
+
+  if (enforceReplay) {
+    const cache = CacheService.getScriptCache();
+    const nonceKey = `webhook_nonce:${nonce}`;
+    if (cache.get(nonceKey)) {
+      return { ok: false, error: 'Replay detected (nonce already used)' };
+    }
+    cache.put(nonceKey, '1', Guards.toNumber(CONFIG?.WEBHOOK?.NONCE_TTL_SEC, 600));
+  }
+
+  const expected = computeWebhookSignature_(secret, String(ts), nonce, body);
+  if (!timingSafeEqual_(signature, expected)) {
+    return { ok: false, error: 'Invalid webhook signature' };
+  }
+
+  return { ok: true };
+}
+
+function computeWebhookSignature_(secret, timestamp, nonce, body) {
+  const payload = `${timestamp}.${nonce}.${body}`;
+  const bytes = Utilities.computeHmacSha256Signature(payload, secret);
+  return bytes.map(function (b) {
+    const n = b < 0 ? b + 256 : b;
+    return n.toString(16).padStart(2, '0');
+  }).join('');
+}
+
+function timingSafeEqual_(a, b) {
+  if (!a || !b || a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) {
+    diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return diff === 0;
+}
+
+function canonicalizeSignedBody_(rawBody) {
+  try {
+    const parsed = JSON.parse(rawBody || '{}');
+    delete parsed.signature;
+    delete parsed.sig;
+    return JSON.stringify(sortObjectKeys_(parsed));
+  } catch (e) {
+    return rawBody || '';
+  }
+}
+
+function sortObjectKeys_(value) {
+  if (Array.isArray(value)) return value.map(sortObjectKeys_);
+  if (value && typeof value === 'object') {
+    const out = {};
+    Object.keys(value).sort().forEach((k) => {
+      out[k] = sortObjectKeys_(value[k]);
+    });
+    return out;
+  }
+  return value;
 }
 
 /**
@@ -6666,7 +6861,9 @@ if (typeof U === 'undefined') {
           const rowEmail = String(data[i][CONFIG.COLUMNS.EMAIL - 1] || '').toLowerCase().trim();
           if (rowEmail === email.toLowerCase()) return true;
         }
-      } catch (e) {}
+      } catch (e) {
+        Log.warn('UTILS', 'employeeExists lookup failed', { error: e.message });
+      }
       return false;
     },
     sheet() {
@@ -7553,7 +7750,13 @@ function processInboxOffboarding_() {
 
   if (threads.length === 0) { console.log(" Inbox Clean."); return; }
 
-  Object.values(CONFIG.LABELS).forEach(l => { try { GmailApp.createLabel(l); } catch (e) { } });
+  Object.values(CONFIG.LABELS).forEach(l => {
+    try {
+      GmailApp.createLabel(l);
+    } catch (e) {
+      Log.warn('LABELS', 'Failed to create label', { label: l, error: e.message });
+    }
+  });
   const processedCache = getProcessedIDs();
 
   console.log(` Scanning ${threads.length} threads...`);
@@ -7937,11 +8140,8 @@ function markProcessed(msgId) {
 // Log is now imported from Utils.js - removing duplicate declaration
 
 function installTriggers() {
-  const t = ScriptApp.getProjectTriggers();
-  t.forEach(x => ScriptApp.deleteTrigger(x));
-  ScriptApp.newTrigger("processInbox").timeBased().everyMinutes(10).create();
-  ScriptApp.newTrigger("onFormSubmit").forSpreadsheet(SpreadsheetApp.openById(CONFIG.SHEET_ID)).onFormSubmit().create();
-  console.log(" All Triggers Installed.");
+  const result = installCoreAutomationTriggers_({ clearAll: true });
+  console.log(` Core triggers installed. Removed ${result.removed}, created ${result.created}.`);
 }
 
 // 
@@ -9754,7 +9954,7 @@ Generate ONLY the letter content. Do not include any explanations or metadata.`;
       muteHttpExceptions: true
     };
 
-    const response = UrlFetchApp.fetch(url, options);
+    const response = Http.fetch(url, options);
     const json = JSON.parse(response.getContentText());
 
     if (json.candidates && json.candidates[0] && json.candidates[0].content) {
@@ -10143,7 +10343,7 @@ Generate ONLY the letter content. Do not include any explanations or metadata.`;
       muteHttpExceptions: true
     };
 
-    const response = UrlFetchApp.fetch(url, options);
+    const response = Http.fetch(url, options);
     const json = JSON.parse(response.getContentText());
 
     if (json.candidates && json.candidates[0] && json.candidates[0].content) {
@@ -10517,9 +10717,9 @@ function DISABLE_AUTO_TIMESTAMP() {
   let disabled = 0;
 
   triggers.forEach(trigger => {
-    if (trigger.getHandlerFunction() === 'universalAutomationEngine') {
+    if (['universalAutomationEngine', 'universalAutomationEngine_'].includes(trigger.getHandlerFunction())) {
       ScriptApp.deleteTrigger(trigger);
-      Logger.log(' Disabled: universalAutomationEngine (onEdit trigger)');
+      Logger.log(` Disabled: ${trigger.getHandlerFunction()} (onEdit trigger)`);
       disabled++;
     }
   });
@@ -10721,37 +10921,9 @@ function EMERGENCY_STOP_LEGACY_() {
  */
 function RESTORE_ORACLE_TRIGGERS() {
   "use strict";
-
   try {
-    // First stop all triggers
-    const triggers = ScriptApp.getProjectTriggers();
-    triggers.forEach(trigger => ScriptApp.deleteTrigger(trigger));
-
-    // Only create Oracle-specific triggers
-    ScriptApp.newTrigger("processInbox")
-      .timeBased()
-      .everyMinutes(15)
-      .create();
-
-    ScriptApp.newTrigger("processFollowUps")
-      .timeBased()
-      .everyHours(1)
-      .create();
-
-    ScriptApp.newTrigger("generateDailySummary")
-      .timeBased()
-      .everyDays(1)
-      .atHour(9)
-      .create();
-
-    ScriptApp.newTrigger("generateWeeklyReport")
-      .timeBased()
-      .everyWeeks(1)
-      .onWeekDay(ScriptApp.WeekDay.MONDAY)
-      .atHour(10)
-      .create();
-
-    return "SUCCESS: Oracle triggers restored. SetupWizard triggers removed.";
+    const result = installCoreAutomationTriggers_({ clearAll: true });
+    return `SUCCESS: Core triggers restored (removed ${result.removed}, created ${result.created}).`;
   } catch (e) {
     return "ERROR restoring triggers: " + e.message;
   }
@@ -11879,35 +12051,11 @@ function addSheetHeaders(sheet, sheetName, formData) {
  * 
  */
 function createSystemTriggers(sheetId) {
-  // Delete existing triggers
-  const triggers = ScriptApp.getProjectTriggers();
-  triggers.forEach(trigger => ScriptApp.deleteTrigger(trigger));
-
-  // Create new triggers
-  ScriptApp.newTrigger("processInbox")
-    .timeBased()
-    .everyMinutes(15)
-    .create();
-
-  ScriptApp.newTrigger("processFollowUps")
-    .timeBased()
-    .everyHours(1)
-    .create();
-
-  ScriptApp.newTrigger("generateDailySummary")
-    .timeBased()
-    .everyDays(1)
-    .atHour(9)
-    .create();
-
-  ScriptApp.newTrigger("generateWeeklyReport")
-    .timeBased()
-    .everyWeeks(1)
-    .onWeekDay(ScriptApp.WeekDay.MONDAY)
-    .atHour(10)
-    .create();
-
-  console.log("System triggers created successfully");
+  const result = installCoreAutomationTriggers_({
+    clearAll: true,
+    masterSpreadsheetId: sheetId || CONFIG.SHEETS.MASTER_ID
+  });
+  console.log(`System triggers created successfully (removed ${result.removed}, created ${result.created})`);
 }
 
 /**

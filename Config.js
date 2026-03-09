@@ -129,7 +129,10 @@ const CONFIG = {
   // v22.4: Webhook API settings
   WEBHOOK: {
     ENABLED: true,
-    SECRET_KEY: 'urbanmistrii_oracle_webhook_2024',  // Change this!
+    SECRET_KEY: 'CHANGE_ME_WEBHOOK_SECRET',
+    REQUIRE_SIGNATURE: true,
+    SIGNATURE_TTL_SEC: 300,
+    NONCE_TTL_SEC: 600,
     ALLOWED_ACTIONS: ['trigger_test', 'update_status', 'get_candidate', 'retry_errors']
   },
 
@@ -372,6 +375,11 @@ const SecureConfig = {
       Logger.log(` Optional keys not configured (WhatsApp disabled): ${missingOptional.join(', ')}`);
     }
 
+    const webhookSecret = Guards.toString(CONFIG?.WEBHOOK?.SECRET_KEY, '');
+    if (!webhookSecret || webhookSecret.length < 24 || webhookSecret === 'urbanmistrii_oracle_webhook_2024' || /CHANGE_ME/i.test(webhookSecret)) {
+      throw new Error(' Insecure webhook secret. Set CONFIG.WEBHOOK.SECRET_KEY to a strong custom value.');
+    }
+
     return true;
   },
 
@@ -491,7 +499,7 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
   // Test Groq
   if (groqKey) {
     try {
-      const response = UrlFetchApp.fetch('https://api.groq.com/openai/v1/chat/completions', {
+      const response = Http.fetch('https://api.groq.com/openai/v1/chat/completions', {
         method: 'post',
         headers: { 'Authorization': `Bearer ${groqKey}`, 'Content-Type': 'application/json' },
         payload: JSON.stringify({
@@ -518,7 +526,7 @@ function SETUP_ALL(geminiKey, groqKey, githubPat) {
   // Test GitHub Models
   if (githubPat) {
     try {
-      const response = UrlFetchApp.fetch('https://models.github.ai/inference/chat/completions', {
+      const response = Http.fetch('https://models.github.ai/inference/chat/completions', {
         method: 'post',
         headers: { 'Authorization': `Bearer ${githubPat}`, 'Content-Type': 'application/json' },
         payload: JSON.stringify({
@@ -573,7 +581,7 @@ function _testGeminiModel(apiKey, modelName) {
     generationConfig: { temperature: 0.1, maxOutputTokens: 10 }
   };
 
-  const response = UrlFetchApp.fetch(url, {
+  const response = Http.fetch(url, {
     method: 'post',
     contentType: 'application/json',
     payload: JSON.stringify(payload),
@@ -995,6 +1003,40 @@ const Guards = {
     }
     this._processedKeys[key] = now;
     return true;
+  }
+};
+
+// Shared HTTP wrapper with retry and standard defaults.
+const Http = {
+  fetch(url, options = {}, context = 'HTTP') {
+    const retryCount = Math.max(1, Guards.toNumber(CONFIG?.RATE_LIMITS?.API_RETRY_COUNT, 3));
+    const retryDelayMs = Math.max(0, Guards.toNumber(CONFIG?.RATE_LIMITS?.API_RETRY_DELAY_MS, 1000));
+    let lastError = null;
+
+    for (let attempt = 1; attempt <= retryCount; attempt++) {
+      try {
+        const requestOptions = Object.assign({ muteHttpExceptions: true }, options || {});
+        return UrlFetchApp.fetch(url, requestOptions);
+      } catch (err) {
+        lastError = err;
+        Log.warn(context, `HTTP attempt ${attempt}/${retryCount} failed`, { error: err.message });
+        if (attempt < retryCount) Utilities.sleep(retryDelayMs * attempt);
+      }
+    }
+
+    throw new Error(`${context} failed after ${retryCount} attempts: ${lastError ? lastError.message : 'Unknown error'}`);
+  },
+
+  fetchJson(url, options = {}, context = 'HTTP_JSON') {
+    const response = this.fetch(url, options, context);
+    const text = response.getContentText() || '';
+    let json = null;
+    try {
+      json = text ? JSON.parse(text) : null;
+    } catch (err) {
+      throw new Error(`${context} returned non-JSON response (${response.getResponseCode()})`);
+    }
+    return { response, json, text, status: response.getResponseCode() };
   }
 };
 

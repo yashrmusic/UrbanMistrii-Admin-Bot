@@ -54,7 +54,24 @@ INITIAL_PRODUCTION_SETUP()
 
 ```javascript
 TEST_COMPLETE_WORKFLOW()
+RUN_SMOKE_TESTS()
 ```
+
+## Secure Webhook Contract
+
+`doPostWebhook_` now enforces signed requests.
+
+Required payload fields:
+- `timestamp` (unix seconds)
+- `nonce` (unique per request)
+- `signature` (hex HMAC SHA256)
+
+Signature format:
+- `signature = HMAC_SHA256_HEX(secret, "${timestamp}.${nonce}.${canonicalBody}")`
+- `canonicalBody` is the JSON body without `signature`/`sig`.
+
+Also update this before production:
+- `CONFIG.WEBHOOK.SECRET_KEY` in [Config.js](./Config.js)
 
 ## Operator Commands
 
@@ -65,6 +82,16 @@ sendDailySummary_()            // Daily analytics summary
 GET_SYSTEM_STATUS()            // Health/status snapshot
 EMERGENCY_STOP()               // Stop all automation triggers
 ```
+
+## Local Release Commands
+
+```bash
+npm run validate
+npm run smoke:remote
+npm run deploy:push
+```
+
+`npm run deploy` runs validation and then pushes via clasp.
 
 ## Positioning for Clients
 

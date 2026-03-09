@@ -1,0 +1,13 @@
+{
+  "name": "urbanmistrii-admin-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Apps Script automation for hiring and HR operations.",
+  "scripts": {
+    "validate": "node --check Bot.js && node --check Config.js",
+    "lint": "npm run validate",
+    "smoke:remote": "clasp run RUN_SMOKE_TESTS",
+    "deploy:push": "clasp push",
+    "deploy": "npm run validate && clasp push"
+  }
+}
